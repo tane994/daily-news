@@ -1,0 +1,99 @@
+{
+  "title": "Daily News",
+  "model": "claude-opus-4-8",
+  "timezone": "Europe/Rome",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "maxItems": 8,
+      "guidance": "Capability & craft only: new models (Anthropic/Claude, OpenAI/GPT, Google/Gemini and others), new tools and products (e.g. NotebookLM), research breakthroughs, benchmarks, genuinely clever demos and techniques. EXCLUDE the corporate/finance side of AI — IPOs, funding rounds, M&A, mega-deals, and executive/policy moves (an Anthropic IPO, Apple closing a deal, Altman/Hassabis/Amodei at the G7) belong in Markets & Finance, not here.",
+      "sources": ["The Verge", "TechCrunch", "MIT Technology Review", "VentureBeat", "official lab blogs (OpenAI, Anthropic, Google DeepMind)"]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "maxItems": 3,
+      "guidance": "Early/growth-stage startups and the PRODUCT & OPERATIONAL side of tech: notable product/feature launches, new tools (incl. open-source and developer tools), founder and company moves, hiring/layoffs, partnerships and product strategy. EXCLUDE anything that is really a Markets & Finance story — IPOs, funding rounds, valuations, M&A and mega-deals, earnings and macro ALL belong in Markets & Finance, not here. If a story's core is money, a valuation, or a deal, it is NOT for this section. Do not repeat any story already covered in AI & ML or Markets & Finance.",
+      "sources": ["TechCrunch", "The Information", "The Verge", "Hacker News"]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "maxItems": 8,
+      "guidance": "Cover macro, public markets, and big-cap corporate finance — AND the business of AI/tech: IPOs (e.g. an Anthropic IPO), mega-deals (e.g. Apple closing a deal), large funding rounds, valuations, and money-relevant executive/policy moves (e.g. Altman, Hassabis, Amodei at the G7). If an AI story is really about money, power, or markets, it lives here.",
+      "sources": ["Reuters", "Bloomberg", "Wall Street Journal", "CNBC", "Financial Times"]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "mode": "calendar",
+      "maxItems": 8,
+      "guidance": "A fight desk covering BOTH directions. Surface: (1) RESULTS of important fights from the past week and what they set up; (2) the important fights happening THIS WEEK and in the coming days; (3) newly announced/finalized fights and dates; (4) material news on top fighters (titles, signings, injuries, retirements). Always name the fighters, weight class, title at stake, date/venue (and the result + method when it's a result).",
+      "sources": ["BoxRec", "The Ring", "ESPN Boxing", "BoxingScene"]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "mode": "calendar",
+      "maxItems": 3,
+      "guidance": "A fight desk covering BOTH directions (UFC and major promotions): (1) RESULTS from the past week's cards and what they set up; (2) the important cards THIS WEEK and upcoming; (3) newly announced/booked fights; (4) material news on top fighters (title shots, signings, injuries, retirements). Always name the fighters, division, event, date/venue (and the result + method when it's a result).",
+      "sources": ["Tapology", "Sherdog", "ESPN MMA", "MMA Junkie", "MMA Fighting"]
+    }
+  ],
+
+  "indicators": [
+    { "key": "vix", "label": "VIX", "reference": "range ~15–20", "low": 15, "high": 20 },
+    { "key": "cape", "label": "Shiller CAPE", "reference": "media ~17", "mean": 17 }
+  ],
+
+  "portfolio": {
+    "name": "Le mie azioni",
+    "windowHours": 48,
+    "maxItemsPerStream": 3,
+    "sources": ["Reuters", "Bloomberg", "Yahoo Finance", "the company's own investor-relations / newsroom"],
+    "clusters": [
+      { "id": "semis", "label": "Semis / AI hardware", "streams": [
+        { "id": "semis", "label": "ASML & TSMC", "kind": "cluster", "names": ["ASML Holding", "TSMC (Taiwan Semiconductor)"] }
+      ]},
+      { "id": "esw", "label": "Enterprise software", "streams": [
+        { "id": "sap", "label": "SAP", "kind": "name", "names": ["SAP SE"] },
+        { "id": "now", "label": "ServiceNow", "kind": "name", "names": ["ServiceNow"] }
+      ]},
+      { "id": "platforms", "label": "Piattaforme", "streams": [
+        { "id": "platforms", "label": "Alphabet & Amazon", "kind": "cluster", "names": ["Alphabet (Google)", "Amazon"] }
+      ]},
+      { "id": "finfra", "label": "Infra finanziaria", "streams": [
+        { "id": "finfra", "label": "Visa, CME & DBS", "kind": "cluster", "names": ["Visa", "CME Group", "DBS Group"] }
+      ]},
+      { "id": "luxury", "label": "Lusso", "streams": [
+        { "id": "hermes", "label": "Hermès", "kind": "name", "names": ["Hermès"] }
+      ]},
+      { "id": "seaem", "label": "SEA / EM", "streams": [
+        { "id": "sea", "label": "Sea Ltd", "kind": "name", "names": ["Sea Limited (Garena, Shopee, SeaMoney)"] }
+      ]}
+    ]
+  },
+
+  "knowledge": {
+    "name": "Bites",
+    "noRepeatDays": 21,
+    "categories": [
+      { "id": "fin-ratios", "label": "Finance ratios", "scope": "Un ratio o metrica finanziaria per volta (P/E, ROIC, ROE, EPS, EBITDA, debt/equity, current/quick ratio, gross/operating margin, FCF yield, payout ratio...): cosa misura, la formula in parole semplici, come leggerlo da investitore retail, con un mini-esempio numerico." },
+      { "id": "startup-lang", "label": "Startup language", "scope": "Un termine del gergo startup/VC per volta (ARR, churn, runway, burn, cap table, SAFE, dilution, PMF, CAC/LTV, bridge round, term sheet, liquidation preference, moat...): definizione netta, perché conta, e un esempio concreto." },
+      { "id": "physics", "label": "Fisica", "scope": "Un concetto di fisica per volta spiegato da ZERO, intuitivo per chi non sa nulla (entropia, quantità di moto, campo, entanglement, dilatazione del tempo, energia/lavoro, momento angolare, onde...): l'idea centrale + un'analogia concreta. Niente matematica pesante." },
+      { "id": "art", "label": "Arte", "scope": "Un'opera, un movimento o una tecnica per volta (chiaroscuro, prospettiva lineare, impressionismo, sfumato, un quadro o un artista specifico...): cosa guardare, perché è importante e cosa lo rende speciale." },
+      { "id": "storia", "label": "Storia", "scope": "Storia VERA e causale — un episodio, una decisione o una causa-effetto poco ovvia (economica, dei soldi, della tecnologia, degli imperi, delle idee) che cambia come vedi il presente. Niente trivia decontestualizzata: il fatto e la sua conseguenza fino a oggi." },
+      { "id": "menti", "label": "Menti brillanti", "scope": "Un'idea o modello mentale da una grande mente (Taleb, Munger, Kahneman, Meadows, Thiel, Paul Graham, Howard Marks, Naval, Andy Grove, Christensen, Feynman, Vaclav Smil, Morgan Housel, e gli stoici): cosa dice, perché è vero, come si usa. Il pensiero che affila, niente citazioni vuote." },
+      { "id": "capire", "label": "Capire le cose", "scope": "Come funziona qualcosa, evergreen e didattico: a rotazione i semiconduttori e la loro supply chain (EUV, terre rare, memoria, fabbricazione), un meccanismo dell'economia reale, o come funziona una tecnologia che diamo per scontata. Spiega chiaro, con un esempio." },
+      { "id": "performance", "label": "Performance & longevità", "scope": "Scienza della performance e della longevità applicabile all'allenamento (l'utente fa HYROX): soglia, VO2max, recupero, sonno, protocolli di carico, nutrizione, longevità. UN'idea pratica e fondata + il 'così lo applichi'." }
+    ]
+  },
+
+  "courses": [
+    { "id": "de-grammar", "label": "Grammatica tedesca", "scope": "Corso di grammatica tedesca da livello A2 in su (NON principiante assoluto: salta alfabeto, pronuncia, presente di base e articoli elementari — quelli si danno per acquisiti). Parti dall'A2 e progredisci verso B1/B2, una lezione per volta in ordine logico: ripasso compatto dei quattro casi e poi declinazione completa di aggettivi (forte/debole/mista), Wechselpräpositionen con Akkusativ/Dativ, verbi con preposizione fissa e Reflexivverben, Perfekt vs Präteritum e Plusquamperfekt, Konjunktiv II e discorso indiretto, Passiv, Relativsätze, Konnektoren e ordine delle parole nelle subordinate, Nominalisierung, Partizipien come aggettivi. Ogni lezione: regola chiara a livello A2+, tabelle di declinazione/coniugazione, esempi realistici con traduzione, errori tipici, e 3-4 esercizi con soluzioni." },
+    { "id": "de-business", "label": "Business German", "scope": "Corso di tedesco professionale/business da livello A2/B1 in su (l'utente sa già presentarsi e le basi: NON ripartire da 'Hallo, ich heiße...'). Progredisci per situazioni reali d'ufficio con registro formale: email professionali (Anrede, Grußformel, strutture standard), telefonate e Smalltalk professionale, condurre e verbalizzare riunioni (Besprechung, Protokoll), offerte/preventivi e fatture (Angebot, Rechnung, Zahlungsbedingungen), trattative e obiezioni, scadenze e solleciti (Frist, Mahnung), feedback e valutazioni, contratti e disdette (Vertrag, Kündigung). Ogni lezione: vocabolario e Redemittel di livello A2/B1+ con traduzione, un dialogo o testo-modello realistico, e note d'uso e registro." },
+    { "id": "system-design", "label": "System Design", "lang": "en", "scope": "A course on the fundamentals of distributed system design, in teaching order: fundamentals (latency/throughput, vertical vs horizontal scaling) → load balancing → caching → databases (indexes, sharding, replication) → consistency and CAP → message queues and async → rate limiting → CDN → API design and idempotency → observability → then case studies of canonical systems (URL shortener, news feed, chat, rate limiter). Explain the fundamentals and trade-offs, with Mermaid diagrams where they help." },
+    { "id": "ai-eng", "label": "LLM & AI engineering", "lang": "en", "scope": "A course on the theoretical foundations of LLMs and AI engineering, in order: what a language model is and tokens → embeddings → the transformer architecture and attention → pretraining, fine-tuning, RLHF → inference, context window, KV cache → prompting and structured output → RAG → tool use and agents → evaluation → quantization, cost and latency. Explain the fundamentals clearly and rigorously, with Mermaid diagrams where they help." }
+  ]
+}

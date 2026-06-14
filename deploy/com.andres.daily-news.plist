@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.andres.daily-news</string>
+
+    <!-- Run the daily routine: generate today's edition, commit the new snapshot
+         (the system's state), then push so GitHub Pages rebuilds. The wrapper sets
+         PATH itself, but we also set it below since launchd does not source your
+         shell profile. PATH must include the dir holding `bun` and the `claude`
+         CLI (Homebrew: /opt/homebrew/bin) because research.ts spawns claude. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/andres/Projects/daily-news/deploy/daily-run.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/andres/Projects/daily-news</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/andres/.bun/bin</string>
+    </dict>
+
+    <!-- Daily at 07:00 local time. If the Mac is asleep at 07:00, launchd runs
+         the job once on the next wake. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Do NOT run on load: avoid an unintended generation when you install it.
+         Use `launchctl start com.andres.daily-news` to trigger a test run. -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardInputPath</key>
+    <string>/dev/null</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/andres/Library/Logs/com.andres.daily-news.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/andres/Library/Logs/com.andres.daily-news.err.log</string>
+</dict>
+</plist>

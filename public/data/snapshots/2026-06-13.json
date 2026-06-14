@@ -1,0 +1,617 @@
+{
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T13:48:20.402Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Elon Musk's SpaceX — now owner of the xAI/Grok unit — staged the largest IPO in history on June 12, headlining a frenzied week in which AI labs raced toward public markets, Apple rebuilt Siri on Google's Gemini, and the CEOs of OpenAI, DeepMind and Anthropic were summoned to the G7.",
+      "items": [
+        {
+          "headline": "SpaceX, now parent of xAI and Grok, closes up 19% at $161 in record $75B IPO, topping a $2 trillion valuation",
+          "brief": "SpaceX began trading on the Nasdaq under ticker SPCX on June 12, pricing at $135 a share for a $1.77 trillion valuation and raising roughly $75 billion — the largest IPO ever, triple the next-biggest. The stock opened at $150, jumped more than 20%, and closed at about $161, pushing Elon Musk's aerospace-and-AI conglomerate past $2 trillion. The float carries xAI, which Musk folded into SpaceX in February and which posted a $6.36 billion operating loss in 2025 and a $2.4 billion loss in Q1 2026; New Street Research pegs xAI alone at $575 billion.",
+          "whyItMatters": "xAI is now effectively public, and the blockbuster debut sets the pricing benchmark for the OpenAI and Anthropic IPOs lining up behind it.",
+          "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-12T21:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Apple closes WWDC 2026 having rebuilt Siri on a custom 1.2-trillion-parameter Google Gemini model for ~$1B a year",
+          "brief": "Apple used WWDC 2026, which wrapped its developer sessions on June 12, to unveil its biggest Siri overhaul in 15 years, powered by a custom 1.2-trillion-parameter Google Gemini model that Apple will reportedly pay Google roughly $1 billion annually to run. The new Siri uses a three-tier architecture routing queries between on-device models, Apple's Private Cloud Compute, and the Gemini model on Nvidia Blackwell GPUs, with Apple stating no user data is shared with Google. The redesigned assistant ships broadly with iOS 27 in September.",
+          "whyItMatters": "After two years of Apple Intelligence stumbles, Apple is outsourcing its frontier model to a direct rival — a landmark concession in the AI race.",
+          "url": "https://mlq.ai/news/apple-rebuilds-siri-on-google-gemini-models-and-nvidia-blackwell-gpus-in-landmark-wwdc-partnership/",
+          "source": "MLQ News",
+          "publishedAt": "2026-06-12T00:00:00Z"
+        },
+        {
+          "headline": "Sam Altman, Demis Hassabis and Dario Amodei to attend G7 summit in Évian June 15-17, a first for all three AI labs",
+          "brief": "France's presidential office confirmed June 12 that OpenAI's Sam Altman, Google DeepMind's Demis Hassabis and Anthropic's Dario Amodei will attend the G7 summit in Évian-les-Bains from June 15 to 17 — the first G7 meeting with the heads of all three leading AI labs present. President Emmanuel Macron personally invited Altman, who is making his first appearance at the annual gathering. A Wednesday working lunch will put the executives alongside political leaders to discuss AI infrastructure, networks and regulation.",
+          "whyItMatters": "AI governance moves to the center of great-power diplomacy, with rival CEOs in the room as the G7 weighs new rules.",
+          "url": "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis",
+          "source": "The Next Web",
+          "publishedAt": "2026-06-12T00:00:00Z"
+        },
+        {
+          "headline": "OpenAI and Anthropic both sit in the IPO pipeline after confidential S-1 filings valuing them at $852B and $965B",
+          "brief": "OpenAI confidentially submitted a draft S-1 to the SEC on June 8 at an $852 billion valuation, with Goldman Sachs and Morgan Stanley leading; the company reported $20 billion-plus in annual recurring revenue for 2025 but projects a $14 billion loss in 2026 and profitability no sooner than 2029. Rival Anthropic filed its own confidential S-1 on June 1 at a $965 billion valuation, citing roughly $47 billion in run-rate revenue and a path to its first profitable quarter. It is the first time the two leading large-language-model labs are simultaneously preparing to go public.",
+          "whyItMatters": "Back-to-back AI mega-IPOs would test whether public markets will fund companies still burning billions on the bet that frontier models pay off.",
+          "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-08T00:00:00Z"
+        },
+        {
+          "headline": "Anthropic opens its Mythos-class model to the public as Claude Fable 5, priced at $10/$50 per million tokens",
+          "brief": "Anthropic launched Claude Fable 5 on June 9, the first publicly available version of its Mythos model, while also deploying the restricted Mythos 5 to pre-approved organizations. Fable 5 scored 90% on Hex's core analytics benchmark and roughly 80% on SWE-Bench Pro, and ships with hard blocks on cybersecurity, biology and chemistry topics — falling back to Claude Opus 4.8 when triggered, after 1,000-plus hours of internal jailbreak testing. It costs $10 per million input tokens and $50 per million output tokens, but is free on Pro, Max, Team and Enterprise plans through June 22 before requiring usage credits.",
+          "whyItMatters": "Anthropic is betting heavy safeguards let it release its most capable model publicly without the bio- and cyber-risk it had warned about days earlier.",
+          "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-09T00:00:00Z"
+        },
+        {
+          "headline": "OpenAI ties up with Oracle to let OCI customers spend Universal Credits on GPT-5.5 frontier models and Codex",
+          "brief": "OpenAI announced on June 10 that Oracle Cloud Infrastructure customers will be able to apply their eligible Oracle Universal Credits toward OpenAI frontier models like GPT-5.5 and the Codex coding agent, accessing them through OCI under existing cloud commitments. The companies said availability begins in the coming weeks, eliminating the need for a separate vendor agreement. The deal builds on the OpenAI–Oracle relationship underpinning the $500 billion Stargate infrastructure project.",
+          "whyItMatters": "It plugs OpenAI's models directly into enterprise procurement budgets, widening distribution as the company chases revenue ahead of its IPO.",
+          "url": "https://openai.com/index/openai-on-oracle-cloud/",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-10T00:00:00Z"
+        },
+        {
+          "headline": "OpenAI retires GPT-5.2 from ChatGPT on June 12, auto-migrating users to GPT-5.5",
+          "brief": "As of June 12, OpenAI removed the GPT-5.2 family — GPT-5.2 Instant, GPT-5.2 Thinking and GPT-5.2 Pro — from ChatGPT, with existing conversations automatically continuing on the corresponding GPT-5.5 models. The change landed alongside a batch of ChatGPT Enterprise updates, including a Library for Enterprise, Edu and Healthcare workspaces and new Codex controls for computer use and browser debugging.",
+          "whyItMatters": "OpenAI is consolidating users onto GPT-5.5 just as it markets the model to enterprises through Oracle and toward its public listing.",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI Help Center",
+          "publishedAt": "2026-06-12T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "SpaceX's record $75 billion Nasdaq debut made Elon Musk the world's first trillionaire and capped a frenzied stretch of mega-deals, with Jeff Bezos's Prometheus and a wave of AI and robotics rounds also landing.",
+      "items": [
+        {
+          "headline": "SpaceX raises $75B in largest IPO ever; stock closes up 19%, making Musk world's first trillionaire",
+          "brief": "SpaceX began trading on the Nasdaq under ticker SPCX on June 12, pricing 555.6 million shares at $135 to raise about $75 billion, the biggest IPO in history. Shares opened at $150, briefly spiked more than 30% to value the company above $2.25 trillion, and closed at $160.95, up 19%. The debut pushed Elon Musk's paper wealth past $1 trillion, making him the world's first trillionaire.",
+          "whyItMatters": "It sets a new ceiling for tech listings and hands SpaceX public currency to fund Starship and Starlink while fueling talk of a Tesla–SpaceX tie-up.",
+          "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-12T20:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Jeff Bezos's Prometheus raises $12B at $41B valuation to build an 'artificial general engineer'",
+          "brief": "Prometheus, co-founded and co-led by Jeff Bezos with former Verily co-founder Vik Bajaj, emerged from stealth on June 11 with a $12 billion raise at a $41 billion valuation, backed by JPMorgan, Goldman Sachs and BlackRock. The roughly 150-person startup, spread across San Francisco, London and Zurich, is building AI to automate the design and manufacture of complex physical systems, from jet engines to drug compounds. It previously raised $6.2 billion, taking total funding above $18 billion.",
+          "whyItMatters": "It marks Bezos's first major operating role since leaving Amazon and is one of the largest bets yet on 'physical AI' for real-world engineering.",
+          "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-11T13:00:00Z"
+        },
+        {
+          "headline": "Barcelona's Theker raises $85M in Europe's largest-ever robotics Series A, led by CRV with Samsung and LVMH",
+          "brief": "Theker, the Barcelona AI-robotics startup founded in 2022 by Carla Gómez Cano and Jiaqiang Ye Zhu, announced an $85 million Series A on June 12, the largest robotics Series A ever raised in Europe. The round was led by CRV and drew first-ever Spanish investments from Samsung and LVMH, plus Cathay, 20VC and others, taking total funding to about $106 million. Theker builds AI-native generalist factory robots that adapt without reprogramming and are already running in live Inditex production facilities.",
+          "whyItMatters": "It signals deep-pocketed global investors moving into European industrial robotics and validates 'physical AI' deployed on real factory floors.",
+          "url": "https://techfundingnews.com/theker-85m-series-a-robotics-europe-crv-samsung-lvmh/",
+          "source": "Tech Funding News",
+          "publishedAt": "2026-06-12T09:00:00Z"
+        },
+        {
+          "headline": "Digital Asset raises $355M led by a16z crypto to scale its Canton blockchain for Wall Street",
+          "brief": "Digital Asset, the company behind the Canton Network and led by CEO Yuval Rooz, closed a $355 million equity round on June 11 led by Andreessen Horowitz's a16z crypto fund. Backers span traditional finance and crypto, including HSBC, BNP Paribas, Citadel Securities, the Abu Dhabi Investment Authority, Coinbase Ventures, S&P Global and Tradeweb. Rooz said the capital will fund institutional collaboration, M&A and product development as Canton expands as on-chain infrastructure for capital markets.",
+          "whyItMatters": "It underscores major banks' push to move capital-markets plumbing on-chain, with a16z anchoring the institutional bet.",
+          "url": "https://www.fintechfutures.com/venture-capital-funding/digital-asset-355m-funding-round",
+          "source": "FinTech Futures",
+          "publishedAt": "2026-06-11T12:00:00Z"
+        },
+        {
+          "headline": "OpenAI and Anthropic head for dueling IPOs as both file confidential S-1s targeting ~$850B and $965B",
+          "brief": "Days before SpaceX's debut, OpenAI filed a confidential S-1 with the SEC around June 8, targeting a valuation of roughly $730 billion to $850 billion with Goldman Sachs and Morgan Stanley underwriting, and reported annualized revenue above $25 billion. It followed rival Anthropic, which filed on June 1 at a roughly $965 billion valuation on the back of about $47 billion in revenue. Both are eyeing public listings later in 2026.",
+          "whyItMatters": "The first public financials from the two leading AI labs will test whether trillion-dollar private valuations survive Wall Street scrutiny.",
+          "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-08T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "SpaceX's record $75 billion IPO dominated Wall Street as US stocks climbed and oil slid on hopes of a US-Iran peace deal.",
+      "items": [
+        {
+          "headline": "SpaceX raises $75 billion in largest IPO ever, closes up 19% at $160.95 in Nasdaq debut",
+          "brief": "Elon Musk's SpaceX priced its IPO at $135 a share and sold roughly 555.6 million shares to raise about $75 billion — more than double Saudi Aramco's 2019 record. Trading under ticker SPCX, the stock opened at $150 and closed Friday at $160.95, up 19%, valuing the rocket maker above $2 trillion and making it one of the world's largest listed companies on day one.",
+          "whyItMatters": "The blockbuster listing reopens the megacap IPO market and hands Musk a vast new pool of public capital.",
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+          "source": "NPR",
+          "publishedAt": "2026-06-12",
+          "featured": true
+        },
+        {
+          "headline": "S&P 500 closes at 7,431 as Dow jumps 354 points on US-Iran peace hopes and SpaceX pop",
+          "brief": "The S&P 500 rose 0.5% Friday to 7,431.46 while the Dow Jones Industrial Average added 353.51 points (0.7%) to 51,202.26 and the Nasdaq Composite gained 0.31% to 25,888.84. Sentiment was lifted by SpaceX's strong debut and growing optimism that the US and Iran could sign a deal to end their war as soon as this weekend.",
+          "whyItMatters": "Stocks ended the week higher, with traders betting a Middle East de-escalation removes a key tail risk for markets.",
+          "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Oil drops below $85 to eight-week low as Trump signals US-Iran deal could come this weekend",
+          "brief": "WTI crude fell more than 3% Friday to under $85 a barrel and Brent slid toward $88 — its lowest in nearly two months — after President Trump said a peace agreement with Iran could be reached within days. Both sides, with Iranian Foreign Minister Abbas Araghchi citing a near-complete memorandum, are moving toward reopening the Strait of Hormuz.",
+          "whyItMatters": "Cheaper crude eases inflation pressure and consumer gas costs, but traders stay cautious after earlier breakthroughs collapsed.",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+          "source": "Trading Economics",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Adobe posts record $6.62 billion Q2 revenue but shares fall ~6% as CFO Dan Durn exits",
+          "brief": "Adobe reported record fiscal Q2 revenue of $6.62 billion (up 13%) and adjusted EPS of $5.96, beating estimates, with AI-first annual recurring revenue tripling past $500 million. Despite the beat-and-raise, ADBE shares dropped about 6% after CFO Dan Durn's departure — effective June 15 — added a second leadership gap alongside an ongoing CEO search, sending the stock to a 52-week low near $218.",
+          "whyItMatters": "The selloff shows investors demand more than AI momentum from Adobe amid leadership uncertainty and a stock down ~30% this year.",
+          "url": "https://www.techtimes.com/articles/318264/20260612/adobe-q2-2026-earnings-record-662b-revenue-ai-arr-triples-cfo-exits-days.htm",
+          "source": "Tech Times",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Oracle reports record $19.2 billion quarter but shares slide 7% as capex jumps 162% to $55.7 billion",
+          "brief": "Oracle posted record fiscal Q4 revenue of $19.2 billion (up 21%) with cloud revenue up 47% and cloud-infrastructure (OCI) revenue surging 93% to $5.8 billion, while remaining performance obligations swelled to $638 billion on AI contracts. Yet shares fell more than 7% after-hours as capital expenditures soared 162% to $55.7 billion, spooking investors over the cost of its AI buildout.",
+          "whyItMatters": "Oracle epitomizes the market's growing unease over how much Big Tech must spend to chase AI infrastructure demand.",
+          "url": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-10",
+          "featured": false
+        },
+        {
+          "headline": "Bitcoin rebounds above $63,500 and ether tops $1,670 after Trump claims Iran war has ended",
+          "brief": "Bitcoin opened Friday around $63,553, up 3.4% from Thursday, while ether rose 3.2% to about $1,672, as risk assets from crypto to silver rallied on President Trump's claim that the war in Iran had ended. The bounce reversed earlier-week weakness driven by Middle East tensions.",
+          "whyItMatters": "Crypto traded as a high-beta proxy for geopolitical risk, rallying alongside stocks on de-escalation hopes.",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-june-12-2026-prices-rebound-this-morning-after-trump-claims-war-has-ended-115949042.html",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "US consumer sentiment rises to 48.9 in June as gas prices ease and inflation fears cool",
+          "brief": "The University of Michigan's preliminary Consumer Sentiment Index climbed to 48.9 in early June from May's record low of 44.8, beating expectations of 46 and marking the first increase in four months. Year-ahead inflation expectations edged down to 4.6% from 4.8% and long-run expectations fell to 3.4%, though the reading remains the second-lowest on record and 19% below a year ago.",
+          "whyItMatters": "Modestly improving sentiment offers some relief, but households remain deeply pessimistic heading into next week's Fed decision.",
+          "url": "https://tradingeconomics.com/united-states/consumer-confidence/news/462967",
+          "source": "Trading Economics",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "10-year Treasury yield falls to ~4.47% ahead of June 17 Fed decision markets see as a hold",
+          "brief": "The 10-year Treasury yield slipped to about 4.47% Friday — down roughly 10 basis points the prior session — and the 2-year ended near 4.09%, as Trump's signals of an imminent Iran peace deal drove demand for bonds. Markets price a 96.7% chance the Federal Reserve holds rates steady at its June 17 meeting.",
+          "whyItMatters": "Falling yields ease borrowing costs, but a likely Fed pause keeps policy in limbo as inflation and oil risks linger.",
+          "url": "https://www.advisorperspectives.com/dshort/updates/2026/06/12/treasury-yields-snapshot-june-12-2026",
+          "source": "Advisor Perspectives",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "World & Geopolitics",
+      "intro": "President Trump declared a US-Iran war-ending deal is close as mediators circulated a 'final agreed text,' while South Korea jailed ex-President Yoon Suk Yeol for 30 years and Russia kept pounding Ukrainian cities.",
+      "items": [
+        {
+          "headline": "Trump says US-Iran deal to end war is near; Tehran would surrender enriched uranium stockpile",
+          "brief": "President Donald Trump said Saturday the US was close to an agreement to end the war it and Israel launched on Iran in February 2026, and Pakistani PM Shehbaz Sharif and Iranian Foreign Minister Abbas Araghchi said mediators hold a 'final, agreed' memorandum of understanding. The draft reportedly opens a 60-day window for nuclear and regional talks, reopens the Strait of Hormuz and lifts the US naval blockade, with Iran committing in principle to hand over its highly enriched uranium stockpile, mostly held at Isfahan. Trump disputed Iranian media accounts of the terms, calling Tehran 'very dishonorable,' and Iran fired drones at commercial vessels in Hormuz on Friday as US strikes continued.",
+          "whyItMatters": "VP JD Vance and Iranian parliament speaker Mohammad Bagher Ghalibaf could sign in Switzerland within days, but unresolved details on removing the uranium leave the ceasefire fragile.",
+          "url": "https://edition.cnn.com/2026/06/12/world/live-news/iran-war-trump-israel",
+          "source": "CNN",
+          "publishedAt": "2026-06-12",
+          "featured": true
+        },
+        {
+          "headline": "Ex-South Korean President Yoon Suk Yeol gets 30 years for drone plot to provoke North Korea",
+          "brief": "The Seoul Central District Court on Friday sentenced Yoon Suk Yeol, 65, to 30 years in prison for ordering military drones to drop propaganda leaflets over Pyongyang in October 2024, finding he sought to provoke a North Korean response and justify his December 2024 martial-law declaration. Former Defense Minister Kim Yong Hyun was sentenced alongside him; the term matched special prosecutor Cho Eun-suk's recommendation on charges including aiding an enemy state. Yoon's legal team appealed the ruling later the same day.",
+          "whyItMatters": "It is the harshest reckoning yet for Yoon's failed power grab and deepens the legal unwinding of his presidency.",
+          "url": "https://www.cnn.com/2026/06/11/asia/south-korean-yoon-suk-yeol-drone-case-jail-intl-hnk",
+          "source": "CNN",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "China confirms arrest of US citizen Min Zin, a Myanmar analyst, on espionage charges",
+          "brief": "China's foreign ministry spokesman Lin Jian confirmed that Min Zin, a US citizen and executive director of the Myanmar-focused Institute for Strategy and Policy (ISP), was detained on June 3 in Kunming, Yunnan province, on suspicion of espionage and endangering national security. Min Zin, a former leader of Myanmar's 1988 democracy movement who studied at UC Berkeley, is being held under criminal detention; the US consulate in Guangzhou was notified.",
+          "whyItMatters": "The rare detention of an American on security charges comes just weeks after the Trump-Xi Jinping Beijing summit meant to ease US-China tensions.",
+          "url": "https://www.aljazeera.com/news/2026/6/12/china-arrests-us-researcher-it-says-is-suspected-of-spying",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Russian drones injure 15, including four children, in overnight strikes on Kharkiv",
+          "brief": "A Russian drone barrage on Kharkiv overnight into June 12 wounded 15 people, four of them children, after 11 strikes hit residential areas, schools and kindergartens, Mayor Ihor Terekhov said. A 12th drone failed to detonate, and fires broke out across the city with dozens of cars damaged. The attack came a day after a mass strike on June 11 that killed three and injured at least 64, including nine children.",
+          "whyItMatters": "The sustained bombardment of Ukraine's second city shows Moscow escalating against civilian targets even as ceasefire talk stalls.",
+          "url": "https://kyivindependent.com/12-injured-in-russian-drone-attack-on-kharkiv-day-after-fatal-drone-bombardment/",
+          "source": "The Kyiv Independent",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Hormuz tanker traffic rebounds, holding Brent near $69 despite the Iran war",
+          "brief": "Exports of refined fuels from the Persian Gulf are recovering as more tankers slip through the Strait of Hormuz, with shipments from Saudi Arabia, the UAE and Kuwait averaging more than 600,000 barrels a day in June, roughly 50% above April and May levels, Bloomberg reported June 12. Brent crude sat around $69 a barrel on June 12, easing a fuel crunch driven by months of conflict-related disruption to the chokepoint.",
+          "whyItMatters": "Steadier flows through Hormuz blunt the global price shock from the US-Iran war, though any breakdown in the emerging deal could reverse the gains.",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/middle-east-fuel-exports-rebound-as-tankers-slip-through-hormuz",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Boxing's Saturday is headlined by pound-for-pound star Jesse 'Bam' Rodriguez challenging Antonio Vargas for the WBA bantamweight title in Glendale, while Canastota crowns a Hall of Fame class led by Gennadiy Golovkin.",
+      "items": [
+        {
+          "headline": "Jesse 'Bam' Rodriguez challenges Antonio Vargas for WBA bantamweight title in bid for fourth-division crown",
+          "brief": "Two-weight champion Jesse 'Bam' Rodriguez (23-0, 16 KOs) and WBA bantamweight titleholder Antonio Vargas (19-1-1, 11 KOs) both weighed 117.6 pounds Friday ahead of their main event Saturday, June 13, at Desert Diamond Arena in Glendale, Arizona, on DAZN. The 25-year-old Rodriguez is moving up to 118 pounds chasing a title in a fourth weight class and entered a heavy betting favorite over the unbeaten-until-2024 Vargas.",
+          "whyItMatters": "A win sets up Rodriguez as a potential mega-fight target for unified bantamweight king Naoya Inoue.",
+          "url": "https://www.fightmag.com/photos-rodriguez-and-vargas-make-weight-for-118-pound-title/",
+          "source": "FIGHTMAG",
+          "publishedAt": "2026-06-12",
+          "featured": true
+        },
+        {
+          "headline": "Golovkin, Antonio Tarver and Nigel Benn headline 2026 International Boxing Hall of Fame induction in Canastota",
+          "brief": "The International Boxing Hall of Fame inducts its Class of 2026 on Sunday, June 14, in Canastota, New York, led by former middleweight champion Gennadiy 'GGG' Golovkin (42-2-1, 37 KOs), three-time light heavyweight champ Antonio Tarver and Britain's Nigel Benn. Women's modern inductees Naoko Fujioka and Jackie Nava join non-participants including trainer Russ Anber and observers Kevin Iole and the late Alex Wallau.",
+          "whyItMatters": "Golovkin, who tied Bernard Hopkins' record of 20 middleweight title defenses, enters the Hall while now serving as president of World Boxing, the body running the sport at the 2028 LA Olympics.",
+          "url": "https://www.espn.com/boxing/story/_/id/49019005/meet-2026-boxing-hall-fame-ggg-golovkin-antonio-tarver-jackie-nava-more",
+          "source": "ESPN",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Tommy Fury meets World's Strongest Man Eddie Hall in 108-pound mismatch exhibition in Manchester",
+          "brief": "Undefeated cruiserweight Tommy Fury (11-0) faces former World's Strongest Man Eddie Hall in a six-round heavyweight exhibition Saturday at the AO Arena in Manchester, on a Misfits Boxing card. At Friday's weigh-in Hall scaled 325.6 pounds to Fury's career-heaviest 217.5, a 108-pound gap, with the two-minute rounds contested in 14oz gloves and not counting on Fury's pro record.",
+          "whyItMatters": "It is Fury's first ring outing since May 2025 and keeps the Jake Paul and KSI conqueror commercially active without risking his unbeaten ledger.",
+          "url": "https://www.espn.com/boxing/story/_/id/48963661/tommy-fury-vs-eddie-hall-how-watch-uk-ring-walk-rules-weight-tv-channel-undercard",
+          "source": "ESPN",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Bill Haney says Devin Haney will fight Shakur Stevenson at a 144-pound catchweight",
+          "brief": "Trainer Bill Haney said this week that son Devin Haney is willing to meet Shakur Stevenson at a 144-pound catchweight, between the junior welterweight and welterweight limits, reviving a long-discussed all-American grudge match. The comments followed a chaotic exchange days earlier in which the rivals appeared to agree the fight live on social media before backtracking.",
+          "whyItMatters": "A Haney-Stevenson bout would be one of the biggest fights makeable in the lighter weights, but the on-again, off-again negotiations leave it far from signed.",
+          "url": "https://www.boxingscene.com/articles/shakur-stevenson-and-devin-haney-agree-on-social-media-to-catchweight-battle",
+          "source": "BoxingScene",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Xander Zayas to defend unified junior middleweight titles against Jaron 'Boots' Ennis on June 27 in Brooklyn",
+          "brief": "Unified WBO and WBA junior middleweight champion Xander Zayas (23-0, 13 KOs) faces former unified welterweight king Jaron 'Boots' Ennis (35-0, 31 KOs) on Saturday, June 27, at Barclays Center on DAZN pay-per-view. Zayas, 22, who became the youngest unified ruler at the weight by beating Abass Baraou in January, has called Ennis the toughest test of his career as build-up intensifies.",
+          "whyItMatters": "Ennis is chasing a title in a second division after just one fight at 154, making this a marquee unbeaten-versus-unbeaten clash with pound-for-pound implications.",
+          "url": "https://www.boxingscene.com/articles/xander-zayas-wont-be-denied-as-jaron-boots-ennis-awaits",
+          "source": "BoxingScene",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Wilkens Mathieu stops Esquiva Falcao in the eighth to defend NABF super middleweight title in Quebec City",
+          "brief": "Unbeaten Canadian prospect Wilkens Mathieu (16-0, 11 KOs) scored the biggest win of his career, halting former Olympic silver medalist Esquiva Falcao (32-3, 21 KOs) late in the eighth round to retain his NABF super middleweight belt at Theatre Capitole in Quebec City. Mathieu used speed and combinations before dropping Falcao with a left hook, prompting referee Steve St-Germain to wave it off at the round's end.",
+          "whyItMatters": "The stoppage of a seasoned veteran pushes the 21-year-old Mathieu toward world-level contention at 168 pounds.",
+          "url": "https://www.boxingnews24.com/2026/06/wilkens-mathieu-stops-esquiva-falcao-in-quebec-city-main-event/",
+          "source": "Boxing News 24",
+          "publishedAt": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "MMA's weekend revolves around UFC Freedom 250, the first sporting event in White House history, where Ilia Topuria and Justin Gaethje headline a lightweight title unification on the South Lawn.",
+      "items": [
+        {
+          "headline": "Ilia Topuria vs. Justin Gaethje headlines first-ever White House fight card on Sunday's UFC Freedom 250",
+          "brief": "Undefeated lightweight champion Ilia Topuria (17-0) faces interim champ Justin Gaethje (27-5) in a title unification bout on the South Lawn of the White House on Sunday, June 14, the first professional sporting event ever staged at the presidential residence. The seven-fight UFC Freedom 250 card, built under a 92-foot steel canopy, begins at 8 p.m. ET and airs live on Paramount+. Weigh-ins were completed Saturday in Washington, D.C.",
+          "whyItMatters": "A win cements Topuria as the undisputed 155-pound king; an upset would finally make Gaethje an undisputed UFC champion for the first time.",
+          "url": "https://sports.yahoo.com/mma/article/ufc-freedom-250-full-fight-card-start-time-odds-where-to-watch-and-everything-to-know-for-white-house-event-223245166.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-13",
+          "featured": true
+        },
+        {
+          "headline": "Alex Pereira can become UFC's first three-division champion against Ciryl Gane in White House co-main",
+          "brief": "Former two-division titleholder Alex Pereira (13-3) makes his heavyweight debut against ex-interim champ Ciryl Gane (13-2) for the interim heavyweight belt in the UFC Freedom 250 co-main event. A victory would make Pereira the first fighter in UFC history to win titles in three separate weight classes. The interim strap was created because undisputed champion Tom Aspinall is sidelined recovering from eye surgery.",
+          "whyItMatters": "The winner moves directly into a unification fight with Aspinall once the British champion is medically cleared.",
+          "url": "https://www.ufc.com/news/co-main-event-spotlight-alex-pereira-vs-ciryl-gane-ufc-freedom-250",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Alex Pereira set to bank $10 million at UFC Freedom 250, the card's top payday",
+          "brief": "Alex Pereira is expected to earn roughly $10 million for his heavyweight debut against Ciryl Gane, making him the highest-paid fighter on the White House card. Daniel Cormier disclosed the figure, saying Pereira is the only competitor at Freedom 250 reaching eight figures, with the purse tied to a new contract.",
+          "whyItMatters": "It signals how much the UFC is investing in Pereira as a marquee draw heading into a potential heavyweight title run.",
+          "url": "https://sports.yahoo.com/articles/alex-pereira-expected-bank-10-230000647.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Ilia Topuria shoves Justin Gaethje at Lincoln Memorial faceoff ahead of White House title fight",
+          "brief": "Topuria pushed Gaethje during their face-off at the UFC Freedom 250 press conference outside the Lincoln Memorial in Washington, D.C. on Friday. Topuria told reporter Megan Olivi he warned Gaethje not to come closer, adding that he shoved rather than punched him because \"if I punch him, he's not gonna be able to show up.\" Gaethje did not retaliate.",
+          "whyItMatters": "The flashpoint raises the temperature on Sunday's unification main event between the two unbeaten-at-lightweight rivals.",
+          "url": "https://www.thescore.com/mma/news/3553131/topuria-shoves-gaethje-at-ufc-freedom-250-faceoff",
+          "source": "theScore",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Tom Aspinall vows to fight the Pereira-Gane winner once cleared from eye surgery",
+          "brief": "Undisputed heavyweight champion Tom Aspinall says he intends to defend against whoever wins the Pereira-Gane interim title bout at the White House. Aspinall is recovering from surgery after eye pokes in his UFC 321 title defense against Gane last October and is still awaiting medical clearance to train fully. \"Who else is going to fight? The division's on its ass,\" he said.",
+          "whyItMatters": "It sets up the heavyweight division's next title unification, contingent on Aspinall's health timeline.",
+          "url": "https://www.aol.com/articles/tom-aspinall-targets-winner-pereira-224902477.html",
+          "source": "AOL / MMA",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "PFL Africa makes historic Nigeria debut in Lagos with Wasi Adeshina headlining Saturday",
+          "brief": "The Professional Fighters League stages its first-ever event on Nigerian soil, PFL Africa 2, on Saturday, June 13 at the Eko Convention Center in Lagos. Hometown favorite Wasi \"The Nigerian Jaguar\" Adeshina (10-3) headlines a featherweight showcase against Spain's Ignacio \"Nacho\" Campos (7-2), atop a card opening the PFL Africa bantamweight and lightweight tournaments. Both made weight at Friday's weigh-ins.",
+          "whyItMatters": "It marks the PFL's biggest push into West Africa as it expands the continent's pro MMA footprint.",
+          "url": "https://www.sherdog.com/news/news/PFL-takes-to-Nigeria-on-June-13-for-second-2026-PFL-Africa-event-200810",
+          "source": "Sherdog",
+          "publishedAt": "2026-06-13",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History & World Curiosities",
+      "intro": "Saturday's history desk is led by a 2,000-year-old Celtic chariot burial unearthed under a planned solar park in Bad Camberg, Germany, amid a busy week of finds from Iraq's Bronze Age to a clay figurine that may hold the Americas' oldest written numbers.",
+      "items": [
+        {
+          "headline": "Celtic chariot grave with gold rings and Etruscan jug found under solar-park site in Bad Camberg, Germany",
+          "brief": "Hesse state archaeologist Udo Recker announced a more-than-2,000-year-old elite tomb of the Hunsrück-Eifel culture discovered during construction of a solar park near Bad Camberg. The grave held multiple gold rings, weapons, an Etruscan beak jug from central Italy, and the metal fittings of a two-wheeled wagon; Recker said the wagon marks the deceased as 'a man of high status,' and X-rays and CT scans show more artifacts still inside.",
+          "whyItMatters": "It is being called one of the most significant archaeological finds ever made in Hesse, and excavation of the remaining contents is ongoing.",
+          "url": "https://archaeology.org/news/2026/06/12/celtic-tomb-unearthed-in-germany/",
+          "source": "Archaeology Magazine",
+          "publishedAt": "2026-06-12",
+          "featured": true
+        },
+        {
+          "headline": "UCF dig at Kurd Qaburstan in Iraq uncovers cuneiform tablets and mass graves from the 4,000-year-old siege of Qabra",
+          "brief": "A University of Central Florida team led by Associate Professor Tiffany Earley-Spadoni reported the first substantial cache of cuneiform administrative tablets found on Iraq's Erbil Plain, alongside mass graves, city fortifications and evidence of large-scale destruction at Kurd Qaburstan, identified with the ancient city-state of Qabra. Several tablets are dated within days of one another, matching the timeline of the city's fall during the Middle Bronze Age.",
+          "whyItMatters": "Researchers call it one of the clearest archaeological records yet of Bronze Age siege warfare and urban collapse, dubbing the site 'Mesopotamia's Pompeii.'",
+          "url": "https://www.ucf.edu/news/ucf-led-excavation-reveals-evidence-of-life-conflict-in-ancient-mesopotamia/",
+          "source": "University of Central Florida News",
+          "publishedAt": "2026-06-11"
+        },
+        {
+          "headline": "Restoration of Emperor Otto the Great's tomb in Magdeburg Cathedral reveals hidden medieval foundations",
+          "brief": "Conservators lifted the roughly 300-kilogram marble cover slab over Otto I's sarcophagus and excavated beneath it, finding the tomb rested on sandstone blocks bearing late-medieval masons' marks and had been repositioned over centuries. Recovered finds include coins, glass beads, glazed roof tiles, pottery, and clothing pins lost by visitors, while genetic and anthropological studies have confirmed the remains as Otto I, crowned the first Holy Roman Emperor in 962.",
+          "whyItMatters": "The emperor's remains are scheduled for reburial in a newly designed coffin in September 2026.",
+          "url": "https://www.heritagedaily.com/2026/06/new-discoveries-during-restoration-of-otto-the-greats-tomb/158338",
+          "source": "HeritageDaily",
+          "publishedAt": "2026-06-11"
+        },
+        {
+          "headline": "Clay figurine from La Blanca, Guatemala may bear Mesoamerica's oldest written numbers",
+          "brief": "A study in Latin American Antiquity describes a 2,700-year-old 'tab' figurine excavated at La Blanca on Guatemala's Pacific coast, dated to 750–650 B.C., with 11 dots pressed into three columns where its head should be. Researchers note the asymmetric arrangement breaks from the symmetry Mesoamerican artists favored, and its placement on the head — a marker of identity and personhood — suggests the dots are an early form of number writing rather than decoration.",
+          "whyItMatters": "If confirmed, it would be the earliest known example of written numbers in the Americas, predating later Maya numeral systems.",
+          "url": "https://phys.org/news/2026-06-ancient-clay-figurine-guatemala-oldest.html",
+          "source": "Phys.org",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "1,200 petroglyphs and the inscription 'My name is Aba' documented in Kazakhstan's Burkhansai Gorge",
+          "brief": "Archaeologists in the Zhualy District of Kazakhstan's Jambyl Region recorded more than 1,200 rock carvings spanning the late 3rd millennium B.C. to the Middle Ages, depicting goats, one-humped camels and hunting scenes. Among them is a rare five-sign Old Turkic runic inscription in the Talas script reading 'Er atym Aba' — 'My name is Aba' — preliminarily dated to the 4th–10th centuries A.D.",
+          "whyItMatters": "The inscription, likely left by a self-declared owner or guardian of the land, adds rare written evidence to the region's nomadic herding and hunting history.",
+          "url": "https://arkeonews.net/more-than-1200-petroglyphs-and-a-rare-old-turkic-runic-inscription-found-in-kazakhstan/",
+          "source": "Arkeonews",
+          "publishedAt": "2026-06-10"
+        },
+        {
+          "headline": "Oldest known structure at Hadrian's Villa uncovered beneath the imperial palace at Tivoli",
+          "brief": "An April–May excavation by Pablo de Olavide University, directed by Professor Rafael Hidalgo, exposed a hypogeum — an underground silo or storage chamber — beneath a peristyle in the Palazzo sector of Hadrian's Villa near Tivoli, Italy. Dating to the Republican era before Emperor Hadrian transformed the site in the 2nd century A.D., it yielded terracotta architectural decorations with animal motifs and ceramic fragments.",
+          "whyItMatters": "Researchers say it is the only securely identified Republican-period context found so far at the villa, pushing back the known history of the UNESCO World Heritage site.",
+          "url": "https://archaeologymag.com/2026/06/oldest-structure-at-hadrians-villa/",
+          "source": "Archaeology News Online Magazine",
+          "publishedAt": "2026-06-11"
+        },
+        {
+          "headline": "Sahara meteorite NWA 12774 offers first evidence of a lost protoplanet in the early solar system",
+          "brief": "University of Colorado Boulder scientists analyzing the 4.5-billion-year-old angrite meteorite NWA 12774, likely recovered in Mauritania, found its chemistry formed under deep pressure inside a protoplanet at least 1,000–1,800 km in radius — comparable to the Moon or Mars. The team concludes the body was shattered in a collision 4.5 billion years ago. The findings appear in Earth and Planetary Science Letters.",
+          "whyItMatters": "The CU Boulder team calls it the first definitive physical evidence of a now-vanished planet from the solar system's formative era.",
+          "url": "https://www.smithsonianmag.com/smart-news/a-rare-meteorite-found-in-the-sahara-desert-offers-evidence-of-a-lost-protoplanet-180988932/",
+          "source": "Smithsonian Magazine",
+          "publishedAt": "2026-06-11"
+        },
+        {
+          "headline": "Marble head of Aphrodite, Senusret III cartouche and a Roman basilica all unearthed at Egypt's Heracleopolis Magna",
+          "brief": "An Egyptian mission of the Supreme Council of Antiquities led by Mohamed Ibrahim, director general of Beni Suef Antiquities, uncovered a classically carved 24-by-25-centimeter marble head of the Greek goddess Aphrodite at ancient Ihnasya (Heracleopolis Magna) in Beni Suef Governorate. The same site yielded a cartouche bearing the names of 12th-Dynasty pharaoh Senusret III, remains of a Roman basilica and a Doric temple, and Roman-era molds for minting coins.",
+          "whyItMatters": "Officials say the layered finds show the city's continuous prosperity across pharaonic, Greek, Roman and early Christian eras.",
+          "url": "https://www.smithsonianmag.com/smart-news/archaeologists-unearth-an-marble-aphrodite-a-pharoahs-cartouche-and-a-roman-basilica-all-in-one-ancient-egyptian-city-180988930/",
+          "source": "Smithsonian Magazine",
+          "publishedAt": "2026-06-11"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "17.68",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-12",
+      "source": "CBOE",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "tone": "neutral"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.43",
+      "reference": "media ~17",
+      "asOf": "2026-06-12",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "TSMC May 2026 revenue hits record NT$416.98 billion, up 30% year-on-year on AI chip demand",
+                "brief": "Taiwan Semiconductor reported May 2026 sales of NT$416.98 billion (about US$13.2 billion), a new monthly record, rising 30.1% from a year earlier and 1.5% month-on-month. Cumulative January–May revenue reached NT$1,961.80 billion, up 30.0% versus the same period in 2025. The chipmaker credited sustained demand for advanced nodes tied to the AI infrastructure buildout.",
+                "whyItMatters": "A third straight month of ~30% growth reinforces TSMC's guidance and signals AI capacity remains tight heading into its July Q2 results.",
+                "url": "https://www.bloomberg.com/news/articles/2026-06-10/tsmc-s-monthly-sales-rise-30-thanks-to-sustained-ai-chip-demand",
+                "source": "Bloomberg",
+                "publishedAt": "2026-06-10"
+              },
+              {
+                "headline": "ASML scales back planned layoffs to under 1,000 from ~1,700 after Dutch union deal, delays cuts to May 2027",
+                "brief": "ASML and unions FNV, CNV, De Unie and VHP2 finalized a social plan reducing the impact of its restructuring from roughly 1,700 positions to fewer than 1,000, with several hundred staff to be reassigned internally. The agreement establishes a no-compulsory-layoff window through May 1, 2027, and affected employees will be notified before the end of June 2026. The cuts mainly target management, IT and engineering roles.",
+                "whyItMatters": "Softens the financial and reputational hit of ASML's cost cuts while it rides record EUV demand, but signals continued internal reshaping at the lithography monopoly.",
+                "url": "https://nltimes.nl/2026/06/10/asml-unions-finalize-social-plan-address-1700-job-cuts",
+                "source": "NL Times",
+                "publishedAt": "2026-06-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "esw",
+        "label": "Enterprise software",
+        "streams": [
+          {
+            "id": "now",
+            "label": "ServiceNow",
+            "kind": "name",
+            "names": [
+              "ServiceNow"
+            ],
+            "items": [
+              {
+                "headline": "ServiceNow patches unauthenticated API flaw that let attackers query customer instance data, shares slide",
+                "brief": "ServiceNow disclosed on June 9 that it applied an emergency fix on June 5 to a flaw in its `/api/now/related_list_edit/create` API endpoint, which was misconfigured to require no authentication and allowed unauthenticated users to query sensitive data from customer instances. The company says it first received a confidential bug-bounty report describing a similar issue on April 22, and that the activity observed in early June was 'likely tied to security researchers or customer-led research' rather than malicious actors; it is still deciding whether to publish a CVE. Primarily affected were customers on the Australia platform release or older releases with certain configuration changes, and ServiceNow has not specified what data was accessed.",
+                "whyItMatters": "A multi-week gap between the April bug report and the June patch, plus limited disclosure on what data was touched, pressures ServiceNow's enterprise-trust and AI-governance pitch just as it sells 'Autonomous Workforce' agents on the same platform — shares came under pressure on the news.",
+                "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+                "source": "BleepingComputer",
+                "publishedAt": "2026-06-09"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Alphabet's Google backstops $35 billion Anthropic data-center financing led by Apollo and Blackstone, supplying its own TPUs across five sites",
+                "brief": "Google agreed to guarantee lease payments on five U.S. data centers Anthropic will use for compute, effectively underwriting a $35 billion debt package arranged by Apollo Global Management and Blackstone via a special-purpose vehicle that buys Google's tensor processing units and leases them back. The facilities involve operators including TeraWulf, Cipher, Hut 8 and a Fluidstack/Next Frontier joint venture, with Broadcom providing additional payment support. Google is both the chip supplier and the lease guarantor, giving it layered financial exposure to Anthropic.",
+                "whyItMatters": "Ties Alphabet's balance sheet and TPU demand directly to Anthropic's success, deepening Google's role in AI infrastructure financing and inviting potential regulator and credit-investor scrutiny of concentration risk.",
+                "url": "https://finance.yahoo.com/sectors/technology/articles/google-backs-35-billion-anthropic-164603386.html",
+                "source": "Yahoo Finance",
+                "publishedAt": "2026-06-10"
+              },
+              {
+                "headline": "Alphabet's Waymo launches invite-only $29.99/month 'Premier' membership with priority pickups and 10% ride cash-back in three cities",
+                "brief": "Waymo introduced Waymo Premier, a $29.99-per-month subscription offering prioritized vehicle matching, 10% Waymo Cash back on every ride (higher during surges), early access in new markets and five free cancellations a month. The invite-only program is rolling out to tens of thousands of frequent riders in San Francisco, Los Angeles and Phoenix. Waymo says it now runs roughly 500,000 paid rides weekly across 11 U.S. cities and is targeting 1 million weekly trips by year-end.",
+                "whyItMatters": "Waymo's first subscription is a move to lock in high-frequency commuters and build recurring revenue as Alphabet pushes its robotaxi unit toward scale and profitability.",
+                "url": "https://electrek.co/2026/06/11/waymo-premier-membership-program-30-dollars-priority-pickups/",
+                "source": "Electrek",
+                "publishedAt": "2026-06-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "Visa scales stablecoin settlement to $7B annualized run rate and partners with OpenAI on agentic payments",
+                "brief": "At its Payments Forum on June 10, 2026, Visa unveiled a suite of AI, stablecoin and tokenization tools, disclosing that its stablecoin settlement pilots reached a $7 billion annualized run rate as of March 2026 and that 160+ stablecoin-linked card programs are now live or in development globally. New capabilities include a 'Large Transaction Model' fraud engine, an 'Agent Score' for agentic commerce, tokenized bank deposits, and an OpenAI partnership enabling Visa payments inside AI-agent checkouts. Chief Product & Strategy Officer Jack Forestell said AI is transforming the front end of commerce while stablecoins reshape how money moves on the back end.",
+                "whyItMatters": "Signals Visa is moving from settlement experiments to scaled infrastructure for stablecoins and AI-driven commerce, defending its network against disintermediation.",
+                "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html",
+                "source": "Visa",
+                "publishedAt": "2026-06-10"
+              },
+              {
+                "headline": "DBS to launch Singapore's first retail tokenised physical gold, each token backed by one gram (~S$200)",
+                "brief": "On June 11, 2026, DBS, Singapore's largest bank, said it will offer DBS Physical Gold Tokens to retail customers via its digibank app in the second half of 2026 — the first platform in Singapore letting retail clients digitally hold and trade tokenised physical gold, each token representing one gram (about S$200/$155) backed by holdings in a dedicated Singapore vault. James Tan, group head of investment products and advisory services, said physical gold holdings among DBS wealth clients have more than doubled over the past three years; DBS plans to explore listing the token on its DBS Digital Exchange for accredited and institutional investors.",
+                "whyItMatters": "Extends DBS's tokenization push into mass-market retail, opening a new fee-generating product as gold demand surges.",
+                "url": "https://finance.yahoo.com/markets/commodities/articles/singapore-bank-dbs-offer-tokenised-030408596.html",
+                "source": "Reuters/Yahoo Finance",
+                "publishedAt": "2026-06-11"
+              },
+              {
+                "headline": "CME Group to launch four new E-mini equity index futures on June 29, covering 90%+ of US investable market cap",
+                "brief": "On June 11, 2026, CME Group announced it will add four new E-mini contracts — Morningstar US Total Market, Russell 3000, S&P 1500 Composite and S&P Total Market — starting June 29, pending regulatory review, giving traders all-cap exposure spanning more than 90% of US investable market capitalization. Separately the same day, CME said it will launch financially-settled Micro E-mini S&P 500 and Nasdaq-100 options (also June 29) and expand 24/7 trading to a new smaller 10-barrel WTI crude oil contract and gold.",
+                "whyItMatters": "Broadens CME's equity-index franchise and round-the-clock product set, supporting fee growth after a record May ADV of 33.2M contracts.",
+                "url": "https://www.prnewswire.com/news-releases/cme-group-to-expand-equity-index-suite-with-launch-of-four-new-e-mini-futures-contracts-302798026.html",
+                "source": "PR Newswire / CME Group",
+                "publishedAt": "2026-06-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seaem",
+        "label": "SEA / EM",
+        "streams": [
+          {
+            "id": "sea",
+            "label": "Sea Ltd",
+            "kind": "name",
+            "names": [
+              "Sea Limited (Garena, Shopee, SeaMoney)"
+            ],
+            "items": [
+              {
+                "headline": "Sea's Shopee cuts hundreds of developer jobs — about 8% of its dev workforce — in pivot to AI",
+                "brief": "Sea Ltd's e-commerce arm Shopee began cutting hundreds of developer roles globally this week, equal to roughly 8% of its developer workforce, with quality-assurance positions among those hit and more reductions possible. The move ties to CEO Forrest Li's bet that doubling down on AI — already used in product recommendations and seller tools — can drive Sea toward a $1 trillion market cap, about ten times its current ~$53B valuation. A Sea spokesperson said affected staff would be supported through the transition.",
+                "whyItMatters": "Restructuring the engineering base of Sea's largest segment signals an aggressive AI-for-headcount swap; execution risk and morale at Shopee now sit alongside the competition pressure from TikTok that has weighed on the stock.",
+                "url": "https://www.taipeitimes.com/News/biz/archives/2026/06/11/2003858879",
+                "source": "Taipei Times",
+                "publishedAt": "2026-06-11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
