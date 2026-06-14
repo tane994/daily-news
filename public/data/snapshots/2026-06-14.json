@@ -1,67 +1,82 @@
 {
   "date": "2026-06-14",
-  "generatedAt": "2026-06-14T15:41:01.467Z",
+  "generatedAt": "2026-06-14T19:08:12.103Z",
   "topics": [
     {
       "id": "ai",
       "name": "AI & ML",
-      "intro": "Moonshot AI's open-source Kimi K2.7 Code headlined a coding-heavy weekend, alongside Google DeepMind's diffusion-based DiffusionGemma and a git-style /fork command for Claude Code.",
+      "intro": "Anthropic's Claude Fable 5 — a public, Mythos-class model that tops nearly every capability benchmark — dominated the week, even as a brutal new UC Berkeley test showed frontier models still fail three-quarters of real professional work.",
       "items": [
         {
-          "headline": "Moonshot AI releases Kimi K2.7 Code, a 1-trillion-parameter open coding model that cuts reasoning tokens 30%",
-          "brief": "Beijing-based Moonshot AI shipped Kimi K2.7 Code, a Mixture-of-Experts model with 1 trillion total and 32 billion active parameters, under a Modified MIT license on its Kimi APIs and Hugging Face. The company reports gains over the prior K2.6 of +21.8% on Kimi Code Bench v2 (62.0 vs 50.9), +11.0% on Program Bench and +31.5% on MLS Bench Lite, with a 256K context window and roughly 30% fewer reasoning tokens spent per task.",
-          "whyItMatters": "An openly downloadable trillion-parameter coder undercuts the cost case for closed agentic models on long-horizon software work.",
-          "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/",
-          "source": "Crypto Briefing",
-          "publishedAt": "2026-06-12",
+          "headline": "Anthropic releases Claude Fable 5, its most powerful public model, topping SWE-bench Pro at 80.3% vs GPT-5.5's 58.6%",
+          "brief": "Anthropic made Fable 5 — a version of its previously restricted Mythos-class system — generally available via the Claude API and Enterprise plans, calling it the most capable model it has ever shipped to the public. It scores 80.3% on SWE-bench Pro (against GPT-5.5's 58.6%), is the first model to break 90% on Cognition's long-running analytics eval, and matched GPT-5.5 on frontier physics research in 36 hours using a third of the reasoning tokens. New safeguards auto-redirect high-risk cyber, bio and chemistry prompts to weaker models, and Fable 5 is free on Pro, Max, Team and seat-based Enterprise plans through June 22.",
+          "whyItMatters": "It puts near-frontier 'Mythos' capability in the hands of ordinary paying users for the first time — and resets the coding and knowledge-work bar rivals must clear.",
+          "url": "https://venturebeat.com/technology/anthropic-brings-mythos-to-the-masses-with-claude-fable-5-its-most-powerful-generally-available-model-ever",
+          "source": "VentureBeat",
+          "publishedAt": "2026-06-09",
           "featured": true
         },
         {
-          "headline": "Google DeepMind open-sources DiffusionGemma, a 26B model that generates text up to 4x faster via diffusion",
-          "brief": "DeepMind released DiffusionGemma, a 26-billion-parameter Mixture-of-Experts model that abandons sequential token generation, instead laying out a canvas of random tokens and refining them in parallel like an image denoiser. Running on a single Nvidia H100 it reaches nearly 4x the speed of Gemma 4 26B and needs about 18GB of memory; it ships under Apache 2.0 on Hugging Face with vLLM, MLX and HF Transformers support, though it trails Gemma 4 12B on the GPQA-Diamond benchmark.",
-          "whyItMatters": "It puts a fast, open text-diffusion model in developers' hands, validating diffusion as a practical alternative to autoregression for speed-critical work.",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/11/googles-diffusiongemma-uses-diffusion-tech-to-speed-text-generation/5254406",
-          "source": "The Register",
-          "publishedAt": "2026-06-11"
+          "headline": "Google's DiffusionGemma generates text 4x faster by denoising 256 tokens at once instead of one at a time",
+          "brief": "Google released DiffusionGemma, an open-weight 26B mixture-of-experts model (3.8B active params) under Apache 2.0 that abandons left-to-right token generation for diffusion: it starts from a 'canvas' of placeholder tokens and refines 256 in parallel per pass, self-correcting as it goes. It hits 1,000+ tokens/second on a single NVIDIA H100 and 700+ on a consumer RTX 5090, fitting in 18GB of VRAM when quantized, with weights on Hugging Face and support for vLLM, MLX, JAX and NVIDIA NeMo. The trade-off: it sacrifices some output quality versus standard Gemma 4 in exchange for speed.",
+          "whyItMatters": "It pushes diffusion text generation to production scale on consumer hardware, pointing toward far cheaper, lower-latency local AI.",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "source": "Google (The Keyword)",
+          "publishedAt": "2026-06-10"
         },
         {
-          "headline": "Anthropic adds a /fork command to Claude Code, bringing git-style branching to AI coding sessions",
-          "brief": "Anthropic introduced a /fork command for Claude Code that branches an existing session into a parallel variant, letting developers test an alternative approach without losing the original context — keep the fork if it works, discard it if it doesn't. The update also adds a new command-line interface, nested sub-agents that a primary session coordinates, smarter model and region handling, and a plugin search interface.",
-          "whyItMatters": "Borrowing git's branching mental model makes parallel experimentation cheap in what Anthropic calls its fastest-growing product ever.",
-          "url": "https://www.techtimes.com/articles/318344/20260613/claude-code-adds--fork-command-anthropic-brings-git-style-branching-ai-coding-sessions.htm",
-          "source": "Tech Times",
-          "publishedAt": "2026-06-13"
+          "headline": "UC Berkeley's new Agents' Last Exam shows top AI fails ~76% of real jobs; GPT-5.5 edges Fable 5, 24.0% to 22.0%",
+          "brief": "UC Berkeley's Center for Responsible, Decentralized Intelligence launched the Agents' Last Exam (ALE), a 1,490-task benchmark built with 300+ domain experts across 55 professional sub-domains — from 3D modeling in Siemens NX to neuroimaging in FSLeyes and VFX compositing in After Effects. GPT-5.5, running through OpenAI's Codex agent framework, scored a 24.0% pass rate to claim the top spot, narrowly beating Claude Fable 5 at 22.0%. The benchmark is scaling toward 5,000 tasks.",
+          "whyItMatters": "It's a reality check on agent hype: the world's best models still can't finish three-quarters of economically valuable, long-horizon professional work.",
+          "url": "https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark",
+          "source": "VentureBeat"
+        },
+        {
+          "headline": "Claude Fable 5 spins up playable video games from a single prompt in Ethan Mollick's tests",
+          "brief": "Wharton professor Ethan Mollick demonstrated Fable 5 generating complete, playable games through Claude Code from one text prompt each: a working Snake clone, an underground lantern-lighting explorer called Strata that looks like 'a degraded version of Myst,' and Duino, a melancholy poetry game built around Rilke's verse. He also had it build an isochronic travel-time map, arguing that software projects that once needed whole teams are now 'spun up from a single prompt.'",
+          "whyItMatters": "It's a concrete look at how far one-shot 'vibe coding' has come — and how much production software a single non-engineer can now generate.",
+          "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-09"
+        },
+        {
+          "headline": "Google's Gemini 3.5 Live Translate does continuous speech-to-speech across 70+ languages, preserving the speaker's voice",
+          "brief": "Google unveiled Gemini 3.5 Live Translate, an audio model that delivers near real-time speech-to-speech translation in 70+ languages and generates translated speech continuously rather than waiting for the speaker to finish — while preserving intonation, pacing and pitch. Ride-hailing firm Grab is testing it for driver-rider communication at pickups, and Google Meet will use it to support 2,000+ language combinations within a single meeting.",
+          "whyItMatters": "Continuous, voice-preserving translation moves machine interpreting closer to a natural conversation, not a stilted turn-by-turn exchange.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "source": "Google (The Keyword)",
+          "publishedAt": "2026-06-09"
         }
       ]
     },
     {
       "id": "startups",
       "name": "Startups & Tech",
-      "intro": "The product and operational side of tech moved on real-world deployments — Figma and Reddit shipped new creation tools while a $365M surveillance build-out went live for the 2026 World Cup kickoff.",
+      "intro": "Coinbase opened crypto trading and autonomous payments to AI agents, headlining a week of product moves as Bluesky and Meta retooled around communities and creators.",
       "items": [
         {
-          "headline": "Fortem, Lenovo and Boston Dynamics power a $365M surveillance grid as the 2026 World Cup kicks off",
-          "brief": "As the tournament opened June 11 with Mexico vs. South Africa at Estadio Azteca, a $365M DHS/FEMA-backed security build-out went live across the 16 North American venues. Fortem Technologies is running kinetic counter-drone interceptors, Lenovo is building real-time 'digital twins' of stadiums, Booz Allen Hamilton is fusing drone imagery with GPS tracking, and Boston Dynamics' Spot robot dogs are patrolling Dallas and New Jersey, with facial recognition for entry and payments at Gillette, Hard Rock and Mercedes-Benz stadiums.",
-          "whyItMatters": "It is one of the largest peacetime deployments of private surveillance and robotics tech in the US, normalizing facial recognition and autonomous patrols at mass events.",
-          "url": "https://www.gadgetreview.com/world-cup-2026-security-normalizes-mass-surveillance",
-          "source": "Gadget Review",
+          "headline": "Coinbase launches 'Coinbase for Agents,' letting ChatGPT and Claude trade crypto and auto-pay for research via MCP and x402",
+          "brief": "Coinbase debuted Coinbase for Agents on June 11, a tool that connects AI assistants like ChatGPT and Claude to a user's account through an MCP server (plus a CLI for terminal agents) to trade crypto spot and derivatives, rebalance portfolios, and follow an investment thesis, with a sandbox mode for testing. It also wires in x402, Coinbase's open machine-to-machine payment standard built with AWS, Anthropic, Circle and Near, so agents can pay for premium research, data APIs and on-demand compute without a login or subscription. 'We're aiming to build a fundamentally different product for a future where most of the internet is accessed through agents,' said Lincoln Murr, Coinbase's Head of AI Product, with equities and prediction markets planned next.",
+          "whyItMatters": "It pushes 'agentic commerce' from demo to live infrastructure, letting autonomous agents move money and buy services on their own — and follows Robinhood's own agent-trading push.",
+          "url": "https://techcrunch.com/2026/06/11/coinbase-debuts-mcp-for-agent-trading/",
+          "source": "TechCrunch",
           "publishedAt": "2026-06-11",
           "featured": true
         },
         {
-          "headline": "Figma launches a Chrome extension that turns any live webpage into editable design layers",
-          "brief": "On June 11 Figma released an official Chrome extension that captures a full webpage — or a single element like a hero section or button — and pastes it into Figma Design or FigJam as real, editable frames, text and shapes rather than a flat screenshot. The capture tools are in beta and limited to paid plans, with system-aware component generation 'coming soon.'",
-          "whyItMatters": "It collapses the copy-from-the-web-to-redesign workflow into a paste shortcut, deepening Figma's grip on designers' starting point.",
-          "url": "https://noqta.tn/en/news/figma-chrome-extension-web-to-editable-layers-2026",
-          "source": "Noqta",
+          "headline": "Bluesky launches 50-person group chats and pivots to 'communities' as growth stalls at 44.8M users",
+          "brief": "Bluesky rolled out group chats supporting up to 50 members in app version v1.124 on June 11, with creators controlling access via invite links and media sharing disabled for moderation reasons. The feature is the first installment of a strategic shift toward communities — Bluesky plans public, invite-only and private communities, each with its own handle and URL — rather than positioning itself purely as a broadcast network rivaling X. The move comes as registered users have plateaued at 44.8 million, against X's roughly 600 million monthly actives.",
+          "whyItMatters": "Bluesky is betting that tighter community tools, not raw reach, will revive engagement and differentiate it from X.",
+          "url": "https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/",
+          "source": "TechCrunch",
           "publishedAt": "2026-06-11"
         },
         {
-          "headline": "Reddit rolls out video comments to all users globally across iOS, Android and desktop",
-          "brief": "Reddit announced June 11 that video in comments is now live for all users worldwide, adding a video icon beside the existing image and GIF options in the comment composer so people can record or upload clips as replies. Videos don't autoplay, respect audio settings and pass through Reddit's safety systems; the feature is on in eligible SFW public communities after an alpha test in subreddits including r/popculturechat and r/fountainpens.",
-          "whyItMatters": "It pushes Reddit further toward short-form video engagement, opening a new content and ad surface inside its highest-traffic threads.",
-          "url": "https://thenextweb.com/news/reddit-video-comments-launch",
-          "source": "The Next Web",
+          "headline": "Meta adds an AI assistant and a desktop version to its CapCut rival Edits to keep creators",
+          "brief": "At an invite-only creator event in Los Angeles, Meta previewed a desktop version of its mobile-only video-editing app Edits plus an AI assistant that taps a creator's Instagram data — views and video-retention insights — to suggest video ideas and trending audio. Meta also shipped new tools the same day, including a 'Beta' tab for experimental features and expanded audience insights, while the AI assistant remains in testing with attendees and the desktop app is 'coming soon.' Edits launched last year as a direct competitor to ByteDance's CapCut.",
+          "whyItMatters": "Meta is racing to lock in short-video creators with data-driven editing tools as CapCut's U.S. future stays uncertain.",
+          "url": "https://techcrunch.com/2026/06/11/metas-edits-app-is-getting-an-ai-assistant-and-a-desktop-version/",
+          "source": "TechCrunch",
           "publishedAt": "2026-06-11"
         }
       ]
@@ -69,159 +84,165 @@
     {
       "id": "markets",
       "name": "Markets & Finance",
-      "intro": "Markets were dominated by SpaceX's record-shattering Nasdaq debut that minted Elon Musk as the world's first trillionaire, while Wall Street eyed Kevin Warsh's first Fed meeting and a wave of AI mega-money.",
+      "intro": "SpaceX's record $75 billion Nasdaq debut — the largest IPO in history — headlined a finance-heavy weekend as Elon Musk's rocket maker surged 19% and AI money kept flowing toward Jeff Bezos's Prometheus and a G7 gathering of AI chiefs.",
       "items": [
         {
-          "headline": "SpaceX closes up 19% in largest-ever IPO, making Elon Musk the world's first trillionaire",
-          "brief": "SpaceX priced its Nasdaq IPO at $135 a share, opened at $150, touched $176 intraday and settled at $160.95 on June 12 — a 19% first-day pop that valued the company near $2.3 trillion. The offering raised roughly $75 billion and was oversubscribed about 4x; Elon Musk's stake pushed his net worth past $1 trillion, while early backers Founders Fund, Sequoia and Andreessen Horowitz booked tens of billions in gains and some 4,400 employees became millionaires.",
-          "whyItMatters": "The biggest IPO in history reopens the mega-listing window and sets the bar for OpenAI and Anthropic's own anticipated trillion-dollar debuts later in 2026.",
-          "url": "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/",
-          "source": "TechCrunch",
+          "headline": "SpaceX raises $75 billion in largest IPO ever, closes up 19% at a ~$1.77 trillion valuation",
+          "brief": "Elon Musk's SpaceX priced its IPO at $135 a share and sold 555.6 million shares to raise about $75 billion on June 12, then opened on the Nasdaq at $150 under ticker SPCX and closed up 19% near $161. The haul is nearly triple the previous record — Saudi Aramco's $29 billion 2019 listing — and the roughly $1.77 trillion valuation makes SpaceX one of the most valuable U.S. companies, larger than Tesla on day one.",
+          "whyItMatters": "The blockbuster debut reopens the mega-IPO market and hands Musk a fresh, publicly traded currency for his satellite, rocket and AI ambitions.",
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+          "source": "NPR",
           "publishedAt": "2026-06-12",
           "featured": true
         },
         {
-          "headline": "Jeff Bezos's Prometheus raises $12B at a $41B valuation to build an 'artificial general engineer'",
-          "brief": "Prometheus, the industrial-AI startup co-led by Jeff Bezos and Stanford scientist Vik Bajaj, announced a $12 billion Series B on June 11 at a $41 billion valuation, drawing in JPMorgan, Goldman Sachs, BlackRock, DST Global and Arch Venture Partners. The round lifts total funding to about $18.2 billion in roughly seven months for a 150-person firm — spread across San Francisco, London and Zurich — that aims to compress the design-to-manufacturing cycle for products from jet engines to pharmaceuticals.",
-          "whyItMatters": "It is one of the largest private rounds in AI history and signals Wall Street's biggest banks are now writing venture-scale checks on AI applied to physical engineering, not just software.",
-          "url": "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/",
-          "source": "GeekWire",
-          "publishedAt": "2026-06-11"
-        },
-        {
-          "headline": "Altman, Amodei and Hassabis to join the G7 summit in France as AI policy moves to the world stage",
-          "brief": "OpenAI's Sam Altman, Anthropic's Dario Amodei and Google DeepMind's Demis Hassabis will attend the G7 leaders' summit in Évian-les-Bains, France, on June 15–17, the first such gathering with all three frontier-AI chiefs, with President Emmanuel Macron personally inviting Altman. Negotiators expect a package of voluntary commitments rather than binding rules, with youth safety and frontier cyber and biological risks atop the agenda; both Anthropic (around a $965 billion valuation) and OpenAI (eyeing $1 trillion-plus) have recently filed confidential IPO paperwork.",
-          "whyItMatters": "The summit could shape the regulatory backdrop for the most valuable companies heading to public markets, determining how lightly or heavily AI's biggest money machines get governed.",
-          "url": "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis",
-          "source": "The Next Web",
-          "publishedAt": "2026-06-12"
-        },
-        {
-          "headline": "Kevin Warsh chairs his first Fed meeting June 16-17 with rates set to hold at 3.5%-3.75%",
-          "brief": "The FOMC meets June 16–17 in Kevin Warsh's debut as Fed chair following Jerome Powell's term ending May 15, with markets pricing a 99.5% chance rates stay at 3.5%–3.75%. Persistent inflation — recent CPI near 4.2% year-over-year — has flipped the outlook so futures now lean toward a hike rather than a cut as the next move, and Warsh is expected to signal a shift away from any easing bias, with some watchers speculating he could scrap the dot-plot projections.",
-          "whyItMatters": "A new chair leaning hawkish, with rate hikes back on the table, threatens the cheap-money assumptions underpinning this year's record equity and IPO surge.",
-          "url": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026",
-          "source": "Chase",
-          "publishedAt": "2026-06-12"
-        },
-        {
-          "headline": "Oil drops as US and Iran near deal to reopen Strait of Hormuz, with WTI down to $84.88",
-          "brief": "U.S. crude fell 3.2% to $84.88 a barrel and Brent slid 3.4% to $87.33 on June 12 as Washington and Tehran moved closer to an agreement to reopen the Strait of Hormuz, lift the U.S. naval blockade and dismantle Iran's nuclear program. A senior Trump administration official put the odds of a signed deal in coming days at about 80%, and Iran's Foreign Minister Seyed Abbas Araghchi said a memorandum of understanding has 'never been closer'; prices fell roughly 6% on the week but remain more than 20% above pre-conflict levels.",
-          "whyItMatters": "A reopened Hormuz would unwind the war-risk premium that drove crude above $100, easing inflation pressure just as the Fed weighs whether to hike.",
+          "headline": "Oil drops over 3% as Trump officials see 80% odds of a U.S.-Iran deal to reopen the Strait of Hormuz",
+          "brief": "U.S. WTI crude fell 3.2% to settle at $84.88 a barrel and Brent lost 3.4% to $87.33 on June 12 as hopes grew for an agreement to reopen the Strait of Hormuz and lift the U.S. naval blockade. A senior Trump administration official put the chance of a signed deal in the coming days at 80%, while Iran's Foreign Minister Seyed Abbas Araghchi said a memorandum of understanding has 'never been closer.' Crude remains up more than 20% since the conflict began.",
+          "whyItMatters": "A Hormuz reopening would ease the energy-driven inflation spike that has kept the Fed on hold, but a collapse in talks could send oil back above $100.",
           "url": "https://www.cnbc.com/2026/06/12/oil-prices-wti-brent-on-hopes-of-us-iran-deal-despite-tehran-pushback.html",
           "source": "CNBC",
-          "publishedAt": "2026-06-12"
+          "publishedAt": "2026-06-12",
+          "featured": false
         },
         {
-          "headline": "Wall Street rises Friday on SpaceX debut and Iran optimism; S&P 500 closes at 7,431",
-          "brief": "U.S. stocks advanced June 12 as SpaceX's blockbuster listing lifted sentiment and investors bet on a U.S.-Iran peace deal: the S&P 500 gained 0.5% to 7,431.46, the Nasdaq Composite added 0.31% to 25,888.84, and the Dow Jones Industrial Average rose 353.51 points, or 0.7%, to 51,202.26. The gains capped a week shadowed by hot inflation data ahead of the June 16-17 Fed meeting and a falling oil price.",
-          "whyItMatters": "Risk appetite is holding near highs even as a hawkish Fed and sticky 4.2% inflation loom, leaving markets exposed if next week's policy signal disappoints.",
+          "headline": "Jeff Bezos's AI startup Prometheus raises $12 billion at a $41 billion valuation",
+          "brief": "Prometheus, the AI company Jeff Bezos co-leads as CEO, raised $12 billion in a funding round that values it at roughly $41 billion. Backers include JPMorgan Chase, Goldman Sachs, BlackRock and Bezos himself, in one of the largest private AI raises of the year.",
+          "whyItMatters": "It cements Bezos as a direct AI player alongside OpenAI and Anthropic and shows mega-rounds for frontier AI are still drawing Wall Street's biggest names.",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-11",
+          "featured": false
+        },
+        {
+          "headline": "Altman, Amodei and Hassabis to attend the G7 summit in France on June 15-17",
+          "brief": "OpenAI's Sam Altman, Anthropic's Dario Amodei and Google DeepMind's Demis Hassabis will attend the G7 leaders' summit in Évian-les-Bains, France, the first such gathering with all three frontier-AI chiefs present. President Emmanuel Macron personally invited Altman, and the summit is expected to produce voluntary pledges rather than binding rules on advanced-AI risks including cyber and biological threats.",
+          "whyItMatters": "The meeting puts AI's most powerful executives in the same room as G7 leaders, shaping the light-touch regulatory regime their trillion-dollar valuations depend on.",
+          "url": "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis",
+          "source": "The Next Web",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "U.S. stocks close higher Friday as SpaceX pop and Iran optimism lift the S&P 500 to 7,431",
+          "brief": "The S&P 500 rose 0.5% to 7,431.46, the Nasdaq Composite added 0.31% to 25,888.84 and the Dow Jones Industrial Average climbed 353.51 points, or 0.7%, to 51,202.26 on June 12. SpaceX's strong market debut and growing hopes for a U.S.-Iran peace deal drove the gains, with bank stocks among the leaders.",
+          "whyItMatters": "Equities are pushing toward records even as inflation runs hot, setting up a tense backdrop for next week's Fed decision.",
           "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html",
           "source": "CNBC",
-          "publishedAt": "2026-06-12"
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "Fed expected to hold rates at 3.5-3.75% on June 17 as CPI hits a three-year high near 4.2%",
+          "brief": "Markets price a roughly 99% chance the Federal Reserve leaves its target range at 3.5-3.75% at the June 16-17 meeting, the first under new Chair Kevin Warsh. Consumer inflation has accelerated to a three-year high around 4.2%, with energy prices — largely oil — driving more than 60% of the latest monthly increase, pushing policymakers away from any easing bias.",
+          "whyItMatters": "With inflation reaccelerating and the Fed signaling possible hikes later in 2026, hopes for rate cuts are fading even as oil prices threaten to spike again.",
+          "url": "https://seekingalpha.com/article/4914647-june-2026-trading-outlook-fiscal-flows-oil-bank-credit-and-fed-interest-rates",
+          "source": "Seeking Alpha",
+          "publishedAt": "2026-06-12",
+          "featured": false
         }
       ]
     },
     {
       "id": "boxing",
       "name": "Boxing",
-      "intro": "Jesse 'Bam' Rodriguez's sixth-round knockout of Antonio Vargas just made him a three-division champ and fast-tracked talk of a Naoya Inoue super fight, while a loaded final stretch of June runs through Collazo-Canoy, Garner's Southampton stadium night and the June 27 Zayas-Ennis 154-pound unification in Brooklyn.",
+      "intro": "Boxing's biggest week ahead builds toward Xander Zayas vs. Jaron 'Boots' Ennis for the unified junior middleweight titles in Brooklyn on June 27, while Jesse 'Bam' Rodriguez just announced himself as a three-division champion.",
       "items": [
         {
-          "headline": "Jesse 'Bam' Rodriguez KOs Antonio Vargas in 6 to win WBA bantamweight title, becomes three-division champ",
-          "brief": "Rodriguez dropped Vargas in the fourth and finished him with a straight left in the sixth Saturday at Desert Diamond Arena in Glendale, Arizona, taking the WBA bantamweight belt in his 118-pound debut. The win moves Rodriguez to 24-0 (17 KOs) and makes him a champion in a third weight class; Vargas falls to 22-2-1.",
-          "whyItMatters": "It cements Bam as boxing's premier little-man star and sets up the long-rumored Naoya Inoue showdown.",
-          "url": "https://www.espn.com/boxing/story/_/id/49057405/jesse-bam-rodriguez-stops-antonio-vargas-improves-24-0",
-          "source": "ESPN",
-          "publishedAt": "2026-06-14",
+          "headline": "Jesse 'Bam' Rodriguez stops Antonio Vargas in 6 to win WBA bantamweight title, becomes three-division champ",
+          "brief": "Rodriguez (24-0, 17 KOs) knocked out Antonio Vargas (19-2-1, 11 KOs) at 1:15 of the sixth round on June 13 at Desert Diamond Arena in Glendale, Arizona, on DAZN, to capture the WBA bantamweight belt. The win makes the 25-year-old a champion in a third weight class after titles at 108 and 115.",
+          "whyItMatters": "Bam cements himself as one of the sport's pound-for-pound elite and opens up unification fights up at 118.",
+          "url": "https://www.fightmag.com/boxing-jesse-bam-rodriguez-vs-antonio-vargas-live-results/",
+          "source": "FightMag",
+          "publishedAt": "2026-06-14T00:00:00Z",
           "featured": true
         },
         {
-          "headline": "Xander Zayas defends WBO/WBA junior middleweight titles vs Jaron 'Boots' Ennis on June 27 at Barclays Center",
-          "brief": "Unified 154-pound champion Zayas (23-0, 13 KOs) takes on former welterweight unified king Ennis (35-0, 31 KOs), who is chasing a two-weight title run, on June 27 in Brooklyn. The bout streams on DAZN pay-per-view and pits the 22-year-old Puerto Rican against one of the sport's most avoided punchers.",
-          "whyItMatters": "The winner becomes the clear face of a deep junior middleweight division and a two-belt unified champion.",
+          "headline": "Xander Zayas defends unified WBO/WBA junior middleweight titles vs. Jaron 'Boots' Ennis, June 27 in Brooklyn",
+          "brief": "Unbeaten Xander Zayas (23-0, 13 KOs) puts his unified 154-pound titles on the line against former welterweight king Jaron 'Boots' Ennis (35-0, 31 KOs) on June 27 at Barclays Center, live on DAZN PPV. Zayas unified in January via split decision over Abass Baraou; Ennis moves up after one fight at the weight.",
+          "whyItMatters": "Two undefeated fighters in their primes in the most significant 154-pound fight in years.",
           "url": "https://www.espn.com/boxing/story/_/id/48347501/xander-zayas-jaron-ennis-title-bout-set-june-27-brooklyn",
           "source": "ESPN",
-          "publishedAt": "2026-06-14"
+          "publishedAt": "2026-06-14T00:00:00Z"
         },
         {
-          "headline": "Oscar Collazo defends unified WBA/WBO minimumweight titles vs Joey Canoy this Saturday in Oceanside",
-          "brief": "WBA, WBO and Ring minimumweight champion Collazo puts his unified 105-pound belts on the line against Joey Canoy on June 20 at Frontwave Arena in Oceanside, California, on a Golden Boy/Miguel Cotto Promotions card streaming on DAZN. Collazo headlines as one of the division's pound-for-pound entrants.",
-          "whyItMatters": "A win keeps Collazo on course toward undisputed status at strawweight.",
-          "url": "https://www.boxingscene.com/articles/oscar-collazo-to-return-on-june-20-against-joey-canoy",
+          "headline": "Tommy Fury edges Eddie Hall by majority decision in Misfits exhibition, June 13 in Manchester",
+          "brief": "Tommy Fury beat former World's Strongest Man Eddie Hall by majority decision (58-56, 59-56, 57-57) over six two-minute rounds at the AO Arena in Manchester, in the Misfits Boxing main event. The bout was an exhibition and does not go on Fury's pro record; chaos erupted in the ring afterward.",
+          "whyItMatters": "Keeps Fury in the lucrative crossover spotlight while the result carries no competitive weight.",
+          "url": "https://www.badlefthook.com/boxing-results/116449/fury-vs-hall-result-tommy-beats-eddie-by-decision-misfits-boxing-news-2026",
+          "source": "Bad Left Hook",
+          "publishedAt": "2026-06-14T00:00:00Z"
+        },
+        {
+          "headline": "Ryan Garner vs. Michael Magnesi for WBC interim super featherweight title, this Saturday June 20 at St Mary's",
+          "brief": "Southampton's Ryan Garner (19-0, 10 KOs) faces Italy's Michael Magnesi for the WBC interim super featherweight title on June 20 on the pitch at St Mary's Stadium, home of Southampton FC, live on DAZN. It is a hometown 'dream' headliner for the unbeaten Garner.",
+          "whyItMatters": "A win moves Garner a step from the full WBC 130-pound world title.",
+          "url": "https://www.boxingscene.com/articles/ryan-garner-and-michael-magnesi-meet-at-st-marys-on-june-20",
           "source": "BoxingScene",
-          "publishedAt": "2026-06-14"
+          "publishedAt": "2026-06-03T00:00:00Z"
         },
         {
-          "headline": "Ryan Garner vs Michael Magnesi for WBC interim super featherweight title, June 20 at St Mary's Stadium",
-          "brief": "Unbeaten Southampton man Garner (19-0) faces Italy's Michael Magnesi (26-2, 13 KOs) for the WBC interim super featherweight title in front of his home crowd at St Mary's Stadium on June 20, on a Queensberry card shown on DAZN. The co-feature has local light heavyweight Lewis Edmondson (11-1) meeting Lyndon Arthur (25-3) for the European and Commonwealth titles.",
-          "whyItMatters": "It's Garner's leap to the world stage in a hometown stadium night.",
-          "url": "https://www.boxingscene.com/articles/ryan-garner-and-the-stadium-fight-that-is-nine-years-in-the-making",
-          "source": "BoxingScene",
-          "publishedAt": "2026-06-14"
+          "headline": "Abdullah Mason defends WBO lightweight title vs. Joe Cordina, July 4 in Cleveland",
+          "brief": "Boxing's youngest world champion, Abdullah Mason (22), makes his first WBO lightweight title defense against Welsh former world champion Joe Cordina (19-1, 9 KOs) on July 4 at Cleveland State University's Wolstein Center, airing on TNT and DAZN. Mason won the belt in November 2025 by beating Sam Noakes.",
+          "whyItMatters": "A hometown coming-out party for one of the sport's brightest young stars against a seasoned ex-champ.",
+          "url": "https://toprank.com/news/abdullah-mason-returns-home-for-lightweight-world-title-defense-against-joe-cordina-july-4-at-cleveland-state-universitys-wolstein-center",
+          "source": "Top Rank",
+          "publishedAt": "2026-04-06T00:00:00Z"
         },
         {
-          "headline": "Ashton 'H2O' Sylve vs Joseph 'JoJo' Diaz headlines MF Pro's U.S. debut Friday in Long Beach",
-          "brief": "Sylve (13-1, 10 KOs) meets former two-time world champion Joseph Diaz (34-9-1, 15 KOs) over 10 rounds at super lightweight on June 19 at Thunder Studios in Long Beach, California, headlining MF Pro's first American card on DAZN. The 22-year-old Sylve fights at home seeking a third straight win; Diaz calls it a crossroads bout.",
-          "whyItMatters": "A statement win would push prospect Sylve toward contender status at 140.",
-          "url": "https://www.fightmag.com/ashton-sylve-vs-joseph-diaz-headlines-mf-pro-u-s-debut/",
-          "source": "FIGHTMAG",
-          "publishedAt": "2026-06-14"
+          "headline": "Errol Spence Jr. returns from three years out vs. Tim Tszyu at junior middleweight, July 25 in Australia",
+          "brief": "Former unified welterweight champion Errol Spence Jr. (28-1, 22 KOs) fights for the first time since his 2023 loss to Terence Crawford, meeting former 154-pound titlist Tim Tszyu (27-3, 18 KOs) on July 25 in Australia. The PBC junior middleweight bout streams on Prime Video via PPV.",
+          "whyItMatters": "Spence's comeback against a name opponent will show whether he remains a force at 154.",
+          "url": "https://www.cbssports.com/boxing/news/errol-spence-jr-next-fight-tim-tszyu-location-date/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-01T00:00:00Z"
         },
         {
-          "headline": "Naoya Inoue vs Bam Rodriguez super fight being targeted for January 2027 in Japan",
-          "brief": "With Bam Rodriguez now a three-weight champion, a showdown with undisputed super bantamweight king Naoya Inoue (33-0) is being planned for January 2027 in Japan as part of Riyadh Season, per reports. Inoue most recently beat Junto Nakatani by unanimous decision on May 2 at the Tokyo Dome to retain all his 122-pound belts.",
-          "whyItMatters": "It would be one of the biggest pound-for-pound fights boxing can make.",
-          "url": "https://sports.yahoo.com/articles/super-fight-between-naoya-inoue-234835900.html",
-          "source": "Yahoo Sports",
-          "publishedAt": "2026-06-13"
+          "headline": "Anthony Joshua returns vs. Kristian Prenga, July 25 in Riyadh",
+          "brief": "Two-time former heavyweight champion Anthony Joshua is set to return against Kristian Prenga on July 25 in Riyadh, Saudi Arabia, on DAZN, in a non-title tune-up. The bout is positioned to set up an anticipated showdown with Tyson Fury.",
+          "whyItMatters": "A get-back-in-rhythm fight aimed squarely at finally landing the all-British Fury megafight.",
+          "url": "https://www.cbssports.com/boxing/news/boxing-schedule-for-2026-dates-location-fights-deontay-wilder-tyson-fury-naoya-inoue/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-01T00:00:00Z"
         },
         {
-          "headline": "Oshae Jones and Elia Carranza fight to split draw, Jones keeps IBF/IBO super welterweight titles in Orlando",
-          "brief": "Champion Oshae Jones retained her IBF and IBO super welterweight belts via split draw (96-94, 94-96, 95-95) against Elia Carranza on June 13 at Caribe Royale Orlando, on the MVPW 04 card. The razor-thin result follows Jones' narrow split-decision win in their first meeting and settles nothing between them.",
-          "whyItMatters": "A close draw all but guarantees a trilogy in a heated women's 154-pound rivalry.",
-          "url": "https://www.fightmag.com/boxing-oshae-jones-vs-elia-carranza-2-live-results/",
-          "source": "FIGHTMAG",
-          "publishedAt": "2026-06-14"
-        },
-        {
-          "headline": "Tommy Fury outpoints Eddie Hall over six rounds in Misfits Boxing 23 heavyweight main event",
-          "brief": "Fury beat former World's Strongest Man Eddie Hall by majority decision (59-56, 58-56, 57-57) in a six-round crossover heavyweight bout on June 13 in Manchester, England, headlining Misfits Boxing 23. The win keeps Fury unbeaten in the influencer-boxing arena.",
-          "whyItMatters": "It keeps crossover-star Fury marketable while a return to sanctioned pro boxing stays unresolved.",
-          "url": "https://www.fightmag.com/misfits-boxing-23-tommy-fury-vs-eddie-hall-live-results/",
-          "source": "FIGHTMAG",
-          "publishedAt": "2026-06-13"
+          "headline": "Edwin De Los Santos vs. Jose Valenzuela at lightweight, June 28 in Las Vegas",
+          "brief": "Lightweight punchers Edwin De Los Santos and Jose Valenzuela meet on June 28 in Las Vegas, streaming on Paramount+, in a non-title crossroads bout in a deep 135-pound division.",
+          "whyItMatters": "The winner stays in the mix among a crowded lightweight title picture.",
+          "url": "https://www.cbssports.com/boxing/news/boxing-schedule-for-2026-dates-location-fights-deontay-wilder-tyson-fury-naoya-inoue/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-01T00:00:00Z"
         }
       ]
     },
     {
       "id": "mma",
       "name": "MMA",
-      "intro": "MMA's center of gravity is Washington this week: UFC stages its first-ever card on the White House South Lawn, headlined by Ilia Topuria defending the lightweight crown against Justin Gaethje and Alex Pereira chasing a third-division title.",
+      "intro": "MMA's biggest spectacle of the year lands tonight as Ilia Topuria defends the lightweight title against Justin Gaethje on the South Lawn of the White House.",
       "items": [
         {
-          "headline": "Topuria vs. Gaethje headlines UFC's White House card tonight; Pereira chases third-division title vs. Gane",
-          "brief": "UFC Freedom 250 runs Sunday, June 14, from the South Lawn of the White House in Washington, D.C., with undefeated lightweight champion Ilia Topuria (17-0) unifying against interim champ Justin Gaethje (27-5). In the co-main, Alex Pereira — already a 185- and 205-pound titlist — moves to heavyweight (weighing 251 to Ciryl Gane's 248) to fight for the interim heavyweight belt. The card also features Sean O'Malley vs. Aiemann Zahabi and Michael Chandler vs. Mauricio Ruffy.",
-          "whyItMatters": "A first-of-its-kind UFC event at the White House; Topuria can cement pound-for-pound supremacy while Pereira bids to become a three-division champion.",
-          "url": "https://www.cbssports.com/ufc/news/ufc-white-house-fight-card-date-odds-ilia-topuria-justin-gaethje-alex-pereira/",
-          "source": "CBS Sports",
+          "headline": "Ilia Topuria defends lightweight title vs. Justin Gaethje at the White House tonight (June 14)",
+          "brief": "UFC Freedom 250 stages an unprecedented card on the White House South Lawn in Washington, D.C. on Sunday, June 14, with undefeated lightweight champion Ilia Topuria (17-0) facing interim champ Justin Gaethje (27-5) in the main event. In the co-main, Alex Pereira (13-3) chases a title in a third weight class against Ciryl Gane (13-2) for the interim heavyweight crown; the stacked card also features Sean O'Malley vs. Aiemann Zahabi, Diego Lopes vs. Steve Garcia and Michael Chandler vs. Mauricio Ruffy.",
+          "whyItMatters": "A first-of-its-kind UFC event at the White House with two championships on the line and Pereira bidding for three-division history.",
+          "url": "https://www.ufc.com/news/ufc-freedom-250-results-highlights-interviews",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-14T00:00:00Z",
           "featured": true
         },
         {
-          "headline": "Gabriel Bonfim shuts out former champ Belal Muhammad over five rounds at welterweight",
-          "brief": "At UFC Fight Night on June 6 at the UFC Apex in Enterprise, Nevada, Gabriel Bonfim beat former welterweight champion Belal Muhammad by unanimous decision, sweeping all three cards 50-45. The lopsided loss marks a sharp downturn for Muhammad, who had previously held the 170-pound belt.",
-          "whyItMatters": "A dominant win vaults Bonfim into the welterweight title picture while raising questions about where Muhammad stands in a crowded division.",
-          "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Muhammad_vs._Bonfim",
-          "source": "Wikipedia",
-          "publishedAt": "2026-06-06"
+          "headline": "Gabriel Bonfim upsets former champ Belal Muhammad by decision in June 6 welterweight headliner",
+          "brief": "At UFC Fight Night: Muhammad vs. Bonfim on June 6 at the UFC Apex in Las Vegas, rising welterweight Gabriel Bonfim handed former welterweight champion Belal Muhammad a unanimous-decision loss in the main event. The win vaults Bonfim into the upper tier of a deep 170-pound division while raising questions about Muhammad's path back toward contention.",
+          "whyItMatters": "A statement victory that reshapes the welterweight title picture and stalls a former champion's comeback.",
+          "url": "https://www.ufc.com/news/ufc-fight-night-muhammad-vs-bonfim-main-card-results-highlights-interviews",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-06T00:00:00Z"
         },
         {
-          "headline": "Manel Kape vs. Kyoji Horiguchi flyweight rematch headlines June 20 in Las Vegas",
-          "brief": "UFC Fight Night: Kape vs. Horiguchi lands Saturday, June 20, at the UFC Apex in Enterprise, Nevada, with Manel Kape facing Kyoji Horiguchi in a 125-pound rematch — Horiguchi submitted Kape back at the 2017 RIZIN Grand Prix. Ion Cuțelaba vs. Navajo Stirling co-headlines at light heavyweight.",
-          "whyItMatters": "A win keeps either flyweight in the divisional title conversation and settles a near-decade-old score from their RIZIN meeting.",
-          "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Kape_vs._Horiguchi",
-          "source": "Wikipedia",
-          "publishedAt": "2026-06-20"
+          "headline": "Manel Kape vs. Kyoji Horiguchi flyweight rematch headlines June 20 Fight Night in Las Vegas",
+          "brief": "UFC Fight Night: Kape vs. Horiguchi runs June 20 at the UFC Apex in Enterprise, Nevada, topped by a flyweight rematch between Manel Kape and former title challenger Kyoji Horiguchi. The card also includes Andre Fili vs. Vinicius Oliveira at featherweight and Ion Cutelaba vs. Navajo Stirling at light heavyweight, streaming on Paramount+.",
+          "whyItMatters": "A win keeps either flyweight in the mix for a 125-pound title shot.",
+          "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-20T00:00:00Z"
         }
       ]
     }
@@ -233,8 +254,8 @@
       "value": "17.68",
       "reference": "range ~15–20",
       "asOf": "2026-06-12",
-      "source": "CBOE via Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/%5EVIX/history/",
+      "source": "CBOE",
+      "url": "https://www.cboe.com/tradable-products/vix/",
       "tone": "neutral",
       "level": "nella norma",
       "arrow": "→"
@@ -269,12 +290,12 @@
             ],
             "items": [
               {
-                "headline": "ASML's 11% Mistral AI stake set for markup as startup eyes €20bn valuation in new €3bn raise",
-                "brief": "Mistral AI is in talks to raise about €3 billion ($3.5 billion) at a valuation near €20 billion, according to Bloomberg reporting on June 12, 2026, alongside investors including Bpifrance, Lightspeed, General Catalyst and Andreessen Horowitz. ASML, which became Mistral's largest shareholder via a €1.3 billion investment for an 11% stake at roughly an €11.7 billion valuation in September 2025, would see that holding marked up sharply if the round closes at the reported price.",
-                "whyItMatters": "A near-doubling of Mistral's valuation would lift the carrying value of ASML's strategic AI stake well above its €1.3bn cost, reinforcing the lithography maker's bet linking its hardware to European AI.",
-                "url": "https://www.investing.com/news/stock-market-news/mistral-ai-in-talks-to-raise-3-billion-at-20-billion-value-4739769",
-                "source": "Investing.com",
-                "publishedAt": "2026-06-12"
+                "headline": "TSMC says ASML's $400M High-NA EUV is 'too expensive,' delays adoption until at least 2029",
+                "brief": "Speaking at TSMC's North America Technology Symposium, Senior VP Kevin Zhang said the company has no plans to deploy ASML's next-generation High-NA EUV lithography systems — which cost roughly $400 million each versus about $200 million for current-generation EUV — before 2029, flatly calling the tooling 'too expensive.' Despite a 2026 capex budget of $52–56 billion, TSMC plans to keep using multi-patterning with existing EUV machines and redirect spending toward advanced packaging to reach its 2nm-node goals.",
+                "whyItMatters": "TSMC is ASML's most important customer, so a multi-year delay in High-NA adoption pushes out the ramp of ASML's flagship next-gen product and validates that multi-patterning on existing EUV remains viable through 2029.",
+                "url": "https://www.techtimes.com/articles/318252/20260611/even-tsmc-says-asmls-newest-machine-too-expensive-400-million-chip-bottleneck.htm",
+                "source": "Tech Times",
+                "publishedAt": "2026-06-11T19:42:00Z"
               }
             ]
           }
@@ -293,9 +314,9 @@
             ],
             "items": [
               {
-                "headline": "ServiceNow patches unauthenticated API flaw after attackers query customer instance data; first bug-bounty report came April 22",
-                "brief": "ServiceNow disclosed on June 9 that a misconfigured REST API endpoint (/api/now/related_list_edit/create, set to require no authentication) let unauthenticated users query customer instance tables, with anomalous activity traced to June 2–3 from IP 51.159.98.241. The company shipped a fix to hosted instances on June 5 — roughly six weeks after receiving a confidential bug-bounty submission describing a similar issue on April 22 — and quietly notified affected customers via support bulletins rather than a public announcement. ServiceNow later said the observed activity was 'likely tied to security researchers or customer-led research' rather than malicious actors, has not disclosed the number of impacted customers, and the flaw has no CVE; it primarily affected instances on the Australia platform release or older releases with certain config changes.",
-                "whyItMatters": "Customer data exposure plus a ~6-week gap between report and patch raises trust and disclosure-practice questions for a platform that holds enterprises' IT tickets, employee records and security data — watch for further regulatory or customer scrutiny.",
+                "headline": "ServiceNow patches unauthenticated API flaw after attackers queried customer instance tables; advisory updated June 12",
+                "brief": "ServiceNow disclosed a security issue in its `/api/now/related_list_edit/create` endpoint, which was configured with requires_authentication=false and let unauthenticated requests reach sensitive data in hosted customer instances. The company says exploitation activity began June 2, 2026 and that it deployed a fix to hosted instances on June 5; it had received a confidential bug bounty report describing a similar issue on April 22. In an updated advisory, ServiceNow said it believes the observed activity was 'likely tied to security researchers or customer-led research associated with bug bounty submissions rather than malicious threat actors,' and that it is still evaluating whether to publish a CVE.",
+                "whyItMatters": "ServiceNow instances hold IT tickets, employee records and other sensitive enterprise data, so the disclosed access flaw and the ~6-week gap between the bug report and the fix raise customer-trust and disclosure-process questions for a core enterprise vendor.",
                 "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
                 "source": "BleepingComputer",
                 "publishedAt": "2026-06-09"
@@ -319,52 +340,28 @@
             ],
             "items": [
               {
-                "headline": "Visa integrates 'Intelligent Commerce' into OpenAI's models to let AI agents make tokenized payments",
-                "brief": "On June 12, 2026, Visa said it is embedding its agentic-commerce protocol, Visa Intelligent Commerce, into OpenAI's large language models, allowing AI agents to execute tokenized transactions over Visa's network on behalf of users. The move was announced alongside Mastercard, which launched 'Agent Pay for Machines' with 30 partners, as both networks race to position their rails for autonomous, AI-driven purchases.",
-                "whyItMatters": "Positions Visa to capture transaction volume as commerce shifts into AI chat interfaces, defending its network from being disintermediated by agent-led checkout.",
-                "url": "https://www.americanbanker.com/payments/news/visa-partners-with-openai-mastercard-pushes-machine-payments",
-                "source": "American Banker",
-                "publishedAt": "2026-06-12"
+                "headline": "Visa connects its network to OpenAI and rolls out AI-agent and stablecoin tools at Visa Payments Forum 2026",
+                "brief": "At its Payments Forum on June 10–11, Visa unveiled agentic-commerce capabilities — Agent Scoring, an Agentic Registry and a Large Transaction Model — and integrated VisaNet with OpenAI so consumers can have AI agents like ChatGPT pay bills and make purchases. Visa said it has moved billions in stablecoins across VisaNet at an annualized run rate of roughly $7 billion as of March 2026, with 160+ stablecoin-linked card programs live or in development globally.",
+                "whyItMatters": "Positions Visa at the center of AI-driven 'agentic' payments and stablecoin settlement, defending its network as commerce shifts to autonomous agents.",
+                "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html",
+                "source": "Visa",
+                "publishedAt": "2026-06-11"
               },
               {
-                "headline": "DBS to launch retail tokenized physical gold, each token backed by one gram of vaulted bullion",
-                "brief": "On June 11, 2026, DBS — Singapore's largest bank by assets — said it will offer DBS Physical Gold Tokens to retail customers via its digibank app in the second half of 2026. Each token represents one gram of gold (about S$200, or ~$155, at announcement), is backed by bullion in a dedicated Singapore vault, and can be traded around the clock and redeemed for physical metal. DBS calls it the first offering in Singapore letting retail customers access, hold and trade tokenized physical gold on a single platform.",
-                "whyItMatters": "Extends DBS's digital-asset franchise into mass-market retail and follows rival OCBC's April gold-token launch, intensifying competition in Singapore tokenized assets.",
+                "headline": "CME Group to launch smaller, 24/7 WTI crude and gold contracts for retail traders",
+                "brief": "CME Group said on June 11 it will add round-the-clock trading in smaller-sized energy and metals products, pending regulatory review. A new WTI crude oil contract one-tenth the size of its Micro WTI futures launches August 30, while 24/7 trading on its existing 1-Ounce Gold futures begins July 26.",
+                "whyItMatters": "Extends CME's reach into retail and crypto-style continuous trading, opening a new volume source beyond its institutional base.",
+                "url": "https://www.cmegroup.com/media-room/press-releases/2026/6/11/cme_group_to_expand247tradingforwticrudeoilandgold.html",
+                "source": "CME Group",
+                "publishedAt": "2026-06-11"
+              },
+              {
+                "headline": "DBS to offer tokenised physical gold to retail customers via digibank app in H2 2026",
+                "brief": "Singapore's largest bank said on June 11 it will let retail customers digitally buy, hold and trade tokenised physical gold through its digibank app in the second half of 2026 — a first in Singapore for retail clients. Each token represents one gram of gold (about S$200) stored in a DBS Singapore vault and is redeemable for physical metal; DBS said physical gold holdings among its wealth clients have more than doubled over the past three years.",
+                "whyItMatters": "Deepens DBS's digital-asset franchise and supports Singapore's bid to become a gold-trading hub, broadening retail access to a fast-growing asset class.",
                 "url": "https://finance.yahoo.com/markets/commodities/articles/singapore-bank-dbs-offer-tokenised-030408596.html",
-                "source": "Yahoo Finance",
+                "source": "Reuters",
                 "publishedAt": "2026-06-11"
-              },
-              {
-                "headline": "CME Group to launch four new E-mini index futures on June 29 covering 90%+ of U.S. investable market cap",
-                "brief": "On June 11, 2026, CME Group said it will list four new E-mini broad-market futures on June 29: E-mini Morningstar U.S. Total Market, Russell 3000, S&P 1500 Composite, and S&P Total Market index futures. CME said the contracts let participants trade futures on indices covering more than 90% of the entire U.S. investable market capitalization, broadening its equity-index suite.",
-                "whyItMatters": "Expands CME's flagship equity-index franchise into total-market exposure, adding fee-generating products in its highest-volume segment.",
-                "url": "https://www.prnewswire.com/news-releases/cme-group-to-expand-equity-index-suite-with-launch-of-four-new-e-mini-futures-contracts-302798026.html",
-                "source": "PR Newswire",
-                "publishedAt": "2026-06-11"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "seaem",
-        "label": "SEA / EM",
-        "streams": [
-          {
-            "id": "sea",
-            "label": "Sea Ltd",
-            "kind": "name",
-            "names": [
-              "Sea Limited (Garena, Shopee, SeaMoney)"
-            ],
-            "items": [
-              {
-                "headline": "Sea's Shopee cuts hundreds of developers — ~8% of its dev workforce — in pivot to AI",
-                "brief": "Sea Limited is eliminating several hundred developer roles at Shopee, roughly 8% of the e-commerce unit's development workforce, with quality-assurance and general engineering positions hit and further cuts possible. The move follows CEO Forrest Li's declaration that a trillion-dollar valuation is achievable by doubling down on AI, with Shopee embedding AI into product recommendations and seller tools and partnering with Google on AI shopping agents. A Sea spokesperson said affected staff would receive support during the transition.",
-                "whyItMatters": "Signals a structural cost-and-headcount reset at Sea's largest segment as it reallocates toward AI; watch whether margins improve without denting Shopee's ~25% GMV growth target.",
-                "url": "https://www.thestar.com.my/business/business-news/2026/06/10/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
-                "source": "The Star (via Bloomberg)",
-                "publishedAt": "2026-06-10"
               }
             ]
           }
@@ -378,66 +375,66 @@
       {
         "categoryId": "fin-ratios",
         "category": "Finance ratios",
-        "title": "ROIC (Return on Invested Capital)",
-        "body": "Il ROIC misura quanto rende il capitale realmente messo al lavoro nell'azienda, sia equity che debito. In parole semplici: profitto operativo dopo le tasse diviso il capitale investito (debito + patrimonio netto, meno la cassa in eccesso). È più onesto del ROE perché non si lascia gonfiare dal debito: un'azienda può sembrare brillante col ROE solo perché si è indebitata molto. Da investitore retail, confronta il ROIC con il costo del capitale: se il ROIC è stabilmente sopra (es. 15% vs un costo dell'8%), l'azienda crea valore ogni volta che reinveste.",
-        "example": "Profitto operativo netto 200, capitale investito 1.000 → ROIC = 20%. Se prendere a prestito le costa l'8%, ogni euro reinvestito a 20% genera valore.",
-        "whyItMatters": "È il singolo numero che distingue le aziende che creano valore reinvestendo da quelle che lo distruggono."
+        "title": "FCF Yield (rendimento del flusso di cassa libero)",
+        "body": "Il Free Cash Flow Yield misura quanta cassa libera genera un'azienda rispetto a quanto vale in borsa. La formula in parole: flusso di cassa libero (cassa operativa meno investimenti) diviso la capitalizzazione di mercato (o l'enterprise value). A differenza degli utili contabili, il free cash flow è difficile da truccare: è la cassa vera che resta dopo aver pagato tutto e investito per mantenere il business. Per un investitore retail è un buon controllo della solidità: un rendimento alto e stabile spesso indica un'azienda che 'stampa cassa', uno basso che stai pagando molto per poca generazione reale di denaro.",
+        "example": "Azienda da 10 miliardi di capitalizzazione che genera 500 milioni di FCF → FCF yield = 500/10.000 = 5%. È come dire che il business ti 'rende' il 5% in cassa vera all'anno, prima di crescita.",
+        "whyItMatters": "È la metrica più difficile da manipolare: ti dice se gli utili dichiarati si traducono in soldi veri."
       },
       {
         "categoryId": "startup-lang",
         "category": "Startup language",
         "title": "Liquidation preference",
-        "body": "La liquidation preference è la clausola che decide chi viene pagato per primo, e quanto, quando una startup viene venduta o liquidata. Gli investitori ottengono di riavere il loro capitale (a volte 1x, a volte un multiplo) prima che i fondatori e i dipendenti vedano un euro. Con una '1x non-participating' l'investitore sceglie tra riprendersi i soldi o convertire in azioni; con una 'participating' prima riprende i soldi e poi partecipa anche al resto — molto più punitiva per i fondatori. Conta perché un'exit che sembra grande sulla carta può lasciare ai fondatori molto meno del previsto.",
-        "example": "Investitore mette 10M con 1x participating. L'azienda è venduta a 30M: lui prende prima i 10M, poi una quota dei 20M rimanenti — non solo la sua percentuale secca.",
-        "whyItMatters": "Determina chi guadagna davvero in un'exit, spesso più della percentuale di possesso."
+        "body": "La liquidation preference è una clausola del term sheet che stabilisce chi viene pagato per primo, e quanto, quando la startup viene venduta o liquidata. Gli investitori con preferenza '1x' recuperano prima il loro capitale investito, e solo dopo si divide il resto con i fondatori. Esistono versioni più aggressive ('participating') in cui l'investitore prima riprende i suoi soldi e poi partecipa anche alla divisione del resto, riducendo molto la quota dei fondatori. Conta perché un'exit che sembra buona può lasciare poco ai fondatori se le preferenze accumulate sono alte.",
+        "example": "Investitore mette 10M con 1x participating. L'azienda viene venduta a 30M: l'investitore prima riprende i suoi 10M, poi partecipa anche alla divisione dei restanti 20M. I fondatori ricevono molto meno del loro 'pezzo nominale'.",
+        "whyItMatters": "Spiega perché i fondatori a volte guadagnano poco da un'exit che ai giornali sembra un successo."
       },
       {
         "categoryId": "physics",
         "category": "Fisica",
-        "title": "Momento angolare",
-        "body": "Il momento angolare è la 'quantità di rotazione' di un oggetto che gira, e in assenza di forze esterne si conserva: non può sparire, deve restare costante. Dipende da quanto è veloce la rotazione e da quanto la massa è distribuita lontano dal centro. Se avvicini la massa al centro, per mantenere costante il totale la rotazione deve accelerare. È lo stesso principio che tiene in piedi una trottola e che fa restare orientata la Terra nel suo asse.",
-        "example": "La pattinatrice sul ghiaccio che gira: apre le braccia e rallenta, le chiude al petto e accelera vorticosamente. Non ha spinto nulla — ha solo riavvicinato la massa all'asse.",
-        "whyItMatters": "Spiega trottole, giroscopi, satelliti e perfino la stabilità di una bicicletta in movimento."
+        "title": "Quantità di moto (momentum)",
+        "body": "La quantità di moto è 'quanto è difficile fermare qualcosa che si muove': dipende sia dalla massa sia dalla velocità. Un oggetto pesante o veloce ne ha tanta, uno leggero o lento ne ha poca. L'idea centrale è che in un sistema isolato la quantità di moto totale si conserva: non sparisce, si trasferisce da un corpo all'altro. Per questo quando due cose si urtano, il movimento 'passa' dall'una all'altra invece di svanire.",
+        "example": "Un TIR a 50 km/h e una bici a 50 km/h hanno la stessa velocità, ma fermare il TIR è quasi impossibile: ha molta più massa, quindi molta più quantità di moto. Nel biliardo, la palla che colpisce si ferma e 'passa' il suo moto a quella colpita.",
+        "whyItMatters": "Spiega perché conta sia il peso sia la velocità in ogni urto, dagli incidenti agli sport."
       },
       {
         "categoryId": "art",
         "category": "Arte",
-        "title": "Sfumato di Leonardo",
-        "body": "Lo sfumato è la tecnica con cui Leonardo da Vinci eliminava i contorni netti, facendo passare luce e ombra con transizioni così graduali da sembrare fumo nell'aria (da qui il nome). Invece di disegnare una linea attorno a un volto, sovrapponeva veli sottilissimi di colore semitrasparente, costruendo i passaggi a strati. Il risultato è morbidezza e profondità: la figura sembra respirare e fondersi con l'atmosfera. Guarda gli angoli della bocca e degli occhi della Gioconda — non c'è un bordo preciso, ed è proprio quell'ambiguità a renderne l'espressione indecifrabile.",
-        "example": "Nella Gioconda il sorriso 'cambia' a seconda di dove guardi: gli angoli sfumati lasciano al tuo occhio il compito di completarlo.",
-        "whyItMatters": "È il trucco tecnico dietro l'espressione più enigmatica della storia dell'arte."
+        "title": "Sfumato di Leonardo da Vinci",
+        "body": "Lo sfumato è la tecnica di sfumare i contorni e i passaggi di luce e ombra in modo così graduale da eliminare ogni linea netta, come fumo che si dissolve nell'aria. Leonardo la portò al massimo: invece di disegnare un bordo del viso, sovrapponeva veli sottilissimi di colore per creare transizioni morbide e impercettibili. Il risultato è un senso di profondità, atmosfera e vita: la pelle sembra respirare e le espressioni diventano ambigue, mutevoli. È il motivo per cui il sorriso della Gioconda sembra cambiare a seconda di dove guardi.",
+        "example": "Negli angoli della bocca e degli occhi della Monna Lisa non c'è nessun contorno preciso: l'ombra si fonde lì, lasciando al cervello il compito di 'completare' l'espressione, che così pare sfuggente.",
+        "whyItMatters": "Capisci perché alcuni volti dipinti sembrano vivi mentre altri sembrano disegnati e piatti."
       },
       {
         "categoryId": "storia",
         "category": "Storia",
-        "title": "Il container che ha creato la globalizzazione",
-        "body": "Nel 1956 l'imprenditore americano Malcom McLean fece partire la prima nave con container standardizzati. Prima, caricare e scaricare una nave significava centinaia di scaricatori che spostavano a mano sacchi e casse per giorni, e il costo del trasporto poteva essere una grossa fetta del valore della merce. La scatola metallica standard, sollevabile da una gru e trasferibile direttamente su camion e treno, fece crollare quel costo quasi a zero. Questo, più dei trattati commerciali, rese economicamente sensato produrre in Asia e vendere ovunque: senza container, non esisterebbe la catena di fornitura globale che conosciamo.",
-        "example": "Scaricare manualmente una nave costava intorno ai 5–6 dollari a tonnellata negli anni '50; col container scese a pochi centesimi.",
-        "whyItMatters": "La fabbrica del mondo in Asia esiste perché spostare merci è diventato quasi gratis."
+        "title": "Il container e la nascita della globalizzazione",
+        "body": "Negli anni '50 caricare una nave era lentissimo e costosissimo: file di scaricatori spostavano a mano casse di ogni forma, e il trasporto poteva valere fino al 25% del prezzo di un prodotto. Nel 1956 l'imprenditore americano Malcom McLean ebbe l'idea di standardizzare tutto in scatoloni metallici identici, i container, che si caricavano con le gru e passavano direttamente da nave a camion a treno. Il costo di movimentazione crollò di oltre il 90%, rendendo economicamente sensato produrre dall'altra parte del mondo. È la ragione tecnica per cui oggi una scarpa fatta in Asia costa poco anche da noi.",
+        "example": "Prima del container caricare una nave poteva richiedere giorni e decine di uomini; con i container bastano ore e poche gru, e una nave moderna ne trasporta oltre 20.000.",
+        "whyItMatters": "La catena di fornitura globale che diamo per scontata nasce da una scatola di metallo standard, non da un trattato politico."
       },
       {
         "categoryId": "menti",
         "category": "Menti brillanti",
-        "title": "L'inversione di Charlie Munger",
-        "body": "Munger ripeteva un consiglio rubato al matematico Jacobi: 'Inverti, sempre inverti'. Invece di chiederti solo come ottenere ciò che vuoi, chiediti cosa garantirebbe il fallimento — e poi evita accuratamente quelle cose. È spesso più facile e affidabile identificare gli errori da non commettere che progettare la strada perfetta verso il successo. Eliminando sistematicamente i modi sicuri di fallire, quello che resta tende a funzionare.",
-        "example": "Vuoi una vita felice? Munger la girava: elenca cosa rende la vita miserabile (invidia, risentimento, spese fuori controllo, inaffidabilità) ed evita quelle. Cosa resta è quasi automaticamente una buona vita.",
-        "whyItMatters": "Evitare l'errore stupido batte spesso l'inseguire la mossa geniale."
+        "title": "Inversione (Charlie Munger)",
+        "body": "Munger ripeteva un consiglio del matematico Jacobi: 'inverti, inverti sempre'. Invece di chiederti solo come ottenere ciò che vuoi, chiediti cosa garantirebbe il fallimento, e poi evita accuratamente quelle cose. È potente perché evitare gli errori stupidi è spesso più facile e più affidabile che cercare mosse geniali. Funziona perché i disastri hanno cause ricorrenti e identificabili: eliminandole, ciò che resta tende ad andare bene da solo.",
+        "example": "Vuoi una carriera di successo? Inverti: cosa la distruggerebbe di sicuro? Inaffidabilità, smettere di imparare, cattive compagnie, vivere oltre le proprie possibilità. Eliminare queste quattro cose ti porta più lontano di mille trucchi di produttività.",
+        "whyItMatters": "Spesso non devi essere brillante: ti basta evitare con metodo gli errori che rovinano tutto."
       },
       {
         "categoryId": "capire",
         "category": "Capire le cose",
-        "title": "Perché la litografia EUV è così difficile",
-        "body": "I chip più avanzati si 'stampano' proiettando luce attraverso una maschera su una fetta di silicio: più corta è la lunghezza d'onda della luce, più piccoli e fitti i transistor che puoi disegnare. L'EUV usa luce ultravioletta estrema a 13,5 nanometri, ma quella luce viene assorbita da quasi tutto, persino dall'aria e dal vetro normale. Per questo non si possono usare lenti tradizionali: serve il vuoto e specchi perfetti al livello atomico. La luce stessa si genera colpendo goccioline di stagno con un laser potentissimo, decine di migliaia di volte al secondo. È così complesso che al mondo una sola azienda, l'olandese ASML, sa costruire queste macchine.",
-        "example": "Una macchina EUV pesa come un autobus, costa intorno ai 150–200 milioni di dollari e si spedisce in centinaia di casse.",
-        "whyItMatters": "Spiega perché il potere sui chip avanzati si concentra in pochissime aziende e diventa leva geopolitica."
+        "title": "Perché la litografia EUV è il collo di bottiglia dei chip",
+        "body": "Per stampare i circuiti di un microchip si proietta un disegno su una fetta di silicio usando la luce, come un proiettore: più corta è la lunghezza d'onda della luce, più piccoli (e fitti) i dettagli che puoi disegnare. I chip più avanzati richiedono luce ultravioletta estrema (EUV), una lunghezza d'onda così difficile da produrre che serve vaporizzare goccioline di stagno con un laser potentissimo, e la luce dev'essere riflessa da specchi perfetti perché nessuna lente la lascia passare. Una sola azienda al mondo, l'olandese ASML, sa costruire queste macchine, che pesano come un aereo e costano oltre 150 milioni a unità. Per questo controllare l'EUV significa controllare chi può fabbricare i chip di ultima generazione.",
+        "example": "Un singolo macchinario EUV di ASML viaggia in più aerei cargo, e senza di esso nessuna fonderia (TSMC, Samsung, Intel) può produrre i chip più piccoli e potenti.",
+        "whyItMatters": "Spiega perché un'unica azienda olandese è diventata il punto di leva geopolitico nella guerra dei chip."
       },
       {
         "categoryId": "performance",
         "category": "Performance & longevità",
-        "title": "Allenare il VO2max con gli intervalli 4x4",
-        "body": "Il VO2max è la massima quantità di ossigeno che il corpo riesce a usare sotto sforzo, ed è uno dei migliori predittori sia di prestazione di endurance sia di longevità. Per alzarlo serve passare abbastanza tempo vicino al massimo, cosa difficile da fare in un colpo solo: il protocollo norvegese 4x4 risolve il problema spezzandolo. Fai 4 minuti molto duri (circa 90-95% della frequenza cardiaca massima, dove riesci a malapena a dire una frase) seguiti da 3 minuti di recupero attivo blando, ripetuti 4 volte. Per un atleta HYROX è un investimento diretto sul 'motore' che regge i blocchi di corsa tra le stazioni.",
-        "example": "Così lo applichi: 1-2 sessioni 4x4 a settimana (su tapis roulant, bici o remoergometro), tenendo facile il resto del volume per recuperare — la qualità nei 4 minuti vale più della quantità.",
-        "whyItMatters": "Pochi intervalli mirati a settimana spostano l'indicatore più legato a performance e anni di vita in salute."
+        "title": "Allenamento polarizzato 80/20",
+        "body": "L'allenamento polarizzato dice di passare circa l'80% del tempo di allenamento a bassa intensità (zona facile, in cui puoi parlare) e solo il 20% ad alta intensità, evitando la 'zona grigia' di mezzo. Il motivo: il lavoro lento e abbondante costruisce la base aerobica e i mitocondri senza accumulare troppa fatica, mentre le sessioni dure e brevi spingono il VO2max. Il problema tipico, soprattutto in chi fa HYROX, è allenarsi quasi sempre a intensità media-alta: troppo dura per recuperare, troppo facile per progredire davvero. Polarizzare ti fa accumulare più volume utile e arrivare più fresco alle sessioni che contano.",
+        "example": "Così lo applichi: su 5 sedute settimanali, fai 4 a ritmo veramente conversazionale (corsa lenta, sled leggero, zone 1-2) e solo 1-2 davvero intense (intervalli, simulazioni di gara). Se nelle sedute facili sei senza fiato, stai andando troppo forte.",
+        "whyItMatters": "Più volume facile e meno 'zona grigia' migliorano la resistenza riducendo il rischio di sovraccarico."
       }
     ]
   },
@@ -448,8 +445,8 @@
       "lesson": {
         "kind": "lesson",
         "title": "I quattro casi tedeschi: la mappa di tutto il corso",
-        "readingTime": "~5 min",
-        "markdown": "# I quattro casi tedeschi: la mappa di tutto il corso\n\nBenvenuto/a alla prima lezione di **Grammatica tedesca**. Diamo per acquisiti alfabeto, pronuncia e presente di base: partiamo dal cuore vero della lingua, quello su cui costruiremo tutto il resto del corso — il **sistema dei casi** (*das Kasussystem*).\n\nIn italiano l'ordine delle parole ti dice chi fa cosa: *\"Il cane morde l'uomo\"* è diverso da *\"L'uomo morde il cane\"*. In tedesco è la **forma dell'articolo** (e della desinenza) a dirtelo, non la posizione. Capire i casi significa quindi capire *come il tedesco segna i ruoli* dentro la frase.\n\n## I quattro casi e a cosa servono\n\nOgni gruppo nominale in tedesco sta in uno dei quattro casi. La domanda-guida è il tuo strumento più affidabile:\n\n| Caso | Ruolo | Domanda | Esempio IT |\n|------|-------|---------|------------|\n| **Nominativ** | soggetto | *wer/was?* (chi/cosa?) | *il cane* dorme |\n| **Akkusativ** | oggetto diretto | *wen/was?* (chi/che cosa?) | vedo *il cane* |\n| **Dativ** | oggetto indiretto | *wem?* (a chi?) | do un osso *al cane* |\n| **Genitiv** | possesso/relazione | *wessen?* (di chi?) | la coda *del cane* |\n\n> 💡 Il **Nominativ** è il caso \"di partenza\", quello che trovi nel dizionario. Tutti gli altri sono *trasformazioni* a partire da lì.\n\n## La tabella madre: l'articolo determinativo\n\nQuesta tabella è la più importante dell'intero corso. Memorizzala: la richiameremo in ogni lezione su aggettivi, preposizioni e pronomi relativi.\n\n| | maschile (m) | femminile (f) | neutro (n) | plurale (pl) |\n|---|---|---|---|---|\n| **Nom.** | **der** | **die** | **das** | **die** |\n| **Akk.** | **den** | **die** | **das** | **die** |\n| **Dat.** | **dem** | **der** | **dem** | **den** + *-n* |\n| **Gen.** | **des** + *-s* | **der** | **des** + *-s* | **der** |\n\nTre osservazioni che ti salvano la vita:\n\n1. **Solo il maschile cambia all'Akkusativ**: *der → **den***. Femminile, neutro e plurale restano identici al Nominativo. È l'errore #1 da evitare.\n2. Al **Dativ plurale** il sostantivo prende una *-n* finale: *die Kinder → mit **den Kindern*** (*con i bambini*).\n3. Al **Genitiv** i sostantivi maschili e neutri aggiungono **-s** (o **-es**): *das Auto → des **Autos*** (*dell'automobile*).\n\n## L'articolo indeterminativo e la negazione\n\n*ein/kein* e i possessivi (*mein, dein, sein*…) seguono lo **stesso schema di desinenze**, ma al Nominativo maschile/neutro l'articolo è \"nudo\" (senza finale):\n\n| | m | f | n | pl (*kein*) |\n|---|---|---|---|---|\n| **Nom.** | **ein** | **eine** | **ein** | **keine** |\n| **Akk.** | **einen** | **eine** | **ein** | **keine** |\n| **Dat.** | **einem** | **einer** | **einem** | **keinen** |\n| **Gen.** | **eines** | **einer** | **eines** | **keiner** |\n\n*ein* non ha plurale; per \"nessuno/non…\" usi **kein**, che invece il plurale ce l'ha.\n\n## Vederli lavorare insieme\n\nUna sola frase con tutti i ruoli:\n\n> **Der Mann** gibt **dem Kind einen Apfel** wegen **des Geburtstags**.\n> *L'uomo dà al bambino una mela a causa del compleanno.*\n\n- **Der Mann** = chi dà? → **Nominativ** (soggetto)\n- **dem Kind** = a chi? → **Dativ** (destinatario)\n- **einen Apfel** = che cosa? → **Akkusativ** (oggetto diretto, *ein → einen* perché *Apfel* è maschile)\n- **des Geburtstags** = relazione retta da *wegen* → **Genitiv**\n\nNota come l'**ordine** classico sia *soggetto – verbo – Dativ – Akkusativ*, ma è la *forma* a fissare i ruoli: potrei spostare i complementi senza creare ambiguità.\n\n```mermaid\nflowchart LR\n    A[\"Wer/Was?<br>NOMINATIV<br>(soggetto)\"] --> V((Verbo))\n    V --> B[\"Wen/Was?<br>AKKUSATIV<br>(ogg. diretto)\"]\n    V --> C[\"Wem?<br>DATIV<br>(ogg. indiretto)\"]\n    A -.->|\"Wessen?\"| D[\"GENITIV<br>(di chi?)\"]\n```\n\n## Errori tipici\n\n- ❌ *Ich sehe **der** Mann.* → ✅ *Ich sehe **den** Mann.* (*Vedo l'uomo* — Akkusativ maschile!)\n- ❌ *mit **die** Freunden* → ✅ *mit **den** Freunden* (Dativ plurale: articolo *den* **e** sostantivo in *-n*).\n- ❌ Tradurre l'italiano *\"a\"* sempre con una preposizione: in tedesco *\"do **a** lui\"* è spesso solo il **Dativ** senza preposizione → *Ich gebe **ihm**…*\n\n## Esercizi\n\n**1.** Indica il caso e la domanda-guida di ogni parte in grassetto:\n*a)* **Die Lehrerin** erklärt **den Schülern** **die Grammatik**.\n\n**2.** Completa con l'articolo determinativo corretto:\n*a)* Ich kaufe ___ Buch (n, Akk).\n*b)* Wir helfen ___ Frau (f, Dat).\n*c)* Das ist das Auto ___ Mannes (m, Gen).\n\n**3.** Correggi l'errore:\n*Er gibt **die** Hund **ein** Knochen.* (*Dà un osso al cane*; *Hund* = m, *Knochen* = m)\n\n**4.** Traduci in tedesco:\n*Il bambino (das Kind) dà alla madre (die Mutter) un fiore (die Blume).*\n\n### Soluzioni\n\n**1.** *Die Lehrerin* = Nominativ (*wer?*); *den Schülern* = Dativ (*wem?*, + *-n* al plurale); *die Grammatik* = Akkusativ (*was?*).\n**2.** *a)* **das** Buch; *b)* **der** Frau; *c)* **des** Mannes.\n**3.** *Er gibt **dem** Hund **einen** Knochen.* (*Hund* è il destinatario → Dativ *dem*; *Knochen* è l'oggetto diretto maschile → Akkusativ *einen*).\n**4.** *Das Kind gibt **der** Mutter **eine** Blume.* (*der Mutter* = Dativ; *eine Blume* = Akkusativ femminile, identico al Nominativo).\n\n## Takeaways\n\n- In tedesco i **ruoli** li segnano i **casi** (forma dell'articolo/desinenza), non l'ordine delle parole.\n- Quattro casi, quattro domande: **Nominativ** *wer/was*, **Akkusativ** *wen/was*, **Dativ** *wem*, **Genitiv** *wessen*.\n- La **tabella di *der/die/das*** è la chiave maestra del corso: ricordala a memoria.\n- Trappole d'oro: solo il **maschile** cambia all'Akkusativ (*der → den*); il **Dativ plurale** aggiunge *-n* al sostantivo; maschile/neutro al **Genitiv** prendono *-s*.\n- Prossima lezione: useremo questa tabella per affrontare la **declinazione dell'aggettivo** (forte, debole, mista)."
+        "readingTime": "~4 min",
+        "markdown": "# I quattro casi tedeschi: la mappa di tutto il corso\n\nBenvenuto alla prima lezione di **Grammatica tedesca**. Diamo per acquisiti alfabeto, pronuncia e presente dei verbi: partiamo dal cuore pulsante della lingua, i **quattro casi** (*die vier Fälle*). Tutta la declinazione di aggettivi, articoli e pronomi che vedremo nelle prossime settimane si appoggia su questa griglia. Oggi la fissiamo bene.\n\n## Che cos'è un caso\n\nIn tedesco la **funzione** di un nome nella frase non si vede dall'ordine delle parole (come in inglese) né solo dalle preposizioni (come in italiano), ma soprattutto dalla **forma dell'articolo e delle terminazioni**. Cambiare caso significa cambiare la \"veste\" della parola a seconda del ruolo che svolge.\n\nI quattro casi sono:\n\n1. **Nominativ** (nominativo) — il **soggetto**, chi compie l'azione. Risponde a *wer/was?* (chi/che cosa?).\n2. **Akkusativ** (accusativo) — il **complemento oggetto diretto**. Risponde a *wen/was?* (chi/che cosa?).\n3. **Dativ** (dativo) — il **complemento di termine**, l'oggetto indiretto. Risponde a *wem?* (a chi?).\n4. **Genitiv** (genitivo) — il **complemento di specificazione**, il possesso. Risponde a *wessen?* (di chi?).\n\n> **Frase-chiave da memorizzare:** *Der Mann (Nom.) gibt dem Kind (Dat.) den Ball (Akk.).* → \"L'uomo dà la palla al bambino.\" Un solo verbo, tre casi diversi, tre vesti diverse.\n\n## La tabella madre: l'articolo determinativo\n\nQuesta è la tabella più importante del corso. Imparala come una poesia: la useremo in ogni lezione successiva.\n\n| Caso | maschile | femminile | neutro | plurale |\n|------|----------|-----------|--------|---------|\n| **Nominativ** | **der** Mann | **die** Frau | **das** Kind | **die** Kinder |\n| **Akkusativ** | **den** Mann | **die** Frau | **das** Kind | **die** Kinder |\n| **Dativ** | **dem** Mann | **der** Frau | **dem** Kind | **den** Kinder**n** |\n| **Genitiv** | **des** Mann**es** | **der** Frau | **des** Kind**es** | **der** Kinder |\n\nOsserva tre cose decisive:\n- Cambia **solo il maschile** tra Nominativo e Accusativo (*der → den*). Femminile e neutro restano identici: è la fonte di metà delle paure inutili.\n- Al **Dativo plurale** il nome aggiunge una **-n** (se non ce l'ha già): *den Kindern*, *den Männern*.\n- Al **Genitivo** maschile e neutro il nome prende **-(e)s**: *des Mannes*, *des Autos*.\n\nL'articolo indeterminativo (*ein/eine*) e i possessivi (*mein, dein…*) seguono **le stesse terminazioni**, tranne tre caselle \"scoperte\" al Nominativo/Accusativo singolare — le vedremo nella lezione sulla declinazione mista.\n\n## Come scegliere il caso: il diagramma decisionale\n\n```mermaid\nflowchart TD\n    A[Qual è il ruolo del nome?] --> B{Compie l'azione?}\n    B -->|Sì| N[NOMINATIV<br/>wer/was?]\n    B -->|No| C{C'è una preposizione<br/>che lo regge?}\n    C -->|Sì| P[Il caso lo decide<br/>la preposizione]\n    C -->|No| D{Riceve l'azione<br/>direttamente?}\n    D -->|Sì, oggetto diretto| AK[AKKUSATIV<br/>wen/was?]\n    D -->|È il destinatario| DA[DATIV<br/>wem?]\n    D -->|Esprime possesso| G[GENITIV<br/>wessen?]\n```\n\nIl ramo **\"c'è una preposizione\"** è enorme e sarà il tema di diverse lezioni: alcune preposizioni reggono sempre l'Accusativo (*für, ohne, gegen, durch, um*), altre sempre il Dativo (*mit, nach, aus, bei, seit, von, zu*), altre ancora — le *Wechselpräpositionen* — oscillano tra i due. Per oggi basta sapere che esiste questo \"interruttore\".\n\n## Esempi realistici\n\n- **Nom.** *Der Zug ist pünktlich.* → \"Il treno è puntuale.\" (soggetto)\n- **Akk.** *Ich nehme den Zug.* → \"Prendo il treno.\" (oggetto diretto)\n- **Dat.** *Ich danke dem Fahrer.* → \"Ringrazio l'autista.\" (il verbo *danken* regge il Dativo!)\n- **Gen.** *Das ist der Fahrplan des Zuges.* → \"Questo è l'orario del treno.\" (specificazione)\n\n## Errori tipici da evitare\n\n- **Tradurre \"a\" sempre con il Dativo.** *Ich gehe in die Stadt* (\"Vado in città\") usa l'Accusativo, perché c'è movimento verso un luogo: il caso lo decide la preposizione, non la preposizione italiana.\n- **Dimenticare la -n del Dativo plurale.** Non *mit die Kinder*, ma ***mit den Kindern***.\n- **Usare l'Accusativo dopo verbi che vogliono il Dativo.** *helfen, danken, gefallen, gehören, antworten* reggono il **Dativo**: *Ich helfe dir* (non *dich*).\n- **Confondere soggetto e oggetto perché l'ordine cambia.** *Den Ball sieht der Hund* significa comunque \"Il cane vede la palla\": è *der Hund* il soggetto, perché è al Nominativo, non perché viene prima.\n\n## Esercizi\n\n**1. Identifica il caso** del nome in grassetto:\na) *Wir besuchen **die Großmutter**.*\nb) *Das Auto **des Lehrers** ist neu.*\nc) *Ich gebe **dem Hund** Wasser.*\n\n**2. Inserisci l'articolo determinativo corretto:**\na) *Ich sehe ___ Mann.* (m.)\nb) *Er hilft ___ Frau.* (f.)\nc) *Das ist das Ende ___ Films.* (m.)\nd) *Sie spielt mit ___ Kindern.* (pl.)\n\n**3. Correggi l'errore:**\na) *Ich danke den Lehrer.*\nb) *Wir fahren mit die Bus.*\n\n**4. Traduci in tedesco:** \"L'uomo dà al bambino il libro.\"\n\n---\n\n### Soluzioni\n\n**1.** a) Akkusativ (oggetto diretto) — b) Genitiv (specificazione) — c) Dativ (destinatario).\n**2.** a) *den* — b) *der* — c) *des* — d) *den*.\n**3.** a) *Ich danke **dem** Lehrer* (*danken* → Dativo) — b) *Wir fahren mit **dem** Bus* (*mit* → Dativo).\n**4.** *Der Mann gibt dem Kind das Buch.* (Nom. + Dat. + Akk.)\n\n## Takeaways\n\n- I **quattro casi** segnalano la funzione del nome tramite la forma di **articolo e terminazioni**, non tramite l'ordine delle parole.\n- Memorizza la **tabella dell'articolo determinativo**: è la base di tutta la declinazione del corso.\n- Solo il **maschile** distingue Nom./Akk.; il **Dativo plurale** aggiunge **-n**; il **Genitivo** m./n. aggiunge **-(e)s**.\n- Il caso può dipendere dal **verbo** (*helfen, danken* → Dativo) o da una **preposizione** — l'interruttore che esploreremo presto."
       }
     },
     {
@@ -457,9 +454,9 @@
       "label": "Business German",
       "lesson": {
         "kind": "lesson",
-        "title": "Die professionelle E-Mail: Aufbau und Anrede",
-        "readingTime": "~4 min",
-        "markdown": "# Die professionelle E-Mail: Aufbau und Anrede\n\nBenvenuto/a alla prima lezione di **Business German**. Diamo per acquisite le basi (sai presentarti, conosci il presente e il *Perfekt*): partiamo subito dalla situazione più frequente in ufficio, l'**E-Mail** (*email*). In tedesco la corrispondenza professionale è sorprendentemente formalizzata: esistono formule fisse che *si usano e basta*. Impararle ti fa suonare immediatamente competente.\n\n## La struttura standard\n\nOgni email formale tedesca segue uno schema rigido. Vediamolo dall'alto verso il basso.\n\n```mermaid\nflowchart TD\n    A[\"Betreff (oggetto)\"] --> B[\"Anrede (formula di apertura)\"]\n    B --> C[\"Einleitung (frase introduttiva)\"]\n    C --> D[\"Hauptteil (corpo del messaggio)\"]\n    D --> E[\"Schluss (chiusura / call to action)\"]\n    E --> F[\"Grußformel (saluto finale)\"]\n    F --> G[\"Signatur (firma)\"]\n```\n\nI termini chiave:\n\n- **der Betreff** — *l'oggetto*\n- **die Anrede** — *la formula di apertura* (il \"Gentile…\")\n- **die Grußformel** — *la formula di saluto finale*\n- **die Anlage / der Anhang** — *l'allegato*\n- **der Empfänger** — *il destinatario* / **der Absender** — *il mittente*\n\n## L'Anrede: la regola d'oro\n\nLa formula di apertura più sicura, sempre corretta nel registro formale, è:\n\n> **Sehr geehrte Damen und Herren,** — *Egregie Signore, Egregi Signori,*\n\nSi usa quando **non conosci il nome** del destinatario. Se invece lo conosci, personalizza:\n\n| Situazione | Tedesco | Italiano |\n|---|---|---|\n| Uomo, nome noto | **Sehr geehrter Herr Müller,** | *Egregio Signor Müller,* |\n| Donna, nome noto | **Sehr geehrte Frau Schmidt,** | *Gentile Signora Schmidt,* |\n| Più persone (nomi noti) | **Sehr geehrte Frau Schmidt, sehr geehrter Herr Müller,** | *Gentile Sig.ra…, Egregio Sig.…* |\n| Rapporto già consolidato | **Liebe Frau Schmidt,** / **Lieber Herr Müller,** | *Cara/Caro…* |\n\n> ⚠️ **Attenzione a tre dettagli:**\n> 1. Dopo l'*Anrede* va **la virgola**, non i due punti (come fa invece l'inglese).\n> 2. La prima parola del corpo dopo la virgola è in **minuscolo** (a meno che non sia un sostantivo o \"Sie\").\n> 3. **Geehrter** ha la *-r* (maschile), **geehrte** no (femminile/plurale). È un aggettivo declinato: la desinenza segue il genere del destinatario.\n\nDa evitare nel formale: *Hallo* o *Hi* (troppo informali con sconosciuti) e — errore classico degli italofoni — il calco \"*Sehr geehrte Herr*\" senza la *-r*.\n\n## Le Redemittel di apertura e chiusura\n\nEcco i mattoni pronti all'uso. Memorizzali come blocchi.\n\n**Frase introduttiva (Einleitung):**\n\n- **Ich schreibe Ihnen bezüglich …** — *Le scrivo in merito a …*\n- **vielen Dank für Ihre E-Mail vom 10. Juni.** — *molte grazie per la Sua email del 10 giugno.*\n- **Ich beziehe mich auf unser Telefonat von gestern.** — *Faccio riferimento alla nostra telefonata di ieri.*\n\n**Corpo / richiesta (Hauptteil):**\n\n- **Könnten Sie mir bitte … zusenden?** — *Potrebbe inviarmi per cortesia …?*\n- **Ich möchte Sie darüber informieren, dass …** — *Desidero informarLa che …*\n- **Im Anhang finden Sie …** — *In allegato trova …*\n\n**Chiusura (Schluss):**\n\n- **Für Rückfragen stehe ich Ihnen gerne zur Verfügung.** — *Per ulteriori domande resto volentieri a Sua disposizione.*\n- **Ich freue mich auf Ihre Rückmeldung.** — *Attendo con piacere un Suo riscontro.*\n\n**Grußformel (saluto finale):**\n\n> **Mit freundlichen Grüßen** — *Cordiali saluti* (lo standard assoluto, spesso abbreviato **MfG** ma in forma estesa è più elegante)\n\nVariante leggermente più calda, ottima per chi già conosci: **Beste Grüße** / **Viele Grüße** (*Cari saluti*). Dopo la *Grußformel* **non si mette la virgola**.\n\n## Testo-modello\n\nEcco un'email completa che richiede un preventivo (anticipiamo il tema *Angebot*, che vedremo a fondo più avanti):\n\n```text\nBetreff: Anfrage Angebot – Büromöbel\n\nSehr geehrte Damen und Herren,\n\nich schreibe Ihnen bezüglich Ihres Katalogs für Büromöbel.\nUnser Unternehmen plant die Einrichtung eines neuen\nStandorts in München.\n\nKönnten Sie mir bitte ein Angebot für zehn höhenverstellbare\nSchreibtische zusenden? Im Anhang finden Sie unsere\ngenauen Anforderungen.\n\nFür Rückfragen stehe ich Ihnen gerne zur Verfügung.\nIch freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nAndrea Rossi\nEinkaufsleiter, Rossi GmbH\n```\n\nGlossario del testo:\n- **die Anfrage** — *la richiesta (di informazioni/preventivo)*\n- **das Unternehmen** — *l'azienda*\n- **der Standort** — *la sede/filiale*\n- **höhenverstellbar** — *regolabile in altezza*\n- **der Schreibtisch** — *la scrivania*\n- **der Einkaufsleiter** — *il responsabile acquisti*\n\n## Nota di registro: il \"Sie\"\n\nIn tutta la corrispondenza professionale si usa il **Siezen**, cioè dare del \"Lei\": pronome **Sie** e possessivo **Ihr** (*Suo/Vostro*), entrambi **sempre con la maiuscola** nelle email. Passare al **du** (*tu*) avviene solo dopo un esplicito invito — spesso la formula **„Wir können uns gerne duzen.\"** (*Possiamo darci del tu, se Le fa piacere.*). Finché ciò non accade, mantieni il *Sie*: in Germania la formalità non è freddezza, è rispetto professionale di default.\n\n## Takeaways\n\n- Lo scheletro di un'email tedesca è fisso: **Betreff → Anrede → Einleitung → Hauptteil → Schluss → Grußformel → Signatur**.\n- Apertura universale e sicura: **Sehr geehrte Damen und Herren,** — con **virgola** e prima parola **minuscola**.\n- Ricorda la declinazione: **geehrte_r_ Herr** (maschile) vs **geehrte Frau** (femminile).\n- Chiusura standard: **Mit freundlichen Grüßen**, *senza* virgola dopo.\n- Usa sempre il **Sie / Ihr** (maiuscoli) finché non ti viene proposto il *du*.\n- Impara le *Redemittel* come blocchi pronti: ti fanno scrivere veloce e suonare nativo."
+        "title": "La email professionale tedesca: Anrede, struttura e Grußformel",
+        "readingTime": "~5 min",
+        "markdown": "# La email professionale tedesca: Anrede, struttura e Grußformel\n\nBenvenuto al primo passo del nostro percorso di **tedesco professionale**. Partiamo dallo strumento che userai ogni singolo giorno in un ufficio tedesco: la **E-Mail**. In Germania la comunicazione scritta resta sorprendentemente formale e codificata — sbagliare la formula d'apertura o di chiusura comunica subito *incompetenza culturale*. Oggi costruiamo lo scheletro completo di una email corretta.\n\n## L'architettura di una email\n\nOgni email professionale ha cinque blocchi fissi. Vederli come uno schema ti aiuta a non dimenticarne nessuno.\n\n```mermaid\nflowchart TD\n    A[Betreff — Oggetto] --> B[Anrede — Formula di apertura]\n    B --> C[Einleitung — Frase introduttiva]\n    C --> D[Hauptteil — Corpo del messaggio]\n    D --> E[Schlusssatz — Frase di chiusura]\n    E --> F[Grußformel — Saluto finale + nome]\n```\n\n### 1. Der Betreff (l'oggetto)\n\nBreve, concreto, senza articolo se possibile. Esempi:\n- **Anfrage: Angebot für 50 Lizenzen** → *Richiesta: offerta per 50 licenze*\n- **Terminbestätigung: Meeting am 18. Juni** → *Conferma appuntamento: riunione del 18 giugno*\n\n### 2. Die Anrede (la formula di apertura)\n\nQui si decide il **registro**. La regola d'oro: **Sie** (Lei formale) è il default assoluto nel mondo del lavoro tedesco. Non passare mai al **du** (tu) per primo se sei il junior o l'esterno — aspetti che te lo propongano (das **Du anbieten**).\n\n| Situazione | Anrede | Traduzione |\n|---|---|---|\n| Persona nota, nome noto | **Sehr geehrter Herr Müller,** | Egregio Sig. Müller, |\n| Persona nota (donna) | **Sehr geehrte Frau Schmidt,** | Gentile Sig.ra Schmidt, |\n| Più destinatari | **Sehr geehrte Damen und Herren,** | Egregi Signore e Signori, |\n| Contatto già consolidato | **Liebe Frau Schmidt,** | Cara Sig.ra Schmidt, |\n| Collega con cui si dà del *du* | **Hallo Anna,** / **Hallo zusammen,** | Ciao Anna / Ciao a tutti, |\n\n> ⚠️ Attenzione a due dettagli che gli italiani sbagliano sempre:\n> 1. Dopo la **Anrede** si mette **una virgola**, e la riga successiva inizia in **minuscola** (a meno che non sia un sostantivo, sempre maiuscolo in tedesco).\n> 2. **Sehr geehrte*r*** concorda col genere: *-r* per Herr (maschile), niente *-r* per Frau (femminile).\n\n### 3. Die Einleitung (la frase introduttiva)\n\nIl tedesco va dritto al motivo. Frasi-modello (*Redemittel*) pronte all'uso:\n\n- **Ich schreibe Ihnen bezüglich …** → *Le scrivo in merito a …*\n- **vielen Dank für Ihre E-Mail vom 12. Juni.** → *grazie per la Sua email del 12 giugno.*\n- **wie telefonisch besprochen, sende ich Ihnen …** → *come concordato telefonicamente, Le invio …*\n- **ich beziehe mich auf Ihr Angebot vom …** → *faccio riferimento alla Vostra offerta del …*\n\n### 4. Der Hauptteil (il corpo)\n\nUna frase = un'idea. Usa connettori chiari: **außerdem** (*inoltre*), **allerdings** (*tuttavia*), **daher** (*pertanto*). Per le richieste, il **Konjunktiv II** rende tutto più cortese:\n\n- **Könnten Sie mir bitte …?** → *Potrebbe per favore …?*\n- **Ich würde mich freuen, wenn …** → *Mi farebbe piacere se …*\n\n### 5. Schlusssatz + Grußformel (chiusura e saluto)\n\nFrase di chiusura tipica:\n- **Für Rückfragen stehe ich Ihnen gerne zur Verfügung.** → *Resto a disposizione per eventuali domande.*\n- **Ich freue mich auf Ihre Rückmeldung.** → *Attendo un Suo riscontro.*\n\nPoi la **Grußformel**, da scegliere in base al registro:\n\n| Registro | Grußformel | Traduzione |\n|---|---|---|\n| Standard formale | **Mit freundlichen Grüßen** | Cordiali saluti |\n| Molto formale | **Mit freundlichen Grüßen aus Berlin** | (cordiali saluti, + luogo) |\n| Semi-formale | **Beste Grüße** / **Viele Grüße** | Cari saluti |\n| Informale (colleghi) | **Liebe Grüße** / **LG** | Saluti affettuosi |\n\n> Dopo la **Grußformel** **non** si mette la virgola. Va a capo, e segue il tuo nome.\n\n## Testo-modello completo\n\n> **Betreff:** Anfrage: Angebot für Projektmanagement-Software\n>\n> **Sehr geehrte Frau Becker,**\n>\n> ich schreibe Ihnen bezüglich Ihrer Software für Projektmanagement. Unser Team sucht derzeit eine neue Lösung für etwa 30 Mitarbeiter.\n>\n> **Könnten Sie** mir bitte ein **Angebot** für 30 Lizenzen zusenden? Außerdem **würde ich mich freuen**, wenn Sie mir mitteilen könnten, ob eine kostenlose Testphase möglich ist.\n>\n> Für Rückfragen stehe ich Ihnen gerne zur Verfügung. Ich freue mich auf Ihre **Rückmeldung**.\n>\n> **Mit freundlichen Grüßen**\n> Andrea Rossi\n> Einkauf, Rossi GmbH\n\n*Traduzione del corpo:* «Le scrivo in merito al Vostro software per la gestione progetti. Il nostro team cerca attualmente una nuova soluzione per circa 30 collaboratori. Potrebbe inviarmi un'offerta per 30 licenze? Inoltre mi farebbe piacere se potesse comunicarmi se è possibile un periodo di prova gratuito. Resto a disposizione per eventuali domande. Attendo un Suo riscontro.»\n\n## Note d'uso e registro\n\n- **Mai usare \"Hallo\" o \"Hi\" con un cliente o un superiore esterno** alla prima email: suona troppo casual.\n- La forma **Sie** richiede sempre la maiuscola (**Sie, Ihnen, Ihr**) — è una cortesia ortografica, non un errore.\n- Il tedesco preferisce la **voce attiva e concisa** a giri di parole. Una email troppo lunga è percepita come poco professionale.\n- **z. B.** (= *zum Beispiel*, «per esempio») e **u. a.** (= *unter anderem*, «tra l'altro») sono abbreviazioni standard accettate.\n\n## Takeaways\n\n- Una email tedesca ha **5 blocchi fissi**: Betreff, Anrede, Einleitung, Hauptteil, Grußformel.\n- Il default è sempre il **Sie** formale; aspetta che ti venga offerto il **du**.\n- **Anrede → virgola → riga successiva in minuscola**; **Grußformel → nessuna virgola**.\n- **Sehr geehrte*r* Herr / Sehr geehrte Frau** è la formula formale standard, **Mit freundlichen Grüßen** la chiusura standard.\n- Usa il **Konjunktiv II** (*könnten Sie, ich würde mich freuen*) per richieste cortesi."
       }
     },
     {
@@ -467,9 +464,9 @@
       "label": "System Design",
       "lesson": {
         "kind": "lesson",
-        "title": "Lesson 1: Thinking About Scale — Latency, Throughput, and the Two Ways to Grow",
+        "title": "Fundamentals: Latency, Throughput, and How Systems Scale",
         "readingTime": "~5 min",
-        "markdown": "# Lesson 1: Thinking About Scale — Latency, Throughput, and the Two Ways to Grow\n\nWelcome to **System Design**. Over this course you'll learn to reason about systems that serve millions of users without falling over: load balancers, caches, sharded databases, queues, and the trade-offs that bind them. But before any of that, you need the *vocabulary of performance* and the *first strategic choice* every architect faces. That's today.\n\n## Why \"design\" at all?\n\nA program that works on your laptop for one user is an engineering problem. The same program serving 10 million users is a *systems* problem — the bottleneck is rarely your code's cleverness and almost always a **resource limit**: CPU, memory, disk I/O, network bandwidth, or a database connection pool. System design is the discipline of arranging components so that no single resource becomes a wall.\n\nTo talk about walls, we need two numbers.\n\n## Latency vs. Throughput\n\nThese are the two most-confused terms in the field. They are *not* the same, and optimizing one can hurt the other.\n\n- **Latency** is the time to complete *one* operation — how long a single request waits for its answer. Measured in milliseconds (ms). *\"How fast?\"*\n- **Throughput** is the number of operations completed *per unit time* — requests per second (RPS), queries per second (QPS). *\"How many?\"*\n\n> A highway analogy: **latency** is how long it takes *your* car to drive from A to B. **Throughput** is how many cars *cross the bridge* per minute. Adding lanes (throughput) doesn't make your individual trip faster; raising the speed limit (latency) doesn't necessarily move more cars if there's a toll booth.\n\nThe relationship is captured by **Little's Law**, one of the few exact laws in this field:\n\n$$L = \\lambda \\times W$$\n\nwhere $L$ is the average number of requests *in the system concurrently*, $\\lambda$ is the arrival rate (throughput), and $W$ is the average time each request spends in the system (latency). Rearranged, $\\lambda = L / W$: to raise throughput you must either handle more requests concurrently ($L$) or make each one faster ($W$).\n\n### Tail latency matters more than the average\n\nA critical subtlety: never trust the *average* latency. If 99% of requests take 10 ms but 1% take 2 seconds, a user clicking through 100 pages will almost certainly hit that slow path. We therefore measure **percentiles**:\n\n| Metric | Meaning |\n|--------|---------|\n| **p50** (median) | half of requests are faster than this |\n| **p95** | 95% are faster; the \"typical bad case\" |\n| **p99** | the **tail** — what your unhappiest users feel |\n\n> **Rule of thumb:** at scale, *tail latency is the user experience.* Optimizing p99 is usually the real goal.\n\nA few latency numbers worth internalizing (orders of magnitude, not exact):\n\n| Operation | Approx. time |\n|-----------|-------------|\n| L1 cache reference | ~1 ns |\n| Main memory (RAM) read | ~100 ns |\n| SSD random read | ~16 µs |\n| Network round trip, same datacenter | ~0.5 ms |\n| Disk (HDD) seek | ~10 ms |\n| Network round trip, cross-continent | ~150 ms |\n\nNotice memory is roughly **100,000× faster** than a cross-continent round trip. This single gap is *why caching and CDNs exist* — later lessons.\n\n## The first strategic choice: scaling up vs. scaling out\n\nWhen a server hits its limit, you have exactly two moves.\n\n**Vertical scaling (scale up):** make the machine bigger — more CPU cores, more RAM, faster disks. Simple, no code changes, no distributed-systems complexity. But it has a hard ceiling (the biggest machine money can buy), gets exponentially expensive at the top end, and that one machine is a **single point of failure**.\n\n**Horizontal scaling (scale out):** add *more* machines and spread the work across them. Effectively unlimited headroom, and redundancy is built in — if one node dies, others carry on. The cost: you now have a *distributed system*. You need a way to route requests (a **load balancer**), and your application must ideally be **stateless** so any machine can serve any request.\n\n```mermaid\nflowchart TB\n    subgraph Vertical[\"Vertical scaling — scale UP\"]\n        S1[\"Small server<br/>4 CPU / 16GB\"] --> S2[\"Bigger server<br/>64 CPU / 512GB\"]\n    end\n    subgraph Horizontal[\"Horizontal scaling — scale OUT\"]\n        LB([\"Load balancer\"]) --> A[\"Server A\"]\n        LB --> B[\"Server B\"]\n        LB --> C[\"Server C\"]\n    end\n```\n\n| | Vertical (up) | Horizontal (out) |\n|---|---|---|\n| Complexity | Low | High (distributed) |\n| Ceiling | Hardware limit | ~Unlimited |\n| Fault tolerance | Single point of failure | Redundant |\n| Cost curve | Exponential at top | Roughly linear |\n| App changes | None | Statelessness, routing |\n\n> **The practitioner's path:** start vertical because it's cheap and simple. Scale out *before* you hit the ceiling — and design for statelessness early so the transition isn't a rewrite.\n\nThis choice cascades through the entire course: the moment you go horizontal, you need load balancing (Lesson 2), distributed caching (Lesson 3), and eventually database sharding and replication — which forces the consistency trade-offs of CAP. Every later topic is, in some sense, a consequence of choosing to scale out.\n\n## Takeaways\n\n- **Latency** = time per operation; **throughput** = operations per unit time. They are distinct and can trade off against each other.\n- **Little's Law** ($L = \\lambda W$) ties them together: more concurrency or lower latency are your only levers on throughput.\n- Measure **percentiles (p95/p99)**, not averages — *tail latency is the user experience*.\n- Memorize the latency orders of magnitude: RAM is ~100,000× faster than a cross-continent round trip — the reason caches and CDNs exist.\n- **Vertical scaling** is simple but capped and fragile; **horizontal scaling** is unbounded and fault-tolerant but demands a load balancer and stateless design.\n- Start simple, scale out before the ceiling, and design statelessness in early.\n\n*Next lesson: **Load Balancing** — how to spread traffic across those horizontal machines, and the algorithms that decide who serves what.*"
+        "markdown": "# Fundamentals: Latency, Throughput, and How Systems Scale\n\nWelcome to **System Design**. Over this course we'll build, piece by piece, the toolkit for designing systems that serve millions of users without falling over: load balancers, caches, sharded databases, message queues, CDNs, and more. But every one of those tools exists to push against the same two walls. So today we start at the foundation — the vocabulary and the trade-offs that everything else will rest on.\n\nBy the end of this lesson you should be able to say precisely what it means for a system to be \"fast,\" what it means for it to \"handle load,\" and why those are *not the same thing*.\n\n## Latency vs. Throughput\n\nThese are the two numbers that define performance, and confusing them is the most common beginner mistake.\n\n- **Latency** is the time to handle a *single* request — how long *one* user waits. Measured in milliseconds (ms).\n- **Throughput** is the number of requests handled *per unit of time* — the system's capacity. Measured in requests per second (RPS) or queries per second (QPS).\n\nA useful analogy is a highway. **Latency** is how long it takes *one car* to drive from A to B. **Throughput** is how many cars pass a given point *per minute*. Widening the highway (more lanes) raises throughput without making any single car faster. Raising the speed limit lowers latency for everyone.\n\n> Crucially, you can improve one while the other gets *worse*. Batching requests together often raises throughput (fewer per-request overheads) but raises latency (each request waits for the batch to fill).\n\n### Don't trust the average\n\nWhen we report latency, the **average** lies. If 99 requests take 10 ms and one takes 5,000 ms, the average is ~60 ms — but real users *felt* that 5-second stall. We therefore report **percentiles**:\n\n- $p50$ (median): half of requests are faster than this.\n- $p99$ (\"tail latency\"): 99% are faster; the worst 1% are slower.\n\nA blunt way to state the relationship between throughput and latency under load is **Little's Law**:\n\n$$L = \\lambda \\cdot W$$\n\nwhere $L$ is the average number of requests *in the system* concurrently, $\\lambda$ is the arrival rate (throughput), and $W$ is the average time each request spends in the system (latency). It tells us that if requests arrive faster than we can finish them, work *piles up* — and queued work means rising latency. This is why a system near its throughput ceiling feels sluggish long before it fully breaks.\n\n## The two ways to scale\n\nWhen one machine can no longer keep up, you have exactly two moves.\n\n```mermaid\nflowchart TD\n    A[Demand exceeds capacity] --> B{How to add capacity?}\n    B -->|Vertical| C[\"Scale UP<br/>bigger machine:<br/>more CPU, RAM, faster disk\"]\n    B -->|Horizontal| D[\"Scale OUT<br/>more machines<br/>working together\"]\n    C --> E[Simple, but a hard ceiling<br/>and a single point of failure]\n    D --> F[No ceiling, fault-tolerant<br/>but adds coordination complexity]\n```\n\n### Vertical scaling (scale up)\n\nBuy a **bigger box**: more CPU cores, more RAM, faster SSDs. \n\n- **Pros:** Dead simple. Your code doesn't change. No distributed-systems headaches.\n- **Cons:** There is a *physical ceiling* — you can't buy an infinitely large server, and the price grows faster than the power. Worse, it's a **single point of failure (SPOF)**: when that one machine dies, your whole service dies.\n\n### Horizontal scaling (scale out)\n\nAdd **more machines** and spread the work across them.\n\n- **Pros:** Effectively *unbounded* — need more capacity, add more nodes. And it's **fault-tolerant**: if one node dies, the others carry on.\n- **Cons:** Now you have a *distributed system*. You need something to spread requests (a **load balancer**, our next lesson), and you must confront state: where does a user's data live? How do nodes stay consistent? Most of this course exists to answer those questions.\n\n| | Vertical (up) | Horizontal (out) |\n|---|---|---|\n| How | Bigger machine | More machines |\n| Ceiling | Hardware limit | Practically none |\n| Failure | Single point of failure | Tolerant by design |\n| Complexity | Low | High (coordination) |\n| Cost curve | Superlinear | Roughly linear |\n\nThe defining feature that *enables* horizontal scaling is **statelessness**. If each application server keeps no per-user state in its own memory — pushing session data to a shared store instead — then any server can handle any request, and you can add or remove servers freely. Stateful nodes can scale out too, but only with the replication and sharding machinery we'll cover later.\n\n## A mental model for the whole course\n\nAlmost every technique ahead is a specific answer to *\"we hit a wall — latency too high, or throughput too low.\"*\n\n- **Caching** → cut latency by not redoing work.\n- **Load balancing** → raise throughput by spreading work across many nodes.\n- **Replication / sharding** → scale the *database* horizontally.\n- **Queues** → absorb traffic spikes so throughput stays steady under bursts.\n\nKeep asking of every design: *which wall does this push against, and what does it cost me?* There is no free lunch — only trade-offs you choose deliberately.\n\n## Takeaways\n\n- **Latency** = how long *one* request takes; **throughput** = how many requests *per second*. Optimizing one can hurt the other.\n- Report **percentiles** ($p50$, $p99$), never just the average — tail latency is what users feel.\n- **Little's Law** ($L = \\lambda W$) explains why a system near capacity slows to a crawl: work queues up.\n- **Vertical scaling** (bigger box) is simple but capped and a single point of failure; **horizontal scaling** (more boxes) is unbounded and fault-tolerant but adds coordination complexity.\n- **Statelessness** is what makes horizontal scaling easy — keep per-user state out of individual servers.\n- Every tool in this course pushes against the latency wall or the throughput wall, at some cost. Always name the trade-off."
       }
     },
     {
@@ -477,9 +474,9 @@
       "label": "LLM & AI engineering",
       "lesson": {
         "kind": "lesson",
-        "title": "What Is a Language Model? From Text to Probabilities to Tokens",
+        "title": "What Is a Language Model? Tokens and the Probability of Text",
         "readingTime": "~5 min",
-        "markdown": "# What Is a Language Model? From Text to Probabilities to Tokens\n\nWelcome to **LLM & AI Engineering**. Over this course we'll build up, brick by brick, from the most basic question — *what is a language model?* — all the way to deploying, evaluating, and optimizing real systems. Today we lay the foundation. By the end of this lesson you'll understand what a language model actually *computes*, and why text must first be broken into **tokens**.\n\n## A language model is a probability machine\n\nStrip away the hype and a **language model (LM)** is one thing: a function that assigns a **probability** to a sequence of text. Given some text so far, it predicts *what comes next*.\n\nFormally, a language model defines a probability distribution over the next token given all previous tokens. If a sequence is $x_1, x_2, \\dots, x_T$, the model factorizes the probability of the whole sequence using the **chain rule of probability**:\n\n$$P(x_1, x_2, \\dots, x_T) = \\prod_{t=1}^{T} P(x_t \\mid x_1, \\dots, x_{t-1})$$\n\nRead this carefully, because it's the heart of everything:\n\n- Each factor $P(x_t \\mid x_{<t})$ is the probability of the $t$-th token **given everything before it**.\n- The model only ever has to answer one question, over and over: *given this context, what's the next token?*\n- Multiplying these conditional probabilities reconstructs the probability of any sequence.\n\nA model trained this way — predicting the next token from the left context — is called an **autoregressive** language model. Every LLM you've heard of (GPT, Claude, Llama) is autoregressive at its core.\n\n> **Key insight:** An LLM doesn't \"know facts\" the way a database does. It has learned a staggeringly rich estimate of $P(\\text{next token} \\mid \\text{context})$. *Generation* is just repeatedly sampling from this distribution and feeding the result back in.\n\n### Generation is a loop\n\n```mermaid\nflowchart LR\n    A[Context: tokens so far] --> B[Model computes P over vocabulary]\n    B --> C[Pick next token e.g. sample or argmax]\n    C --> D[Append token to context]\n    D --> A\n    C --> E{Stop token or limit?}\n    E -- no --> A\n    E -- yes --> F[Done]\n```\n\nThis loop is why generation feels like \"thinking out loud\": the model commits to one token, then reconsiders the whole future given that choice. We'll return to the mechanics of *picking* the token (temperature, top-p) in the inference lessons.\n\n## Why not just predict words?\n\nNaively, you might model text word-by-word. But natural language is messy:\n\n- **Vocabulary explosion.** English alone has hundreds of thousands of words, plus names, typos, code, emoji, and other languages. A fixed word list can never cover them.\n- **Out-of-vocabulary (OOV) words.** What probability do you assign to a word you've never seen, like *\"antidisestablishmentarianismify\"*? With words, you're stuck.\n- **Wasted structure.** \"run\", \"runs\", \"running\", \"runner\" share a root, but a word model treats them as unrelated atoms.\n\nThe fix is to model text at a level *between* characters and words. That unit is the **token**.\n\n## Tokens: the real atoms of an LLM\n\nA **token** is a chunk of text — often a whole common word, sometimes a sub-word fragment, sometimes a single character or byte. The process of converting raw text into tokens is **tokenization**, and the algorithm that does it is the **tokenizer**.\n\nModern LLMs typically use **subword tokenization**, most commonly **Byte-Pair Encoding (BPE)**. The idea is elegantly simple:\n\n1. Start with a base vocabulary of individual bytes/characters.\n2. Scan a large corpus and find the **most frequent adjacent pair** of symbols.\n3. **Merge** that pair into a new single token; add it to the vocabulary.\n4. Repeat thousands of times until you reach a target vocabulary size (e.g. ~50k–200k tokens).\n\nThe result: frequent words become a single token, while rare words gracefully decompose into known sub-pieces. Nothing is ever truly OOV, because you can always fall back to bytes.\n\nHere's roughly how a sentence might split (using `·` to mark token boundaries, where `▁` denotes a leading space):\n\n```text\n\"Tokenization isn't magic.\"\n→ ▁Token | ization | ▁isn | 't | ▁magic | .\n```\n\nNotice the tradeoffs at work:\n\n| Granularity | Vocab size | Sequence length | OOV problem |\n|-------------|-----------|-----------------|-------------|\n| Characters  | Tiny      | Very long       | None, but inefficient |\n| **Subwords (BPE)** | **Medium** | **Moderate** | **Essentially none** |\n| Words       | Huge      | Short           | Severe |\n\nSubwords sit in the sweet spot: a manageable vocabulary, reasonable sequence lengths, and no OOV cliff.\n\n### Why tokens matter to *you* as an engineer\n\nThis isn't academic — tokens are the unit of nearly everything practical:\n\n- **Cost.** APIs bill *per token*, input and output. Knowing that \"Hello, world!\" is ~4 tokens, not 13 characters or 2 words, lets you estimate spend.\n- **Context window.** A model's limit (e.g. 200k tokens) is measured in tokens, not words. As a rule of thumb in English, **1 token ≈ 4 characters ≈ ¾ of a word**, so ~1,000 tokens ≈ 750 words.\n- **Behavior quirks.** Because the model sees tokens, not letters, it can struggle to count the *r*'s in \"strawberry\" — the word may be a single opaque token. Many \"dumb LLM\" moments are really *tokenization* moments.\n\n> **Try this mentally:** \"ChatGPT\" might be `Chat | G | PT` — three tokens. The model never sees the clean word \"ChatGPT\" the way you do.\n\n## Where we go next\n\nWe now have the spine of the whole course: **text → tokens → next-token probabilities → generation**. But we've skipped a magic step. The model can't multiply *symbols* — it needs *numbers*. How does the token `▁magic` become something a neural network can compute with? That's **embeddings**, our next lesson.\n\n## Takeaways\n\n- A **language model** estimates $P(x_t \\mid x_{<t})$ — the probability of the next token given prior context; generation is sampling from it in a loop.\n- LLMs are **autoregressive**: they factor a sequence's probability via the **chain rule** and predict one token at a time.\n- **Tokens**, not words or characters, are the true atoms. **Subword tokenization (BPE)** balances vocabulary size, sequence length, and the OOV problem.\n- Tokens drive the practicals you'll live with: **cost**, **context windows** (~1 token ≈ ¾ word in English), and odd failures like miscounting letters.\n- Next stop: turning tokens into vectors — **embeddings**."
+        "markdown": "# What Is a Language Model? Tokens and the Probability of Text\n\nWelcome to the first lesson of **LLM & AI Engineering**. Before we touch embeddings, attention, or agents, we need to be precise about the thing at the center of it all. Strip away the chat interfaces and the hype, and a large language model is something surprisingly concrete: *a function that assigns probabilities to sequences of tokens*. Today we'll make that sentence exact, and we'll meet **tokens** — the atoms every model actually reads and writes.\n\n## A language model is a probability distribution over text\n\nA **language model (LM)** is a model that, given some text so far, predicts what comes next. Formally, it defines a probability distribution over sequences of tokens. Using the chain rule of probability, the probability of a whole sequence $x_1, x_2, \\dots, x_T$ factorizes into a product of *next-token* predictions:\n\n$$P(x_1, \\dots, x_T) = \\prod_{t=1}^{T} P(x_t \\mid x_1, \\dots, x_{t-1})$$\n\nHere each factor $P(x_t \\mid x_{<t})$ is the probability of the next token $x_t$ given everything before it. The notation $x_{<t}$ just means \"all tokens before position $t$.\" This is called an **autoregressive** model: it generates one token at a time, each new token conditioned on all the tokens already produced.\n\n> **Key idea:** An LLM never \"knows\" an answer in one shot. It repeatedly answers one narrow question — *\"given this context, what token is likely next?\"* — and the fluent paragraphs you see are thousands of those tiny predictions chained together.\n\nThat's it. The intelligence, the apparent reasoning, the style — all of it emerges from a model that got extraordinarily good at one humble task: completing text.\n\n## Tokens: the real units of language for an LLM\n\nModels do not see words, and they certainly don't see raw characters one by one in any efficient way. They see **tokens** — chunks of text drawn from a fixed **vocabulary** (typically 30,000–200,000 entries). A token might be a whole word, a word fragment, a single character, punctuation, or even a space.\n\nModern LLMs use **subword tokenization**, most commonly a scheme called **Byte-Pair Encoding (BPE)**. The intuition:\n\n- Common words get their own single token: `\" the\"`, `\" model\"`.\n- Rare or novel words get split into pieces: `\"tokenization\"` → `\"token\"` + `\"ization\"`.\n- This lets a finite vocabulary represent *any* string, including names, typos, and code, while keeping frequent text compact.\n\nA rough rule of thumb for English: **1 token ≈ 4 characters ≈ 0.75 words**. So ~1,000 tokens is roughly 750 words. This matters directly for cost and context limits, which we'll study later.\n\nHere is the journey from your text to a prediction and back:\n\n```mermaid\nflowchart LR\n    A[\"Raw text:<br/>'The cat sat'\"] --> B[\"Tokenizer<br/>(BPE)\"]\n    B --> C[\"Token IDs:<br/>[464, 3797, 3332]\"]\n    C --> D[\"Language Model\"]\n    D --> E[\"Distribution over<br/>next token\"]\n    E --> F[\"Sample / pick<br/>token → ' on'\"]\n    F --> G[\"Append, repeat\"]\n    G --> D\n```\n\nNotice the loop at the end: generation is iterative. Each token the model emits is fed back in as part of the context for the next step.\n\n### Why tokens, not words or characters?\n\n| Unit | Vocabulary size | Sequence length | Problem |\n|---|---|---|---|\n| **Characters** | Tiny (~100) | Very long | Sequences become huge; model must learn spelling from scratch |\n| **Words** | Huge (millions) | Short | Can't handle unseen words; vocabulary explodes |\n| **Subwords (BPE)** | Moderate (~50k–200k) | Moderate | *The practical sweet spot* |\n\nSubword tokenization is the engineering compromise that makes everything else feasible.\n\n## A concrete walk-through\n\nSuppose the context is **\"The capital of France is\"**. The tokenizer turns this into a handful of token IDs. The model processes them and outputs a probability for *every* token in its vocabulary as the next one. It might look like:\n\n```\nP(\" Paris\")  = 0.91\nP(\" the\")    = 0.02\nP(\" located\")= 0.01\nP(\" a\")      = 0.01\n...           (tens of thousands more, each tiny)\n```\n\nThe model then **samples** from this distribution (we'll cover *how* — temperature, top-p — in the inference lesson). It appends the chosen token and repeats. Output the token `\" Paris\"`, feed `\"The capital of France is Paris\"` back in, and ask again.\n\n> **A consequence worth remembering:** because the model picks one token at a time without a global plan, behaviors like *hallucination* and *getting stuck in repetition* aren't bugs bolted on — they're inherent to a system that locally optimizes \"plausible next token.\" Engineering around this is much of what AI engineering *is*.\n\n## Why \"large\"?\n\nThe \"large\" in LLM refers to two things growing together:\n\n1. **Parameters** — the billions of learned numbers (weights) inside the model. More parameters mean more capacity to store patterns.\n2. **Training data** — trillions of tokens of text scraped from books, code, and the web.\n\nWhen you scale both, models cross thresholds where qualitatively new abilities appear — translation, arithmetic, code generation — without being explicitly programmed for them. These **emergent abilities** are why the field exploded. But never lose sight of the foundation: underneath the scale, the objective is still just *next-token prediction*.\n\n## How this sets up the rest of the course\n\nEverything ahead builds on today:\n\n- **Embeddings** (next lesson): how a token ID like `3797` becomes a vector of numbers the model can compute with.\n- **The transformer & attention**: the architecture that computes $P(x_t \\mid x_{<t})$ so well.\n- **Context window & KV cache**: practical limits on how many tokens fit, and how generation is made fast.\n- **Cost & latency**: billed *per token*, so tokenization is an economic concern, not just a technical one.\n\n## Takeaways\n\n- A **language model** is a probability distribution over text; it works by repeated **next-token prediction**, factorized via the chain rule $P(x_1,\\dots,x_T)=\\prod_t P(x_t \\mid x_{<t})$.\n- LLMs are **autoregressive**: they generate one token at a time, feeding each output back in as context.\n- Models operate on **tokens** — subword chunks from a fixed vocabulary — not words or characters. **BPE** is the dominant scheme.\n- Rule of thumb: **1 token ≈ 4 characters ≈ 0.75 English words**; tokens drive both context limits and cost.\n- Subword tokenization is the **sweet spot** between tiny character vocabularies (too-long sequences) and huge word vocabularies (can't handle unseen words).\n- \"Large\" = many **parameters** + vast **training data**, which together yield **emergent abilities** — but the underlying objective never changes: predict the next token."
       }
     }
   ]
