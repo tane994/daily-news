@@ -22,6 +22,26 @@ if ! bun run generate; then
   exit 1
 fi
 
+# 1b. Fail-safe: never publish a near-empty edition. A transient claude/Max
+#     failure (rate-limit burst, network blip) can still write a snapshot with no
+#     stories, no Bites and no course lessons. If today's edition is degenerate,
+#     keep the previous live edition and bail — do NOT commit or push.
+TODAY="$(TZ=Europe/Rome date '+%F')"
+SNAP="public/data/snapshots/$TODAY.json"
+if [ ! -f "$SNAP" ]; then
+  echo "no snapshot written for $TODAY — aborting"
+  exit 1
+fi
+SCORE=$(jq '([.topics[].items[]?]|length) + ((.knowledge.items // [])|length) + ([.courses[]? | select(((.lesson.markdown // "")|length) > 200)]|length)' "$SNAP" 2>/dev/null || echo 0)
+echo "edition content score: $SCORE (news items + Bites + real course lessons)"
+if [ "${SCORE:-0}" -lt 5 ]; then
+  echo "EDITION LOOKS EMPTY (score $SCORE < 5) — generation likely failed; NOT publishing."
+  echo "Keeping the previous live edition; discarding the degenerate local files."
+  git checkout -- public/data 2>/dev/null || true   # restore tracked snapshots + index
+  git clean -fdq public/data 2>/dev/null || true    # drop the new degenerate snapshot
+  exit 1
+fi
+
 # 2. Commit the snapshot + manifest (the state) and push. No new data → no-op.
 git add public/data
 if git diff --cached --quiet; then

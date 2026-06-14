@@ -187,6 +187,35 @@ async function runClaude(
   delete env.ANTHROPIC_AUTH_TOKEN;
   delete env.ANTHROPIC_BASE_URL;
 
+  // Transient failures — a rate-limit/overload burst when several calls fire at
+  // once, or a brief network blip — surface as a non-zero exit or an error
+  // envelope and would otherwise empty a whole section. Retry a few times with
+  // jittered backoff so one bad moment doesn't wreck the day's edition. (The
+  // daily wrapper additionally refuses to publish a near-empty edition; this
+  // retry is what makes most unattended runs actually succeed.)
+  const MAX_ATTEMPTS = 3;
+  let lastErr: unknown;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      return await runClaudeOnce(userText, systemText, model, allowedTools, env);
+    } catch (e) {
+      lastErr = e;
+      if (attempt < MAX_ATTEMPTS) {
+        const backoff = attempt * 15_000 + Math.floor(Math.random() * 10_000);
+        await Bun.sleep(backoff);
+      }
+    }
+  }
+  throw lastErr instanceof Error ? lastErr : new Error(String(lastErr));
+}
+
+async function runClaudeOnce(
+  userText: string,
+  systemText: string,
+  model: string,
+  allowedTools: string,
+  env: Record<string, string | undefined>,
+): Promise<string> {
   const proc = Bun.spawn(
     [
       "claude",
