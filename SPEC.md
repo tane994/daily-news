@@ -117,9 +117,20 @@ Mermaid). Built with `base: "/daily-news/"` for the GitHub Pages project site;
 ## Operational
 
 - **Generation**: local, `bun run generate` (Claude Max + `claude` CLI on PATH +
-  `history.ts`). The whole run is light and does not throttle.
-- **Schedule**: launchd `com.andres.daily-news` runs `deploy/daily-run.sh` daily
-  at 07:00 — generate → commit the new snapshot + manifest → push.
+  `history.ts`). `runClaude` retries transient failures 3× with jittered backoff.
+- **Executor**: launchd job `com.andres.daily-news` runs `deploy/daily-run.sh`
+  (generate → content-score guard → commit → push). The guard **refuses to
+  publish a near-empty edition** (score < 5: a failed generation keeps the
+  previous live edition instead of clobbering it). It runs detached, so the
+  ~15-20 min run isn't bound by any agent command timeout. **No calendar trigger
+  on the launchd job** — it only runs on demand (`launchctl start …`).
+- **Schedule**: a Claude Code routine `daily-news` (visible in the Routines
+  panel, `~/.claude/scheduled-tasks/daily-news/`) fires at **07:00 daily** and
+  triggers the launchd executor via `launchctl start com.andres.daily-news`.
+  Keeping the schedule in one place (the routine) avoids double-runs. Like all
+  local routines it runs while the Mac is awake **and the Claude app is open**
+  (else on next app launch). To revert to a pure-launchd 07:00 trigger: re-add
+  `StartCalendarInterval` to the plist and pause the routine.
 - **Hosting**: GitHub Pages, built & deployed by `.github/workflows/deploy.yml`
   on every push to `master`. New data → new build → site refresh, no backend.
 - **State to commit**: `public/data/` (snapshots + index) IS the system's memory

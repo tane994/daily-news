@@ -25,18 +25,16 @@
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/andres/.bun/bin</string>
     </dict>
 
-    <!-- Daily at 07:00 local time. If the Mac is asleep at 07:00, launchd runs
-         the job once on the next wake. -->
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>7</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
+    <!-- No calendar trigger here ON PURPOSE. The 07:00 schedule lives in the
+         Claude Code routine "daily-news" (visible in the Routines panel), which
+         fires `launchctl start com.andres.daily-news`. This job is the detached,
+         robust EXECUTOR (the ~15-20 min generation outlives any app session and
+         isn't bound by an agent's command timeout). Keeping the schedule in only
+         one place avoids double-runs. To go back to a pure-launchd 07:00 trigger,
+         re-add StartCalendarInterval { Hour 7, Minute 0 } and pause the routine. -->
 
-    <!-- Do NOT run on load: avoid an unintended generation when you install it.
-         Use `launchctl start com.andres.daily-news` to trigger a test run. -->
+    <!-- Do NOT run on load: only run when explicitly triggered (by the routine,
+         or manually via `launchctl start com.andres.daily-news`). -->
     <key>RunAtLoad</key>
     <false/>
 
