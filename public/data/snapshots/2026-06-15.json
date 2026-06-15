@@ -1,0 +1,504 @@
+{
+  "date": "2026-06-15",
+  "generatedAt": "2026-06-15T05:10:36.074Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Moonshot AI's open-weight Kimi K2.7 Code headlined a quiet capability week, beating Anthropic's Claude Opus 4.8 on a key tool-use benchmark as Epoch AI rebuilt its FrontierMath test.",
+      "items": [
+        {
+          "headline": "Moonshot AI releases open-weight Kimi K2.7 Code, topping Claude Opus 4.8 on the MCP-Mark tool-use benchmark",
+          "brief": "Moonshot AI shipped Kimi K2.7 Code on June 12, a 1-trillion-parameter Mixture-of-Experts model (32B active per token) released under a Modified MIT license on Hugging Face. It scores 81.1 on MCP-Mark Verified, edging Claude Opus 4.8's 76.4, and reports +21.8% on Kimi Code Bench v2 over K2.6 while using roughly 30% fewer reasoning tokens.",
+          "whyItMatters": "A freely downloadable Chinese coding model matching a US frontier lab on agentic tool use sharpens the open-weights-vs-closed gap for developers.",
+          "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-12",
+          "featured": true
+        },
+        {
+          "headline": "Epoch AI ships FrontierMath v2 after fixing errors in 42% of problems; Claude Fable 5 leads at 87%",
+          "brief": "On June 12 Epoch AI released version 2 of FrontierMath, its expert-written advanced-math benchmark, after correcting or removing problematic items affecting about 42% of problems. The cleaned 338-problem set (295 in Tiers 1-3 plus 43 in Tier 4) left rankings similar but scores higher across the board, with Anthropic's Claude Fable 5 now top at 87% on Tiers 1-3 and 88% on Tier 4.",
+          "whyItMatters": "As models near saturation on hard math, the credibility of the benchmark itself becomes the story — and a recalibration resets the leaderboard.",
+          "url": "https://epochai.substack.com/p/the-epoch-brief-june-12-2026",
+          "source": "Epoch AI",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "PNAS Nexus study: top models including GPT-4o crack on the classic Stroop attention test as lists grow",
+          "brief": "Researchers led by Suketu Patel ran leading models through the Stroop task — naming the ink color of color words while ignoring the word — in a study published in PNAS Nexus on June 10. Models like GPT-4o (91% on short lists) and Claude 3.5 Sonnet handled brief sequences but collapsed toward near-total failure as lists lengthened, exposing how transformer self-attention degrades with sequence length.",
+          "whyItMatters": "It pinpoints a concrete failure mode for long, distraction-heavy tasks just as labs push agents toward multi-step, long-horizon work.",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
+          "source": "ScienceDaily",
+          "publishedAt": "2026-06-10"
+        },
+        {
+          "headline": "Google upgrades NotebookLM to Gemini 3.5, adding in-app code execution and AI source discovery",
+          "brief": "Google began rolling out a NotebookLM overhaul globally on the web from June 8, powered by Gemini 3.5. The update adds secure cloud-based code execution and data analysis plus a source-discovery mode that suggests and builds a knowledge base from a chat using Google Search, initially for AI Ultra subscribers and Workspace customers with AI Expanded access.",
+          "whyItMatters": "Code execution turns NotebookLM from a research reader into an analysis tool, pushing it onto the same turf as data-notebook products.",
+          "url": "https://www.edtechinnovationhub.com/news/google-upgrades-notebooklm-with-gemini-35-and-agentic-research-tools",
+          "source": "EdTech Innovation Hub",
+          "publishedAt": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "AI reliability and geopolitics dominated the product desk, as KPMG yanked an AI-written report riddled with hallucinations and Meta moved to unwind its $2 billion Manus acquisition under a Beijing order.",
+      "items": [
+        {
+          "headline": "KPMG pulls 'agentic AI' report after UBS, the NHS and others dispute AI-hallucinated claims",
+          "brief": "KPMG withdrew its October 2025 report 'Redefining excellence in the age of agentic AI' after organizations it cited — including UBS, the UK's National Health Service, Swiss Federal Railways and Transport for London — disputed how it described their AI use. Detection firm GPTZero concluded the inaccuracies stemmed from AI hallucinations, and KPMG removed the report from its websites pending an investigation, saying staff must apply 'human oversight to validate content.' It follows EY pulling a loyalty-rewards report that contained fake footnotes.",
+          "whyItMatters": "A second Big Four firm caught publishing AI-fabricated claims undercuts consultancies selling 'responsible AI' services to clients.",
+          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-13",
+          "featured": true
+        },
+        {
+          "headline": "Meta moves to unwind its $2B Manus acquisition after Beijing orders a divestiture",
+          "brief": "Meta is reversing its roughly $2 billion December 2025 purchase of AI-agent startup Manus after Chinese regulators in April 2026 ordered the deal undone, citing technology-export controls, foreign-investment rules and national security. Between June 11 and 13, Meta cut Manus off from its internal systems and halted data sharing. Manus — backed by Benchmark, Tencent, HSG and ZhenFund, and which had relocated staff to Singapore — saw its co-founders explore raising about $1 billion in May to buy the company back.",
+          "whyItMatters": "Beijing forcing the unwind signals AI talent and tech are becoming geopolitically off-limits, complicating any US acquisition of a Chinese-rooted startup.",
+          "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-13",
+          "featured": false
+        },
+        {
+          "headline": "Bluesky launches group chats for up to 50 people as it pivots to community features",
+          "brief": "Bluesky rolled out group chats for as many as 50 users in app version 1.124, letting creators control who joins and generate shareable invite links that appear as cards in posts. Media sharing isn't available yet, held back for moderation and safety. The launch is an early step in Bluesky's shift toward community features and planned dedicated 'community spaces' on its AT Protocol, with growth having stalled around 44.8 million users.",
+          "whyItMatters": "The community pivot is Bluesky's bid to deepen engagement and keep pressuring X as its user growth plateaus.",
+          "url": "https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-11",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "Global markets roared on Monday as a confirmed US-Iran deal to end the war sent stocks soaring and oil tumbling, while Wall Street digested Elon Musk's record SpaceX IPO and braced for Kevin Warsh's first Fed meeting as chair.",
+      "items": [
+        {
+          "headline": "Global stocks soar and Brent crude sinks 4.5% as US and Iran confirm deal to end the war",
+          "brief": "President Donald Trump announced a deal late Sunday to halt hostilities, reopen the Strait of Hormuz and lift the US naval blockade of Iranian ports; Iran's deputy foreign minister Kazem Gharibabadi confirmed it, with a signing set for Switzerland on Friday. Asian markets surged Monday — Japan's Nikkei 225 +5.5%, South Korea's Kospi +5.7%, Taiwan's Taiex +2.7% — while S&P 500 and Nasdaq futures rose about 1% and 1.8%. Brent crude fell roughly 4.5% below $83.40 a barrel as the deal suspends sanctions on Iranian oil sales and releases $24 billion in frozen Iranian assets.",
+          "whyItMatters": "Cheaper oil eases the inflation threat that had pinned the Fed, but Energy Secretary Chris Wright cautioned normal supply could take months.",
+          "url": "https://www.aljazeera.com/economy/2026/6/15/stock-markets-soar-oil-falls-as-us-iran-confirm-deal-to-end-war",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-06-15",
+          "featured": true
+        },
+        {
+          "headline": "SpaceX raises $75 billion in the largest IPO ever, making Elon Musk the world's first trillionaire",
+          "brief": "SpaceX (ticker SPCX) priced at $135 and closed Friday at $161.11, up 19.3%, after opening at $150 and touching $176.52, lifting its market value above $2 trillion following its merger with Musk's AI venture xAI. The $75 billion raised is roughly triple Alibaba's 2014 deal, the prior US record, and made Musk the first trillionaire. Musk said the capital funds a 'significant growth phase,' including over 100,000 communications satellites and AI data centers in space.",
+          "whyItMatters": "The blockbuster debut, the most-bought stock by retail traders on the day, is expected to unleash a wave of high-profile tech IPOs.",
+          "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-12",
+          "featured": false
+        },
+        {
+          "headline": "AI chiefs Altman, Hassabis and Amodei head to the G7 summit in Évian as trade and AI top the agenda",
+          "brief": "The 52nd G7 summit opens June 15–17 in Évian-les-Bains, hosted by France's Emmanuel Macron, with OpenAI's Sam Altman, Google's Demis Hassabis and Anthropic's Dario Amodei attending — the first G7 to host all three top AI firms. Macron has arranged a working lunch with business leaders on safe, rapid AI deployment, while leaders from the US, UK, Canada, Germany, Italy and Japan tackle trade imbalances, Trump's tariffs, the Iran ceasefire and Ukraine. Trump travels to Évian Monday and joins a Tuesday session with Volodymyr Zelensky.",
+          "whyItMatters": "It signals AI's elevation to a core economic-policy issue at the highest level, with money and industrial strategy, not just safety, now driving the conversation.",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        },
+        {
+          "headline": "Kevin Warsh runs his first Fed meeting June 16–17, with rates near-certain to hold at 3.50%–3.75%",
+          "brief": "Kevin Warsh, sworn in May 22 as the Fed's 17th chair, presides over his first FOMC meeting this week, with markets pricing a 99.5% probability of no change to the 3.50%–3.75% target range. Inflation running around 4.2% and unemployment near 4.4% have kept policymakers on hold, and officials are expected to shift from an easing bias toward a neutral stance for the rest of 2026. Investors will scrutinize the updated dot plot and Warsh's first press conference for whether a 2026 cut survives.",
+          "whyItMatters": "Warsh's tone sets the template for how a Trump-picked chair communicates, and could push the next rate cut into 2027.",
+          "url": "https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026",
+          "source": "Chase",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        },
+        {
+          "headline": "OpenAI files confidentially for an IPO above $1 trillion, swelling the AI listing pipeline to $3.6 trillion",
+          "brief": "OpenAI confidentially filed with the SEC on June 8 for an IPO targeting a valuation above $1 trillion, with Goldman Sachs and Morgan Stanley leading and timing still undecided. It becomes the third major AI developer to file, after Anthropic's June 1 confidential filing at a $965 billion valuation (following a $65 billion raise) and SpaceX's completed offering. OpenAI was last valued at $852 billion in its $122 billion March round and is generating roughly $2 billion in monthly revenue while still loss-making.",
+          "whyItMatters": "A pipeline of AI IPOs now worth some $3.6 trillion will test public-market appetite for richly valued, cash-burning AI bets.",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/openai-filed-confidentially-for-ipo-as-rivals-race-to-market",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-08",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "The marquee is Xander Zayas vs. Jaron 'Boots' Ennis, a 154-pound title unification on June 27 at Brooklyn's Barclays Center, while Jesse 'Bam' Rodriguez just became a three-division champ and Lewis Crocker defends his welterweight belt in Australia this month.",
+      "items": [
+        {
+          "headline": "Xander Zayas vs. Jaron 'Boots' Ennis — junior middleweight title unification, June 27 at Barclays Center, Brooklyn",
+          "brief": "WBO/WBA junior middleweight champion Xander Zayas (23-0, 13 KOs) defends against former unified welterweight king Jaron 'Boots' Ennis (35-0, 31 KOs) on June 27 at Barclays Center in Brooklyn, live on DAZN PPV. Zayas, 23, unified the titles in January over Abass Baraou; Ennis moved up to 154 and won a title in a single round in his debut at the weight.",
+          "whyItMatters": "Two undefeated fighters in their primes with real belts on the line — billed as the most significant 154-pound fight in years.",
+          "url": "https://www.espn.com/boxing/story/_/id/48347501/xander-zayas-jaron-ennis-title-bout-set-june-27-brooklyn",
+          "source": "ESPN",
+          "featured": true
+        },
+        {
+          "headline": "Ryan Garner vs. Michael Magnesi — WBC interim super featherweight title, this Saturday June 20 at St Mary's Stadium, Southampton",
+          "brief": "Undefeated home favorite Ryan Garner (19-0) faces Italy's Michael Magnesi (26-2, 13 KOs) for the WBC interim super featherweight title on June 20 at Southampton's St Mary's Stadium, on a Queensberry card shown on DAZN. Garner, 28, fulfills a long-stated dream of headlining his home city's stadium against the WBC Silver titleholder.",
+          "whyItMatters": "A win launches Garner onto the world stage and into the WBC's 130-pound title picture.",
+          "url": "https://wbcboxing.com/en/ryan-garner-vs-michael-magnesi-to-fight-for-the-wbc-interim-super-featherweight-title-in-england/",
+          "source": "World Boxing Council"
+        },
+        {
+          "headline": "Lewis Crocker vs. Liam Paro — IBF welterweight title, June 24 at Pat Rafter Arena, Brisbane",
+          "brief": "Belfast's Lewis Crocker (22-0, 11 KOs) makes the first defense of his IBF welterweight title against Australian mandatory challenger Liam Paro (27-1, 16 KOs) on June 24 at Pat Rafter Arena in Brisbane. The fight landed in Australia after No Limit won a purse bid over Crocker's promoter Matchroom; Crocker won the vacant belt over Paddy Donovan last September.",
+          "whyItMatters": "Crocker risks his belt away from home against a former IBF 140-pound champ who upset Subriel Matias in 2024.",
+          "url": "https://britishboxingnews.co.uk/news/lewis-crocker-vs-liam-paro-ibf-fight/",
+          "source": "British Boxing News"
+        },
+        {
+          "headline": "Jesse 'Bam' Rodriguez KO6 Antonio Vargas — wins WBA bantamweight title, becomes three-division champ (June 13, Glendale)",
+          "brief": "Jesse 'Bam' Rodriguez stopped Antonio Vargas (22-2-1) in the sixth round to claim the WBA bantamweight title on June 13 at Desert Diamond Arena in Glendale, Arizona. The win makes Rodriguez a three-division world champion and keeps him unbeaten.",
+          "whyItMatters": "Cements Bam as one of the sport's pound-for-pound forces and opens unification fights at 118.",
+          "url": "https://boxingnews.com/news/jesse-bam-rodriguez-vs-antonio-vargas-result-and-reaction",
+          "source": "Boxing News",
+          "publishedAt": "2026-06-13"
+        },
+        {
+          "headline": "Tiara Brown UD Hannah Rapp — retains WBC featherweight title (June 13, Orlando)",
+          "brief": "Tiara Brown (21-0, 11 KOs) outworked Hannah Rapp over 10 rounds to retain her WBC featherweight title on June 13 in Orlando, winning by unanimous decision (97-93, 99-91, 99-91) on the MVP card. The undefeated American stays perfect.",
+          "whyItMatters": "Keeps Brown on course toward unification bouts in the 126-pound division.",
+          "url": "https://sports.yahoo.com/articles/tiara-brown-retains-wbc-featherweight-045226268.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-13"
+        },
+        {
+          "headline": "Tommy Fury beats Eddie Hall by majority decision — Misfits exhibition (June 13, Manchester)",
+          "brief": "Tommy Fury edged former World's Strongest Man Eddie Hall by majority decision (58-56, 59-56, and one 57-57 card) in the Misfits Boxing main event on June 13 at the AO Arena in Manchester, across six two-minute rounds. The crossover bout was an exhibition and did not count on Fury's pro record.",
+          "whyItMatters": "Keeps Fury in the lucrative crossover-boxing spotlight despite the lopsided physical mismatch.",
+          "url": "https://www.skysports.com/boxing/news/12183/13553895/misfits-boxing-tommy-fury-beats-former-worlds-strongest-man-eddie-hall-by-majority-decision-and-reveals-name-of-newborn-son",
+          "source": "Sky Sports",
+          "publishedAt": "2026-06-13"
+        },
+        {
+          "headline": "Mikaela Mayer vs. Chantelle Cameron — junior middleweight title unification set for August 29 in Birmingham",
+          "brief": "Mikaela Mayer (22-2, 5 KOs) and Chantelle Cameron (22-1, 8 KOs) will meet in a WBC/WBA/WBO junior middleweight unification on August 29 at bp pulse LIVE Arena in Birmingham, England, headlining MVPW-06 (Sky Sports UK, ESPN+ US). The 10-round bout pits two of women's boxing's most accomplished champions against each other.",
+          "whyItMatters": "Mayer's bid to become undisputed at 154 runs through Cameron, one of the era's best.",
+          "url": "https://www.boxingscene.com/articles/mikaela-mayer-chantelle-cameron-caroline-dubois-amelia-moore-in-birmingham-on-august-29",
+          "source": "BoxingScene"
+        },
+        {
+          "headline": "Oleksandr Usyk maps three-fight finish, targeting Tyson Fury trilogy before retirement",
+          "brief": "Heavyweight champion Oleksandr Usyk has outlined a plan for three final fights before retiring, with the winner of Wardley–Dubois and then a trilogy bout with Tyson Fury cited as the targets, after his bout with Rico Verhoeven. Usyk has stressed the timeline is 'not 100%' final and says he'll fight until he is 41.",
+          "whyItMatters": "Shapes the top of the heavyweight division and dangles a third Fury showdown.",
+          "url": "https://www.ringmagazine.com/news/oleksandr-usyk-outlines-three-fight-plan-en-route-to-retirement-7U938VC98H3aQGN6DFZh3",
+          "source": "The Ring"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "MMA's biggest week in years ends with Justin Gaethje shocking previously undefeated Ilia Topuria to seize the undisputed lightweight crown at the White House, while Conor McGregor's long-awaited return at UFC 329 looms next month.",
+      "items": [
+        {
+          "headline": "Justin Gaethje TKOs unbeaten Ilia Topuria (R4) for undisputed lightweight title; Gane stops Pereira for interim heavyweight gold — June 14, White House",
+          "brief": "At UFC Freedom 250 on the South Lawn of the White House on Sunday, June 14, interim champ Justin Gaethje (now undisputed) broke 17-0 Ilia Topuria via TKO (corner stoppage) after Round 4 to win the lightweight championship. In the co-main, Ciryl Gane finished Alex Pereira by TKO (strikes) at 1:27 of Round 2 to claim the interim heavyweight title.",
+          "whyItMatters": "Topuria's first career loss reorders the lightweight division and crowns Gaethje atop it, while Gane's win sets up a heavyweight unification picture.",
+          "url": "https://www.ufc.com/news/ufc-freedom-250-results-highlights-interviews",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-15T06:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Manel Kape vs. Kyoji Horiguchi 2 headlines flyweight Fight Night this Saturday, June 20, at the UFC Apex in Las Vegas",
+          "brief": "UFC Fight Night (Vegas 119) is topped by a flyweight rematch between Manel Kape and former title challenger Kyoji Horiguchi on Saturday, June 20 at the Meta Apex in Enterprise, Nevada. The two first met in RIZIN in 2017, where Horiguchi won by third-round arm-triangle; the card also features Ion Cutelaba vs. Navajo Stirling at light heavyweight.",
+          "whyItMatters": "A win keeps either flyweight in the 125-pound title conversation behind the champion.",
+          "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Kape_vs._Horiguchi",
+          "source": "Wikipedia / UFC.com",
+          "publishedAt": "2026-06-15T00:00:00Z"
+        },
+        {
+          "headline": "Conor McGregor returns vs. Max Holloway 2 in welterweight main event at UFC 329, July 11, T-Mobile Arena, Las Vegas",
+          "brief": "UFC 329 on July 11 during International Fight Week at T-Mobile Arena in Paradise, Nevada is headlined by a welterweight rematch between Conor McGregor and Max Holloway — McGregor's first fight in five years since breaking his leg at UFC 264 (July 2021), and Holloway's welterweight debut. The pair last met in 2013 at featherweight, where McGregor won a unanimous decision.",
+          "whyItMatters": "McGregor's comeback is the UFC's marquee draw of the summer and a measuring stick for whether he remains a title factor at 35.",
+          "url": "https://www.ufc.com/news/conor-mcgregor-rematches-max-holloway-welterweight-main-event-ufc-329-live-paramount",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-15T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "17.68",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-12",
+      "source": "Investing.com (CBOE VIX, last close)",
+      "url": "https://www.investing.com/indices/volatility-s-p-500",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.43",
+      "reference": "media ~17",
+      "asOf": "2026-06-12",
+      "source": "multpl.com (Shiller PE / CAPE)",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "esw",
+        "label": "Enterprise software",
+        "streams": [
+          {
+            "id": "now",
+            "label": "ServiceNow",
+            "kind": "name",
+            "names": [
+              "ServiceNow"
+            ],
+            "items": [
+              {
+                "headline": "ServiceNow and IBM strike multi-year alliance to modernize legacy IT and deploy enterprise AI",
+                "brief": "On June 12, 2026, ServiceNow and IBM announced a multi-year collaboration pairing ServiceNow's AI Platform with IBM's AI, data and automation portfolio — including Red Hat Ansible, Instana, and HashiCorp's Terraform and Vault — to target application modernization, data governance and autonomous infrastructure operations. No financial terms were disclosed; joint capabilities are expected to ship in the second half of 2026.",
+                "whyItMatters": "Deepens ServiceNow's push into agentic enterprise AI and gives it a hyperscaler-adjacent channel into IBM's large modernization installed base, though revenue impact is unquantified for now.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-servicenow-alliance-targets-legacy-061121565.html",
+                "source": "Yahoo Finance",
+                "publishedAt": "2026-06-12T06:11:00Z"
+              },
+              {
+                "headline": "ServiceNow confirms exploited unauthenticated API flaw exposed customer instance data; patched June 5",
+                "brief": "ServiceNow disclosed a security incident in which an unauthenticated REST API endpoint (/api/now/related_list_edit/create, configured with requires_authentication=false) let outside parties query customer instance tables containing tickets, employee records and configuration data. The company received a bug-bounty report on April 22, 2026, patched hosted instances on June 5 after activity reportedly began around June 2, and later said the observed querying was likely tied to security researchers rather than malicious actors; no CVE has been assigned.",
+                "whyItMatters": "A confirmed data-exposure event on customer instances is a trust risk for ServiceNow's enterprise base and raises questions about the six-week gap between disclosure and patch.",
+                "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+                "source": "BleepingComputer",
+                "publishedAt": "2026-06-09T00:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Alphabet prices ~$84.75 billion equity raise to fund AI build-out, anchored by Berkshire Hathaway's $10 billion stake",
+                "brief": "Alphabet's stock offering — its first major equity raise in years — was oversubscribed and priced at roughly $84.75 billion, with about 2% dilution against its ~$4.3 trillion market cap. The deal is anchored by Berkshire Hathaway, which agreed to buy $5 billion of Class A shares at $351.81 and $5 billion of Class C shares at $348.20. Alphabet plans to spend $180–190 billion on AI infrastructure this year, a shift from funding capex through cash flow and buybacks.",
+                "whyItMatters": "Marks a strategic pivot to external capital to win the AI infrastructure race and signals an unusual tech bet by Berkshire under Greg Abel.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-raising-84-75-billion-072500214.html",
+                "source": "Yahoo Finance",
+                "publishedAt": "2026-06-14"
+              },
+              {
+                "headline": "Amazon CEO Andy Jassy's warning triggers White House shutdown of Anthropic's Fable 5 model",
+                "brief": "Fortune reports that Amazon CEO Andy Jassy alerted senior White House officials after Amazon researchers used prompts to jailbreak Anthropic's Fable 5 (built on the Mythos 5 model) and extract restricted cyberattack information. On the evening of June 13, the Commerce Department imposed national-security export controls barring foreign nationals from the models, forcing Anthropic to disable both Fable 5 and Mythos 5 entirely. White House AI adviser David Sacks called it 'a jailbreak in Fable 5's guardrails'; Anthropic was reportedly given only 90 minutes' notice.",
+                "whyItMatters": "Positions Amazon as a key safety gatekeeper over rival frontier models and escalates government intervention in the AI race, a competitive flashpoint for Amazon's own AI ambitions.",
+                "url": "https://fortune.com/2026/06/14/how-a-warning-from-amazon-led-the-white-house-to-shut-down-anthropics-mythos-model/",
+                "source": "Fortune",
+                "publishedAt": "2026-06-14"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "DBS to launch retail tokenised physical gold, each token backed by one gram in a Singapore vault",
+                "brief": "Singapore's largest bank by assets said on June 11 it will offer DBS Physical Gold Tokens via its digibank app in H2 2026 — the first Singapore offering letting retail customers digitally access, hold and trade tokenised physical gold on one platform, with 24/7 trading and redemption for physical gold. Each token is backed by one gram of vaulted gold (about S$200 / $155 at announcement). Group head of investment products James Tan said tokenisation would democratise gold investing; physical gold holdings among DBS wealth clients have more than doubled in three years.",
+                "whyItMatters": "Extends DBS's digital-asset tokenisation push from institutional to mass retail, opening a new fee-generating product line and signalling deeper use of its DBS Digital Exchange rails.",
+                "url": "https://finance.yahoo.com/markets/commodities/articles/singapore-bank-dbs-offer-tokenised-030408596.html",
+                "source": "Reuters via Yahoo Finance",
+                "publishedAt": "2026-06-11"
+              },
+              {
+                "headline": "CME Group to launch four new E-mini equity index futures on June 29, covering 90%+ of US market cap",
+                "brief": "CME announced on June 11 it will expand its benchmark equity index suite, pending regulatory review, with E-mini Morningstar U.S. Total Market, Russell 3000, S&P 1500 Composite and S&P Total Market index futures starting June 29. The contracts give traders all-cap, broad-market exposure spanning more than 90% of the US investable market capitalization. Joe Hickey, CME's global head of equity products, said the products meet 'growing client demand for unified, all-cap risk management tools.'",
+                "whyItMatters": "Broadens CME's highest-margin equity index franchise into all-cap benchmarks, a potential new source of contract volume and data revenue.",
+                "url": "https://www.prnewswire.com/news-releases/cme-group-to-expand-equity-index-suite-with-launch-of-four-new-e-mini-futures-contracts-302798026.html",
+                "source": "PR Newswire / CME Group",
+                "publishedAt": "2026-06-11"
+              },
+              {
+                "headline": "CME Group adds smaller-sized, 24/7 WTI crude oil and gold contracts, including a 10-barrel WTI future",
+                "brief": "CME said on June 11 it will expand 24/7 trading with smaller-sized WTI crude oil and gold contracts, including a new 10-Barrel WTI Crude Oil future, to enable more precise hedging and broaden market access. The move targets continuous, around-the-clock energy and metals trading demand.",
+                "whyItMatters": "Smaller, round-the-clock contracts court retail and global participants, supporting CME's volume growth in commodities outside US hours.",
+                "url": "https://www.cmegroup.com/media-room/press-releases/2026/6/11/cme_group_to_expand247tradingforwticrudeoilandgold.html",
+                "source": "CME Group",
+                "publishedAt": "2026-06-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seaem",
+        "label": "SEA / EM",
+        "streams": [
+          {
+            "id": "sea",
+            "label": "Sea Ltd",
+            "kind": "name",
+            "names": [
+              "Sea Limited (Garena, Shopee, SeaMoney)"
+            ],
+            "items": [
+              {
+                "headline": "Sea Limited cuts hundreds of Shopee developer jobs — about 8% of its dev workforce — in pivot to AI",
+                "brief": "Sea's e-commerce unit Shopee began eliminating several hundred developer roles globally this week, equal to roughly 8% of its development workforce, with quality-assurance functions among those hit and more cuts possible. Management framed the reductions as a rebalancing of costs toward AI-powered tools and automation, part of CEO Forrest Li's stated push toward a $1 trillion market cap. The move follows Sea's expanded AI partnership with Google spanning Shopee, Garena and Monee.",
+                "whyItMatters": "Signals Sea is trading headcount for AI-driven efficiency in its largest segment; investors will watch whether margins improve without denting Shopee's 30%+ GMV growth.",
+                "url": "https://www.bloomberg.com/news/articles/2026-06-10/sea-s-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+                "source": "Bloomberg",
+                "publishedAt": "2026-06-10"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "ROIC (Return on Invested Capital)",
+        "body": "Il ROIC misura quanto profitto operativo genera un'azienda per ogni euro di capitale che usa davvero per fare business (debito + capitale proprio). In parole semplici: utile operativo dopo le tasse diviso il capitale investito. È il ratio preferito da chi vuole capire se un'azienda crea valore, perché un'impresa guadagna davvero solo quando il ROIC supera il costo del capitale che impiega.",
+        "example": "Se un'azienda produce 15 di utile operativo netto su 100 di capitale investito, il ROIC è 15%. Se per finanziarsi paga in media l'8%, sta creando valore (15% > 8%).",
+        "whyItMatters": "Distingue le aziende che creano ricchezza da quelle che bruciano capitale solo per crescere."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Burn rate e runway",
+        "body": "Il burn rate è quanto cash brucia una startup ogni mese (spese meno entrate). Il runway è quanti mesi di vita restano prima che la cassa finisca: cassa disponibile diviso burn rate mensile. Sono i due numeri che un fondatore guarda ogni mattina, perché determinano quanto tempo ha per raggiungere il prossimo traguardo o chiudere un nuovo round.",
+        "example": "Con 600.000 € in banca e un burn di 50.000 €/mese, il runway è 12 mesi. La regola pratica: inizia a raccogliere il round successivo quando ne restano 6-9.",
+        "whyItMatters": "Una startup non muore quando ha un brutto trimestre, ma quando finisce la cassa."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "Entropia",
+        "body": "L'entropia è la misura del disordine, cioè di quanti modi diversi le parti di un sistema possono disporsi pur sembrando uguali dall'esterno. La natura tende sempre verso configurazioni più probabili, e ci sono molti più modi di essere disordinati che ordinati: per questo le cose, lasciate a sé stesse, si disordinano. È il motivo per cui il tempo ha una direzione: si va dall'ordine al disordine, non viceversa.",
+        "example": "Una goccia d'inchiostro nell'acqua si diffonde fino a colorare tutto, ma non si ricompatta mai da sola: ci sono miliardi di modi di stare 'sparsa' e uno solo di stare 'concentrata'.",
+        "whyItMatters": "Spiega perché il calore va sempre dal caldo al freddo e perché il moto perpetuo è impossibile."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "Il chiaroscuro di Caravaggio",
+        "body": "Il chiaroscuro è il contrasto netto tra luce e ombra usato per dare volume e drammaticità. Caravaggio lo portò all'estremo (tecnica detta tenebrismo): figure illuminate da un fascio di luce tagliente che emerge da uno sfondo quasi nero. Cosa guardare: come la luce 'scolpisce' i corpi e dirige l'occhio sui gesti chiave, come in un riflettore teatrale.",
+        "example": "Nella 'Vocazione di San Matteo' un raggio di luce attraversa la scena buia e cade sulle figure nel momento esatto della chiamata, trasformando un evento sacro in un attimo umano e immediato.",
+        "whyItMatters": "Quel modo di usare la luce per creare tensione è oggi la base del linguaggio di cinema e fotografia."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "La peste nera e la fine della servitù",
+        "body": "Tra il 1347 e il 1351 la peste uccise circa un terzo dell'Europa. Con tanti morti, i lavoratori sopravvissuti diventarono improvvisamente scarsi e quindi preziosi: potevano chiedere salari più alti e rifiutare i vincoli feudali. I signori provarono a bloccare gli aumenti con le leggi, ma la pressione del mercato del lavoro fu più forte e il sistema servile iniziò a sgretolarsi.",
+        "example": "In Inghilterra lo Statute of Labourers (1351) tentò di congelare i salari ai livelli pre-peste, ma fallì: i braccianti si spostavano dove venivano pagati di più.",
+        "whyItMatters": "Mostra una verità ancora attuale: quando il lavoro diventa scarso, il potere si sposta da chi paga a chi lavora."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "Il cerchio di competenza (Warren Buffett e Charlie Munger)",
+        "body": "L'idea è semplice: ognuno capisce davvero solo un numero limitato di cose. La chiave non è quanto è grande quel cerchio, ma sapere esattamente dov'è il suo confine. Decidere solo dentro il proprio cerchio di competenza, e dire onestamente 'non lo so' fuori, evita gli errori più costosi, che nascono quasi sempre dall'illusione di capire qualcosa che non si capisce.",
+        "example": "Buffett evitò la bolla dot-com perché ammise di non saper valutare le aziende tech del momento: rinunciò a un guadagno possibile per non rischiare un errore che non sapeva nemmeno riconoscere.",
+        "whyItMatters": "La maggior parte dei disastri finanziari e professionali avviene appena fuori dal proprio cerchio, dove ci si crede ancora esperti."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Perché le terre rare sono un collo di bottiglia (e non sono 'rare')",
+        "body": "Le terre rare sono 17 metalli usati nei magneti potentissimi di motori elettrici, eoliche, hard disk e sistemi militari. Il nome inganna: sono abbastanza diffuse nella crosta terrestre, ma si trovano sparse in concentrazioni bassissime e separarle l'una dall'altra richiede una raffinazione chimica complessa, sporca e poco redditizia. Il vero collo di bottiglia non è estrarle, ma raffinarle: questa fase è concentrata quasi tutta in Cina.",
+        "example": "Il neodimio serve a fare i magneti che muovono un'auto elettrica; anche se la roccia si estrae altrove, gran parte della separazione finisce per passare dagli impianti cinesi.",
+        "whyItMatters": "Chi controlla la raffinazione, non le miniere, ha la leva geopolitica sull'intera transizione energetica."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "Zona 2: la base aerobica che regge tutto",
+        "body": "La Zona 2 è l'intensità in cui corri o pedali a un ritmo facile, dove riesci ancora a parlare a frasi intere ma senti che stai lavorando. A questa intensità il corpo migliora i mitocondri e impara a bruciare grassi come carburante, costruendo la base aerobica che ti permette di reggere sforzi lunghi e di recuperare più in fretta tra gli sforzi intensi. È noiosa ma è il motore di fondo di ogni atleta di endurance.",
+        "example": "Nell'HYROX, una solida base in Zona 2 ti fa arrivare alle stazioni di forza (sled, burpee) con meno fiato perso: dedica 2-3 sedute facili a settimana tenendo un ritmo dove potresti dire una frase senza ansimare.",
+        "whyItMatters": "Senza base aerobica i lavori ad alta intensità ti logorano invece di farti migliorare."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "L'articolo nei quattro casi: declinazione completa di *der/die/das* e *ein*",
+        "readingTime": "~4 min",
+        "markdown": "# L'articolo nei quattro casi: declinazione completa di *der/die/das* e *ein*\n\n## Ripasso\n\nIeri abbiamo disegnato la **mappa del corso**: il tedesco ha quattro casi — **Nominativ** (soggetto), **Akkusativ** (oggetto diretto), **Dativ** (oggetto indiretto / destinatario) e **Genitiv** (possesso) — e abbiamo visto che il caso non si vede sul sostantivo ma soprattutto sugli *accompagnatori* della parola. Oggi rendiamo operativo quel principio: impariamo a **declinare gli articoli**, perché sono loro a portare il segnale del caso. Senza queste tabelle in memoria, tutto il resto del corso (aggettivi, preposizioni, relative) resta inaccessibile.\n\n## L'idea centrale: il caso vive sull'articolo\n\nIn italiano il caso lo esprimono le preposizioni (*a*, *di*, *con*) e la posizione. In tedesco la posizione è più libera perché la **terminazione dell'articolo** dice già che ruolo ha la parola nella frase. Confronta:\n\n- **Der Mann** sieht **den Hund**. → *L'uomo vede il cane.*\n- **Den Mann** sieht **der Hund**. → *Il cane vede l'uomo.*\n\nLe stesse parole, ordine inverso: cambia solo *der*↔*den*, e cambia chi morde chi. Ecco perché queste forme vanno sapute a memoria come le tabelline.\n\n## Articolo determinativo (*der bestimmte Artikel*)\n\n> Memorizza **per colonne** (i tre generi + il plurale) e nota i punti dove le forme cambiano davvero.\n\n| Caso | maschile | femminile | neutro | plurale |\n|------|----------|-----------|--------|---------|\n| **Nominativ** | **der** | **die** | **das** | **die** |\n| **Akkusativ** | **den** | **die** | **das** | **die** |\n| **Dativ** | **dem** | **der** | **dem** | **den** (+ -n) |\n| **Genitiv** | **des** (+ -s) | **der** | **des** (+ -s) | **der** |\n\nTre osservazioni che ti fanno risparmiare metà fatica:\n\n1. **Solo il maschile** distingue Nominativ (*der*) da Akkusativ (*den*). Femminile, neutro e plurale hanno la stessa forma nei due casi.\n2. **Il Dativ plurale** aggiunge **-n** anche al sostantivo: *die Kinder → mit den **Kindern*** (*con i bambini*).\n3. **Il Genitiv** maschile e neutro aggiunge **-s** (o **-es**) al sostantivo: *das Auto → der Motor des **Autos*** (*il motore dell'auto*).\n\n## Articolo indeterminativo (*der unbestimmte Artikel*) e negazione *kein*\n\nL'articolo *ein* segue lo stesso schema di terminazioni, ma **al Nominativ maschile e neutro non ha desinenza** (sono le caselle \"nude\"). *kein* (*nessuno / non… un*) e i possessivi (*mein, dein, sein*…) si declinano **esattamente come *ein***.\n\n| Caso | maschile | femminile | neutro | plurale (*kein*) |\n|------|----------|-----------|--------|------------------|\n| **Nominativ** | **ein** | **eine** | **ein** | **keine** |\n| **Akkusativ** | **einen** | **eine** | **ein** | **keine** |\n| **Dativ** | **einem** | **einer** | **einem** | **keinen** |\n| **Genitiv** | **eines** | **einer** | **eines** | **keiner** |\n\n> *ein* non ha plurale (come in italiano \"un\" non lo ha), perciò per il plurale usiamo **kein-** o i possessivi.\n\n## Come scegliere il caso: il diagramma di decisione\n\n```mermaid\nflowchart TD\n    A[Sostantivo nella frase] --> B{Che ruolo ha?}\n    B -->|Fa l'azione: soggetto| N[Nominativ]\n    B -->|Subisce l'azione: oggetto diretto| K[Akkusativ]\n    B -->|A chi / per chi: destinatario| D[Dativ]\n    B -->|Di chi: possesso| G[Genitiv]\n    A --> P{C'è una preposizione?}\n    P -->|\"für, ohne, gegen, durch, um\"| K\n    P -->|\"mit, nach, aus, zu, bei, von, seit\"| D\n```\n\nEsempio completo con tutti e quattro i casi:\n\n> **Der Lehrer** gibt **dem Schüler** wegen **des Fehlers** **keine** gute Note.\n> *L'insegnante (Nom.) dà allo studente (Dat.) a causa dell'errore (Gen.) nessun bel voto (Akk.).*\n\n## Errori tipici\n\n- **Dimenticare la -n al Dativ plurale**: ❌ *mit den Kinder* → ✅ *mit den **Kindern***.\n- **Confondere Nom. e Akk. al maschile**: ❌ *Ich sehe **der** Hund* → ✅ *Ich sehe **den** Hund* (*Vedo il cane*).\n- **Usare *ein* al plurale**: ❌ *eine Bücher* → ✅ *keine Bücher* / *meine Bücher*.\n- **Tradurre \"del/della\" sempre col Genitiv**: dopo *von* si usa il **Dativ** — *die Farbe **von dem** Auto* è alternativa colloquiale a *des Autos*.\n\n## Esercizi\n\n**1.** Inserisci l'articolo determinativo corretto:\na) Ich kaufe ____ Apfel (m, Akk.). b) Wir helfen ____ Frau (f, Dat.). c) Das ist das Haus ____ Mannes (m, Gen.). d) Er spielt mit ____ Kindern (pl, Dat.).\n\n**2.** Completa con *ein/eine/kein…*:\na) Sie hat ____ Bruder (m, Akk.). b) Ich gebe ____ Mädchen (n, Dat.) das Buch. c) Hier gibt es ____ Lösung (f, Akk., negazione).\n\n**3.** Identifica il caso della parola in grassetto e traduci:\na) **Dem Gast** schmeckt der Wein. b) Trotz **des Regens** gehen wir spazieren.\n\n**4.** Correggi l'errore: *Ich danke der Lehrer für die Hilfe.*\n\n---\n\n### Soluzioni\n\n**1.** a) **den** b) **der** c) **des** d) **den**\n**2.** a) **einen** b) **einem** c) **keine**\n**3.** a) **Dativ** — *L'ospite gradisce il vino* (lett. \"al ospite piace il vino\"); b) **Genitiv** — *Nonostante la pioggia andiamo a passeggio.*\n**4.** *danken* regge il **Dativ**: → *Ich danke **dem** Lehrer für die Hilfe.* (*Ringrazio l'insegnante per l'aiuto.*)\n\n## Takeaways\n\n- Il caso in tedesco si manifesta soprattutto sull'**articolo**, non sul sostantivo: impara le tabelle per colonne.\n- Al maschile *der → den → dem → des*: è l'unico genere che distingue Nominativ e Akkusativ.\n- **Dativ plurale** = articolo *den* **+ -n** sul sostantivo; **Genitiv** masch./neutro = *des* **+ -(e)s**.\n- *ein, kein* e i possessivi condividono le stesse desinenze; *ein* non ha plurale.\n- Domani useremo queste terminazioni come **base per la declinazione dell'aggettivo** (debole, forte, mista)."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Al telefono in tedesco: gestire una telefonata professionale",
+        "readingTime": "~4 min",
+        "markdown": "# Al telefono in tedesco: gestire una telefonata professionale\n\n## Ripasso\n\nNella scorsa lezione abbiamo costruito l'email professionale tedesca: l'**Anrede** formale (*Sehr geehrte Frau Müller,*), il corpo strutturato e la **Grußformel** di chiusura (*Mit freundlichen Grüßen*). Ricorda che dopo l'Anrede con virgola la prima parola va in **minuscolo**, e che il registro formale richiede sempre il **Sie**. Oggi passiamo dal testo scritto alla voce: il **Telefongespräch** (la telefonata di lavoro).\n\n## Perché il telefono è una sfida a parte\n\nAl telefono mancano i tempi di riflessione dell'email: devi **annunciarti**, capire l'interlocutore senza vederlo e reagire in tempo reale. Per questo il tedesco professionale usa **Redemittel** (espressioni-modello) fisse, quasi ritualizzate. Impararle a memoria ti libera la mente per il contenuto.\n\n```mermaid\nflowchart TD\n    A[Sich melden<br/>Rispondere/annunciarsi] --> B[Grund nennen<br/>Dire il motivo]\n    B --> C{Person da?}\n    C -->|sì| D[Gespräch führen<br/>Condurre la conversazione]\n    C -->|no| E[Nachricht / Rückruf<br/>Messaggio / richiamata]\n    D --> F[Verabschiedung<br/>Congedo]\n    E --> F\n```\n\n## Le fasi e i loro Redemittel\n\n### 1. Annunciarsi (sich melden)\n\nIn Germania **non si dice solo \"Hallo\"**: chi risponde dà nome (e spesso azienda). È una norma di cortesia.\n\n- **Müller, guten Tag.** — *Müller, buongiorno.* (risposta privata/diretta)\n- **Firma Bauer, Sie sprechen mit Anna Klein. Was kann ich für Sie tun?** — *Ditta Bauer, parla con Anna Klein. Cosa posso fare per Lei?*\n- Chi chiama: **Guten Tag, mein Name ist Rossi, ich rufe von der Firma Delta an.** — *Buongiorno, il mio nome è Rossi, chiamo dalla ditta Delta.*\n\n### 2. Dire il motivo (den Grund nennen)\n\n- **Ich rufe an wegen + Genitiv/Dativo …** — *Chiamo a proposito di…* → *Ich rufe an wegen der Rechnung.*\n- **Es geht um …** — *Si tratta di…* → *Es geht um unseren Termin am Freitag.*\n- **Könnte ich bitte Herrn Weber sprechen?** — *Potrei parlare con il signor Weber, per favore?*\n\n### 3. Passare la chiamata / far attendere\n\n- **Einen Moment bitte, ich verbinde Sie.** — *Un momento, La metto in comunicazione.*\n- **Bleiben Sie bitte dran.** — *Resti in linea, prego.*\n- **Herr Weber ist gerade nicht am Platz.** — *Il signor Weber al momento non è alla sua postazione.*\n\n### 4. Quando la persona non c'è: messaggio e richiamata\n\n- **Kann ich ihm etwas ausrichten?** — *Posso riferirgli qualcosa?*\n- **Möchten Sie eine Nachricht hinterlassen?** — *Vuole lasciare un messaggio?*\n- **Könnten Sie ihn bitten, mich zurückzurufen?** — *Potrebbe chiedergli di richiamarmi?*\n- **Ich rufe später noch einmal an.** — *Richiamo più tardi.*\n\n### 5. Capire male: chiedere di ripetere\n\nEspressioni preziose, da non considerare maleducate — anzi, sono *segno di professionalità*:\n\n- **Entschuldigung, ich habe Sie nicht verstanden.** — *Scusi, non L'ho capita.*\n- **Könnten Sie das bitte wiederholen?** — *Potrebbe ripeterlo, per favore?*\n- **Wie war noch mal Ihr Name?** — *Come ha detto che si chiama?*\n- **Können Sie das bitte buchstabieren?** — *Può fare lo spelling, per favore?*\n\n### 6. Congedarsi (sich verabschieden)\n\n- **Vielen Dank für Ihren Anruf.** — *Grazie della Sua chiamata.*\n- **Ich melde mich bei Ihnen.** — *Mi farò sentire.*\n- **Auf Wiederhören!** — *Arrivederci!* (al telefono si usa **Wiederhören**, non *Wiedersehen*).\n\n## Dialogo-modello\n\n> **Frau Klein:** Firma Bauer, Klein, guten Tag.\n> **Herr Rossi:** Guten Tag, Frau Klein. Mein Name ist Rossi von der Firma Delta. **Könnte ich bitte Herrn Weber sprechen?**\n> **Frau Klein:** Einen Moment bitte, ich verbinde Sie. … Es tut mir leid, Herr Weber ist gerade in einer Besprechung. **Kann ich ihm etwas ausrichten?**\n> **Herr Rossi:** Ja, gern. **Es geht um** unser Angebot von letzter Woche. **Könnten Sie ihn bitten, mich zurückzurufen?** Meine Nummer ist 030 / 22 14 87.\n> **Frau Klein:** Sehr gern. **Wie war noch mal Ihr Name?**\n> **Herr Rossi:** Rossi — R-O-S-S-I.\n> **Frau Klein:** Danke, ich richte es aus. **Auf Wiederhören!**\n> **Herr Rossi:** Vielen Dank, auf Wiederhören!\n\n## Note d'uso e registro\n\n| Scritto (email) | Parlato (telefono) |\n|---|---|\n| Sehr geehrte Frau … | Guten Tag, Frau … |\n| Mit freundlichen Grüßen | Auf Wiederhören |\n| Ich schreibe Ihnen wegen … | Ich rufe an wegen … |\n\n- **buchstabieren** (*fare lo spelling*) è quasi obbligatorio per nomi stranieri: tieni pronta la pronuncia tedesca delle lettere.\n- Il verbo separabile **zurückrufen** (*richiamare*) regge l'accusativo: *Ich rufe Sie morgen zurück.*\n- **anrufen** = *telefonare a* (con accusativo: *Ich rufe Sie an*); **telefonieren mit** = *parlare al telefono con* (con dativo: *Ich telefoniere mit dem Kunden*). Non confonderli.\n- Numeri di telefono: si leggono spesso **a coppie** (*22 14 87* = *zweiundzwanzig – vierzehn – siebenundachtzig*), ma chiedere cifra per cifra è sempre accettato.\n\n## Takeaways\n\n- Al telefono ci si **annuncia col nome**: *Müller, guten Tag.* — mai solo \"Hallo\".\n- Memorizza i Redemittel per fase: *sich melden → Grund nennen → ausrichten/zurückrufen → Auf Wiederhören.*\n- Chiedere di ripetere o fare lo spelling è **professionale**, non maleducato: *Könnten Sie das bitte wiederholen / buchstabieren?*\n- Al telefono si saluta con **Auf Wiederhören**, non *Wiedersehen*.\n- Attento ai verbi: **anrufen** + accusativo, **telefonieren mit** + dativo, **zurückrufen** separabile."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Load Balancing: Spreading Work Across Many Servers",
+        "readingTime": "~5 min",
+        "markdown": "# Load Balancing: Spreading Work Across Many Servers\n\n## Recap\n\nYesterday we separated **latency** (how long one request takes) from **throughput** (how many requests per second a system handles), and saw that *vertical scaling* (a bigger machine) hits physical and cost ceilings fast, while *horizontal scaling* (more machines) is how large systems actually grow. But horizontal scaling raises an immediate question: if you have ten servers, how does a request know which one to go to? That is the job of the **load balancer**.\n\n## The problem a load balancer solves\n\nWhen you add a second server, you create a routing problem. Clients know one address — `api.example.com` — but behind it there may be dozens of identical application servers. The **load balancer (LB)** is the single entry point that receives every incoming request and *distributes* it across the pool of backend servers.\n\n```mermaid\nflowchart LR\n    C1[Client] --> LB\n    C2[Client] --> LB\n    C3[Client] --> LB\n    LB[Load Balancer] --> S1[Server 1]\n    LB --> S2[Server 2]\n    LB --> S3[Server 3]\n```\n\nA good load balancer gives you four things at once:\n\n1. **Scalability** — add or remove servers without changing the client-facing address.\n2. **High availability** — if a server dies, the LB stops sending it traffic.\n3. **Health checking** — it continuously probes backends and routes only to healthy ones.\n4. **Abstraction** — clients see one stable endpoint, not the messy fleet behind it.\n\n## Layer 4 vs Layer 7\n\nLoad balancers operate at one of two levels of the network stack, named after OSI layers.\n\n| | **Layer 4 (Transport)** | **Layer 7 (Application)** |\n|---|---|---|\n| Sees | IP + TCP/UDP ports | Full HTTP: URL, headers, cookies |\n| Decisions based on | Connection-level data | Request *content* |\n| Speed | Very fast, cheap | Slower, more CPU |\n| Can do | Forward packets | Route `/images` vs `/api`, TLS termination, sticky sessions |\n\nA **Layer 4** LB simply forwards TCP connections — it doesn't read what's inside. A **Layer 7** LB *understands HTTP*, so it can route based on the path (send `/video` to media servers), terminate TLS, compress responses, or inspect cookies. Layer 7 is more powerful; Layer 4 is faster and works for any protocol. Most modern web stacks use Layer 7 at the edge.\n\n## Balancing algorithms\n\nHow does the LB *choose* a server? The algorithm matters.\n\n- **Round robin** — hand requests to servers in rotation: 1, 2, 3, 1, 2, 3… Simple and fair *if* all requests cost roughly the same.\n- **Weighted round robin** — give beefier servers a larger share. A server with weight 3 gets three requests for every one a weight-1 server gets.\n- **Least connections** — send the next request to whichever server currently has the fewest active connections. Better when request durations vary wildly (e.g. some requests stream for minutes).\n- **Least response time** — pick the server that is both fast *and* lightly loaded.\n- **IP hash** — hash the client's IP to deterministically map them to a server. Useful for *stickiness* (see below).\n\n> **Rule of thumb:** round robin for uniform, short requests; least-connections for uneven or long-lived ones.\n\n## The stateless principle\n\nLoad balancing works cleanly only when backends are **stateless** — meaning any server can handle any request because no request-specific data lives *on* the server itself.\n\nThe classic trap is **session state**. Suppose a user logs in and server 2 stores their session in local memory. The next request lands on server 5, which knows nothing about them — they appear logged out. Two fixes:\n\n1. **Sticky sessions (session affinity)** — the LB pins a given user to the same server (via cookie or IP hash). Simple, but it *undermines* even balancing and loses the user's session if that server dies.\n2. **Externalize the state** — store sessions in a shared store like Redis or a database. Now every server is truly interchangeable. *This is the preferred approach* and a recurring theme in distributed design: **push state out of the compute layer**.\n\n## Who balances the balancer?\n\nA single load balancer is itself a **single point of failure** — if it dies, everything behind it is unreachable. Production systems run LBs in pairs or clusters. A common pattern uses a **floating virtual IP (VIP)**: two LBs share one IP address, with a *passive* standby ready to take over instantly if the *active* one fails (active–passive). For more scale, DNS or anycast spreads traffic across *multiple* active LBs.\n\n```mermaid\nflowchart TB\n    DNS[DNS / Anycast] --> LBA[LB - Active]\n    DNS --> LBB[LB - Standby]\n    LBA --> Pool[Server Pool]\n    LBB -. takes over on failure .-> Pool\n```\n\n## A note on throughput math\n\nIf one server safely handles a peak of $c$ requests per second, then to serve a peak demand $D$ you need at least\n\n$$N = \\left\\lceil \\frac{D}{c} \\right\\rceil$$\n\nservers — but for **redundancy** you provision $N+1$ (or more), so the system survives losing a machine without dropping below capacity. This **N+1 redundancy** rule connects directly to yesterday's throughput discussion: the load balancer is the mechanism that lets you actually *use* those $N+1$ machines as one logical service.\n\n## Takeaways\n\n- A **load balancer** is the single entry point that distributes requests across a pool of backend servers, enabling horizontal scaling and high availability.\n- **Layer 4** balances on IP/port (fast, protocol-agnostic); **Layer 7** balances on HTTP content (path routing, TLS termination, smarter decisions).\n- Pick algorithms by workload: **round robin** for uniform requests, **least connections** for uneven or long-lived ones.\n- Keep backends **stateless** — externalize sessions to a shared store rather than relying on sticky sessions.\n- The LB is itself a single point of failure; run it in **active–passive pairs** with a floating VIP, and provision **N+1** servers for redundancy."
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Embeddings: Turning Tokens into Vectors of Meaning",
+        "readingTime": "~5 min",
+        "markdown": "# Embeddings: Turning Tokens into Vectors of Meaning\n\n## Recap\n\nYesterday we defined a *language model* as a function that assigns probabilities to sequences of text, factorized token by token as $P(\\text{text}) = \\prod_t P(x_t \\mid x_{<t})$. We saw that text is first chopped into **tokens** (subword units) by a tokenizer, so the model never sees raw characters — only integer token IDs. That leaves an obvious gap: a token ID like `15496` is just a number with no inherent meaning. Today we fix that.\n\n## The Problem with Token IDs\n\nA tokenizer maps each token to an integer index into a **vocabulary** (typically 30k–200k entries). But these integers are *arbitrary labels*. The fact that \"cat\" is token 9246 and \"dog\" is token 3290 tells the model nothing — the gap of 5956 between them is meaningless, and 9246 is not \"more\" than 3290 in any useful sense.\n\nIf we fed raw IDs into a neural network, it would have to learn relationships from numbers that encode none. Worse, a naive fix — **one-hot encoding**, where each token becomes a vector of all zeros except a single 1 at its index — gives every token a vector that is *equidistant* from every other. \"Cat\" and \"dog\" would be exactly as unrelated as \"cat\" and \"photosynthesis.\"\n\n> The core insight of embeddings: represent each token as a **dense, learned vector** in a continuous space, where *geometry encodes meaning*. Similar tokens land near each other; relationships become directions.\n\n## What an Embedding Is\n\nAn **embedding** is a function that maps each token ID to a vector of real numbers:\n\n$$ E : \\{0, 1, \\dots, V-1\\} \\to \\mathbb{R}^{d} $$\n\nwhere $V$ is the vocabulary size and $d$ is the **embedding dimension** (e.g. 768, 4096, 12288). Concretely, the model stores an **embedding matrix** $W_E$ of shape $V \\times d$. Looking up a token is just selecting its row:\n\n$$ \\mathbf{e}_i = W_E[i, :] \\in \\mathbb{R}^{d} $$\n\nSo for vocabulary size $V$ and dimension $d$, the embedding table holds $V \\times d$ parameters. With $V = 50{,}000$ and $d = 4096$, that's ~205 million parameters *just for the lookup table* — and crucially, **these numbers are learned during training**, not hand-designed. They start random and are nudged by gradient descent until they capture statistical structure.\n\n```mermaid\nflowchart LR\n    A[\"Text: 'cats sleep'\"] --> B[\"Tokenizer\"]\n    B --> C[\"IDs: [9246, 8765]\"]\n    C --> D[\"Embedding lookup<br/>W_E rows\"]\n    D --> E[\"Vectors:<br/>[0.12, -0.4, ...]<br/>[0.31, 0.08, ...]\"]\n    E --> F[\"Transformer layers\"]\n```\n\n## Why Geometry Means Something\n\nOnce tokens are vectors, we can measure how related two tokens are. The standard tool is **cosine similarity** — the cosine of the angle between two vectors:\n\n$$ \\text{sim}(\\mathbf{a}, \\mathbf{b}) = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\lVert \\mathbf{a} \\rVert \\, \\lVert \\mathbf{b} \\rVert} $$\n\nIt ranges from $-1$ (opposite) through $0$ (unrelated/orthogonal) to $1$ (same direction). We prefer cosine over raw distance because it ignores vector *length* and focuses on *direction*, which is where meaning tends to live.\n\nA famous emergent property is that **directions encode relationships**. In well-trained word embeddings, the vector arithmetic\n\n$$ \\mathbf{e}_{\\text{king}} - \\mathbf{e}_{\\text{man}} + \\mathbf{e}_{\\text{woman}} \\approx \\mathbf{e}_{\\text{queen}} $$\n\napproximately holds. The \"male → female\" relationship is roughly a *constant direction* in the space; so is \"singular → plural\" and \"country → capital.\" No one programmed this — it falls out of training on the distributional pattern that *words appearing in similar contexts get similar vectors* (the **distributional hypothesis**: \"you shall know a word by the company it keeps\").\n\n| Concept | One-hot | Learned embedding |\n|---|---|---|\n| Dimension | $V$ (e.g. 50,000) | $d$ (e.g. 4,096) |\n| Values | sparse, all 0 except one 1 | dense, all real numbers |\n| Similar tokens close? | No (all equidistant) | Yes |\n| Source | fixed by index | learned by training |\n\n## Token Embeddings vs. Embedding Models\n\nBe careful: the word \"embedding\" is used in two related but distinct senses.\n\n1. **Input token embeddings** (today's focus): the *first layer* inside an LLM, converting each token ID to a vector before the transformer processes it. One vector *per token*.\n2. **Sentence/document embeddings**: a separate class of models (e.g. for **RAG** and semantic search, which we'll cover later) that compress an *entire passage* into a single vector capturing its overall meaning, so you can find relevant documents by vector similarity.\n\nBoth rest on the same principle — *meaning as position in vector space* — but operate at different granularities. Today's token embeddings are the raw ingredient; the contextual \"meaning\" of a token in a *specific sentence* is built later by attention.\n\n## A Crucial Caveat: Embeddings Are Context-Free\n\nThe embedding lookup is **static**. The token \"bank\" gets the *same* vector whether it appears in \"river bank\" or \"savings bank.\" That's a limitation — and exactly the problem the **transformer** solves. The layers after the embedding table take these context-free vectors and progressively mix in information from surrounding tokens, producing **contextualized representations**. So embeddings are the *starting point* of understanding, not the finished product.\n\nThere's also **positional information** to add: the lookup gives \"cats\" the same vector wherever it sits in a sentence, but word order matters. Models add a **positional encoding** to each token embedding so the network knows each token's place — a thread we'll pick up with the transformer.\n\n## Takeaways\n\n- **Token IDs are arbitrary labels**; one-hot vectors make all tokens equidistant, encoding no relationships.\n- An **embedding** maps each token to a *dense, learned vector* in $\\mathbb{R}^d$ via a lookup into the $V \\times d$ embedding matrix $W_E$.\n- These vectors are **trained**, so geometry encodes meaning: similar tokens are close (**cosine similarity**), and relationships become consistent **directions** (king − man + woman ≈ queen).\n- Distinguish **token embeddings** (first layer of an LLM, one vector per token) from **sentence/document embedding models** (one vector per passage, used for search and RAG).\n- Token embeddings are **context-free** — \"bank\" always maps to the same vector. **Attention** (next major topic) and **positional encodings** are what turn these static vectors into context-aware meaning."
+      }
+    }
+  ]
+}
