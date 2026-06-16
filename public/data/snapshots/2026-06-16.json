@@ -1,0 +1,415 @@
+{
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T05:10:37.929Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Sakana AI's new Marlin agent — an autonomous researcher that runs for up to 8 hours to write 100-page cited reports — headlined a day of AI craft gains, alongside Z.ai's million-token open-weight GLM-5.2 and a k-means library that beats FAISS by 200x.",
+      "items": [
+        {
+          "headline": "Sakana AI ships Marlin, an autonomous agent that writes 60–100-page cited reports over runs of up to 8 hours",
+          "brief": "Tokyo-based Sakana AI released Marlin, its first commercial product, billed as a 'virtual chief strategy officer' and built on Adaptive Branching Monte Carlo Tree Search (AB-MCTS), which fires hundreds to thousands of LLM queries per task. A single run takes up to roughly 8 hours and produces a 60–100-page report with 60–80 cited sources plus AI-generated slides; about 300 professionals tested it during an April 2026 closed beta. Pricing runs from a pay-as-you-go ¥98-per-credit tier up to a ¥150,000/month Pro plan.",
+          "whyItMatters": "It pushes agents from minute-long answers toward day-long autonomous deep work, with MUFG partnered and Citigroup invested.",
+          "url": "https://www.marktechpost.com/2026/06/15/sakana-ai-marlin/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-15",
+          "featured": true
+        },
+        {
+          "headline": "Z.ai's open-weight GLM-5.2 ships a usable 1M-token context, 5x its predecessor, but no launch benchmarks",
+          "brief": "Chinese startup Z.ai released GLM-5.2, a 744-billion-parameter mixture-of-experts model that activates 40 billion parameters per token and extends the context window to 1,000,000 tokens — a 5x jump from GLM-5.1's roughly 200,000 — while adding two reasoning modes, High and Max. It went live across all GLM Coding Plan tiers and drops into eight agentic coding tools including Claude Code, Cline and OpenClaw, but Z.ai published no SWE-bench, Terminal-Bench or Code Arena scores at launch.",
+          "whyItMatters": "A million-token window lets developers hold an entire mid-sized repo in working memory, though the absent benchmarks leave its frontier claims unproven.",
+          "url": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-14",
+          "featured": false
+        },
+        {
+          "headline": "Flash-KMeans runs exact k-means over 200x faster than FAISS on GPUs without approximating",
+          "brief": "A new open-source library, Flash-KMeans, reimplements standard Lloyd's k-means in Triton GPU kernels and reports up to 17.9x end-to-end speedup over the best baseline, 33x over NVIDIA cuML and more than 200x over FAISS on an NVIDIA H200 — while changing none of the math. The gains come from two tricks: FlashAssign, which fuses distance computation with an online argmin to skip intermediate memory writes, and a sort-inverse update that replaces high-contention atomic scatters with localized reductions. It ships under Apache 2.0 and installs with 'pip install flash-kmeans'.",
+          "whyItMatters": "Faster exact clustering speeds the embedding and retrieval-indexing pipelines that underpin RAG systems, with no accuracy trade-off.",
+          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "UK Prime Minister Keir Starmer unveiled a sweeping under-16 social media ban, headlining a day dominated by tech-policy fights and new consumer AI products.",
+      "items": [
+        {
+          "headline": "UK PM Keir Starmer unveils under-16 ban covering TikTok, Instagram, YouTube and X, targeting spring 2027",
+          "brief": "Prime Minister Keir Starmer on Monday announced a complete prohibition on under-16s using Snapchat, TikTok, YouTube, Instagram, Facebook and X, with messaging apps WhatsApp and Signal explicitly exempted, and a rule forcing AI 'romantic companion' chatbots to restrict access to users 18 and older. The government cited a consultation in which 83% of parents said social media's risks outweigh its benefits, and says the measure goes further than any other country's, including Australia's late-2025 ban. Implementation is targeted for spring 2027.",
+          "whyItMatters": "Platforms must build nationwide age verification at scale, and the move sets a precedent Canada, France and Denmark are already moving to follow.",
+          "url": "https://techcrunch.com/2026/06/15/uk-unveils-sweeping-social-media-ban-for-users-under-16/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-15",
+          "featured": true
+        },
+        {
+          "headline": "US export ban pulls Anthropic's Fable and Mythos models offline as 76 security experts protest",
+          "brief": "After the US government imposed export controls on Anthropic's Fable and Mythos AI models on Friday, June 12, Anthropic suspended global access to both. On June 15, 76 cybersecurity figures — including former Facebook security chief Alex Stamos, Bugcrowd founder Casey Ellis, Katie Moussouris and Rachel Tobac — signed an open letter calling the restriction 'dangerous,' arguing it strips defenders of their best vulnerability-fixing tools while comparable capabilities remain in GPT-5.5, Claude Opus 4.8 and Chinese models like Kimi 2.7. The administration cited national security without detail, reportedly relying on an unpublished Amazon paper on bypassing Fable's guardrails.",
+          "whyItMatters": "The fight tests how far Washington can curb access to frontier AI tools, and the security community wants a transparent, science-based process instead.",
+          "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        },
+        {
+          "headline": "Meta launches 'AI Mode' search on Facebook, pulling answers from public posts, Groups and Reels",
+          "brief": "Meta on June 15 rolled out AI Mode, a feature that lets US Facebook mobile users ask plain-language questions and get synthesized answers drawn from public posts across Facebook, Groups and Reels rather than the open web, running on Meta's Muse Spark model. It complements Forum, Meta's Reddit-style app launched in May 2026, and ships alongside new video editing and AI photo tools. Meta is reportedly building AI subscription tiers atop plans that start at $3.99 a month.",
+          "whyItMatters": "It turns Facebook's vast user discussions into a search engine, but pulling from unvetted posts raises real risks of outdated or misleading answers.",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "Dealmaking and trade brinkmanship dominated finance on June 15, led by Fox Corporation's $22 billion cash-and-stock takeover of streaming pioneer Roku.",
+      "items": [
+        {
+          "headline": "Fox Corporation to buy Roku for $22 billion at $160 a share, a 34% premium",
+          "brief": "Lachlan Murdoch's Fox Corporation agreed on June 15 to acquire Roku for $160.00 per share — $96.00 in cash plus 0.9693 Fox Class A shares — in a deal valuing Roku at roughly $22 billion and carrying a 34% premium to its unaffected price. The tie-up pairs Fox's sports, news and ad-supported Tubi service with Roku's 100 million-plus streaming households, creating the third-largest U.S. player by share of TV viewing.",
+          "whyItMatters": "It vaults Fox into streaming distribution and accelerates media consolidation; the deal is expected to close in the first half of 2027 pending shareholder and regulatory approval.",
+          "url": "https://www.nbcnews.com/business/media/fox-buys-roku-22-billion-rcna350097",
+          "source": "NBC News",
+          "publishedAt": "2026-06-15",
+          "featured": true
+        },
+        {
+          "headline": "Trump threatens 100% tariff on all French wine and champagne over France's 3% digital tax",
+          "brief": "Ahead of the G7 summit in Évian, President Trump told the New York Post he would slap a 100% tariff on every wine and champagne coming out of France unless Macron scraps the 3% digital services tax that hits U.S. tech giants like Apple, Amazon and Meta. France has levied the tax since 2019 on digital revenue from firms with over €750 million in global sales, and officials close to Macron say repeal is 'no longer up for debate.' EU alcohol exports to the U.S. were worth about €9 billion in 2024.",
+          "whyItMatters": "A French refusal could ignite a fresh transatlantic trade war at the summit, putting billions in wine and spirits exports and the taxation of Big Tech on a collision course.",
+          "url": "https://www.france24.com/en/americas/20260615-french-wine-at-risk-trump-threatens-100-tariff-over-digital-tax",
+          "source": "France 24",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        },
+        {
+          "headline": "American Express to buy TheFork from Tripadvisor for $700 million in all-cash deal",
+          "brief": "American Express agreed on June 15 to acquire European restaurant-booking platform TheFork from Tripadvisor for $700 million in cash. TheFork connects diners with more than 50,000 restaurants across 11 European countries and generated $232 million in revenue for the year ended March 31, up 25%; the purchase expands Amex's dining network to 75,000 bookable venues and builds on its earlier Resy and Tock deals.",
+          "whyItMatters": "It deepens Amex's push into dining and international growth while letting Tripadvisor concentrate on its higher-margin Experiences business; the deal is set to close before year-end 2026.",
+          "url": "https://skift.com/2026/06/15/tripadvisor-sell-thefork-american-express/",
+          "source": "Skift",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        },
+        {
+          "headline": "Dow closes at record 51,671 and Nasdaq jumps 3.07% for its best day since March 31",
+          "brief": "U.S. stocks set fresh records on Monday, June 15, with the Dow adding 468.77 points (0.92%) to an all-time closing high of 51,671.03, the S&P 500 climbing 1.65% to 7,554.29, and the Nasdaq Composite surging 3.07% to 26,683.94 — its strongest session since March 31. Tech led the rally as a SpaceX extension and Trump's announced U.S.–Iran deal pushed crude near $80 a barrel.",
+          "whyItMatters": "The advance set up a cautious Tuesday as investors awaited Kevin Warsh's first FOMC meeting on June 16–17, where the Fed is widely expected to hold rates at 3.50%–3.75%.",
+          "url": "https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-15",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Boxing's biggest fresh story is Katie Taylor confirming her farewell — an undisputed super-lightweight defense against Flora Pili at Croke Park on September 5 — while two world-title cards land this week and Shakur Stevenson reportedly bolts to Zuffa Boxing.",
+      "items": [
+        {
+          "headline": "Katie Taylor to retire after undisputed super-lightweight defense vs. Flora Pili, Sept. 5 at Croke Park",
+          "brief": "Katie Taylor will close her career against unbeaten French mandatory Flora Pili (12-0) at Croke Park in Dublin on Saturday, September 5, live on DAZN. Taylor puts her WBO, WBA, IBF and Ring super-lightweight belts on the line and also fights for the vacant WBC title, making it a full undisputed bout in her farewell.",
+          "whyItMatters": "An Irish legend retiring as undisputed champion in a stadium homecoming — the marquee event of the women's calendar.",
+          "url": "https://www.skysports.com/boxing/news/12183/13550808/katie-taylor-to-face-flora-pili-in-farewell-fight-at-croke-park-in-dublin-on-september-5",
+          "source": "Sky Sports",
+          "featured": true
+        },
+        {
+          "headline": "Oscar Collazo defends unified minimumweight titles vs. Joey Canoy this Saturday, June 20 in Oceanside",
+          "brief": "Undefeated Oscar Collazo (14-0) puts his WBO, WBA and Ring minimumweight titles on the line against Filipino veteran Joey Canoy (25-5-2) on Saturday, June 20 at Frontwave Arena in Oceanside, California, on a Golden Boy card streamed on DAZN. It's Canoy's first crack at a major world title after years in IBO bouts.",
+          "whyItMatters": "Boxing's top 105-pounder risks his unified crown in his fourth title defense, with pound-for-pound stakes.",
+          "url": "https://www.yardbarker.com/boxing/articles/oscar_collazo_vs_joey_canoy_preview_betting_odds_fight_card/s1_17348_43957645",
+          "source": "Yardbarker"
+        },
+        {
+          "headline": "Ashton 'H2O' Sylve vs. Joseph 'JoJo' Diaz headline MF Pro's U.S. debut, June 19 in Long Beach",
+          "brief": "Prospect Ashton Sylve (13-1, 10 KOs) faces former IBF junior lightweight champion Joseph Diaz (34-9-1, 15 KOs) in a 10-round super lightweight main event Friday, June 19 at Thunder Studios in Long Beach, California — MF Pro's first U.S. show, on DAZN. The undercard includes unbeatens J'Hon Ingram vs. Devin Cushing.",
+          "whyItMatters": "A crossroads test for Sylve against a proven former champ as MF Pro plants a flag in American boxing.",
+          "url": "https://www.fightmag.com/ashton-sylve-vs-joseph-diaz-headlines-mf-pro-u-s-debut/",
+          "source": "FIGHTMAG"
+        },
+        {
+          "headline": "Shakur Stevenson reportedly signs with Zuffa Boxing, per Eddie Hearn",
+          "brief": "Matchroom's Eddie Hearn says junior welterweight champion Shakur Stevenson has signed with Dana White's Zuffa Boxing for a purse near $15M per fight, leaving Matchroom and DAZN. Stevenson, a four-weight world champion who beat Teofimo Lopez for the WBO/Ring 140-pound titles in January, would join Conor Benn and Jai Opetaia on the roster.",
+          "whyItMatters": "A pound-for-pound star moving to Zuffa reshapes the lightweight/junior-welterweight market and free-agent landscape.",
+          "url": "https://www.boxingscene.com/articles/eddie-hearn-says-shakur-stevenson-bound-for-zuffa-boxing",
+          "source": "BoxingScene"
+        },
+        {
+          "headline": "Abraham Perez upsets Jonathan Gonzalez by split decision for interim WBA flyweight title (June 14)",
+          "brief": "Albuquerque's unbeaten Abraham Perez (15-0, 7 KOs) edged former world champion Jonathan Gonzalez (29-5-1) by split decision — 115-113, 113-115, 115-113 — to win the interim WBA flyweight title Sunday, June 14 at GLC Live at 20 Monroe in Grand Rapids, Michigan.",
+          "whyItMatters": "Perez vaults into the 112-pound title picture and a mandatory line on the full WBA belt.",
+          "url": "https://www.abqjournal.com/sports/perez-dispenser-albuquerque-boxer-nabs-interim-flyweight-title/3063131",
+          "source": "Albuquerque Journal"
+        },
+        {
+          "headline": "Anthony Olascuaga defends WBO flyweight title vs. Andy Dominguez, July 11 in San Francisco",
+          "brief": "WBO flyweight champion Anthony Olascuaga (12-1, 9 KOs) defends against Andy Dominguez (13-1, 6 KOs) at Civic Center Plaza in San Francisco on July 11, a free outdoor card streamed on YouTube. Promoters are targeting 132,000-plus fans to break the Guinness record for most-attended boxing event.",
+          "whyItMatters": "A title fight doubling as an attendance record attempt, with Olascuaga riding a three-KO streak.",
+          "url": "https://www.espn.com/boxing/story/_/id/48694971/olascuaga-defend-wbo-flyweight-title-vs-dominguez-july-11",
+          "source": "ESPN"
+        },
+        {
+          "headline": "Canelo Alvarez says Crawford rematch in negotiations, targeting September 2026",
+          "brief": "Canelo Alvarez says he is in negotiations for a super middleweight rematch with Terence Crawford, now eyeing September 2026 after skipping a Cinco de Mayo date. Crawford handed Canelo a unanimous-decision loss last September on Netflix to become the four-belt era's first three-weight undisputed champion.",
+          "whyItMatters": "A rematch with undisputed 168-pound supremacy and Canelo's legacy on the line would be 2026's biggest fight.",
+          "url": "https://sports.yahoo.com/boxing/breaking-news/article/canelo-alvarez-to-skip-cinco-de-mayo-fight-in-2026-target-terence-crawford-rematch-for-september-170243365.html",
+          "source": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The White House fallout reshapes the title picture: new interim heavyweight champ Ciryl Gane and undisputed champ Tom Aspinall agree to settle their unification in Paris this September, while the UFC heads to Baku on June 27.",
+      "items": [
+        {
+          "headline": "Tom Aspinall vs. Ciryl Gane 2 set for heavyweight title unification in Paris this September",
+          "brief": "After Gane brutalized Alex Pereira (R2 stoppage) to win the interim heavyweight title at UFC Freedom 250, he called out champion Tom Aspinall for a Paris rematch in September, and Aspinall accepted on his YouTube channel: 'Paris in September, aye? I'll be there.' Their first meeting last October was waved off in Round 1 after Aspinall took multiple eye pokes, an injury that required surgery on both eyes.",
+          "whyItMatters": "It finally unifies the heavyweight title and gives Aspinall the clean finish — on Gane's home soil — that the eye-poke no-contest denied him.",
+          "url": "https://www.espn.com/ufc/story/_/id/49075259/ufc-heavyweight-champ-tom-aspinall-accepts-ciryl-gane-challenge-there",
+          "source": "ESPN",
+          "publishedAt": "2026-06-15",
+          "featured": true
+        },
+        {
+          "headline": "Rafael Fiziev vs. Manuel Torres headlines lightweight UFC Fight Night in Baku on June 27",
+          "brief": "The UFC returns to the National Gymnastics Arena in Baku, Azerbaijan on Saturday, June 27, with Rafael Fiziev (13-5) meeting Manuel Torres (17-3) in a lightweight main event; Fiziev is coming off a second-round KO loss to Mauricio Ruffy, while Torres rides stoppage wins over Grant Dawson and Drew Dober. The middleweight co-main pits Sharabutdin Magomedov (16-1) against Michel Pereira (32-14, 2 NC), with Marvin Vettori vs. Ismail Naurdiev and Ikram Aliskerov vs. Brunno Ferreira also on the 12-bout card.",
+          "whyItMatters": "A win puts the dynamic striker Torres in the lightweight title mix in a division just reshuffled by Gaethje's rise.",
+          "url": "https://www.fightmag.com/full-card-confirmed-for-ufc-baku-fiziev-vs-torres/",
+          "source": "FightMag"
+        },
+        {
+          "headline": "Ilia Topuria hospitalized after Round 4 TKO loss, vows Justin Gaethje rematch",
+          "brief": "Former lightweight champion Ilia Topuria was rushed to the hospital and left 'almost unrecognizable' after failing to answer the bell for the fifth round against Justin Gaethje at the White House's UFC Freedom 250, with reports he temporarily lost vision in both eyes. Topuria issued a defiant statement — 'I'll heal. I'll rest. And I'll return stronger... We will have our rematch' — though no return date is set, with Tsarukyan, Pimblett or a featherweight return floated as options.",
+          "whyItMatters": "The 29-year-old's first pro loss ends his aura of invincibility and leaves his next move — rematch or division change — as the lightweight division's biggest open question.",
+          "url": "https://sports.yahoo.com/articles/next-ilia-topuria-brutally-losing-210000105.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-15"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "16.20",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-15",
+      "source": "CBOE",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "42.18",
+      "reference": "media ~17",
+      "asOf": "2026-06-15",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Amazon Leo sets largest-payload mission yet: 36 satellites on Ariane 6's upgraded boosters, launching June 17",
+                "brief": "Amazon's LE-03 mission is targeting Wednesday, June 17 at 7:53 a.m. ET from Kourou, French Guiana, deploying 36 Amazon Leo broadband satellites — four more than the prior two Ariane 6 flights, thanks to the first use of Arianespace's longer P160C solid rocket boosters. It will be the largest payload ever launched for both Amazon Leo and Arianespace, push Arianespace's cumulative total to 100 Leo satellites in under five months, and bring Amazon's deployed constellation past 330 satellites across 12 missions since April 2025. Amazon remains Arianespace's largest customer under an 18-launch contract.",
+                "whyItMatters": "Faster deployment cadence keeps Amazon's multi-billion-dollar Leo (formerly Project Kuiper) constellation racing to reach commercial service and compete with SpaceX's Starlink.",
+                "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-rocket-satellite-update",
+                "source": "About Amazon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "Visa launches Intelligent Commerce platform and partners with OpenAI to let AI agents make payments",
+                "brief": "At Visa Payments Forum 2026, Visa unveiled 'Visa Intelligent Commerce,' a platform letting AI agents securely discover, initiate and complete transactions, alongside a collaboration with OpenAI that enables agentic payments directly inside OpenAI's platform. New tools include Agent Score, an Agentic Directory, and a Large Transaction Model for fraud detection, plus new stablecoin and token capabilities. Chief Product and Strategy Officer Jack Forestell said AI agents are becoming 'active participants in the economy,' with AI reshaping the front end of commerce and stablecoins the back end; Visa shares traded near record highs around $325.87 on June 15.",
+                "whyItMatters": "Positions Visa at the center of the emerging 'agentic commerce' rails and embeds it in OpenAI's ecosystem, defending its network against disintermediation as AI agents begin transacting.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-integrate-payments-openai-171404119.html",
+                "source": "Yahoo Finance",
+                "publishedAt": "2026-06-10"
+              },
+              {
+                "headline": "CME Group moves WTI crude oil and gold futures to 24/7 trading and adds smaller 10-barrel WTI contracts",
+                "brief": "On June 11, CME Group said it will expand WTI crude oil and gold futures to continuous 24/7 trading for round-the-clock price discovery, and introduced 10-barrel WTI crude contracts for more precise hedging. Separately it announced four new E-mini futures contracts launching June 29 that cover more than 90% of the U.S. investable market capitalization, plus financially-settled Micro E-mini S&P 500 and Nasdaq-100 options, pending regulatory review.",
+                "whyItMatters": "Adopting crypto's always-on model for flagship energy and metals contracts is a structural shift for the world's largest derivatives exchange, aimed at capturing global, after-hours volume.",
+                "url": "https://www.cmegroup.com/media-room/press-releases/2026/6/11/cme_group_to_expand247tradingforwticrudeoilandgold.html",
+                "source": "CME Group",
+                "publishedAt": "2026-06-11"
+              },
+              {
+                "headline": "DBS becomes first Singapore bank to offer tokenised physical gold to retail customers",
+                "brief": "On June 11, DBS Group — Singapore's largest bank by assets — said it will offer 'DBS Physical Gold Tokens' to retail customers via its digibank app in the second half of 2026, each backed by physical gold. The move extends DBS's digital-asset and tokenisation push beyond institutional clients to mass-market investors.",
+                "whyItMatters": "Brings blockchain-based real-world-asset tokenisation to retail banking in Singapore, opening a new fee-generating product line and reinforcing DBS's lead in digital assets among regional banks.",
+                "url": "https://finance.yahoo.com/markets/commodities/articles/singapore-bank-dbs-offer-tokenised-030408596.html",
+                "source": "Yahoo Finance / Reuters",
+                "publishedAt": "2026-06-11"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "P/E ratio (rapporto prezzo/utili)",
+        "body": "Il P/E misura quanto paghi oggi per ogni euro di utile annuo dell'azienda. La formula a parole: prezzo dell'azione diviso l'utile per azione (EPS). Un P/E alto significa che il mercato si aspetta forte crescita futura; uno basso può segnalare un'azienda matura, sottovalutata o in difficoltà. Da retail va sempre confrontato con i concorrenti dello stesso settore e con la storia dell'azienda, mai in assoluto.",
+        "example": "Azione a 100€, EPS di 5€ → P/E = 20. Vuol dire che, a utili costanti, ci metteresti 20 anni a 'recuperare' il prezzo con gli utili.",
+        "whyItMatters": "È la prima lente per capire se un titolo è caro o economico rispetto a quanto guadagna davvero."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "CAC e LTV",
+        "body": "Il CAC (Customer Acquisition Cost) è quanto spendi in media per acquisire un cliente: marketing e vendite divisi per i nuovi clienti ottenuti. L'LTV (Lifetime Value) è quanto margine ti porta quel cliente in tutta la sua vita. La startup è sana solo se l'LTV è nettamente più grande del CAC: il riferimento classico è un rapporto LTV/CAC di almeno 3 a 1. Conta anche il 'payback period', cioè in quanti mesi recuperi il CAC.",
+        "example": "Spendi 300€ per acquisire un cliente che ti lascia 1.200€ di margine nel tempo → LTV/CAC = 4. Sano. Se fosse 1,2 staresti quasi bruciando soldi per crescere.",
+        "whyItMatters": "Distingue una crescita che fa utili da una che esiste solo finché c'è cassa da bruciare."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "Il momento angolare",
+        "body": "Il momento angolare è la 'quantità di rotazione' di un oggetto: dipende da quanta massa ruota, quanto è lontana dal centro e quanto velocemente gira. La legge chiave è che, senza forze esterne che lo disturbino, questa quantità si conserva. Quindi se avvicini la massa al centro di rotazione, per mantenerla costante il corpo deve girare più veloce.",
+        "example": "Una pattinatrice che ruota con le braccia aperte e poi le chiude di colpo: accelera la rotazione senza spingere su nulla. Stessa cosa per la Terra o per una stella che collassa e gira sempre più in fretta.",
+        "whyItMatters": "Spiega da una sola idea cose lontanissime: trottole, satelliti, uragani e la stabilità di una bici in corsa."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "La prospettiva lineare (Brunelleschi)",
+        "body": "La prospettiva lineare è la tecnica che dà profondità a una superficie piatta facendo convergere le linee parallele verso un 'punto di fuga' all'orizzonte. Fu codificata a Firenze nel primo Quattrocento da Filippo Brunelleschi e teorizzata da Leon Battista Alberti. Quando guardi un'opera, cerca dove puntano i bordi del pavimento, dei soffitti e degli edifici: di solito si incontrano tutti in un punto, spesso vicino alla figura più importante.",
+        "example": "Nella 'Trinità' di Masaccio le linee della volta dipinta convergono in un punto preciso, e la cappella sembra scavata davvero nel muro della chiesa.",
+        "whyItMatters": "È il momento in cui la pittura occidentale smette di essere simbolica e diventa una finestra costruita con regole matematiche."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Il 'Nixon shock' del 1971: la fine dell'oro",
+        "body": "Fino al 1971 il dollaro era convertibile in oro a un cambio fisso, e quasi tutte le altre valute erano ancorate al dollaro (sistema di Bretton Woods). Spendendo troppo per il Vietnam e per la spesa interna, gli Stati Uniti avevano stampato più dollari dell'oro che potevano coprire. Il 15 agosto 1971 Nixon chiuse unilateralmente la 'finestra dell'oro': da quel giorno il denaro mondiale è diventato 'fiat', cioè vale solo per fiducia nello Stato che lo emette.",
+        "example": "Da allora i cambi tra valute fluttuano ogni giorno e le banche centrali possono creare moneta senza un vincolo d'oro: è la condizione che rende possibili sia il quantitative easing sia le grandi inflazioni.",
+        "whyItMatters": "Quasi tutto il sistema monetario in cui vivi — tassi, inflazione, debito pubblico — nasce da quella decisione di un pomeriggio d'agosto."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "Antifragilità (Nassim Taleb)",
+        "body": "Taleb distingue tre comportamenti di fronte al disordine: fragile (si rompe con lo stress), robusto (resiste senza cambiare) e antifragile (migliora grazie allo stress, entro certi limiti). L'idea forte è che la robustezza non basta: alcune cose traggono vantaggio dalla volatilità e dagli errori, purché i danni restino piccoli e i guadagni possano essere grandi. Si applica cercando esposizioni con perdite limitate e potenziale aperto.",
+        "example": "I muscoli e il sistema immunitario sono antifragili: piccoli stress controllati (allenamento, vaccini) li rinforzano. In finanza: tante piccole scommesse che al massimo perdono poco ma una può guadagnare tantissimo.",
+        "whyItMatters": "Ti sposta dall'obiettivo impossibile di 'prevedere lo shock' a quello pratico di 'posizionarti per beneficiarne'."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Perché la memoria HBM è il collo di bottiglia dell'AI",
+        "body": "Un acceleratore AI è velocissimo a calcolare, ma deve continuamente leggere e scrivere enormi quantità di dati (i pesi del modello). Se la memoria non li serve abbastanza in fretta, il chip resta fermo ad aspettare: è il 'memory wall'. La HBM (High Bandwidth Memory) risolve impilando i chip di memoria in verticale e collegandoli al processore con migliaia di connessioni parallele, vicinissime, per massimizzare la banda. Costruirla è difficile e pochi produttori (soprattutto coreani) la fanno bene.",
+        "example": "È la differenza tra svuotare una piscina con una cannuccia o con cento tubi affiancati: stessa pompa, ma la portata cambia tutto. Una GPU AI moderna monta diversi stack HBM proprio per non far 'morire di fame' i core di calcolo.",
+        "whyItMatters": "Oggi la corsa all'AI è limitata più dalla disponibilità di HBM che dalla potenza di calcolo pura."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "VO2max: il tetto del tuo motore aerobico",
+        "body": "Il VO2max è la massima quantità di ossigeno che il tuo corpo riesce a usare per minuto sotto sforzo: è il 'tetto' della tua capacità aerobica e uno dei migliori predittori di longevità. Lo alzi con stimoli vicini al massimo, dove la Zona 2 da sola non arriva: servono intervalli intensi che ti tengono a percentuali alte del cuore per qualche minuto. Il protocollo classico è il 4x4 norvegese: 4 minuti duri all'85-95% della frequenza massima, 3 di recupero attivo, ripetuti quattro volte.",
+        "example": "Per HYROX, 1-2 sessioni a settimana di 4x4 (corsa, ski-erg o bike) sopra la base di Zona 2 alzano il soffitto, così la tua andatura 'comoda' diventa più veloce a parità di fatica.",
+        "whyItMatters": "In una gara mista come HYROX un VO2max più alto significa recuperare prima tra le stazioni e tenere il ritmo quando gli altri cedono."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "La declinazione dell'aggettivo (1): il tipo debole dopo l'articolo determinativo",
+        "readingTime": "~4 min",
+        "markdown": "# La declinazione dell'aggettivo (1): il tipo debole dopo l'articolo determinativo\n\n## Ripasso\n\nIeri abbiamo completato la declinazione dell'articolo nei quattro casi: **der/die/das** (determinativo) e **ein** (indeterminativo) cambiano forma a seconda di *genere*, *numero* e *caso*. Hai visto che è soprattutto l'articolo a \"marcare\" il caso — per esempio il dativo maschile **dem**, il genitivo **des...-es**, l'accusativo maschile **den**. Tieni a mente quelle tabelle: oggi ci appoggiamo proprio a loro.\n\n## L'idea di fondo: una sola marca forte\n\nIn tedesco, quando un aggettivo sta **davanti a un sostantivo** (uso *attributivo*: *der **gute** Wein*), deve prendere una desinenza. Ma l'informazione su caso e genere viene data **una volta sola** nel gruppo nominale. Questo principio si chiama **Monoflexion** (mono-flessione): basta *una* marca \"forte\" per frase nominale.\n\nSe davanti c'è l'articolo determinativo (**der, die, das**), è lui a portare la marca forte (**dem**, **des**, **den**...). All'aggettivo, quindi, resta poco lavoro: prende la cosiddetta **declinazione debole** (*schwache Deklination*), che usa soltanto **due desinenze**: **-e** oppure **-en**.\n\n> 💡 Regola pratica: dopo l'articolo determinativo l'aggettivo finisce **sempre** in *-e* o *-en*. Mai altro.\n\n```mermaid\nflowchart TD\n    A[Aggettivo + sostantivo] --> B{Quale parola viene prima?}\n    B -->|Articolo determinativo<br/>der/die/das, dieser, jeder...| C[Declinazione DEBOLE<br/>solo -e / -en]\n    B -->|ein / kein / possessivo| D[Tipo MISTO<br/>lezione futura]\n    B -->|Niente articolo| E[Tipo FORTE<br/>lezione futura]\n    C --> F[Oggi studiamo questa]\n```\n\n## La tabella della declinazione debole\n\nL'aggettivo prende **-e** solo in cinque \"caselle d'angolo\"; in **tutte le altre** prende **-en**. Esempi: *gut* (buono), *frisch* (fresco), *kalt* (freddo).\n\n| Caso | Maskulin | Feminin | Neutrum | Plural |\n|------|----------|---------|---------|--------|\n| **Nom.** | der gut**e** Wein | die frisch**e** Milch | das kalt**e** Bier | die gut**en** Weine |\n| **Akk.** | den gut**en** Wein | die frisch**e** Milch | das kalt**e** Bier | die gut**en** Weine |\n| **Dat.** | dem gut**en** Wein | der frisch**en** Milch | dem kalt**en** Bier | den gut**en** Weinen |\n| **Gen.** | des gut**en** Weines | der frisch**en** Milch | des kalt**en** Bieres | der gut**en** Weine |\n\nTraduzioni: *der gute Wein* = **il buon vino**; *die frische Milch* = **il latte fresco**; *das kalte Bier* = **la birra fredda**; *die guten Weine* = **i buoni vini**.\n\nOsserva la geometria: le **-e** formano una piccola \"L\" in alto a sinistra (i tre nominativi singolari + l'accusativo femminile e neutro). Tutto il resto — accusativo maschile, **tutti** i dativi, **tutti** i genitivi e **tutto** il plurale — è **-en**.\n\n### Quali parole \"innescano\" il tipo debole?\n\nNon solo **der/die/das**, ma tutti i *der-Wörter* che si declinano come l'articolo determinativo:\n\n- **dieser** (questo), **jener** (quello), **jeder** (ogni), **welcher** (quale)\n- **mancher** (più d'uno), **solcher** (tale), **alle** (tutti, al plurale)\n\nEsempio: *Ich kenne **diesen netten** Mann* = **Conosco questo uomo gentile** (accusativo maschile → *-en*).\n\n## Esempi realistici\n\n- *Der **neue** Kollege kommt aus Berlin.* — **Il nuovo collega** viene da Berlino. *(Nom. m. → -e)*\n- *Ich trinke den **kalten** Kaffee nicht.* — **Non bevo il caffè freddo.** *(Akk. m. → -en)*\n- *Wir helfen der **alten** Frau.* — **Aiutiamo la donna anziana.** *(Dat. f., helfen regge il dativo → -en)*\n- *Das ist das Auto des **reichen** Mannes.* — **È l'auto dell'uomo ricco.** *(Gen. m. → -en)*\n- *Die **kleinen** Kinder spielen im Garten.* — **I bambini piccoli** giocano in giardino. *(Plur. → -en)*\n\n## Errori tipici\n\n1. **Mettere *-e* dappertutto:** ❌ *mit dem gute Wein* → ✅ *mit dem gut**en** Wein* (dativo = sempre *-en*).\n2. **Dimenticare la desinenza:** ❌ *der gut Wein* → ✅ *der gut**e** Wein*. L'aggettivo attributivo non è **mai** \"nudo\".\n3. **Confondere predicato e attributo:** *Der Wein ist **gut*** (predicativo, **invariabile**) ≠ *der gut**e** Wein* (attributivo, declinato). Dopo *sein/werden/bleiben* l'aggettivo non prende desinenza.\n4. **Plurale:** ❌ *die gute Weine* → ✅ *die gut**en** Weine* (il plurale è sempre *-en*).\n\n## Esercizi\n\n**1.** Completa la desinenza: *Ich sehe den ___ (klein) Hund.*\n**2.** Completa: *Wir wohnen in dem ___ (groß) Haus.*\n**3.** Traduci: «I bravi studenti studiano molto.» (*der Student / die Studenten*, *fleißig* = bravo/diligente, *viel* = molto, *lernen*)\n**4.** Correggi l'errore: *Das ist die Tasche der jung Frau.*\n\n### Soluzioni\n\n1. *Ich sehe den **kleinen** Hund.* (Akk. m. → -en)\n2. *Wir wohnen in dem **großen** Haus.* (Dat. n. → -en)\n3. *Die **fleißigen** Studenten lernen viel.* (Nom. plur. → -en)\n4. *Das ist die Tasche der **jungen** Frau.* (Gen. f. → -en; mancava la desinenza).\n\n## Takeaways\n\n- Dopo l'articolo determinativo (e i *der-Wörter*) l'aggettivo segue la **declinazione debole**: solo **-e** o **-en**.\n- **-e** nelle cinque caselle d'angolo (Nom. sg. m/f/n + Akk. f/n); **-en** in tutto il resto, incluso **tutto** il plurale, **tutti** i dativi e genitivi.\n- Funziona per *Monoflexion*: l'articolo porta già la marca forte del caso, quindi all'aggettivo basta poco.\n- Attenzione: l'aggettivo **predicativo** (dopo *sein*) resta **invariabile** — solo quello **attributivo** si declina.\n- Prossima lezione: il **tipo misto**, dopo *ein/kein* e i possessivi."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Termine vereinbaren: fissare, confermare e spostare un appuntamento",
+        "readingTime": "~5 min",
+        "markdown": "# Termine vereinbaren: fissare, confermare e spostare un appuntamento\n\n## Ripasso\n\nIeri abbiamo gestito una **telefonata professionale**: rispondere con la formula d'ufficio (**„Müller, Firma Berger, guten Tag.“**), chiedere chi parla (**„Wer ist am Apparat?“**), passare la chiamata (**„Ich verbinde Sie.“**) e prendere nota di un messaggio (**„Soll ich etwas ausrichten?“** — *Devo riferire qualcosa?*). Oggi facciamo il passo successivo, quello che chiude quasi ogni telefonata o email di lavoro: **einen Termin vereinbaren** (*fissare un appuntamento*).\n\n## Il vocabolario di base\n\n| Tedesco | Italiano |\n|---|---|\n| **der Termin, -e** | l'appuntamento |\n| **einen Termin vereinbaren** | fissare un appuntamento |\n| **einen Termin verschieben** | spostare un appuntamento |\n| **einen Termin absagen** | annullare un appuntamento |\n| **einen Termin bestätigen** | confermare un appuntamento |\n| **der Vorschlag, ¨-e** | la proposta |\n| **passen** | andare bene (di orario) |\n| **frei haben / Zeit haben** | essere libero / avere tempo |\n| **verfügbar / erreichbar** | disponibile / raggiungibile |\n| **die Besprechung, -en** | la riunione |\n\n> **Nota di registro:** il verbo chiave è **passen**, che si usa *impersonale e al dativo*: **„Passt es Ihnen am Donnerstag?“** (*Le va bene giovedì?*). La persona va al dativo (**Ihnen**), non al nominativo. È la struttura più tedesca e più usata di tutta la lezione.\n\n## Le Redemittel: proporre, accettare, rifiutare\n\n### Proporre un orario\n\n- **„Hätten Sie am Mittwoch Zeit?“** — *Avrebbe tempo mercoledì?*\n- **„Ich würde gern einen Termin mit Ihnen vereinbaren.“** — *Vorrei fissare un appuntamento con Lei.*\n- **„Wie wäre es mit Dienstag um 10 Uhr?“** — *Che ne dice di martedì alle 10?*\n- **„Passt es Ihnen nächste Woche?“** — *Le va bene la prossima settimana?*\n\n### Accettare\n\n- **„Ja, das passt mir gut.“** — *Sì, mi va bene.*\n- **„Donnerstag um 14 Uhr ist in Ordnung.“** — *Giovedì alle 14 va bene.*\n- **„Einverstanden.“** — *D'accordo.*\n\n### Rifiutare con gentilezza e proporre un'alternativa\n\n- **„Da kann ich leider nicht.“** — *Allora purtroppo non posso.*\n- **„Das passt mir leider nicht. Ginge es auch am Freitag?“** — *Purtroppo non mi va bene. Andrebbe anche venerdì?*\n- **„Am Montag bin ich leider verhindert.“** — *Lunedì sono purtroppo impossibilitato.*\n\n> Il **Konjunktiv II** (**hätten, würde, wäre, ginge**) è il segnale di cortesia formale: trasforma un ordine in una proposta. **„Geht es am Freitag?“** è corretto ma diretto; **„Ginge es am Freitag?“** è più elegante e professionale.\n\n## Dire data e ora correttamente\n\nLe preposizioni di tempo si imparano una volta e valgono per sempre:\n\n- **am** + giorni e date → **am Montag**, **am 16. Juni**\n- **um** + ora dell'orologio → **um 9 Uhr**\n- **im** + mesi → **im Juni**\n- **in** + dativo per \"tra\" → **in einer Woche** (*tra una settimana*)\n\n```\nam Montag, den 22. Juni, um 11 Uhr\n→ lunedì 22 giugno, alle 11\n```\n\nAttenzione all'orario tedesco di lavoro: **halb zehn** non è \"dieci e mezza\" ma **9:30** (*la mezza verso le dieci*). In contesto formale si preferisce comunque il sistema delle 24 ore: **„um 14:30 Uhr“**.\n\n## Il flusso di una negoziazione di appuntamento\n\n```mermaid\nflowchart TD\n    A[Vorschlag machen<br/>fare una proposta] --> B{Passt es?}\n    B -->|Ja| C[bestätigen<br/>confermare]\n    B -->|Nein| D[Alternative vorschlagen<br/>proporre un'alternativa]\n    D --> B\n    C --> E[schriftlich bestätigen<br/>conferma scritta via email]\n```\n\n> La regola d'oro dell'ufficio tedesco: un appuntamento concordato a voce si **conferma sempre per iscritto**. **„Ich bestätige Ihnen den Termin gern noch per E-Mail.“** (*Le confermo volentieri l'appuntamento via email.*)\n\n## Dialogo modello: una telefonata per fissare una Besprechung\n\n> **Herr Klein:** Guten Tag, Frau Roth. Ich würde gern eine Besprechung mit Ihnen vereinbaren. **Hätten Sie nächste Woche Zeit?**\n> **Frau Roth:** Gern. **Wie wäre es mit Dienstag um 10 Uhr?**\n> **Herr Klein:** Dienstag passt mir leider nicht, da bin ich auf einer Messe. **Ginge es auch am Mittwoch?**\n> **Frau Roth:** Mittwoch um 10 Uhr? Ja, **das passt mir gut.**\n> **Herr Klein:** Wunderbar. Dann **bestätige ich Ihnen den Termin noch per E-Mail.**\n> **Frau Roth:** Sehr gern. **Bis Mittwoch!**\n\n*Traduzione dei passaggi chiave:* — *Vorrei fissare una riunione con Lei. Avrebbe tempo la prossima settimana?* — *Che ne dice di martedì alle 10?* — *Martedì purtroppo non mi va bene, sono a una fiera. Andrebbe anche mercoledì?* — *Allora Le confermo l'appuntamento via email.*\n\n## Spostare o annullare (sempre con scusa)\n\nSe devi disdire, in tedesco la regola è: **scusarti + dare un motivo breve + proporre subito un'alternativa**. Lasciare un buco senza alternativa è considerato poco professionale.\n\n- **„Leider muss ich unseren Termin am Donnerstag verschieben.“** — *Purtroppo devo spostare il nostro appuntamento di giovedì.*\n- **„Es ist etwas dazwischengekommen.“** — *È sopraggiunto un imprevisto.*\n- **„Könnten wir den Termin auf nächste Woche verlegen?“** — *Potremmo spostare l'appuntamento alla prossima settimana?*\n\n> Distinzione utile: **verschieben** e **verlegen** = *spostare* a un'altra data; **absagen** = *annullare* del tutto. Annullare senza riproporre nulla suona brusco — usa **absagen** solo quando intendi davvero cancellare.\n\n## Takeaways\n\n- **passen** regge il **dativo**: *„Passt es Ihnen?“* — è la frase-perno per fissare orari.\n- Il **Konjunktiv II** (*hätten, ginge, wäre, würde*) rende ogni proposta cortese e formale.\n- Preposizioni di tempo: **am** (giorno/data), **um** (ora), **im** (mese), **in** (tra).\n- Rifiuta sempre con **leider** + alternativa: mai un \"no\" secco.\n- Conferma a voce → **conferma sempre per iscritto** (*per E-Mail bestätigen*).\n- **verschieben/verlegen** = spostare; **absagen** = annullare del tutto."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Latency, Throughput, and What \"Scaling\" Really Means",
+        "readingTime": "~5 min",
+        "markdown": "# Latency, Throughput, and What \"Scaling\" Really Means\n\n## Recap\n\nYesterday we saw how a **load balancer** sits in front of a pool of identical servers and spreads incoming requests across them — using strategies like round-robin or least-connections — so no single machine is overwhelmed and any one can fail without taking the service down. That gives us a way to *add* servers. Today we ask the deeper question: how do we *measure* whether a system is fast and how much work it can handle — and what \"adding servers\" actually buys us.\n\n## Two numbers that are not the same\n\nAlmost every confusion in system design starts by mixing up two distinct quantities.\n\n- **Latency** is *how long one operation takes*. It is a duration: \"this request took 80 milliseconds.\" Lower is better.\n- **Throughput** is *how many operations complete per unit of time*. It is a rate: \"this service handles 12,000 requests per second.\" Higher is better.\n\nA useful analogy is a checkout line at a supermarket. **Latency** is how long *you* personally wait from joining the queue to walking out. **Throughput** is how many shoppers the store clears per minute. Opening more checkout lanes raises throughput dramatically — but if your single cashier is slow, *your* latency is unchanged. The two can move independently.\n\n> **Key intuition:** You can have high throughput *and* high latency at the same time. A data pipeline might process a million records per second (great throughput) while each record takes 4 seconds end-to-end (terrible latency). Optimizing one does not automatically fix the other.\n\n### They are linked — by concurrency\n\nThe two are tied together by how many operations are *in flight* at once. **Little's Law** captures this exactly:\n\n$$L = \\lambda \\times W$$\n\nwhere $L$ is the average number of requests *in the system*, $\\lambda$ is the **throughput** (arrival/completion rate), and $W$ is the average **latency** each request spends inside. If your service holds 100 concurrent requests ($L = 100$) and each takes 50 ms ($W = 0.05\\text{ s}$), then throughput is $\\lambda = L / W = 2{,}000$ requests/second. This little equation is one of the few laws that always holds — no assumptions about traffic shape required.\n\n## Don't trust the average — use percentiles\n\nHere is the trap that catches beginners: **average latency lies.** Suppose 99 requests take 10 ms and one takes 5,000 ms. The average is ~60 ms, which sounds fine — yet one in a hundred users had a horrible experience. Averages hide the tail.\n\nInstead we describe latency as a **distribution** using **percentiles**:\n\n- **p50** (the *median*): half of requests are faster than this. The \"typical\" experience.\n- **p95 / p99**: 95% / 99% are faster than this value. The \"unlucky user\" experience.\n- **p99.9**: the rare, worst-case stragglers — often where timeouts and retries live.\n\n```mermaid\ngraph LR\n    A[1000 requests<br/>sorted by latency] --> B[p50 = 20ms<br/>median request]\n    A --> C[p99 = 300ms<br/>10th slowest]\n    A --> D[p99.9 = 1200ms<br/>slowest few]\n    style B fill:#bfb\n    style C fill:#ffd\n    style D fill:#fbb\n```\n\nWhy obsess over the **tail**? Because real pages make *many* calls. If one web page fans out to 50 backend services and each has a p99 of 100 ms, the chance that *at least one* of the 50 is slow is high — so the *page's* typical latency is governed by the *services'* tail, not their median. This is the famous \"tail-at-scale\" problem: **as you add components, the rare slow case becomes the common case.**\n\n> **Rule of thumb:** Set service-level objectives (SLOs) on p99, not the average. \"p99 < 200 ms\" is a meaningful promise; \"average < 200 ms\" is not.\n\n## What \"scaling\" actually means\n\n\"Scaling\" means **increasing the work a system can do** — usually its throughput, while keeping latency acceptable. There are two fundamentally different ways:\n\n| | **Vertical scaling (scale up)** | **Horizontal scaling (scale out)** |\n|---|---|---|\n| **How** | Bigger machine: more CPU, RAM, faster disk | More machines working in parallel |\n| **Limit** | Hardware ceiling; cost grows super-linearly | Coordination overhead, but far higher ceiling |\n| **Failure** | One big box = single point of failure | Redundant; survives node loss |\n| **Example** | Upgrade the database server | Add app servers behind the load balancer |\n\nYesterday's load balancer is precisely the tool that makes *horizontal* scaling possible. But scaling out is not free, and **Amdahl's Law** tells us why. If a fraction $p$ of the work can run in parallel and the rest is serial, the maximum speedup with $N$ workers is:\n\n$$S(N) = \\frac{1}{(1 - p) + \\dfrac{p}{N}}$$\n\nIf 95% parallelizes ($p = 0.95$), then even with *infinite* machines, $S \\le 1/0.05 = 20\\times$. The serial 5% — a shared lock, a single database, a sequential step — becomes the hard ceiling. **The bottleneck, not the number of servers, sets your limit.**\n\nThis is the mental model the rest of the course rests on: every technique we study — caching, replication, sharding, async messaging — is an attempt to either *reduce latency*, *raise throughput*, *cut the tail*, or *shrink the serial fraction* so horizontal scaling keeps paying off.\n\n## Takeaways\n\n- **Latency** = time per operation (lower is better); **throughput** = operations per unit time (higher is better). They are different and can move independently.\n- **Little's Law** ($L = \\lambda W$) ties them together through concurrency.\n- **Averages hide tail latency** — measure and set SLOs on **percentiles** (p50, p99, p99.9). At scale, the tail dominates user experience.\n- **Vertical scaling** (bigger box) hits a hard ceiling; **horizontal scaling** (more boxes, via a load balancer) scales further but adds coordination cost.\n- **Amdahl's Law**: the serial fraction caps your speedup — find and attack the bottleneck, not just the server count.",
+        "roadmapId": "sd-01"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "What Is a Language Model? Tokens and Next-Token Prediction",
+        "readingTime": "~5 min",
+        "markdown": "# What Is a Language Model? Tokens and Next-Token Prediction\n\n## Recap\n\nYesterday we saw how **embeddings** turn discrete tokens into dense vectors in a high-dimensional space, where geometric proximity encodes semantic and syntactic similarity. Embeddings give the model a *meaningful* numerical handle on language. Today we ask the next question: once we have these vectors, *what does a language model actually compute with them?*\n\n## The one-sentence definition\n\n> A **language model (LM)** is a function that assigns a **probability distribution over the next token**, given the sequence of tokens so far.\n\nThat is the whole idea. Everything else — GPT-style transformers, RLHF, RAG, agents — is engineering built on top of this single statistical object. A language model does not \"understand\" or \"retrieve facts\" as a primitive operation. At its core it answers exactly one question, over and over:\n\n*Given everything I've seen, what comes next?*\n\n## Tokens: the atoms of the model\n\nBefore probabilities, we need units. A model does not see characters or words directly; it sees **tokens** — the discrete vocabulary items produced by a *tokenizer*. A token is typically a *subword*: a common word like ` the` may be one token, while a rare word like ` tokenization` might split into ` token`, `ization`.\n\nA fixed **vocabulary** $V$ (often 30k–200k tokens) is chosen once, before training, usually by an algorithm like **Byte-Pair Encoding (BPE)**. Text is mapped to a sequence of integer token IDs, and those IDs index into the embedding table from yesterday.\n\n```mermaid\nflowchart LR\n    A[\"Raw text:<br/>'The cat sat'\"] --> B[\"Tokenizer\"]\n    B --> C[\"Token IDs:<br/>[464, 3797, 3332]\"]\n    C --> D[\"Embeddings<br/>(vectors)\"]\n    D --> E[\"Language Model\"]\n    E --> F[\"P(next token)<br/>over vocabulary V\"]\n```\n\n> **Why subwords?** They balance two extremes. *Characters* give a tiny vocabulary but very long sequences; *whole words* give short sequences but a huge vocabulary that can't handle new or misspelled words. Subwords compromise: any string is representable, and common patterns stay compact.\n\n## Next-token prediction, formally\n\nLet a sequence be $x_1, x_2, \\dots, x_T$, where each $x_i \\in V$. A language model defines the probability of the whole sequence by the **chain rule of probability**:\n\n$$P(x_1, \\dots, x_T) = \\prod_{t=1}^{T} P(x_t \\mid x_1, \\dots, x_{t-1})$$\n\nThis factorization is exact — it's just the definition of conditional probability, no approximation. The modeling work is in each factor: producing\n\n$$P(x_t \\mid x_{<t})$$\n\nthe distribution over the *next* token given all **prior context** $x_{<t}$. A model that predicts left-to-right this way is called **autoregressive** (\"auto\" = self; it feeds its own past output back as input).\n\n### What the model outputs\n\nFor a given context, the network produces a vector of $|V|$ real numbers called **logits**, $z \\in \\mathbb{R}^{|V|}$ — one raw score per vocabulary token. These are turned into a probability distribution by the **softmax** function:\n\n$$P(x_t = i \\mid x_{<t}) = \\frac{e^{z_i}}{\\sum_{j=1}^{|V|} e^{z_j}}$$\n\nSoftmax guarantees every probability is positive and they sum to 1. So the literal output of a language model, at every step, is a **probability for each of the (say) 50,000 possible next tokens** — most near zero, a few large.\n\n| Next-token candidate | Logit $z_i$ | Probability $P_i$ |\n|---|---|---|\n| ` mat` | 8.2 | 0.71 |\n| ` floor` | 6.9 | 0.19 |\n| ` sofa` | 5.1 | 0.03 |\n| ` purple` | -1.4 | 0.00001 |\n\nGiven \"The cat sat on the\", the model concentrates mass on plausible continuations.\n\n## Why this simple object is so powerful\n\nThe remarkable empirical fact behind modern AI is that *learning to predict the next token well* forces the model to learn an enormous amount about the world. To predict the token after \"The capital of France is\", the model must encode geography. To finish \"$2 + 2 =$\", it must encode arithmetic. To continue a coherent argument, it must track syntax, references, tone, and intent. **Compression of next-token statistics turns out to require knowledge.**\n\nThis is why next-token prediction is a *self-supervised* objective: the \"label\" for each position is simply the token that actually came next in the training text. No human annotation is needed — the internet itself is the answer key. We'll see in later lessons how training maximizes the probability the model assigns to real text (equivalently, minimizes **cross-entropy loss**).\n\n## Generation: sampling from the distribution\n\nA language model is a *scorer*, not inherently a *generator*. To produce text, we repeatedly:\n\n```mermaid\nflowchart LR\n    A[\"Context x_<t\"] --> B[\"Model → P(x_t)\"]\n    B --> C[\"Pick a token<br/>(sample / argmax)\"]\n    C --> D[\"Append to context\"]\n    D --> A\n```\n\n1. Feed the current context to the model.\n2. Get the distribution over the next token.\n3. **Choose** one token (greedily, or by sampling — a topic for a later lesson on decoding).\n4. Append it and repeat.\n\nEach generated token becomes part of the context for the next step. This loop is *all* there is to \"the model writing\": a chain of next-token predictions, each conditioned on everything produced so far.\n\n## Takeaways\n\n- A **language model** computes $P(x_t \\mid x_{<t})$ — a probability distribution over the next **token** given the preceding context. That's its core job.\n- **Tokens** (usually subwords from a fixed vocabulary) are the units; text becomes a sequence of token IDs that index the embeddings.\n- The **chain rule** factorizes sequence probability into a product of next-token conditionals; predicting left-to-right makes the model **autoregressive**.\n- The model emits **logits**, and **softmax** converts them into a proper probability distribution over the whole vocabulary.\n- **Next-token prediction is self-supervised** — the next real token is the label — and learning it well implicitly forces the model to learn facts, reasoning, and structure.\n- **Generation** is just this prediction applied in a loop, feeding each chosen token back as new context.",
+        "roadmapId": "ai-01"
+      }
+    }
+  ]
+}
