@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-17",
+  "status": "degraded",
+  "reasons": [
+    "holdings 2/7 streams",
+    "1 cross-day repeats"
+  ],
+  "realNewsCount": 13,
+  "calendarCount": 8,
+  "guardScore": 33,
+  "lanes": {
+    "ai": 3,
+    "startups": 3,
+    "markets": 7,
+    "boxing": 6,
+    "mma": 2,
+    "bites": 8,
+    "courses": 4,
+    "portfolio": 2
+  },
+  "failedLanes": [],
+  "holdingsCoverage": {
+    "streams": 2,
+    "totalStreams": 7,
+    "names": 3,
+    "totalNames": 11
+  },
+  "repeats": {
+    "portfolio": [],
+    "courses": [
+      {
+        "course": "Grammatica tedesca",
+        "title": "La declinazione dell'aggettivo (2): il tipo misto dopo *ein/kein* e i possessivi",
+        "alsoSeen": [
+          "2026-06-16"
+        ]
+      }
+    ],
+    "news": []
+  },
+  "staleItems": [],
+  "freshHoldings": [
+    {
+      "stream": "ASML & TSMC",
+      "headline": "TSMC and Amkor sign 10-year deal to build advanced packaging hub in Arizona, anchoring Amkor's $7B Peoria campus"
+    },
+    {
+      "stream": "Hermès",
+      "headline": "Hermès opens its largest European store, a 2,000-sq-m flagship at 166 New Bond Street in London"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T05:10:41.562Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Google led a quiet day for AI capability news, shipping Android 17 with its conversational Gemini Omni video model and Lyria 3 music generator, while Databricks and OpenAI pushed agentic tooling forward.",
+      "items": [
+        {
+          "headline": "Google ships Android 17 to Pixel with Gemini Omni conversational video editing and Lyria 3 music generation",
+          "brief": "Google released the final build of Android 17 on June 16, first to Pixel devices alongside a Pixel Drop, bundling new on-device AI: Gemini Omni, which edits videos through plain-language chat (\"change the background to night\"), and Lyria 3, which generates 44.1kHz music from text or image prompts. A \"Create My Widget\" feature builds home-screen widgets from a text description, and starting late June Gemini will browse across multiple Chrome tabs to compare information and take actions like booking appointments. The full \"Gemini Intelligence\" tier requires Gemini Nano v3, a flagship processor and at least 12GB of RAM, qualifying the Pixel 10 series, Samsung Galaxy S26 series, Z Fold 8 and Z Flip 8.",
+          "whyItMatters": "It puts Google's newest creative models and an agentic browser directly on hundreds of millions of phones, raising the bar a month before Apple's iOS 27 reveal.",
+          "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-16",
+          "featured": true
+        },
+        {
+          "headline": "Databricks launches Genie One, an agentic AI coworker that reaches across Slack, Jira and Google Drive",
+          "brief": "At its Data + AI Summit on June 16, Databricks unveiled Genie One, an agentic \"coworker\" that answers questions, writes reports, manages alerts, schedules tasks and executes actions across structured and unstructured data, both inside and outside the platform. It is built on Genie Ontology, a self-improving context layer mapping an organization's data, docs and people, and connects to third-party tools including Google Drive, Jira, Slack, Confluence and SharePoint via MCP, available on web, iOS and Android. Databricks also introduced Genie Agents and a Genie App Builder for \"vibe coding\" business apps, all governed by Unity Catalog, and claims Genie One runs 2x faster than the strongest coding agent on internal benchmarks.",
+          "whyItMatters": "It pushes enterprise AI past chat-with-your-data toward agents that take governed actions across a company's whole tool stack.",
+          "url": "https://siliconangle.com/2026/06/16/databricks-new-agentic-coworker-genie-one-brings-ai-automation-every-part-business/",
+          "source": "SiliconANGLE",
+          "publishedAt": "2026-06-16",
+          "featured": false
+        },
+        {
+          "headline": "OpenAI chief scientist Jakub Pachocki calls GPT-5.6 a \"meaningful improvement\" as a late-June launch nears",
+          "brief": "OpenAI chief scientist Jakub Pachocki described the unreleased GPT-5.6 as a \"meaningful improvement\" over GPT-5.5, the first on-record comment from a named OpenAI leader about the model. Developer reports and Codex backend logs, where the model surfaced under the codename kindle-alpha, point to a roughly 1.5-million-token context window and stronger agentic coding. OpenAI has published no official date or model card; as of June 15, Polymarket traders had wagered about $960,000 and assigned 83% odds to a launch between June 22 and June 28.",
+          "whyItMatters": "A near-term GPT-5.6 would be OpenAI's direct answer to Anthropic's Mythos-class models on agentic coding, where rivals have recently pulled ahead.",
+          "url": "https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm",
+          "source": "TechTimes",
+          "publishedAt": "2026-06-16",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Snap headlined a day of consumer-tech product moves, debuting its long-delayed Specs AR glasses at $2,195 as Plaud and Meta's Threads posted scale milestones.",
+      "items": [
+        {
+          "headline": "Snap debuts $2,195 'Specs' AR glasses, its first standalone consumer pair, shipping fall 2026",
+          "brief": "Snap unveiled Specs, untethered augmented-reality glasses powered by two on-board Snapdragon processors, with a 51-degree color display, 4-hour battery (20 hours with the case) and an 'EyeConnect' multiplayer mode triggered by eye contact. Preorders opened June 16 with a $200 refundable deposit; the glasses ship this fall in the U.S., U.K. and France. At $2,195 they are far pricier than rivals, marking Snap's bet on AR hardware after years of developer-only Spectacles.",
+          "whyItMatters": "Snap is staking its future on face-worn computing just as Meta and others push smart glasses, but the steep price tests whether consumers will buy in.",
+          "url": "https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-16T17:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Plaud passes 2M AI notetakers sold and $100M software ARR as it pushes into enterprise",
+          "brief": "AI-hardware startup Plaud, led by co-founder and CEO Nathan Xu, said it has shipped more than 2 million of its screenless Plaud Pin and card-shaped recorders and crossed $100 million in annualized software revenue, with nearly half of device owners upgrading to paid plans. The company is expanding beyond consumers with Plaud Teams, launched last month for shared enterprise 'memory,' plus the new $179 Pin S and a desktop app for online-meeting transcription. It competes against Anker, Viaim, Vibe and Pocket in a crowded AI-recorder market.",
+          "whyItMatters": "Plaud shows that dedicated AI hardware plus subscriptions can build real recurring revenue, not just a gadget fad, as it moves upmarket into the workplace.",
+          "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-16T00:00:00Z"
+        },
+        {
+          "headline": "Threads hits 500M monthly users and adds 'Your Algo' feed controls plus a Communities Discovery Hub",
+          "brief": "Meta's Threads said it has reached 500 million monthly active users and rolled out new features including 'Your Algo,' which lets users privately retune their feed for 1, 3 or 7 days, and a Discovery Hub to surface its now-out-of-beta Communities. Threads head Connor Hayes said the hub is meant to 'get communities in front of more people,' and the app will extend Live Chats and co-hosting to all communities by July. The push leans into real-time, text-first conversation to differentiate from Elon Musk's X.",
+          "whyItMatters": "With personalization controls and community tools, Meta is hardening Threads into a durable X alternative rather than just a Twitter clone.",
+          "url": "https://techcrunch.com/2026/06/16/threads-adds-new-personalization-and-community-features-as-it-reaches-500m-monthly-users/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-16T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "AI dealmaking dominated the tape as SpaceX agreed to buy Cursor-maker Anysphere for $60 billion, while Kevin Warsh's first Fed meeting and a Bank of Japan rate hike reset the global rate outlook.",
+      "items": [
+        {
+          "headline": "SpaceX agrees to buy Cursor-maker Anysphere for $60 billion in all-stock AI deal",
+          "brief": "Elon Musk's SpaceX disclosed Tuesday it will acquire Anysphere, the startup behind AI coding tool Cursor, in an all-stock transaction valuing it at about $60 billion. The deal, expected to close in the third quarter, exercises an option SpaceX took in April and folds Cursor's roughly $2.6 billion in annualized revenue into xAI, which SpaceX absorbed in February. It lands days after SpaceX's record IPO raised more than $80 billion at a valuation above $2 trillion.",
+          "whyItMatters": "It hands Musk's empire a dominant position in AI coding — one of the first places AI is generating real enterprise revenue — and signals the IPO war chest is already being put to work on megadeals.",
+          "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-16",
+          "featured": true
+        },
+        {
+          "headline": "Warsh's first Fed holds rates at 3.50%-3.75% but drops its easing bias, and traders now price a December hike",
+          "brief": "At Kevin Warsh's debut meeting as Fed chair, the FOMC left its benchmark range unchanged at 3.50%-3.75% on June 17 but shifted from an easing bias toward a neutral-to-hawkish stance, signaling cuts are off the near-term table. With May CPI at 4.2%, the highest since April 2023, futures now imply roughly a 64% chance of a rate hike by December, up from about 24% a month ago.",
+          "whyItMatters": "Warsh's opening message effectively kills 2026 rate-cut bets, tightening financial conditions for stocks, bonds and crypto just as equities sit near records.",
+          "url": "https://www.thestreet.com/fed/warshs-first-fed-meeting-resets-interest-rate-cut-bets",
+          "source": "TheStreet",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Bank of Japan raises rates to 1%, the highest since 1995, to defend the yen",
+          "brief": "The Bank of Japan lifted its uncollateralized overnight rate by a quarter point to 1% on Tuesday, the first hike since December and the highest level in three decades, citing a weak yen and persistent inflation. The decision passed in a 7-1 vote, with board member Toichiro Asada dissenting in favor of a hold; the yen firmed and the Nikkei 225 climbed after the move.",
+          "whyItMatters": "A tightening BOJ pressures the yen-carry trade that funds global risk assets, adding another hawkish force alongside the Fed's pivot.",
+          "url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "Yum Brands sells Pizza Hut for $2.7 billion to LongRange Capital and Yum China",
+          "brief": "Yum Brands said Tuesday it agreed to offload Pizza Hut in two deals worth about $2.7 billion, with private-equity firm LongRange Capital buying the chain outside mainland China for $1.5 billion and Yum China acquiring the China business for $1.2 billion. Yum expects roughly $2.3 billion in net after-tax proceeds, with both transactions closing in the third quarter.",
+          "whyItMatters": "The divestiture lets Yum concentrate capital on its faster-growing Taco Bell and KFC brands as Pizza Hut loses ground in the delivery era.",
+          "url": "https://www.cnbc.com/2026/06/16/yum-brands-sells-pizza-hut-to-private-equity-firm-longrange-capital-for-2point7-billion.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "Nvidia raises $25 billion in its largest-ever bond sale to fund AI chip production",
+          "brief": "Nvidia priced a $25 billion investment-grade bond offering, its biggest debt deal ever and first since 2021, drawing about $85 billion in orders. The multi-tranche sale includes a 30-year note maturing in 2056 and will help finance the company's massive spending on next-generation AI chip manufacturing.",
+          "whyItMatters": "Even the most cash-rich chipmaker is now tapping debt markets to keep pace with AI demand, underscoring the scale of capital the buildout requires.",
+          "url": "https://www.techtimes.com/articles/318462/20260616/nvidia-raises-25-billion-bonds-its-largest-debt-deal-betting-decades-ai-growth.htm",
+          "source": "Tech Times",
+          "publishedAt": "2026-06-15"
+        },
+        {
+          "headline": "Olin and Huntsman to merge in all-stock deal creating a $12 billion North American chemicals leader",
+          "brief": "Olin and Huntsman announced a merger of equals on June 16 to form OlinHuntsman, a company with about $12.5 billion in annual revenue and headquartered in The Woodlands, Texas. Huntsman holders will receive 0.5476 Olin shares each, leaving Olin shareholders with 54.5% and Huntsman with 45.5%; Olin CEO Ken Lane will run the combined firm, which targets more than $300 million in cost synergies.",
+          "whyItMatters": "The tie-up consolidates a struggling sector facing global overcapacity, betting scale can help U.S. producers compete against state-backed foreign rivals.",
+          "url": "https://www.manufacturingdive.com/news/huntsman-olin-12-billion-chemical-north-america-merger/822990/",
+          "source": "Manufacturing Dive",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "Qualcomm in talks to buy AI chip startup Tenstorrent for up to $10 billion",
+          "brief": "Qualcomm is reportedly in discussions to acquire Tenstorrent, the AI chip startup, in a deal valued at up to $10 billion, according to reports on June 16. The price would mark a steep jump in Tenstorrent's valuation in under a year as Qualcomm pushes to expand beyond smartphones into AI data-center silicon.",
+          "whyItMatters": "A deal would put Qualcomm directly into the AI accelerator race against Nvidia and AMD, intensifying consolidation among chip designers.",
+          "url": "https://techstartups.com/2026/06/15/qualcomm-in-talks-to-acquire-ai-chip-startup-tenstorrent-for-up-to-10-billion-report/",
+          "source": "Tech Startups",
+          "publishedAt": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Boxing's mid-June news cycle is driven by Gervonta 'Tank' Davis, who has until a June 22 deadline to finalize a WBA lightweight title defense against mandatory Floyd Schofield, while blockbuster fall and 2027 superfights — Mayweather-Pacquiao II, Inoue vs. 'Bam' Rodriguez and Fury vs. Joshua — take shape.",
+      "items": [
+        {
+          "headline": "Gervonta Davis vs. Floyd Schofield WBA lightweight title talks hit June 22 deadline",
+          "brief": "The WBA ordered Gervonta 'Tank' Davis to defend his lightweight world title against undefeated mandatory challenger Floyd Schofield Jr., and the two sides have until June 22 to strike a deal before the sanctioning body sends the bout to a purse bid. Negotiations are targeting a date between mid-September and early October, though Schofield's camp says talks have been fractious. It would be Davis' first outing since his controversial March 2025 draw with Lamont Roach Jr.",
+          "whyItMatters": "Davis is one of boxing's biggest pay-per-view draws; missing the deadline could force a purse bid and reshape the lightweight division's fall calendar.",
+          "url": "https://www.boxingscene.com/articles/gervonta-davis-floyd-schofield-jnr-talks-intensifying",
+          "source": "BoxingScene",
+          "featured": true
+        },
+        {
+          "headline": "Floyd Mayweather vs. Mike Zambidis 'Battle of the Legends' exhibition set for June 27 in Athens",
+          "brief": "Floyd Mayweather faces 18-time kickboxing world champion Mike 'Iron' Zambidis in a full-contact exhibition on Saturday, June 27 at the Telekom Center inside the OAKA Olympic Complex in Athens, Greece, with DAZN broadcasting. The non-title bout will not affect Mayweather's 50-0 professional record. It serves as a tune-up for the 49-year-old's bigger autumn assignment.",
+          "whyItMatters": "It keeps Mayweather active on the exhibition circuit and sets up his September professional return against Manny Pacquiao.",
+          "url": "https://sports.yahoo.com/articles/floyd-mayweather-vs-mike-zambidis-202146979.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "headline": "Mayweather vs. Pacquiao professional rematch booked for Sept. 19 in Las Vegas",
+          "brief": "Floyd Mayweather and Manny Pacquiao are set to meet in a professional (non-title) rematch on September 19 in Las Vegas, more than a decade after their 2015 mega-fight. The bout headlines the second half of Mayweather's busy 2026, following his April Mike Tyson exhibition and the June 27 Zambidis card in Athens.",
+          "whyItMatters": "A genuine pro sequel to one of the highest-grossing fights in history would be a marquee — and contentious — autumn event regardless of the principals' ages.",
+          "url": "https://www.aol.com/articles/floyd-mayweather-sets-june-exhibition-164114342.html",
+          "source": "AOL/Yahoo Sports"
+        },
+        {
+          "headline": "Inoue vs. 'Bam' Rodriguez superfight targeted for January 2027 in Japan",
+          "brief": "Turki Alalshikh's Riyadh Season is planning a pound-for-pound superfight between undisputed super-bantamweight champion Naoya Inoue (33-0) and three-division champ Jesse 'Bam' Rodriguez for January 2027 in Japan, with The Ring reporting the venue is undecided. Rodriguez, who stopped Antonio Vargas to win the WBA bantamweight title on June 13, would move up to 122 to challenge Inoue, who beat Junto Nakatani by decision at the Tokyo Dome on May 2.",
+          "whyItMatters": "It would pit the sport's No. 1 pound-for-pound fighter against its hottest young star, with organizers eyeing a Japanese stadium attendance record.",
+          "url": "https://www.mmamania.com/boxing/441349/super-fight-between-naoya-inoue-and-bam-rodriguez-being-planned-for-jan-2027",
+          "source": "MMA Mania"
+        },
+        {
+          "headline": "Canelo Alvarez challenges WBC super-middleweight champ Christian Mbilli on Sept. 12 in Riyadh",
+          "brief": "Canelo Alvarez's next fight is official: he challenges undefeated WBC super-middleweight champion Christian Mbilli on September 12 in Riyadh, Saudi Arabia, in a bout announced by Turki Alalshikh. It marks Canelo's first outing since losing his undisputed 168-pound crown to Terence Crawford last September. Mbilli, a French-Cameroonian based in Montreal, lands the biggest opportunity of his career.",
+          "whyItMatters": "Canelo's return puts a world title back on the line and tests whether the Mexican star can rebound from the Crawford defeat.",
+          "url": "https://boxing-social.com/news/canelo-alvarez-vs-christian-mbilli-official-for-september-12-in-riyadh/",
+          "source": "Boxing Social"
+        },
+        {
+          "headline": "Tyson Fury vs. Anthony Joshua heavyweight superfight signed for November on Netflix",
+          "brief": "Promoter Eddie Hearn and Turki Alalshikh confirmed that Tyson Fury and Anthony Joshua have agreed terms for an all-British heavyweight showdown in November 2026, to be streamed on Netflix. The exact date and site are still unresolved, with Wembley Stadium the frontrunner but Saudi Arabia a possibility. Joshua first returns against Kristian Prenga on July 25 in Riyadh.",
+          "whyItMatters": "Long the most-wanted fight in British boxing, Fury-Joshua would be a massive year-end event — assuming both men come through their interim assignments.",
+          "url": "https://www.aljazeera.com/sports/2026/4/27/anthony-joshua-to-fight-tyson-fury-in-november-hearn",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-04-27T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The forward calendar firms up: Dricus du Plessis vs. Kamaru Usman is being lined up to headline UFC Oklahoma City on July 18, while the UFC 329 card behind McGregor-Holloway 2 takes shape with Paddy Pimblett vs. Benoit Saint Denis in the co-main.",
+      "items": [
+        {
+          "headline": "Dricus du Plessis vs. Kamaru Usman targeted to headline UFC Oklahoma City at middleweight, July 18 — but Usman hasn't signed",
+          "brief": "Former middleweight champ Dricus du Plessis (No. 2 at 185) and former welterweight king Kamaru Usman are reportedly slated to headline UFC Fight Night at the Paycom Center in Oklahoma City on July 18, with sportsbooks already posting du Plessis as a roughly -350 favorite. Du Plessis says he 'signed and sealed' the deal 'a while' ago and publicly blasted the delay, claiming Usman has yet to put pen to paper. Du Plessis is rebounding from a decision loss to Khamzat Chimaev at UFC 319, while Usman moves up from welterweight, where he hasn't fought since beating Joaquin Buckley in 2025.",
+          "whyItMatters": "A win likely vaults the victor into the Sean Strickland middleweight title picture — Usman beat Strickland years ago at welterweight, adding a title-shot subplot if he climbs to 185.",
+          "url": "https://heavy.com/sports/ufc/dricus-du-plessis-update-kamaru-usman/",
+          "source": "Heavy",
+          "featured": true
+        },
+        {
+          "headline": "Paddy Pimblett vs. Benoit Saint Denis set as UFC 329 lightweight co-main, July 11 in Las Vegas",
+          "brief": "As the UFC 329 card fills in beneath the Conor McGregor–Max Holloway 2 main event, No. 6 Paddy Pimblett (7-1 UFC) meets No. 5 Benoit Saint Denis (9-3 UFC) in a 155-pound co-main on July 11 at T-Mobile Arena in Las Vegas. Pimblett is trying to bounce back from his unanimous-decision loss to Justin Gaethje in January's interim title bid at UFC 324, while Saint Denis rides a four-fight finishing streak.",
+          "whyItMatters": "It's a high-stakes lightweight crossroads: a Saint Denis win plants him in the title mix behind new champ Gaethje, and a second straight loss would knock Pimblett out of contention.",
+          "url": "https://heavy.com/sports/ufc/paddy-pimblett-benoit-saint-denis-booked/",
+          "source": "Heavy"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "16.41",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-16",
+      "source": "Investing.com (CBOE Volatility Index)",
+      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.92",
+      "reference": "media ~17",
+      "asOf": "2026-06-16",
+      "source": "multpl.com (Shiller PE / CAPE)",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "TSMC and Amkor sign 10-year deal to build advanced packaging hub in Arizona, anchoring Amkor's $7B Peoria campus",
+                "brief": "On June 16, 2026, TSMC and Amkor Technology announced a 10-year agreement (an MOU) under which TSMC will procure advanced packaging and testing services from Amkor as it builds out its Arizona fabs. The deal underpins Amkor's roughly $7 billion advanced packaging and test campus in Peoria, Arizona, slated to begin production in 2028 and create up to 2,000 jobs, and covers TSMC's InFO and CoWoS technologies used for AI and high-performance computing chips. It was signed by TSMC Deputy Co-COO Kevin Zhang and Amkor CEO Kevin Engel.",
+                "whyItMatters": "It gives TSMC a domestic back-end packaging partner so customers can move from wafer to fully tested package without leaving the US — closing a key gap in its Arizona buildout and tightening the onshore AI-chip supply chain.",
+                "url": "https://www.investing.com/news/company-news/tsmc-amkor-sign-10year-packaging-deal-for-arizona-operations-93CH-4745026",
+                "source": "Investing.com",
+                "publishedAt": "2026-06-16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "luxury",
+        "label": "Lusso",
+        "streams": [
+          {
+            "id": "hermes",
+            "label": "Hermès",
+            "kind": "name",
+            "names": [
+              "Hermès"
+            ],
+            "items": [
+              {
+                "headline": "Hermès opens its largest European store, a 2,000-sq-m flagship at 166 New Bond Street in London",
+                "brief": "Hermès opened a new London flagship on 16 June 2026, combining six Grade II-listed Georgian buildings across 2,000 square metres, five floors and 55 rooms — its biggest store in Europe and only the sixth Hermès 'maison' worldwide. The house bought the freehold for the New Bond Street site for about £73 million back in 2009, and the store adds a dedicated beauty space, a café and two roof terraces.",
+                "whyItMatters": "A flagship of this scale signals Hermès doubling down on owned retail and prime real estate as it leans on its highest-spending clients amid slowing luxury growth.",
+                "url": "https://wwd.com/business-news/retail/hermes-london-new-bond-street-flagship-british-culture-nod-1239012814/",
+                "source": "WWD",
+                "publishedAt": "2026-06-16"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Current ratio (indice di liquidità corrente)",
+        "body": "Il current ratio misura se un'azienda ha abbastanza risorse a breve per pagare i debiti a breve. La formula in parole: attività correnti (cassa, crediti, magazzino) diviso passività correnti (debiti che scadono entro un anno). Un valore sopra 1 significa che gli attivi a breve coprono i debiti a breve; sotto 1 è un campanello d'allarme di tensione di cassa. Da investitore retail lo usi come check di solvibilità a breve, ma occhio: un magazzino gonfio può alzare il numero senza che ci sia vera liquidità.",
+        "example": "Attività correnti 200M€ / passività correnti 100M€ = current ratio 2,0. L'azienda ha il doppio degli attivi a breve rispetto ai debiti a breve.",
+        "whyItMatters": "Ti dice in un colpo d'occhio se un'azienda rischia di restare a corto di cassa nel breve periodo."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Diluizione (dilution)",
+        "body": "La diluizione è la riduzione della tua percentuale di proprietà quando l'azienda emette nuove azioni, tipicamente a ogni round di finanziamento. Non perdi azioni: ne hai sempre lo stesso numero, ma la torta totale cresce, quindi la tua fetta percentuale si restringe. Conta perché fondatori e dipendenti vedono scendere la loro quota a ogni aumento di capitale; l'idea è che una fetta più piccola di una torta molto più grande valga di più in assoluto.",
+        "example": "Possiedi il 10% di una startup. Entra un investitore che riceve nuove azioni pari al 20% del totale post-investimento: la tua quota scende a circa l'8%.",
+        "whyItMatters": "Spiega perché un fondatore con grandi percentuali iniziali può finire con quote piccole dopo più round."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "La dilatazione del tempo",
+        "body": "La dilatazione del tempo è il fatto che il tempo non scorre uguale per tutti: scorre più lentamente per chi si muove molto veloce o si trova in un campo gravitazionale più forte. Non è un'illusione né un orologio difettoso: è il tempo stesso che rallenta. L'idea centrale di Einstein è che la velocità della luce è fissa per tutti, e per tenerla fissa deve essere il tempo ad allungarsi o accorciarsi a seconda del punto di vista.",
+        "example": "Pensa a due gemelli: uno parte su un'astronave velocissima, l'altro resta a Terra. Al ritorno, chi ha viaggiato è invecchiato meno. È lo stesso effetto, in piccolo, che i satelliti GPS devono correggere ogni giorno.",
+        "whyItMatters": "Mostra che il tempo è relativo, non un orologio universale uguale per tutti."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "L'Impressionismo",
+        "body": "L'Impressionismo nasce in Francia negli anni 1870 (Monet, Renoir, Degas) e rompe con la pittura accademica: invece di scene rifinite in studio, i pittori escono all'aperto per catturare la luce e l'attimo. Cosa guardare: pennellate visibili, rapide, quasi 'sbozzate', colori puri accostati invece che mescolati, e contorni che si dissolvono. Lo scopo non è il dettaglio ma l'impressione fugace di un momento — la luce del mattino, il riflesso sull'acqua.",
+        "example": "In 'Impressione, levar del sole' di Monet il sole è una macchia arancione e l'acqua poche pennellate: da vicino è quasi astratto, da lontano vibra di luce. Da quel quadro deriva il nome del movimento.",
+        "whyItMatters": "È il momento in cui la pittura smette di copiare la realtà e inizia a rappresentare la percezione, aprendo la strada all'arte moderna."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "La Compagnia delle Indie Orientali olandesi e la prima borsa",
+        "body": "Nel 1602 la Compagnia delle Indie Orientali olandese (VOC) fu la prima azienda a vendere azioni al pubblico per finanziare i suoi viaggi commerciali, rischiosi e costosi. Per permettere a chi aveva investito di rivendere la propria quota senza aspettare il ritorno delle navi, ad Amsterdam nacque il primo vero mercato azionario continuativo. Questo separò la proprietà dell'azienda dalla gestione e permise di raccogliere capitali enormi da molti piccoli investitori.",
+        "example": "Un commerciante poteva comprare una quota della VOC e, mesi dopo, rivenderla a un altro sulla piazza di Amsterdam — esattamente come si scambia un'azione oggi.",
+        "whyItMatters": "Da qui nascono la società per azioni e la borsa: l'infrastruttura su cui poggia ancora oggi tutto il capitalismo moderno."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "Il punto di flesso strategico (Andy Grove)",
+        "body": "Andy Grove, storico CEO di Intel, chiamava 'strategic inflection point' il momento in cui qualcosa di fondamentale cambia nel settore — tecnologia, concorrenti, regole — e il vecchio modo di fare business smette di funzionare. È pericoloso perché il cambiamento all'inizio sembra solo un fastidio temporaneo, non una svolta. La sua tesi: chi non riconosce e cavalca il flesso viene spazzato via, anche se è leader oggi ('Only the paranoid survive').",
+        "example": "Intel nacque come produttore di memorie; quando i giapponesi resero quel mercato non profittevole, Grove fece la scelta dolorosa di abbandonarlo e puntare tutto sui microprocessori. Era un punto di flesso colto in tempo.",
+        "whyItMatters": "Ti allena a distinguere un calo passeggero da un cambiamento strutturale che richiede di reinventare il business."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Come funziona davvero il GPS",
+        "body": "Il GPS non 'sa' dove sei: sei tu (il telefono) a calcolarlo. Decine di satelliti in orbita trasmettono di continuo l'ora esatta e la propria posizione. Il tuo dispositivo misura quanto tempo ci ha messo il segnale ad arrivare da ciascun satellite e, da quei minuscoli ritardi, calcola la distanza da ognuno. Incrociando le distanze da almeno quattro satelliti trova un solo punto nello spazio: la tua posizione.",
+        "example": "È come capire dove sei sentendo l'eco di quattro campane di cui conosci la posizione: dai diversi ritardi del suono deduci esattamente il tuo punto. Gli orologi dei satelliti sono atomici e vanno corretti per la relatività, altrimenti l'errore crescerebbe di chilometri al giorno.",
+        "whyItMatters": "Spiega come un servizio quotidiano e gratuito dipenda da fisica di precisione estrema, non da una mappa che ti 'segue'."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "La soglia del lattato (e perché conta più del VO2max)",
+        "body": "La soglia del lattato è l'intensità oltre la quale il tuo corpo produce lattato più in fretta di quanto riesce a smaltirlo: da lì l'accumulo esplode e devi rallentare entro pochi minuti. A differenza del VO2max (il tetto del motore), la soglia dice a che percentuale di quel tetto puoi viaggiare a lungo — ed è molto più allenabile. Alzare la soglia significa poter tenere un passo più alto senza 'andare in rosso', che è esattamente ciò che decide una gara di resistenza.",
+        "example": "Così lo applichi: 1-2 volte a settimana fai lavori 'a soglia', cioè 2-4 blocchi da 8-15 minuti a un ritmo 'comodamente duro' (riesci a dire poche parole, non a chiacchierare), con recuperi brevi. In HYROX è il passo che regge tra una stazione e l'altra.",
+        "whyItMatters": "Spostare la soglia in alto migliora il passo sostenibile in gara più di quanto faccia inseguire il VO2max."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "La declinazione dell'aggettivo (2): il tipo misto dopo *ein/kein* e i possessivi",
+        "readingTime": "~5 min",
+        "markdown": "# La declinazione dell'aggettivo (2): il tipo misto dopo *ein/kein* e i possessivi\n\n## Ripasso\n\nIeri abbiamo visto la **declinazione debole** (*schwache Deklination*): quando davanti all'aggettivo c'è l'articolo determinativo (*der/die/das*), l'aggettivo è \"scaricato\" del lavoro grammaticale e prende solo due desinenze, **-e** o **-en**. *Der **gute** Mann*, *die **gute** Frau*, ma *dem **guten** Mann*: l'articolo porta già il segnale di caso e genere, quindi l'aggettivo si appoggia a lui. Oggi vediamo cosa succede quando l'articolo davanti è *ein* — che a volte quel segnale **non** ce l'ha.\n\n## L'idea centrale: chi non lo dice l'articolo, lo dice l'aggettivo\n\nL'articolo indeterminativo *ein* e i suoi parenti (*kein* e i **Possessivartikel**: *mein, dein, sein, ihr, unser, euer, Ihr*) hanno un problema: in tre caselle **non hanno desinenza**, perché *ein* da solo non distingue maschile e neutro al nominativo.\n\n- *ein Mann* → maschile o neutro? Non si capisce.\n- *ein Kind* → nominativo o accusativo? Non si capisce.\n\nIn tedesco l'informazione di **genere, caso e numero** non può andare persa. Allora interviene l'aggettivo, che prende la **desinenza forte** che mancava all'articolo. Questo è il **tipo misto** (*gemischte Deklination*): *misto* perché è metà forte (dove *ein* è \"muto\") e metà debole (dove *ein* parla).\n\n> **Regola in una frase:** dopo *ein/kein/*possessivi, l'aggettivo prende la desinenza forte (**-er** masch. nom., **-es** neutro nom./acc.) nelle tre caselle dove l'articolo non ha desinenza; in tutte le altre caselle prende **-en**.\n\n```mermaid\nflowchart TD\n    A[\"Aggettivo dopo ein / kein / mein...\"] --> B{\"L'articolo ha<br/>una desinenza?\"}\n    B -->|\"No (ein, ein)\"| C[\"Aggettivo FORTE:<br/>-er / -es\"]\n    B -->|\"Sì (einen, einem, eine, einer...)\"| D[\"Aggettivo DEBOLE:<br/>-e / -en\"]\n```\n\n## La tabella completa (con *gut* = buono)\n\nI tre punti critici — quelli che differiscono dal tipo debole — sono **in grassetto**.\n\n| Caso | Maschile | Femminile | Neutro | Plurale (*kein*) |\n|------|----------|-----------|--------|------------------|\n| **Nom.** | ein **gut*er*** Mann | eine gut*e* Frau | ein **gut*es*** Kind | keine gut*en* Freunde |\n| **Akk.** | einen gut*en* Mann | eine gut*e* Frau | ein **gut*es*** Kind | keine gut*en* Freunde |\n| **Dat.** | einem gut*en* Mann | einer gut*en* Frau | einem gut*en* Kind | keinen gut*en* Freunden |\n| **Gen.** | eines gut*en* Mannes | einer gut*en* Frau | eines gut*en* Kindes | keiner gut*en* Freunde |\n\nNota due cose:\n\n1. **Solo tre caselle \"forti\":** masch. nom. (**-er**), neutro nom. e acc. (**-es**). Tutto il resto è **-en**, tranne il femminile nom./acc. che resta **-e** (lì *eine* mostra già il segnale).\n2. **Il plurale non esiste con *ein***: si usa *kein* o un possessivo (*meine guten Freunde*). E nel plurale il tipo misto coincide perfettamente con il debole: sempre **-en**.\n\n## Confronto diretto debole ↔ misto\n\nLo scarto si vede solo nelle tre caselle critiche:\n\n| | Debole (dopo *der*) | Misto (dopo *ein*) |\n|---|---|---|\n| Masch. nom. | der **gute** Wein | ein **guter** Wein |\n| Neutro nom. | das **kalte** Bier | ein **kaltes** Bier |\n| Neutro acc. | das **kalte** Bier | ein **kaltes** Bier |\n\nOvunque altrove le due tabelle sono identiche. Per questo conviene tenerle insieme in memoria: *il misto è il debole con tre \"rinforzi\".*\n\n## Esempi realistici\n\n- **Ein neuer Kollege** beginnt heute. → *Un nuovo collega* comincia oggi. (masch. nom. → **-er**)\n- Ich suche **einen guten Arzt**. → Cerco *un buon medico*. (masch. acc. → **-en**)\n- Das ist **ein schönes Geschenk**! → Questo è *un bel regalo*! (neutro nom. → **-es**)\n- Sie fährt mit **ihrem alten Auto**. → Va *con la sua vecchia macchina*. (neutro dat. → **-en**)\n- Wir haben **keine freien Plätze** mehr. → Non abbiamo più *posti liberi*. (plur. acc. → **-en**)\n\n## Errori tipici\n\n> ❌ *ein **gutes** Mann* → il maschile nom. è **-er**: *ein **guter** Mann*. (Confusione tra le due caselle forti.)\n\n> ❌ *mit einem **gutes** Freund* → al dativo l'articolo *einem* parla già, quindi l'aggettivo è debole: *mit einem **guten** Freund*.\n\n> ❌ *meine **gute** Eltern* → al plurale è sempre **-en**: *meine **guten** Eltern*.\n\n> ⚠️ Ricorda che *kein-* e i possessivi seguono **esattamente** *ein*: se sai declinare *ein*, sai declinare *mein, dein, kein…* senza eccezioni.\n\n## Esercizi\n\nCompleta con la desinenza giusta dell'aggettivo.\n\n1. Er trinkt ein kalt___ Bier.\n2. Ich habe einen interessant___ Film gesehen.\n3. Das ist mein neu___ Fahrrad (n.).\n4. Sie wohnt in einer klein___ Wohnung.\n5. Wir haben keine frei___ Zimmer (pl.).\n6. Ein jung___ Mann hat angerufen.\n\n### Soluzioni\n\n1. ein kalt**es** Bier — neutro acc. → forte **-es**.\n2. einen interessant**en** Film — masch. acc. (*einen* parla) → debole **-en**.\n3. mein neu**es** Fahrrad — neutro nom. → forte **-es**.\n4. einer klein**en** Wohnung — femm. dat. → debole **-en**.\n5. keine frei**en** Zimmer — plur. acc. → sempre **-en**.\n6. ein jung**er** Mann — masch. nom. → forte **-er**.\n\n## Takeaways\n\n- Dopo *ein/kein/*possessivi si usa la **declinazione mista**: forte dove l'articolo è \"muto\", debole dove l'articolo già porta il segnale.\n- Le **uniche tre caselle forti** sono: masch. nom. (**-er**), neutro nom. e acc. (**-es**). Tutto il resto → **-en** (femm. nom./acc. → **-e**).\n- *ein* non ha plurale: lì usi *kein-*/possessivi, e le desinenze sono **tutte -en**, come nel debole.\n- *kein* e i possessivi si declinano **identici** a *ein*: una regola, molti usi.\n- Domani: la **declinazione forte** (senza articolo), il terzo e ultimo tipo — quando l'aggettivo deve portare *da solo* tutto il peso del caso."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Smalltalk im Büro: l'arte della conversazione professionale informale",
+        "readingTime": "~5 min",
+        "markdown": "# Smalltalk im Büro: l'arte della conversazione professionale informale\n\n## Ripasso\n\nNella lezione precedente abbiamo imparato a *fissare, confermare e spostare un appuntamento*: le formule come **Hätten Sie am Donnerstag Zeit?** (*Avrebbe tempo giovedì?*), la conferma **Der Termin passt mir gut** (*L'appuntamento mi va bene*) e lo spostamento educato con **Könnten wir den Termin verschieben?** (*Potremmo spostare l'appuntamento?*). Abbiamo visto quanto conti il **Konjunktiv II** per ammorbidire le richieste. Oggi facciamo un passo indietro nel tempo: *cosa si dice nei trenta secondi prima che la riunione cominci?*\n\n## Perché lo Smalltalk conta (e non è banale)\n\nIn Germania lo **Smalltalk** professionale ha una funzione precisa: scaldare l'atmosfera *senza* invadere la sfera privata. La regola d'oro è il registro **Sie** (*forma di cortesia*) e la scelta di argomenti **neutrali**. Si parla volentieri di viaggio, meteo, traffico, caffè e weekend; si evitano accuratamente *stipendio, politica, religione, salute e domande personali*.\n\n> ⚠️ Attenzione culturale: il professionista tedesco apprezza lo Smalltalk **breve e funzionale**. Non è un obbligo riempire ogni silenzio. Due o tre battute, poi si entra nel merito: **So, kommen wir zum Thema** (*Bene, veniamo al punto*).\n\n```mermaid\nflowchart LR\n    A[Begrüßung<br/>saluto] --> B[Eröffnung<br/>apertura neutra]\n    B --> C[kurzer Austausch<br/>breve scambio]\n    C --> D[Überleitung<br/>transizione al tema]\n    D --> E[Geschäft<br/>affari]\n```\n\n## Redemittel: aprire la conversazione\n\n| Tedesco | Italiano | Registro |\n|---|---|---|\n| **Schön, Sie kennenzulernen.** | Piacere di conoscerla. | primo incontro |\n| **Schön, Sie wiederzusehen.** | Che piacere rivederla. | si conoscono già |\n| **Hatten Sie eine gute Anreise?** | Ha fatto buon viaggio? | ospite arrivato |\n| **Wie war Ihr Flug / Ihre Fahrt?** | Com'è stato il volo / il viaggio? | informale-cortese |\n| **Haben Sie gut hergefunden?** | Ha trovato facilmente la strada? | classico tedesco |\n| **Möchten Sie einen Kaffee?** | Gradisce un caffè? | accoglienza |\n\nLa domanda **Haben Sie gut hergefunden?** è quasi un rituale: il padrone di casa si preoccupa che l'ospite non si sia perso. Una risposta tipica: **Ja, danke, Ihre Wegbeschreibung war sehr genau** (*Sì, grazie, le sue indicazioni erano molto precise*).\n\n## Redemittel: reagire e rilanciare\n\nLo scambio vive di *reazioni*. Ecco le formule per tenere viva la palla senza sforzo:\n\n- **Ach, wirklich?** — *Ah, davvero?*\n- **Das freut mich zu hören.** — *Mi fa piacere sentirlo.*\n- **Das kann ich gut verstehen.** — *Lo capisco bene.*\n- **Da haben Sie Glück gehabt!** — *È stato fortunato!*\n- **Und wie läuft es bei Ihnen?** — *E da voi come va?*\n\nPer il meteo, sempre utile e sempre neutro:\n\n- **Endlich wird es wärmer.** — *Finalmente si scalda.*\n- **Was für ein Wetter heute!** — *Che tempo oggi!*\n- **Hoffentlich hält das schöne Wetter.** — *Speriamo che il bel tempo regga.*\n\n## La transizione: dal caffè agli affari\n\nIl momento più delicato è chiudere lo Smalltalk *con grazia*. Il tedesco ha segnali standard, spesso introdotti dalla particella **so**:\n\n| Tedesco | Italiano |\n|---|---|\n| **So, fangen wir an?** | Allora, cominciamo? |\n| **Gut, dann lassen Sie uns zur Sache kommen.** | Bene, allora veniamo al dunque. |\n| **Vielleicht steigen wir gleich ein.** | Forse possiamo entrare subito nel vivo. |\n| **Sollen wir loslegen?** | Iniziamo? |\n\n> 💡 *Zur Sache kommen* e *zum Punkt kommen* significano entrambi \"andare al sodo\". Sono perfettamente cortesi: in Germania arrivare al punto è segno di rispetto per il tempo altrui, non di freddezza.\n\n## Dialogo-modello: l'arrivo di un cliente\n\n> **Frau Berg:** Herr Conti, herzlich willkommen! **Schön, Sie endlich persönlich kennenzulernen.**\n> *(Signor Conti, benvenuto! Che piacere conoscerla finalmente di persona.)*\n>\n> **Herr Conti:** Danke schön, **die Freude ist ganz meinerseits.**\n> *(Grazie, il piacere è tutto mio.)*\n>\n> **Frau Berg:** **Hatten Sie eine gute Anreise?**\n> *(Ha fatto buon viaggio?)*\n>\n> **Herr Conti:** Ja, der Zug war pünktlich. Und **ich habe gut hergefunden** — Ihr Büro ist leicht zu finden.\n> *(Sì, il treno era puntuale. E ho trovato facilmente la strada — il vostro ufficio è facile da trovare.)*\n>\n> **Frau Berg:** Das freut mich. **Möchten Sie einen Kaffee, bevor wir anfangen?**\n> *(Mi fa piacere. Gradisce un caffè prima di cominciare?)*\n>\n> **Herr Conti:** Gern, schwarz bitte.\n> *(Volentieri, nero per favore.)*\n>\n> **Frau Berg:** **So, dann lassen Sie uns zur Sache kommen.** Sie hatten Fragen zu unserem Angebot?\n> *(Bene, allora veniamo al dunque. Aveva domande sulla nostra offerta?)*\n\nNota la mossa di Frau Berg: tre battute di accoglienza, l'offerta del caffè, e poi la **Überleitung** (*transizione*) con **so**. Modello perfetto di Smalltalk tedesco: caldo ma efficiente.\n\n## Nota di registro: cosa NON chiedere\n\nDa evitare con un interlocutore tedesco appena conosciuto:\n\n1. **Was verdienen Sie?** (*Quanto guadagna?*) — tabù assoluto.\n2. **Sind Sie verheiratet?** (*È sposato/a?*) — troppo personale.\n3. **Wie alt sind Sie?** (*Quanti anni ha?*) — fuori luogo.\n\nSe *l'altro* introduce il privato, potete seguirlo; ma l'iniziativa non parte da voi.\n\n## Takeaways\n\n- Lo **Smalltalk** professionale tedesco è **breve, neutrale e funzionale**: meteo, viaggio, caffè — *mai* soldi, età o vita privata.\n- Formule chiave d'apertura: **Hatten Sie eine gute Anreise?**, **Haben Sie gut hergefunden?**, **Schön, Sie kennenzulernen.**\n- Per reagire: **Ach, wirklich?**, **Das freut mich zu hören.**, **Und wie läuft es bei Ihnen?**\n- La transizione agli affari usa la particella **so** + **zur Sache kommen** / **loslegen** — arrivare al punto è cortesia, non freddezza.\n- Mantieni sempre il **Sie**, finché non è il tedesco a proporre il *Du*."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Vertical vs. Horizontal Scaling — and Why Statelessness Is the Key",
+        "readingTime": "~5 min",
+        "markdown": "# Vertical vs. Horizontal Scaling — and Why Statelessness Is the Key\n\n## Recap\n\nYesterday we separated **latency** (time for one request) from **throughput** (requests served per unit time), and saw that \"scaling\" really means *raising throughput while keeping latency acceptable as load grows*. We also met **Little's Law** as the bridge between them. Today we answer the practical follow-up: when you need more capacity, do you buy a *bigger* machine or *more* machines — and what design choice makes the second option possible?\n\n## Two directions to grow\n\nThere are exactly two ways to add capacity to a service.\n\n- **Vertical scaling (scale up):** give one machine more resources — more CPU cores, more RAM, faster disks, a beefier network card. The system stays a *single node*; it just gets stronger.\n- **Horizontal scaling (scale out):** add more machines and spread the work across them. The system becomes a *fleet* of identical nodes sitting behind a load balancer.\n\n```mermaid\nflowchart LR\n    subgraph Vertical[\"Scale UP\"]\n        direction TB\n        S1[\"1 small node\"] -->|bigger box| S2[\"1 large node\"]\n    end\n    subgraph Horizontal[\"Scale OUT\"]\n        direction TB\n        LB[\"Load Balancer\"] --> A[\"node\"]\n        LB --> B[\"node\"]\n        LB --> C[\"node\"]\n        LB --> D[\"...node N\"]\n    end\n```\n\n### Trade-offs at a glance\n\n| Dimension | Vertical (scale up) | Horizontal (scale out) |\n|---|---|---|\n| **Simplicity** | High — one box, no coordination | Lower — distribution, balancing, partial failures |\n| **Ceiling** | Hard physical limit (biggest box made) | Effectively unbounded |\n| **Cost curve** | Super-linear — top-tier hardware costs a *premium* | Roughly linear — commodity boxes |\n| **Fault tolerance** | Poor — the node is a *single point of failure* | Good — lose one node, the rest serve |\n| **Downtime to scale** | Often a reboot/migration | Add a node live, no downtime |\n\nThe deepest difference is **fault tolerance**. A scaled-up system has one heart; when it stops, everything stops. A scaled-out system is *redundant by construction* — losing a node degrades capacity, not availability. This is why serious distributed systems eventually go horizontal, even though vertical scaling is the easier first move.\n\n> **Rule of thumb:** scale *up* first because it's cheap in engineering effort; scale *out* when you hit the cost premium, the hardware ceiling, or — most often — the availability requirement.\n\n## Why horizontal scaling demands statelessness\n\nHere is the catch. Scaling out only works if **any node can handle any request**. The load balancer must be free to send request #1 to node A and request #2 to node B. If your nodes secretly remember things between requests, that freedom breaks.\n\nA server is **stateless** when it keeps *no client-specific data between requests*. Everything it needs to process a request arrives *with* the request (or is fetched from shared storage). The same input always produces the same behaviour, regardless of which node handles it.\n\nContrast the failure mode. Suppose a node stores the user's login session **in its own local memory** after they sign in:\n\n```mermaid\nsequenceDiagram\n    participant U as User\n    participant LB as Load Balancer\n    participant A as Node A\n    participant B as Node B\n    U->>LB: Login\n    LB->>A: routed to A\n    A-->>A: store session in local RAM\n    U->>LB: Next request\n    LB->>B: routed to B\n    B-->>U: \"Who are you? Please log in.\" 😖\n```\n\nNode B never saw the login, so it rejects the user. The naive fix is **sticky sessions** (the balancer always pins a user to the same node), but that re-couples the user to one machine — and when that machine dies, their state dies with it. You've reintroduced the single point of failure you scaled out to escape.\n\nThe real fix is to make the node forget. If a node holds nothing personal, then **all nodes are interchangeable**, the balancer can route freely, a dead node costs nothing but capacity, and a new node is useful the instant it boots.\n\n## Where the state has to go instead\n\nState doesn't vanish — it *moves out* of the application nodes into dedicated, shared, **stateful** services that are designed to hold it safely:\n\n1. **Databases** — the durable system of record (user accounts, orders, posts).\n2. **Distributed caches / session stores** (e.g. Redis, Memcached) — fast shared memory for sessions and hot data, reachable by *every* node.\n3. **Object storage** (e.g. S3) — files, images, uploads.\n4. **The client itself** — a signed token (such as a JWT) carries identity *in the request*, so no server needs to remember the session at all.\n\n```mermaid\nflowchart TB\n    LB[\"Load Balancer\"] --> N1[\"Stateless node\"] & N2[\"Stateless node\"] & N3[\"Stateless node\"]\n    N1 & N2 & N3 --> Cache[(\"Shared cache /<br/>session store\")]\n    N1 & N2 & N3 --> DB[(\"Database\")]\n```\n\nThis reveals the central pattern of scalable architecture: **push state to the edges and to shared stores, and keep the middle tier stateless.** The application tier becomes a *horizontally scalable, disposable* layer of clones. The hard problems of state — durability, consistency, replication — are concentrated in a few specialized systems we can reason about carefully.\n\nBut notice we've only *relocated* the difficulty, not removed it. Those shared stores are now the things that must scale and stay available. Scaling *stateful* systems — databases and caches — is genuinely harder than scaling stateless app servers, because state can't simply be cloned; it must be *replicated and kept consistent*. That problem — replication, partitioning, and the consistency trade-offs they force — is exactly where the rest of this course is headed.\n\n## Takeaways\n\n- **Vertical scaling** = a bigger machine (simple, but limited ceiling, premium cost, single point of failure). **Horizontal scaling** = more machines (linear cost, fault-tolerant, effectively unbounded).\n- Horizontal scaling requires that **any node can serve any request** — which requires **statelessness**.\n- A **stateless** server keeps no per-client data between requests; this makes nodes interchangeable, enabling free load balancing, easy failover, and instant elasticity.\n- **Sticky sessions** are a workaround that re-couples users to nodes and reintroduces a single point of failure — avoid them as your scaling strategy.\n- State must live in **shared stateful services**: databases, distributed caches/session stores, object storage, or in **client-side tokens**.\n- The hard part doesn't disappear — it concentrates in the **stateful tier**, whose replication and consistency challenges drive much of the rest of this course.",
+        "roadmapId": "sd-02"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Tokenization: BPE and Why Tokens Are Not Words",
+        "readingTime": "~5 min",
+        "markdown": "# Tokenization: BPE and Why Tokens Are Not Words\n\n## Recap\n\nYesterday we defined a *language model* as a system that estimates the probability of the next item in a sequence, and saw that modern LLMs are trained on one deceptively simple objective: **next-token prediction**. We kept saying \"token\" as if it were obvious. Today we open that box. **A token is the actual atomic unit a model reads and predicts — and it is almost never a clean English word.**\n\n## From characters to tokens\n\nA model cannot operate on raw text. Neural networks consume *numbers*, so every input string must be cut into pieces drawn from a fixed inventory called the **vocabulary**, and each piece mapped to an integer **ID**. That cutting step is **tokenization**.\n\nThe naïve options are bad at both extremes:\n\n- **Character-level** (one token per character): tiny vocabulary, but sequences become enormous and the model must relearn that `c-a-t` spells \"cat\" everywhere. Long, expensive sequences.\n- **Word-level** (one token per word): short sequences, but the vocabulary explodes, and any unseen word (`antidisestablishmentarianism`, a typo, a new product name) becomes an unrepresentable **out-of-vocabulary** hole.\n\nThe dominant compromise is **subword tokenization**: common words stay whole, rare words shatter into reusable fragments. Nothing is ever out-of-vocabulary, because the alphabet (or raw bytes) is always available as a fallback.\n\n## Byte-Pair Encoding (BPE)\n\nThe most widely used algorithm is **Byte-Pair Encoding**. Originally a 1994 *data-compression* trick, it was repurposed for NLP. The idea: **repeatedly merge the most frequent adjacent pair of symbols into a new symbol.** Frequent sequences end up as single tokens; rare ones stay split.\n\n### Training the tokenizer\n\nThis happens *once*, on a big corpus, before the LLM itself trains:\n\n1. Start with a base vocabulary of individual characters (or, in modern *byte-level* BPE, the 256 raw bytes).\n2. Count every adjacent symbol pair in the corpus.\n3. Find the **most frequent pair**, merge it into one new token, and record the **merge rule**.\n4. Repeat until you reach a target vocabulary size (e.g. 50k–200k).\n\nA tiny worked example. Suppose our corpus is just the words `low`, `lower`, `lowest`, seen many times. Starting from characters:\n\n```\nl o w\nl o w e r\nl o w e s t\n```\n\nThe pair `l o` is everywhere → merge to `lo`. Then `lo w` → merge to `low`. Now \"low\" is a single token, while the rarer suffixes `er`, `est` may stay separate. After training we have an ordered list of merge rules.\n\n### Encoding new text\n\nAt inference, we apply the learned merges **greedily, in order**: split the string into bytes/characters, then keep applying merge rules until none fit. The result is the token sequence the model actually sees.\n\n```mermaid\nflowchart LR\n    A[\"raw text\"] --> B[\"split into bytes/chars\"]\n    B --> C[\"apply merge rules<br/>in learned order\"]\n    C --> D[\"token strings\"]\n    D --> E[\"map to integer IDs\"]\n    E --> F[\"model input\"]\n```\n\n> Variants you'll meet: **WordPiece** (BERT) merges by likelihood gain rather than raw frequency; **Unigram/SentencePiece** (T5, LLaMA) starts big and *prunes*. All share the goal: a fixed subword vocabulary with graceful fallback.\n\n## Why this matters in practice\n\nTokenization is not a backstage detail. It shapes **cost, context, and correctness**.\n\n**1. Cost and context limits are counted in tokens, not words.** APIs bill per token, and the **context window** (e.g. 200k) is a token budget. A rough English rule of thumb:\n\n$$\\text{tokens} \\approx \\frac{\\text{characters}}{4} \\approx \\frac{\\text{words}}{0.75}$$\n\nSo ~750 English words ≈ 1,000 tokens. But this ratio is *language- and content-dependent*.\n\n**2. Some inputs are token-hungry.** Languages underrepresented in the training corpus get sliced into many more pieces. The same sentence in English vs. a non-Latin script can cost several times more tokens — a real fairness and cost issue.\n\n| Input | Why it tokenizes badly |\n|---|---|\n| Non-English / non-Latin scripts | Few merges learned → near-character-level splits |\n| Code, whitespace, indentation | Spaces and symbols become their own tokens |\n| Long numbers (`31415926`) | Often split into odd digit chunks |\n| Emoji, rare Unicode | Fall back to multiple byte tokens |\n\n**3. It explains \"odd\" model failures.** Because the model sees tokens, not letters:\n\n- **Spelling / counting tasks** (\"how many *r*'s in *strawberry*?\") are hard — the word may be a single opaque token, so the letters aren't directly visible.\n- **Arithmetic** wobbles when numbers tokenize inconsistently across examples.\n- **Reversing a string** or character-level edits fight against the tokenization.\n- The same word means different IDs **with vs. without a leading space** (`\"dog\"` ≠ `\" dog\"`), which can affect prompting and stop-sequences.\n\n> **Mental model:** the model is fluent in a private alphabet of word-fragments. When a task secretly depends on the *letters inside* a fragment, the model is working half-blind.\n\n## Takeaways\n\n- **Tokens are subword units**, not words; text is cut into a fixed **vocabulary** of integer IDs before the model sees anything.\n- **BPE** builds that vocabulary by iteratively **merging the most frequent adjacent pair**, learned once on a corpus, then applied greedily at encode time.\n- **Byte-level fallback** means there's no true out-of-vocabulary — anything can be spelled out, just expensively.\n- **Cost and context windows are measured in tokens**; ~4 characters ≈ 1 token for English, but non-English text and code cost far more.\n- Many \"weird\" LLM failures (spelling, counting letters, arithmetic, reversal) trace directly back to the fact that **the model reasons over tokens, not characters**.",
+        "roadmapId": "ai-02"
+      }
+    }
+  ]
+}
