@@ -1,0 +1,487 @@
+{
+  "date": "2026-06-18",
+  "generatedAt": "2026-06-18T19:24:34.442Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "OpenAI anchored a busy day for AI craft with LifeSciBench, a 750-task life-science benchmark that even its best model passes only a third of, alongside fresh launches from xAI, MiniMax, Vercel and Anthropic.",
+      "items": [
+        {
+          "headline": "OpenAI's LifeSciBench finds the best AI passes just 36.1% of 750 real life-science research tasks",
+          "brief": "OpenAI released LifeSciBench, a benchmark built with 173 biotech and pharma scientists spanning 750 expert-authored tasks across seven biological research workflows. Its own domain-specialized model, GPT-Rosalind, led the field but lifted the overall pass rate only from 25.7% to 36.1%, scoring highest on 386 of the 750 tasks. Unlike textbook-style biology tests, the tasks require models to weigh evidence, design experiments and make useful decisions under real-world constraints.",
+          "whyItMatters": "A sobering yardstick showing frontier models still fail most genuine research work — and a target labs will now optimize against.",
+          "url": "https://openai.com/index/introducing-life-sci-bench/",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-17",
+          "featured": true
+        },
+        {
+          "headline": "OpenAI's 'deployment simulation' predicts model misbehavior pre-launch by replaying 1.3M real conversations",
+          "brief": "OpenAI detailed a method that re-runs recent de-identified user conversations through a candidate model to forecast how it will behave once shipped. Across roughly 1.3 million conversations spanning GPT-5 Thinking through GPT-5.4 (August 2025 to March 2026), it pre-registered predictions for 20 undesirable behaviors and reached 92% directional accuracy with a median error of 1.5x the eventual observed rate. The pipeline would have surfaced the novel 'calculator hacking' failure before release.",
+          "whyItMatters": "Gives labs an earlier, harder-to-game safety check just as OpenAI's GPT-5.6 launch nears.",
+          "url": "https://openai.com/index/deployment-simulation/",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "xAI's Grok Imagine Video 1.5 tops the Image-to-Video Arena at $4.20/min, 86% below Sora 2 Pro",
+          "brief": "xAI released Grok Imagine Video 1.5 on June 17, generating 6-second 720p clips in about 25 seconds (down from 40-plus) with sound effects, ambience and dialogue produced in the same pass. It sits at #1 on the Image-to-Video Arena in blind user testing, beating OpenAI's Sora 2, Google's Veo 3.1, Seedance 2.0 and Kling. New Projects, parallel agents and library search ship alongside on the Imagine API, grok.com/imagine and the iOS and Android apps.",
+          "whyItMatters": "Undercuts every major rival on price while leading on quality, piling pressure on Sora and Veo.",
+          "url": "https://x.ai/news/grok-imagine-video-1-5",
+          "source": "xAI",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "MiniMax open-sources Sparse Attention and MiniMax-M3, cutting 1M-token attention compute 28x",
+          "brief": "MiniMax released MiniMax Sparse Attention (MSA), a two-branch block-sparse method built on Grouped Query Attention in which each query attends to just 2,048 key-value tokens regardless of context length, and shipped it in MiniMax-M3, a 109B-parameter Mixture-of-Experts model trained on 3 trillion tokens. At 1M tokens MSA delivers a 28.4x reduction in per-token attention compute plus 14.2x prefill and 7.6x decoding speedups on H800 GPUs, while holding near full-attention accuracy on RULER-128K. MiniMax also open-sourced the inference kernel.",
+          "whyItMatters": "Makes million-token context far cheaper to serve, easing a key bottleneck for long-context agents.",
+          "url": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Vercel open-sources Eve, an agent framework where each agent is just a directory of files",
+          "brief": "Vercel released Eve under Apache-2.0, an npm framework that defines an AI agent as a folder of TypeScript and Markdown files — agent.ts for config, instructions.md for the prompt, and tools/, skills/, connections/ and channels/ folders mapping to capabilities. It ships durable execution with checkpointing, sandboxed code execution, human-approval steps and OpenTelemetry tracing. Vercel says it runs 100-plus agents on Eve internally, including a support agent that resolves 92% of tickets autonomously.",
+          "whyItMatters": "A file-based, deploy-anywhere model that lowers the bar for shipping production agents.",
+          "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Anthropic overhauls Claude Design with design-system imports, code round-trips and a token-burning fix",
+          "brief": "Anthropic shipped a major update to Claude Design on June 17, adding design-system imports, direct canvas editing, tighter Claude Code integration and more export options, while addressing the tool's heavy token consumption. The release repositions Claude Design as a design-system compliance layer that round-trips between designs and the code and tools enterprises already use.",
+          "whyItMatters": "Pushes Claude deeper into enterprise design-to-code workflows against incumbents like Figma.",
+          "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+          "source": "VentureBeat",
+          "publishedAt": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Pinterest's experimental 'Ask Pinterest' AI shopping app led a day dominated by product and operational moves, as Rivian cut hundreds of jobs after its R2 launch and SoftBank rolled out OpenAI-powered security patching across Japan.",
+      "items": [
+        {
+          "headline": "Pinterest launches 'Ask Pinterest,' a standalone conversational AI shopping app built on its Taste Graph",
+          "brief": "On June 17, Pinterest released an experimental standalone app called 'Ask Pinterest' that lets users shop and discover products through a chatbot-style, natural-language interface rather than the usual visual search. The app handles multi-step requests like 'planning a dinner party on a budget,' retains context across sessions, and tailors results using a user's saved Pins and Boards plus Pinterest's 'Taste Graph' of interests. Pinterest also rolled out a Pinterest Model Context Protocol (MCP) and new AI ad tools for advertisers; the app is launching in limited access.",
+          "whyItMatters": "It signals Pinterest moving beyond visual search toward conversational commerce, testing features that could fold into the main app and reshape how it monetizes shopping intent.",
+          "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-17",
+          "featured": true
+        },
+        {
+          "headline": "Rivian cuts hundreds of jobs — under 2% of ~15,200 staff — a week after R2 deliveries begin",
+          "brief": "Rivian laid off hundreds of workers on June 16, roughly a week after it started delivering its more affordable R2 SUV. The cuts amount to less than 2% of its roughly 15,200 employees (up to about 300 roles) and are concentrated in its service and customer organization, including sales and marketing, rather than R2 production. The company said it 'recently restructured a handful of teams' as it works to 'profitably scale,' marking at least its fourth round of cuts since 2024.",
+          "whyItMatters": "Trimming customer-facing staff just as the volume R2 ramps shows Rivian prioritizing a path to profitability over headcount even at its most pivotal product moment.",
+          "url": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-16",
+          "featured": false
+        },
+        {
+          "headline": "SoftBank launches OpenAI-powered 'Patching as a Service' aimed at Japan's top 3,000 infrastructure firms",
+          "brief": "On June 16, SoftBank Group unveiled 'Patching as a Service,' a cybersecurity offering powered by OpenAI and delivered through SB OAI Japan that uses AI to scan corporate systems for vulnerabilities and then automatically draft step-by-step remediation plans. SoftBank is targeting the roughly 3,000 companies behind Japan's critical infrastructure — including airports, power systems and transportation — pairing OpenAI's models with SoftBank Corp.'s operational expertise. The company offered attendees at its Tokyo presentation a free diagnosis to seed adoption.",
+          "whyItMatters": "It turns frontier AI into a packaged enterprise security service and deepens SoftBank's bet on OpenAI as the backbone of its commercial AI push in Japan.",
+          "url": "https://group.softbank/en/news/press/20260616",
+          "source": "SoftBank Group",
+          "publishedAt": "2026-06-16",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "Wall Street's biggest story was President Trump's claim that Apple has agreed to build chips in the US with Intel, sending Intel shares up roughly 9%, while a $14 billion EQT-Intertek takeover, a Jabil AI blowout and a BMW profit warning rounded out a busy session.",
+      "items": [
+        {
+          "headline": "Trump says Apple agreed to make chips in the US with Intel, sending Intel up ~9%",
+          "brief": "President Trump posted on Truth Social that Apple has agreed to design and build chips domestically with Intel, writing he 'decided to help Intel because we need to design and build our Chips right here in America.' Intel shares jumped more than 9% in premarket trading, though neither company confirmed a deal — Intel declined to comment and Apple did not respond. Reports say the two have been in talks for months, and the work likely covers older, lower-end processors (such as M-series chips for the iPad Pro and MacBook Air) rather than the iPhone 18 Pro or M5.",
+          "whyItMatters": "A confirmed deal would cut Apple's heavy reliance on Taiwan and throw a lifeline to Intel's struggling US foundry business.",
+          "url": "https://www.cnn.com/2026/06/18/tech/intel-chip-production-usa-trump",
+          "source": "CNN Business",
+          "publishedAt": "2026-06-18",
+          "featured": true
+        },
+        {
+          "headline": "EQT agrees £10.6bn (~$14bn) cash takeover of Intertek at £60 a share",
+          "brief": "Swedish private-equity firm EQT reached an agreement to acquire UK testing and inspection giant Intertek for £60 a share in cash, valuing it at about £10.6 billion including debt (roughly $14 billion). Intertek's board is now 'minded to recommend' the bid after rejecting earlier offers of £51.50, £54 and £58, with a 107.7p dividend lifting the total to about £61.08 a share. The deal would rank as Britain's third-largest private-equity takeover, behind airport operator BAA (2006) and Alliance Boots (2007).",
+          "whyItMatters": "It extends a wave of take-privates as cheaply valued London-listed companies become magnets for global buyout firms.",
+          "url": "https://pitchbook.com/news/articles/eqts-pending-14-3b-intertek-takeover-adds-to-run-of-uk-take-privates",
+          "source": "PitchBook",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Jabil jumps as much as 14% to a record after raising FY2026 revenue outlook to $35bn on AI demand",
+          "brief": "Jabil reported fiscal third-quarter revenue of $8.8 billion and core EPS of $3.16, topping estimates of $8.55 billion and $3.08. The contract manufacturer raised its full-year revenue guidance to about $35 billion from $34 billion and its AI-related revenue forecast to $13.6 billion (roughly 51% year-over-year growth), citing 'extremely strong' AI data-center demand and a newly won third hyperscale customer. Shares rose as much as 14% on June 17 to a record near $415.",
+          "whyItMatters": "It is another data point that AI infrastructure spending is still accelerating rather than peaking, even as chip stocks wobble.",
+          "url": "https://www.investing.com/news/company-news/jabil-q3-fy2026-slides-ai-revenue-surges-outlook-raised-to-35b-93CH-4747595",
+          "source": "Investing.com",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "BMW sinks ~8% to a 5-year low after cutting its 2026 margin outlook to 1%-3% on China and the Iran war",
+          "brief": "BMW issued a profit warning, slashing its automotive EBIT margin forecast to 1%-3% from 4%-6% and its return on capital employed to 1%-5% from 6%-10%, blaming a deepening downturn in China's car market and fallout from the Iran war. Shares fell about 8% in Frankfurt to their lowest level since November 2020, dragging Volkswagen and Mercedes lower. The company said European and US sales gains 'cannot compensate' for losses across China and the Asia-Pacific region.",
+          "whyItMatters": "The far-larger-than-expected cut signals the European auto sector's China problem is intensifying, not stabilizing.",
+          "url": "https://www.cnbc.com/2026/06/17/bmw-profit-warning-autos-cars-china-iran.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Sovereign-AI and cyber-defense startup Dream raises $260m at a $3bn valuation",
+          "brief": "Dream, which builds sovereign AI and national cyber-defense platforms for governments and critical infrastructure, announced a $260 million funding round that values it at $3 billion, three years after its founding. The round was co-led by Bicycle Capital and Group 11, with participation from Antler, Bain Capital Ventures and Tru Arrow Partners. Dream said it has secured nearly $300 million in total contract value since beginning commercial operations in late 2024.",
+          "whyItMatters": "Capital is pouring into 'sovereign AI' as governments race to control their own models and defenses amid rising geopolitical risk.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/dream-raises-260m-reveals-sovereign-101700202.html",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Bitcoin slips to about $63,900 even as stocks rally, splitting markets on a hawkish Fed",
+          "brief": "Bitcoin traded near $63,900 on June 18, down roughly 1.3% over 24 hours, diverging from equities as the S&P 500 and Nasdaq climbed on the US-Iran peace deal. Traders pinned the weakness on the Federal Reserve's hawkish dot plot, in which 9 of 18 officials projected a 2026 rate hike under new chair Kevin Warsh, who stressed inflation worries over growth. Long-term holders were reported to be absorbing about 125,000 BTC despite the price pressure.",
+          "whyItMatters": "Crypto is trading Fed policy while stocks trade geopolitics — a split that leaves bitcoin exposed if rate-hike bets harden.",
+          "url": "https://fortune.com/article/price-of-bitcoin-06-18-2026/",
+          "source": "Fortune",
+          "publishedAt": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Unified minimumweight king Oscar Collazo headlines a busy Saturday with a late visa-forced opponent swap, while the road ahead just got a fresh heavyweight test in Moses Itauma vs. Filip Hrgovic.",
+      "items": [
+        {
+          "headline": "Collazo now defends WBA/WBO/Ring minimumweight belts vs. late sub Neider Valdez, this Saturday June 20 in Oceanside",
+          "brief": "Oscar 'El Pupilo' Collazo (14-0, 11 KOs) will face Mexico's Neider Valdez (15-3-3, 12 KOs) over 12 rounds for the WBA, WBO and Ring Magazine minimumweight titles at Frontwave Arena in Oceanside, California, live on DAZN. Original challenger Joey Canoy was forced out this week over visa issues, opening the door for Valdez as a short-notice replacement.",
+          "whyItMatters": "The opponent change keeps Collazo's pound-for-pound run intact but hands a far less proven challenger a career-defining title shot.",
+          "url": "https://www.goldenboy.com/latest/rising-mexican-contender-neider-valdez-steps-in-to-face-pound-for-pound-puerto-rican-champion-oscar-el-pupilo-collazo/",
+          "source": "Golden Boy Promotions",
+          "featured": true
+        },
+        {
+          "headline": "Moses Itauma vs. Filip Hrgovic set for Aug. 29 at London's O2 Arena — his toughest heavyweight test",
+          "brief": "Unbeaten British heavyweight Moses Itauma (14-0, 12 KOs) is set to meet Croatia's Filip Hrgovic (20-1, 15 KOs) on Aug. 29 at the O2 Arena in London, with a formal press-conference announcement expected early next week per Sky Sports. The 21-year-old, who stopped Jermaine Franklin in March, steps up sharply against a contender who last stopped David Allen in May.",
+          "whyItMatters": "It's the first elite-level gatekeeper of Itauma's career and a measuring stick for whether the prospect is ready for the heavyweight title picture.",
+          "url": "https://www.skysports.com/boxing/news/12183/13555242/moses-itauma-to-fight-filip-hrgovic-in-high-risk-heavyweight-bout-in-august-as-british-boxer-puts-unbeaten-record-on-line",
+          "source": "Sky Sports",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Edgar Berlanga vs. Steven Butler booked for July 26 at MSG's Infosys Theater on Zuffa Boxing 09",
+          "brief": "Edgar Berlanga (23-2, 18 KOs) makes his Zuffa Boxing debut in a 10-round super middleweight bout against Montreal's Steven Butler (38-5-1, 32 KOs) on July 26 at the Infosys Theater at Madison Square Garden, New York, on Paramount+. The card is co-headlined by former IBF junior welterweight champ Richardson Hitchins, who makes his welterweight debut against Mexico's Ricardo Salas (24-2-2, 18 KOs).",
+          "whyItMatters": "It's Berlanga's first fight since his fifth-round stoppage loss to Hamzah Sheeraz last July and the launch of Zuffa's New York presence.",
+          "url": "https://www.espn.com/boxing/story/_/id/49010609/zuffa-books-berlanga-butler-hitchins-salas-july-26-nyc",
+          "source": "ESPN"
+        },
+        {
+          "headline": "Lyndon Arthur vs. Lewis Edmondson for European + vacant Commonwealth light heavyweight titles, June 20 in Southampton",
+          "brief": "Lyndon Arthur defends his European light heavyweight title and contests the vacant Commonwealth belt against Lewis Edmondson over 12 rounds Saturday, June 20, at St Mary's Stadium in Southampton, England, on DAZN. The all-British bout sits on the undercard of Ryan Garner vs. Michael Magnesi's WBC interim super featherweight clash.",
+          "whyItMatters": "A domestic-title grudge match that positions the winner for a world-ranking push at 175 pounds.",
+          "url": "https://box.live/fights/edmondson-vs-arthur/",
+          "source": "Box.live"
+        },
+        {
+          "headline": "Estefany Alegria upsets Evelin Bermudez to unify WBO/WBA/IBF light flyweight titles (June 13, Orlando)",
+          "brief": "Estefany Alegria (15-1, 4 KOs) outpointed Evelin Bermudez (22-2-1, 8 KOs) by unanimous decision — 99-91, 99-91, 100-90 — to claim the unified WBO, WBA and IBF light flyweight titles at the Caribe Royale in Orlando on the June 13 MVPW-04 card. The bout shared a card with Oshae Jones' split-draw IBF junior middleweight title retention and Tiara Brown's WBC featherweight defense.",
+          "whyItMatters": "Alegria becomes a three-belt champion at 108 pounds, reshaping the women's light flyweight division.",
+          "url": "https://fightnews.com/results-from-orlando-jones-retains-title-with-a-draw/190497",
+          "source": "Fightnews"
+        },
+        {
+          "headline": "Gervonta Davis vs. Floyd Schofield WBA lightweight deal nears Monday deadline as Maryland warrant looms",
+          "brief": "With the WBA's June 22 deadline arriving Monday, Gervonta 'Tank' Davis and Floyd Schofield are exchanging contracts toward a late-August lightweight title defense or face purse bids, per ESPN. The biggest obstacle isn't money: Davis has an active arrest warrant in Maryland over alleged probation violations tied to his January domestic-violence arrest.",
+          "whyItMatters": "Davis hasn't fought since March 2025, and his legal status — not the negotiation — may decide whether the mandatory happens at all.",
+          "url": "https://www.espn.com/boxing/story/_/id/49097525/boxing-key-storylines-gervonta-tank-davis-return-jesse-bam-rodriguez-naoya-inoue-next-more",
+          "source": "ESPN"
+        },
+        {
+          "headline": "Errol Spence Jr. returns vs. Tim Tszyu at 158-lb catchweight, July 25 in Australia on PPV",
+          "brief": "Former unified welterweight champion Errol 'The Truth' Spence Jr. faces ex-titleholder Tim Tszyu at a 158-pound catchweight on July 25 in Australia, headlining a PBC pay-per-view on Prime Video in U.S. primetime. It marks Spence's first fight since his 2023 loss to Terence Crawford and his move up to super welterweight.",
+          "whyItMatters": "The winner vaults straight into the 154-pound world-title mix; the loser's elite career may be over.",
+          "url": "https://www.premierboxingchampions.com/news/truth-back-spence-vs-tszyu-set-july-25",
+          "source": "Premier Boxing Champions"
+        },
+        {
+          "headline": "Zuffa Boxing targeting Devin Haney vs. Shakur Stevenson as marquee matchup, per reports",
+          "brief": "With both Devin Haney and Shakur Stevenson reportedly bound for Zuffa Boxing, sources tell reporter Sean Zittel that Haney-Stevenson is the fight the promotion wants to make first, with the reported holdup being Stevenson's camp. The pair previously appeared to verbally agree to a 144-pound catchweight on social media before backing off minutes later; no date or venue is set.",
+          "whyItMatters": "It would be Zuffa Boxing's first true blockbuster and a clash of two of the sport's top pound-for-pound talents.",
+          "url": "https://www.boxingnews24.com/2026/06/report-zuffa-boxing-targeting-devin-haney-shakur-stevenson-fight/",
+          "source": "BoxingNews24"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The fight calendar's biggest fresh news is UFC 330, where welterweight champ Islam Makhachev was booked June 17 to defend against Ian Machado Garry in a two-title Philadelphia card, while last weekend's White House show keeps reverberating through the lighter divisions.",
+      "items": [
+        {
+          "headline": "Islam Makhachev vs. Ian Machado Garry booked to headline UFC 330, Aug. 15 in Philadelphia",
+          "brief": "Dana White confirmed June 17 that welterweight champion Islam Makhachev will make his first 170-pound title defense against Ireland's Ian Machado Garry at UFC 330 on Aug. 15 at Xfinity Mobile Arena in Philadelphia — the UFC's first card in the city since 2019. The co-main is also a title fight: strawweight champion Mackenzie Dern defends against Gillian Robertson on the same card.",
+          "whyItMatters": "It locks in Makhachev's first welterweight defense and gives the surging Garry his maiden title shot, anchoring a two-belt summer pay-per-view.",
+          "url": "https://www.ufc.com/news/dana-white-announces-two-title-fights-ufcs-return-philadelphia",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Sean O'Malley KOs Aiemann Zahabi in Round 2 at the White House, calls for Petr Yan title rematch",
+          "brief": "On the UFC Freedom 250 card at the White House on June 14, Sean O'Malley dropped Aiemann Zahabi twice in seconds for a walk-off second-round TKO, his second straight win since back-to-back losses to Merab Dvalishvili. O'Malley immediately called out reigning bantamweight champion Petr Yan, whom he beat in 2022, though the UFC is eyeing a Yan–Dvalishvili trilogy first.",
+          "whyItMatters": "The finish puts O'Malley firmly back in the 135-pound title picture and sets up a possible Yan rematch — if he isn't bumped by the trilogy.",
+          "url": "https://www.cbssports.com/ufc/news/ufc-freedom-250-results-highlights-sean-omalley-white-house-knockout/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-15T03:51:00Z",
+          "featured": false
+        },
+        {
+          "headline": "Mauricio Ruffy flatlines Michael Chandler in Round 1 at White House, eyes lightweight title shot",
+          "brief": "Mauricio Ruffy scored a one-sided first-round knockout of Michael Chandler at 4:29 of the opening frame at UFC Freedom 250 on June 14, dropping him with uppercuts after lighting him up. It was Ruffy's second straight finish following his KO of Rafael Fiziev, and he declared himself next in line for the lightweight belt before proposing to his fiancée on the South Lawn.",
+          "whyItMatters": "Back-to-back highlight-reel finishes vault Ruffy into the 155-pound title conversation now that Justin Gaethje holds the undisputed crown.",
+          "url": "https://sports.yahoo.com/mma/article/ufc-freedom-250-results-mauricio-ruffy-destroys-michael-chandler-with-brutal-ko-on-white-house-lawn-023651840.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-15T02:36:00Z",
+          "featured": false
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "18.44",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-17",
+      "source": "CBOE (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/history/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.38",
+      "reference": "media ~17",
+      "asOf": "2026-06-17",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "TSMC faces imminent US ITC ruling that could bar imports of its 7nm-and-below chips used by Apple, Qualcomm and Broadcom",
+                "brief": "An administrative law judge is expected to issue a preliminary ruling this month in ITC case 337-TA-1443, in which Dublin-registered IPValue subsidiaries Longitude Licensing and Marlin Semiconductor — the latter holding patents bought from UMC in 2021 — accuse TSMC of infringement on chips made with 7nm and smaller nodes. Four Republican lawmakers (Rep. Ryan Zinke and Sens. Tim Sheehy, Roger Marshall and Bernie Moreno) have pressed the ITC to block imports of any infringing chips, while Taiwan's IP Office chief publicly branded the plaintiffs likely 'patent trolls' and TSMC has petitioned the USPTO to invalidate the patents.",
+                "whyItMatters": "A final exclusion order — possible in October and subject to a 60-day presidential review — could disrupt TSMC's US chip shipments to its largest customers, making this a live regulatory/legal overhang on the stock.",
+                "url": "https://www.taipeitimes.com/News/biz/archives/2026/06/17/2003859213",
+                "source": "Taipei Times",
+                "publishedAt": "2026-06-17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Alphabet's Waymo recalls 3,871 robotaxis after AVs drove into closed freeway construction zones",
+                "brief": "Waymo is recalling 3,871 vehicles to fix a 5th-generation ADS software flaw that let robotaxis drive past ramp-closure signs and between cones into active freeway construction zones, including events in Phoenix in April and seven AVs entering closed San Francisco Bay Area lanes on May 18, 2026. Waymo has restricted freeway operations and will push a free over-the-air software update to detect and avoid construction zones. It is Waymo's second recall in just over a month.",
+                "whyItMatters": "A second recall in weeks adds regulatory and safety scrutiny to Alphabet's most-watched self-driving bet just as it scales freeway and city expansion.",
+                "url": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/",
+                "source": "TechCrunch",
+                "publishedAt": "2026-06-18"
+              },
+              {
+                "headline": "HSBC signs multi-year Google Cloud AI deal targeting 200+ use cases and $100M-plus projects",
+                "brief": "At Google Cloud Summit London on June 17, HSBC and Alphabet's Google Cloud announced a multi-year partnership to deploy Gemini models and the Gemini Enterprise Agent Platform across HSBC's global operations, working with Google DeepMind engineers. The bank expects to roll out more than 200 new AI use cases over two years, prioritizing initiatives where it estimates benefits will exceed US$100 million, focused on wealth management, financial-crime risk and frontline decision support.",
+                "whyItMatters": "A flagship global-bank win strengthens Google Cloud's enterprise AI position against AWS and Microsoft Azure in the lucrative financial-services segment.",
+                "url": "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-and-google-cloud-announce-transformative-ai-banking-partnership",
+                "source": "HSBC",
+                "publishedAt": "2026-06-17"
+              },
+              {
+                "headline": "AWS unveils agentic-AI tools and a WAF feature to monetize AI bot traffic at NYC Summit",
+                "brief": "At its New York City Summit on June 17, Amazon's AWS expanded Bedrock AgentCore with managed web search that grounds agent responses in cited web data with zero data egress, plus a managed knowledge base for enterprise RAG. AWS also added a WAF capability letting publishers price, meter and collect payment from AI bots accessing their content and APIs. VP of Agentic AI Swami Sivasubramanian delivered the keynote with a live deployment example from Southwest Airlines.",
+                "whyItMatters": "AWS is racing to own the enterprise AI-agent stack and monetize bot traffic, defending its cloud lead as agentic workloads become the next platform battleground.",
+                "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
+                "source": "Amazon Web Services",
+                "publishedAt": "2026-06-17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "CME Group's Terry Duffy to step down as CEO in March 2027; CFO Lynne Fitzpatrick named first woman to lead exchange",
+                "brief": "On June 17, 2026, CME Group said Terry Duffy, its Chairman and CEO of more than 25 years, will transition to Executive Chairman of the Board effective March 1, 2027, with President and CFO Lynne Fitzpatrick appointed CEO and joining the board at that time. Fitzpatrick, a 20-year CME veteran and CFO since 2024 (earlier Deputy CFO and head of Corporate Development, with prior banking roles at Credit Suisse and UBS), will become the exchange operator's first woman CEO. CME's stock is up more than 8,000% since its 2002 IPO under Duffy, giving it a market cap above $95 billion on average daily volume of 28.1 million contracts last year.",
+                "whyItMatters": "A succession at a $95B+ exchange operator removes a long-standing key-man overhang; investors will watch whether Fitzpatrick sustains Duffy's growth and capital-return strategy through the ~9-month handover.",
+                "url": "https://www.prnewswire.com/news-releases/cme-group-terry-duffy-will-step-down-as-chief-executive-officer-and-transition-to-executive-chairman-of-the-board-in-march-2027-president-and-cfo-lynne-fitzpatrick-will-be-appointed-ceo-302803051.html",
+                "source": "PR Newswire (CME Group)",
+                "publishedAt": "2026-06-17"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il rapporto Debito/Patrimonio netto (Debt-to-Equity)",
+        "body": "Il D/E misura quanto un'azienda si finanzia con i debiti rispetto ai soldi degli azionisti. La formula in parole: debiti totali diviso patrimonio netto. Un valore alto significa più leva finanziaria: più rischio se gli utili calano o i tassi salgono, ma anche utili amplificati quando le cose vanno bene. Va letto sempre dentro il settore: un'utility o una banca convivono con D/E alti, una software house no.",
+        "example": "Azienda con 200 di debiti e 100 di patrimonio netto ha D/E = 2: per ogni euro degli azionisti ce ne sono due presi a prestito.",
+        "whyItMatters": "Ti dice in un colpo d'occhio quanto un'azienda è fragile se l'economia o i tassi girano contro."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Product-Market Fit (PMF)",
+        "body": "Il PMF è il momento in cui hai un prodotto che un mercato vuole davvero, al punto che la domanda inizia a tirare da sola. Prima del PMF spingi: insegui clienti, fai mille demo. Dopo, senti il prodotto 'strappato dalle mani': la gente si iscrive, resta, paga e lo passa ad altri senza che tu li rincorra. È la soglia che separa una startup che cerca un business da una che deve solo scalarlo.",
+        "example": "Un classico segnale (Sean Ellis): se oltre il 40% degli utenti dice che sarebbe 'molto deluso' senza il prodotto, sei probabilmente vicino al PMF.",
+        "whyItMatters": "Scalare o raccogliere capitali prima del PMF è il modo più rapido per bruciare cassa su qualcosa che il mercato non vuole."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "Il campo (di forza)",
+        "body": "Un campo è l'idea che lo spazio attorno a un oggetto sia 'modificato' anche dove non c'è nulla: in ogni punto esiste un valore che dice quale spinta sentirebbe qualcosa messo lì. Il campo gravitazionale della Terra dice in ogni punto quanto e in che direzione cade un oggetto; il campo magnetico dice come si orienterebbe una bussola. La cosa potente è che il campo esiste prima e indipendentemente dall'oggetto che lo 'sente': è una proprietà dello spazio stesso.",
+        "example": "La limatura di ferro sparsa attorno a una calamita si dispone in linee curve: stai letteralmente vedendo la forma del campo magnetico invisibile.",
+        "whyItMatters": "È il concetto che spiega come due cose interagiscano 'a distanza' senza toccarsi — dalla gravità al Wi-Fi."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "Il puntinismo di Georges Seurat",
+        "body": "Il puntinismo (o divisionismo) è una tecnica nata a fine '800 in cui il quadro è fatto di migliaia di piccoli punti di colore puro, accostati ma non mescolati sulla tela. È il tuo occhio, a distanza, a fondere i punti: un punto rosso accanto a uno blu diventa viola nella tua mente, non sulla tavolozza. Seurat lo trattava quasi come una scienza ottica, basandosi sulle teorie del colore dell'epoca.",
+        "example": "In 'Una domenica pomeriggio sull'isola della Grande-Jatte' avvicinati e vedi puntini; allontanati e una scena nitida di parigini al parco prende forma.",
+        "whyItMatters": "Mostra che il colore che 'vedi' è in parte costruito dal tuo cervello — un'intuizione che anticipa gli schermi a pixel."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Gutenberg, la stampa e la frantumazione del potere",
+        "body": "Intorno al 1450 Gutenberg unì caratteri mobili metallici, inchiostro oleoso e il torchio: copiare un libro smise di richiedere mesi di lavoro a mano. Il crollo del costo dell'informazione fece esplodere la circolazione delle idee: quando Lutero affisse le sue tesi nel 1517, la stampa le diffuse in tutta Europa in settimane, cosa impossibile prima. Una riforma religiosa locale diventò così uno scisma continentale, perché il monopolio della Chiesa sulla copia dei testi era saltato.",
+        "example": "Prima della stampa un libro poteva costare quanto una casa; in pochi decenni i prezzi crollarono e nacque un mercato di lettori.",
+        "whyItMatters": "È il primo caso in cui abbattere il costo di copiare l'informazione ha rotto un potere consolidato — lo stesso schema che oggi vediamo con internet."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "Il pensiero di secondo livello (Howard Marks)",
+        "body": "Howard Marks distingue il pensiero di primo livello ('è una buona azienda, compro') dal pensiero di secondo livello ('è una buona azienda, ma tutti lo sanno già e il prezzo lo riflette: cosa so o vedo io che il mercato non ha ancora capito?'). Il primo livello è ovvio e condiviso, quindi non ti dà alcun vantaggio. Per battere la media non basta avere ragione: devi avere ragione in modo diverso e non convenzionale rispetto al consenso.",
+        "example": "Se tutti pensano 'il futuro è roseo' e quindi i prezzi sono alti, la domanda di secondo livello è: 'quanto più roseo del previsto deve andare perché guadagni davvero?'.",
+        "whyItMatters": "Spiega perché 'è un'ottima azienda' non basta a fare un buon investimento — conta sempre il prezzo e cosa è già scontato."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Cosa succede davvero quando paghi con la carta",
+        "body": "In quei due secondi al POS si muovono quattro attori: tu (titolare), la tua banca (emittente), la banca del negoziante (acquirer) e il circuito (Visa/Mastercard) che fa da ponte. Il terminale chiede al circuito, che gira la richiesta alla tua banca, che verifica saldo e antifrode e risponde 'sì/no'. Quella è solo l'autorizzazione: il denaro vero si sposta ore o giorni dopo, in un secondo passaggio chiamato regolamento. Il circuito non presta soldi: gestisce i messaggi e le regole tra le banche.",
+        "example": "Su una spesa di 100€, una piccola commissione (l'interchange) va dalla banca del negoziante alla tua: per questo la tua banca può offrirti punti o cashback.",
+        "whyItMatters": "Capisci perché un pagamento può essere 'autorizzato' ma comparire sul conto più tardi, e chi guadagna a ogni passaggio."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "La HRV (variabilità della frequenza cardiaca) come termometro del recupero",
+        "body": "La HRV misura le micro-variazioni di tempo tra un battito e l'altro: contro l'intuito, una variabilità più alta è segno di buon recupero, perché indica che il sistema nervoso 'a riposo' (parasimpatico) ha ripreso il controllo. Quando sei sotto stress, malato o poco recuperato, la HRV tende a scendere e la frequenza a riposo a salire. Misurata ogni mattina nelle stesse condizioni, ti dà un dato oggettivo su quanto sei pronto ad allenarti forte, al di là di come 'ti senti'.",
+        "example": "Così lo applichi: misura la HRV appena sveglio per 2-3 settimane per avere una tua baseline; se un giorno è nettamente sotto, sposta l'intervallo HYROX o il carico pesante e fai Zona 2 leggera.",
+        "whyItMatters": "Ti evita di accumulare allenamenti duri quando il corpo non recupera — la causa più comune di stallo e infortuni."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "La declinazione dell'aggettivo (3): il tipo forte senza articolo",
+        "readingTime": "~4 min",
+        "markdown": "# La declinazione dell'aggettivo (3): il tipo forte senza articolo\n\n## Ripasso\n\nIeri abbiamo visto il **tipo misto**: dopo *ein/kein* e i possessivi (*mein, dein…*), l'aggettivo prende terminazioni \"forti\" solo lì dove l'articolo *ein-* è muto e non segnala il caso — cioè al **Nominativo maschile** (*ein gut**er** Mann*) e al **Nominativo/Accusativo neutro** (*ein klein**es** Kind*). In tutte le altre caselle riemergeva il debole *-en*. Oggi chiudiamo il quadro con il caso opposto: **nessun articolo davanti**.\n\n## La regola d'oro: qualcuno deve marcare il caso\n\nIn tedesco il genere, il numero e il caso devono comparire **almeno una volta** nel sintagma nominale. Di solito è l'articolo a portare questa informazione (*d**er**, d**em**, d**es**…*). Ma quando l'articolo **manca del tutto**, il peso ricade interamente sull'aggettivo: è lui a dover \"diventare l'articolo\" e a portarne le terminazioni.\n\n> **Principio del marcatore unico.** Se davanti non c'è un determinante che segnala il caso, l'aggettivo prende la **terminazione forte** — quasi identica a quella di *der/das/die*.\n\nEcco la logica visiva delle tre declinazioni che ora conosci:\n\n```mermaid\nflowchart TD\n    A[Sintagma con aggettivo] --> B{Cosa c'è davanti?}\n    B -->|der/die/das/diese...| C[DEBOLE: -e / -en]\n    B -->|ein/kein/mein...| D[MISTA: forte dove ein è muto, poi -en]\n    B -->|niente| E[FORTE: l'aggettivo marca il caso]\n```\n\n## Quando si usa il tipo forte\n\nIl caso \"senza articolo\" non è un'eccezione rara: compare di continuo.\n\n- **Sostantivi non numerabili e astratti**: *Ich trinke **heißen** Kaffee* (*Bevo caffè caldo*).\n- **Plurali indeterminati** (il plurale di *ein* non esiste!): *Hier wohnen **nette** Leute* (*Qui abitano persone gentili*).\n- **Dopo numeri, quantificatori e parole come** *viel, wenig, etwas, mehr*: *mit **vielen** guten Ideen* (*con molte buone idee*).\n- **Materiali, lingue, cibi in senso generale**: *Sie spricht **fließendes** Deutsch* (*Parla un tedesco fluente*).\n\n## La tabella forte (kein articolo)\n\nConfronta le terminazioni con l'articolo determinativo: sono quasi sovrapponibili. L'unica vera differenza è al **Genitivo maschile e neutro**, dove l'aggettivo NON usa *-es* ma *-en* (perché il sostantivo stesso prende già *-s*: *gut**en** Wein**es***).\n\n| Caso | Maschile | Femminile | Neutro | Plurale |\n|------|----------|-----------|--------|---------|\n| **Nom.** | gut**er** Wein | frisch**e** Milch | kalt**es** Bier | nett**e** Leute |\n| **Akk.** | gut**en** Wein | frisch**e** Milch | kalt**es** Bier | nett**e** Leute |\n| **Dat.** | gut**em** Wein | frisch**er** Milch | kalt**em** Bier | nett**en** Leuten |\n| **Gen.** | gut**en** Wein(e)s | frisch**er** Milch | kalt**en** Bier(e)s | nett**er** Leute |\n\nMemorizza il \"suono\" delle terminazioni forti, perché ricalca le desinenze dei pronomi/articoli:\n\n$$\\text{-er},\\ \\text{-e},\\ \\text{-es},\\ \\text{-em},\\ \\text{-en},\\ \\text{-er}$$\n\ndove ognuna riproduce la vocale finale di *d**er**, di**e**, da**s**, de**m**, de**n**, de**r***.\n\n## Esempi realistici\n\n| Tedesco | Italiano |\n|---------|----------|\n| Ich suche **kühles** Wasser. | Cerco acqua fresca. *(neutro Akk.)* |\n| Mit **großem** Interesse höre ich zu. | Ascolto con grande interesse. *(neutro Dat.)* |\n| **Deutsche** Autos sind teuer. | Le auto tedesche sono care. *(plurale Nom.)* |\n| Der Geschmack **starken** Kaffees… | Il sapore del caffè forte… *(masch. Gen.)* |\n| Sie hilft **alten** Menschen. | Aiuta le persone anziane. *(plurale Dat.)* |\n\n## Errori tipici\n\n1. **Genitivo masch./neutro con -es.** ✗ *trotz gut**es** Wetters* → ✓ *trotz gut**en** Wetters* (*nonostante il bel tempo*).\n2. **Dimenticare il Dativo plurale doppio -n.** Sia l'aggettivo (*-en*) sia il sostantivo prendono *-n*: ✓ *mit klein**en** Kinder**n***.\n3. **Trattare *viel/wenig* come articoli.** Al singolare *viel* è spesso indeclinabile e l'aggettivo resta forte: *mit **viel gutem** Willen* (*con molta buona volontà*).\n4. **Plurale \"indeterminato\" trattato come misto.** Non esiste *ein* plurale: *Ich habe **gute** Freunde*, non ~~*eine gute*~~.\n\n## Esercizi\n\nCompleta con la terminazione forte corretta.\n\n1. Ich trinke gern kalt___ Bier. *(neutro Akk.)*\n2. Sie kommt mit gut___ Laune nach Hause. *(femm. Dat.)*\n3. Frisch___ Brötchen schmecken am besten. *(plurale Nom.)*\n4. Das ist ein Zeichen groß___ Mutes. *(masch. Gen.)*\n5. Wir helfen arm___ Menschen. *(plurale Dat.)*\n6. Heiß___ Tee tut bei Erkältung gut. *(masch. Nom.)*\n\n### Soluzioni\n\n1. kalt**es** Bier — neutro Akkusativo → *-es*.\n2. gut**er** Laune — femminile Dativo → *-er*.\n3. Frisch**e** Brötchen — plurale Nominativo → *-e*.\n4. groß**en** Mutes — Genitivo maschile → *-en* (il nome porta già *-es*).\n5. arm**en** Menschen — plurale Dativo → *-en*.\n6. Heiß**er** Tee — maschile Nominativo → *-er*.\n\n## Takeaways\n\n- Senza articolo, l'aggettivo **forte** marca da solo genere, numero e caso.\n- Le terminazioni forti **ricalcano** quelle di *der/die/das*: *-er, -e, -es, -em, -en, -er*.\n- **Unica eccezione**: Genitivo maschile e neutro → *-en* (non *-es*), perché il sostantivo prende già *-s*.\n- Tipico del **plurale indeterminato** e di sostantivi di massa/astratti.\n- Con *viel, wenig, etwas* (spesso indeclinabili) l'aggettivo resta **forte**."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Eine Besprechung leiten: condurre e strutturare una riunione",
+        "readingTime": "~4 min",
+        "markdown": "# Eine Besprechung leiten: condurre e strutturare una riunione\n\n## Ripasso\n\nNella scorsa lezione abbiamo costruito la **email professionale tedesca**: l'*Anrede* corretta (**Sehr geehrte Frau Wagner,**), il corpo del messaggio in paragrafi chiari e la *Grußformel* di chiusura (**Mit freundlichen Grüßen**). Abbiamo visto che il tedesco d'ufficio premia la struttura esplicita e la cortesia formale. Oggi passiamo dalla comunicazione scritta a quella orale di gruppo: **come condurre una riunione** (*eine Besprechung leiten*).\n\n## Le parole chiave della riunione\n\n| Tedesco | Italiano |\n|---|---|\n| **die Besprechung / das Meeting** | la riunione |\n| **die Tagesordnung (TO)** | l'ordine del giorno |\n| **der Tagesordnungspunkt (TOP)** | il punto all'ordine del giorno |\n| **die Einladung** | l'invito / la convocazione |\n| **der/die Vorsitzende** | chi presiede |\n| **der/die Teilnehmende** | il/la partecipante |\n| **das Protokoll** | il verbale |\n| **die Frist** | la scadenza |\n| **die Maßnahme** | la misura / l'azione da intraprendere |\n| **das Ergebnis** | il risultato |\n| **das Fazit** | la conclusione, il bilancio |\n\n> Nota di registro: **das Meeting** è ormai diffusissimo, ma **die Besprechung** resta più formale e tipicamente tedesco. In un'azienda tradizionale o nella PA usa **Besprechung**; in un contesto tech/internazionale **Meeting** va benissimo.\n\n## Il flusso di una riunione\n\n```mermaid\nflowchart TD\n    A[Begrüßung<br/>saluto e apertura] --> B[Tagesordnung<br/>presentare l'agenda]\n    B --> C[TOP für TOP<br/>discutere punto per punto]\n    C --> D[Diskussion moderieren<br/>moderare la discussione]\n    D --> E[Ergebnisse + Maßnahmen<br/>risultati e azioni]\n    E --> F[Verabschiedung<br/>chiusura e congedo]\n```\n\n## Redemittel: le frasi per ogni fase\n\n### 1. Aprire la riunione\n\n- **Schön, dass Sie alle da sind. Dann fangen wir an.** — *Bene che ci siate tutti. Allora cominciamo.*\n- **Ich begrüße Sie herzlich zu unserer heutigen Besprechung.** — *Vi do il benvenuto alla riunione di oggi.*\n- **Heute haben wir drei Punkte auf der Tagesordnung.** — *Oggi abbiamo tre punti all'ordine del giorno.*\n- **Wer übernimmt heute das Protokoll?** — *Chi prende il verbale oggi?*\n\n### 2. Dare la parola e strutturare\n\n- **Kommen wir zum ersten Punkt.** — *Veniamo al primo punto.*\n- **Frau Bauer, möchten Sie dazu etwas sagen?** — *Sig.ra Bauer, vuole aggiungere qualcosa in merito?*\n- **Lassen Sie ihn bitte ausreden.** — *Lasci che finisca di parlare, per favore.*\n- **Bleiben wir bitte beim Thema.** — *Restiamo in tema, per favore.*\n\n### 3. Moderare e prendere tempo\n\n- **Darf ich kurz zusammenfassen?** — *Posso riassumere brevemente?*\n- **Das sprengt jetzt den Rahmen – das vertagen wir.** — *Questo va oltre il tempo a disposizione: lo rimandiamo.*\n- **Können wir das auf die nächste Sitzung verschieben?** — *Possiamo spostarlo alla prossima seduta?*\n\n### 4. Decidere e assegnare compiti\n\n- **Wir halten also fest: ...** — *Mettiamo dunque a verbale che: ...*\n- **Wer kümmert sich darum?** — *Chi se ne occupa?*\n- **Herr Klein, übernehmen Sie das bitte bis Freitag.** — *Sig. Klein, se ne occupi lei entro venerdì.*\n\n### 5. Chiudere\n\n- **Damit sind wir am Ende. Vielen Dank für Ihre Mitarbeit.** — *Con questo abbiamo concluso. Grazie per la collaborazione.*\n- **Das Protokoll erhalten Sie bis morgen.** — *Riceverete il verbale entro domani.*\n\n## Testo-modello: l'apertura di una Besprechung\n\n> **Vorsitzende:** Guten Morgen zusammen, schön, dass Sie alle pünktlich da sind. Dann würde ich sagen, wir fangen an. Auf der **Tagesordnung** stehen heute drei Punkte: erstens der Projektstatus, zweitens das **Budget** für das dritte Quartal und drittens die neuen **Fristen**. Wer übernimmt heute das **Protokoll**?\n>\n> **Herr Klein:** Das mache ich.\n>\n> **Vorsitzende:** Danke, Herr Klein. Dann **kommen wir zum ersten Punkt**. Frau Bauer, Sie betreuen das Projekt – möchten Sie uns kurz den Stand schildern?\n>\n> **Frau Bauer:** Gern. Wir liegen im Zeitplan, allerdings brauchen wir bei der Testphase mehr Zeit.\n>\n> **Vorsitzende:** Verstehe. **Darf ich kurz zusammenfassen?** Das Projekt läuft planmäßig, nur die Testphase verzögert sich. **Wir halten fest:** Frau Bauer prüft bis Freitag einen neuen Termin. Einverstanden? Gut, dann **kommen wir zum nächsten Punkt**.\n\n*Traduzione del cuore del dialogo:* «Posso riassumere brevemente? Il progetto procede secondo i piani, solo la fase di test slitta. **Mettiamo a verbale:** la sig.ra Bauer verifica entro venerdì una nuova data. D'accordo?»\n\n## Note d'uso e registro\n\n- **Il „Sie\" è d'obbligo** in riunione formale, anche tra colleghi che fuori si danno del tu, se sono presenti superiori o esterni. Chi presiede dà il tono.\n- **Imperativo cortese con *bitte*.** In italiano diremmo «restiamo in tema»; il tedesco preferisce l'imperativo addolcito: **Bleiben wir bitte beim Thema.** Il *wir* («noi») rende l'ordine collettivo e meno aggressivo.\n- **Festhalten** è il verbo-chiave del verbalizzare: **Wir halten fest, dass...** = «mettiamo agli atti che...». Lo ritroverai nel **Protokoll**, tema della prossima lezione.\n- **Verbi separabili da padroneggiare:** *an•fangen* (cominciare), *aus•reden* (finire di parlare), *fest•halten* (fissare a verbale), *zusammen•fassen* (riassumere). Il prefisso va a fine frase: *Dann fangen wir **an**.*\n\n## Takeaways\n\n- Una **Besprechung** segue una struttura fissa: apertura → **Tagesordnung** → discussione TOP per TOP → **Maßnahmen** → chiusura.\n- Memorizza i *Redemittel* per ogni fase: aprire (**Kommen wir zum ersten Punkt**), moderare (**Darf ich kurz zusammenfassen?**), decidere (**Wir halten fest, dass...**).\n- **Besprechung** = formale/tedesco; **Meeting** = informale/internazionale.\n- Il registro formale richiede il **Sie** e l'imperativo con *wir + bitte* per dare istruzioni senza imporsi.\n- Chi presiede gestisce tempo e parola: **Bleiben wir beim Thema** e **Das vertagen wir** sono i tuoi strumenti di controllo."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Back-of-the-Envelope Estimation: QPS, Storage, and Bandwidth",
+        "readingTime": "~5 min",
+        "markdown": "# Back-of-the-Envelope Estimation: QPS, Storage, and Bandwidth\n\n## Recap\n\nYesterday we contrasted **vertical scaling** (a bigger box) with **horizontal scaling** (more boxes), and saw that horizontal scaling only works cleanly when servers are *stateless* — when any request can hit any node because session state lives in a shared store, not in local memory. Today we shift from *how* you scale to *how much* you need to scale: learning to estimate the load a system must handle before you write a single line of code.\n\n## Why Estimate at All?\n\nEvery design decision downstream — how many servers, whether you need a cache, which database, how wide the network pipe — flows from a few numbers: **requests per second (QPS)**, **storage growth**, and **bandwidth**. In an interview you won't have a calculator or real metrics. You'll have product facts (\"100M daily active users, each posts twice a day\") and you'll be expected to turn those into infrastructure requirements in under two minutes. The goal isn't precision — it's getting the **order of magnitude** right. Being off by 2× is fine; being off by 1000× changes the entire architecture.\n\n## The Powers-of-Ten Cheat Sheet\n\nMemorize these. They convert \"per day\" into \"per second\" and bytes into something a disk understands.\n\n| Quantity | Value | Power |\n|---|---|---|\n| Seconds in a day | ~86,400 ≈ $10^5$ | the single most useful number |\n| Seconds in a month | ~2.5 million ≈ $2.5 \\times 10^6$ | |\n| Kilobyte | $10^3$ bytes | a short text record |\n| Megabyte | $10^6$ bytes | a small image / 1 min MP3-ish |\n| Gigabyte | $10^9$ bytes | |\n| Terabyte | $10^{12}$ bytes | |\n| Petabyte | $10^{15}$ bytes | |\n\n> **The golden shortcut:** there are roughly $10^5$ seconds in a day. So *daily count ÷ $10^5$ = average QPS*. One million events a day is about **10 QPS**. Hold onto this.\n\n## Step 1 — Estimating QPS\n\nQPS = (writes or reads per day) ÷ (seconds per day). But systems aren't flat: traffic clusters around peak hours. A safe rule of thumb is:\n\n$$\\text{Peak QPS} \\approx 2 \\text{ to } 3 \\times \\text{Average QPS}$$\n\n**Worked example — a Twitter-like service.** Suppose **200 million daily active users (DAU)**, each posting **2 tweets/day** on average.\n\n- Writes/day = $200 \\times 10^6 \\times 2 = 4 \\times 10^8$\n- Average write QPS = $4 \\times 10^8 \\div 10^5 = 4{,}000$ QPS\n- **Peak write QPS ≈ ~10,000**\n\nReads dominate social feeds. If each user reads ~100 tweets/day, reads/day = $2 \\times 10^{10}$, giving ~200,000 average read QPS and ~500,000 at peak. This **read:write ratio of ~50:1** immediately tells you: *you will need heavy caching and read replicas* — exactly the tools later lessons cover.\n\n## Step 2 — Estimating Storage\n\nStorage = (records/day) × (bytes/record) × (retention period). Pick a plausible record size, then multiply.\n\nContinuing the tweet example, assume each tweet stores ~300 bytes of text plus metadata, call it **~1 KB** to be safe (round generously — it's an estimate).\n\n- Storage/day = $4 \\times 10^8 \\text{ tweets} \\times 10^3 \\text{ bytes} = 4 \\times 10^{11}$ = **~400 GB/day**\n- Storage/year = $400 \\text{ GB} \\times 365 ≈$ **~150 TB/year**\n\nNow the architectural signal: 150 TB/year of *text alone* won't fit on one machine — you're in **sharded / distributed database** territory. And if 10% of tweets carry a 200 KB image, media storage explodes to tens of *petabytes* per year, pushing you toward object storage (S3-style) plus a CDN.\n\n## Step 3 — Estimating Bandwidth\n\nBandwidth = QPS × payload size. Apply it on the read path, since reads are far more frequent.\n\nIf peak read QPS is 500,000 and each response is ~1 KB:\n\n$$500{,}000 \\times 10^3 \\text{ bytes} = 5 \\times 10^8 \\text{ bytes/s} = \\textbf{~500 MB/s} \\approx 4 \\text{ Gbps}$$\n\nThat's well beyond a single 1 Gbps NIC — another nudge toward horizontal scaling and a CDN to offload static/media traffic.\n\n```mermaid\nflowchart LR\n    A[\"Product numbers<br/>DAU · actions/user · payload size\"] --> B[\"QPS<br/>÷ 10⁵ s/day<br/>×2-3 peak\"]\n    A --> C[\"Storage<br/>records × bytes<br/>× retention\"]\n    A --> D[\"Bandwidth<br/>QPS × payload\"]\n    B --> E[\"Servers,<br/>cache, replicas\"]\n    C --> F[\"DB choice,<br/>sharding, object store\"]\n    D --> G[\"Network, CDN\"]\n```\n\n## The Latency Cheat Sheet\n\nEstimation isn't only about volume — it's about *time budgets*. These canonical \"numbers every engineer should know\" (from Jeff Dean) tell you what's cheap and what's catastrophic:\n\n| Operation | Approx. latency |\n|---|---|\n| L1 cache reference | ~1 ns |\n| Main memory (RAM) reference | ~100 ns |\n| Read 1 MB sequentially from RAM | ~3 µs |\n| SSD random read | ~16 µs |\n| Round trip within a datacenter | ~0.5 ms |\n| Read 1 MB sequentially from SSD | ~50 µs–1 ms |\n| Disk (HDD) seek | ~3–10 ms |\n| Round trip CA ↔ Netherlands | ~150 ms |\n\n> The takeaways encoded here: **memory is ~$10^5\\times$ faster than disk**; a **cross-continent round trip (~150 ms) dwarfs everything**; and **network calls are expensive** — minimizing them (batching, caching, locality) is most of performance engineering.\n\n## How to Do This Under Pressure\n\n1. **Round aggressively** to powers of ten — $86{,}400 \\to 10^5$, $1{,}024 \\to 10^3$.\n2. **State your assumptions out loud** (\"I'll assume 1 KB per tweet\"). The reasoning matters more than the digits.\n3. **Average first, then apply a 2–3× peak factor.**\n4. **Translate each number into a decision**: high read:write → cache; TB/year → sharding; Gbps → CDN.\n\n## Takeaways\n\n- **~$10^5$ seconds/day** is the master shortcut: daily count ÷ $10^5$ ≈ average QPS; multiply by **2–3×** for peak.\n- **QPS** sizes compute; **storage** (records × bytes × retention) sizes the database; **bandwidth** (QPS × payload) sizes the network — apply bandwidth on the read path.\n- A high **read:write ratio** signals caching and replicas; **TB/year** signals sharding; media signals object storage + CDN.\n- The **latency numbers** teach orders of magnitude: RAM ≫ SSD ≫ disk, and cross-continent round trips (~150 ms) are the silent killer — minimize network hops.\n- Precision is not the goal; the **right order of magnitude**, with stated assumptions translated into architecture, is.",
+        "roadmapId": "sd-03"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Embeddings: Turning Tokens into Vectors of Meaning",
+        "readingTime": "~5 min",
+        "markdown": "# Embeddings: Turning Tokens into Vectors of Meaning\n\n## Recap\n\nYesterday we saw that LLMs don't read words — they read **tokens**, sub-word chunks produced by **Byte-Pair Encoding (BPE)**. BPE starts from bytes and greedily merges frequent pairs, so `\"tokenization\"` might split into `token` + `ization`. The crucial takeaway: a token is a *statistical* unit, not a linguistic one, and the model's first job is to convert each token ID into something it can compute with. That \"something\" is today's topic.\n\n## From an ID to a vector\n\nAfter tokenization, your text is just a list of integers — token IDs like `[1043, 318, 257]`. An integer carries no meaning: ID 1043 is not \"more\" than ID 257, and IDs that are numerically close are not semantically close. The model needs a representation where *distance reflects meaning*.\n\nAn **embedding** is a mapping from each token ID to a dense vector of real numbers:\n\n$$\nE : \\{0, 1, \\dots, V-1\\} \\;\\rightarrow\\; \\mathbb{R}^{d}\n$$\n\nwhere $V$ is the **vocabulary size** (e.g. ~100,000 tokens) and $d$ is the **embedding dimension** (e.g. 768, 4096, or larger). Concretely, the embedding is a giant lookup table — a matrix $\\mathbf{W}_E$ of shape $V \\times d$. Row $i$ is the vector for token $i$. \"Looking up\" a token is just selecting its row.\n\n```mermaid\nflowchart LR\n  A[\"text: 'cats'\"] --> B[\"BPE → token IDs<br/>[1837]\"]\n  B --> C[\"lookup row 1837<br/>in W_E (V × d)\"]\n  C --> D[\"vector ∈ ℝ^d<br/>[0.12, -0.84, ..., 0.31]\"]\n```\n\n> **Key idea:** The embedding matrix is *learned*, not designed. Its values are parameters, adjusted by gradient descent during pretraining alongside the rest of the network. Nobody hand-assigns coordinates to \"cat.\"\n\n## How meaning becomes geometry\n\nWhy should a learned table of numbers capture *meaning*? Because of the training objective. The model is trained to **predict the next token**, and to do that well it must place tokens that behave similarly in similar regions of the vector space.\n\nThink about the **distributional hypothesis** from linguistics: *\"You shall know a word by the company it keeps\"* (J.R. Firth, 1957). Words that appear in the same contexts tend to mean similar things. **Cat** and **dog** both occur near *pet*, *feed*, *vet*, *purr/bark*. To predict those neighbours, the network finds it efficient to give **cat** and **dog** nearby vectors, so the layers above can treat them alike. Meaning isn't injected — it *precipitates* out of the prediction task as geometry.\n\nThe space ends up with two kinds of structure:\n\n1. **Proximity = similarity.** Synonyms and related concepts cluster together.\n2. **Direction = relationship.** Consistent semantic differences become consistent vector offsets. The classic result from `word2vec`:\n\n$$\n\\vec{\\text{king}} - \\vec{\\text{man}} + \\vec{\\text{woman}} \\approx \\vec{\\text{queen}}\n$$\n\nThe \"royalty minus gender\" idea lives along a *direction*, reusable across many word pairs. (This is a real, observed regularity, though imperfect — the analogy holds approximately, not exactly.)\n\n## Measuring \"nearby\": cosine similarity\n\nHow do we say two vectors are close? In high dimensions, the dominant tool is **cosine similarity** — the cosine of the angle between two vectors, ignoring their lengths:\n\n$$\n\\text{sim}(\\mathbf{a}, \\mathbf{b}) = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\lVert \\mathbf{a}\\rVert \\, \\lVert \\mathbf{b}\\rVert}\n= \\frac{\\sum_i a_i b_i}{\\sqrt{\\sum_i a_i^2}\\,\\sqrt{\\sum_i b_i^2}}\n$$\n\nIt ranges from $-1$ (opposite) through $0$ (unrelated, orthogonal) to $1$ (same direction). We prefer *angle* over raw Euclidean distance because in language vectors, *direction* tends to encode meaning while *magnitude* often encodes incidental things like token frequency.\n\n| Pair | Rough cosine | Interpretation |\n|---|---|---|\n| cat / dog | high (~0.7) | both pets, similar contexts |\n| cat / democracy | near 0 | unrelated |\n| hot / cold | moderate | *antonyms share context* — close, not opposite! |\n\n> ⚠️ A subtle trap: antonyms like **hot** and **cold** are often *close* in embedding space, because they appear in identical contexts (\"the water was ___\"). Embeddings capture *relatedness*, not truth or polarity. Keep this in mind when we reach retrieval.\n\n## Static vs. contextual embeddings\n\nThe embeddings we've described are **static**: the table gives **bank** *one* vector, regardless of whether you mean a riverbank or a financial bank. That's a limitation.\n\nThis is exactly what the **transformer layers above the embedding solve**. The embedding is only the *input* representation — the starting point. As the vector flows through attention layers (our next module), it gets mixed with its neighbours' vectors, producing a **contextual** representation: **bank** near *river* drifts toward one region, **bank** near *loan* toward another.\n\n```mermaid\nflowchart TB\n  E[\"Static embedding<br/>(one vector per token ID)\"] --> T[\"Transformer layers<br/>(attention mixes context)\"]\n  T --> C[\"Contextual representation<br/>(meaning shaped by neighbours)\"]\n```\n\nSo the embedding layer answers \"what does this token mean *in general*?\" and the rest of the network answers \"what does it mean *here*?\"\n\n## Why this matters for AI engineering\n\nEmbeddings aren't just an internal detail — they're a product surface:\n\n- **Semantic search & RAG:** embed documents and queries, then rank by cosine similarity to find relevant text. (Module 6.)\n- **Clustering & classification:** group or label items by vector proximity.\n- **Position matters too:** the token embedding says *what*, but a separate **positional encoding** must say *where* — we'll cover that with attention, since raw embeddings are order-blind.\n\n## Takeaways\n\n- An **embedding** maps each token ID to a learned dense vector in $\\mathbb{R}^d$ via a lookup table $\\mathbf{W}_E$ of shape $V \\times d$.\n- Meaning becomes **geometry**: the next-token objective + the **distributional hypothesis** push similar tokens into nearby regions.\n- **Proximity ≈ similarity**, **direction ≈ relationship** (e.g. king − man + woman ≈ queen).\n- Closeness is measured by **cosine similarity** (angle), ranging $-1$ to $1$; direction matters more than magnitude.\n- Raw token embeddings are **static**; the transformer's attention layers turn them into **contextual** representations.\n- Embeddings power semantic search, RAG, and clustering — a foundation we'll build on heavily later.",
+        "roadmapId": "ai-03"
+      }
+    }
+  ]
+}

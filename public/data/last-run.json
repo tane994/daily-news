@@ -1,28 +1,28 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "status": "degraded",
   "reasons": [
-    "holdings 2/7 streams",
-    "1 cross-day repeats"
+    "holdings 3/7 streams",
+    "2 cross-day repeats"
   ],
-  "realNewsCount": 13,
-  "calendarCount": 8,
-  "guardScore": 33,
+  "realNewsCount": 15,
+  "calendarCount": 11,
+  "guardScore": 38,
   "lanes": {
-    "ai": 3,
+    "ai": 6,
     "startups": 3,
-    "markets": 7,
-    "boxing": 6,
-    "mma": 2,
+    "markets": 6,
+    "boxing": 8,
+    "mma": 3,
     "bites": 8,
     "courses": 4,
-    "portfolio": 2
+    "portfolio": 5
   },
   "failedLanes": [],
   "holdingsCoverage": {
-    "streams": 2,
+    "streams": 3,
     "totalStreams": 7,
-    "names": 3,
+    "names": 7,
     "totalNames": 11
   },
   "repeats": {
@@ -30,9 +30,18 @@
     "courses": [
       {
         "course": "Grammatica tedesca",
-        "title": "La declinazione dell'aggettivo (2): il tipo misto dopo *ein/kein* e i possessivi",
+        "title": "La declinazione dell'aggettivo (3): il tipo forte senza articolo",
         "alsoSeen": [
-          "2026-06-16"
+          "2026-06-16",
+          "2026-06-17"
+        ]
+      },
+      {
+        "course": "LLM & AI engineering",
+        "title": "Embeddings: Turning Tokens into Vectors of Meaning",
+        "roadmapId": "ai-03",
+        "alsoSeen": [
+          "2026-06-15"
         ]
       }
     ],
@@ -42,11 +51,23 @@
   "freshHoldings": [
     {
       "stream": "ASML & TSMC",
-      "headline": "TSMC and Amkor sign 10-year deal to build advanced packaging hub in Arizona, anchoring Amkor's $7B Peoria campus"
+      "headline": "TSMC faces imminent US ITC ruling that could bar imports of its 7nm-and-below chips used by Apple, Qualcomm and Broadcom"
     },
     {
-      "stream": "Hermès",
-      "headline": "Hermès opens its largest European store, a 2,000-sq-m flagship at 166 New Bond Street in London"
+      "stream": "Alphabet & Amazon",
+      "headline": "Alphabet's Waymo recalls 3,871 robotaxis after AVs drove into closed freeway construction zones"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "HSBC signs multi-year Google Cloud AI deal targeting 200+ use cases and $100M-plus projects"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "AWS unveils agentic-AI tools and a WAF feature to monetize AI bot traffic at NYC Summit"
+    },
+    {
+      "stream": "Visa, CME & DBS",
+      "headline": "CME Group's Terry Duffy to step down as CEO in March 2027; CFO Lynne Fitzpatrick named first woman to lead exchange"
     }
   ]
 }
