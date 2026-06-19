@@ -1,0 +1,403 @@
+{
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T05:05:46.943Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "OpenAI, Google, and Anthropic all sharpened their coding-agent tooling around June 18 — led by OpenAI's Codex, which can now turn a one-time macOS screen recording into a reusable automation skill.",
+      "items": [
+        {
+          "headline": "OpenAI's Codex turns a one-time macOS screen recording into a reusable, editable automation skill",
+          "brief": "OpenAI shipped Record & Replay in Codex app 26.616 on June 18: users demonstrate a repetitive workflow once on a Mac — filing an expense report, booking a parking spot, publishing a video — and Codex converts the recording into an inspectable, editable 'skill' that can be rerun and shared with teammates. The feature requires the Computer Use setting and is unavailable in the EEA, UK, and Switzerland.",
+          "whyItMatters": "Pushes agent automation from prompt-writing toward demonstration, so one person's recorded chore can become a whole team's reusable tool.",
+          "url": "https://developers.openai.com/codex/record-and-replay",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-18",
+          "featured": true
+        },
+        {
+          "headline": "Google shuts down Gemini CLI on June 18, moving developers to a faster Go-based Antigravity CLI",
+          "brief": "As of June 18, Google's Gemini CLI and Gemini Code Assist IDE extensions stopped serving Google AI Pro and Ultra users, completing the migration to the new Antigravity CLI. Rebuilt in Go for speed, it orchestrates multiple agents in the background and carries over Gemini CLI's Agent Skills, Hooks, and Subagents (now renamed plugins), sharing the same agent framework as the broader Antigravity 2.0 suite.",
+          "whyItMatters": "Forces thousands of developer setups onto Google's unified agent platform and signals the CLI, not the chat box, as the battleground for coding agents.",
+          "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+          "source": "Google Developers Blog"
+        },
+        {
+          "headline": "Anthropic's Claude Code Artifacts turns a coding session into a live, shareable HTML page",
+          "brief": "Anthropic launched Artifacts for Claude Code on June 18, letting a session's work surface as an interactive URL — a dashboard, pull-request walkthrough, system explainer, or release checklist — that updates in real time as Claude Code works and as connected data sources and codebases change. It is in beta for Claude Team and Enterprise organizations from the Claude Code CLI and desktop app, viewable in any browser.",
+          "whyItMatters": "Lets teammates watch an agent's progress live instead of waiting for a final commit, blurring the line between coding tool and shared dashboard.",
+          "url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
+          "source": "VentureBeat",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Sina Weibo's 3B-parameter VibeThinker scores 94.3 on AIME 2026, matching models 200x its size",
+          "brief": "A nine-person team at Chinese social platform Sina Weibo released VibeThinker-3B, a 3-billion-parameter model built on Qwen2.5-Coder-3B that scored 94.3 on the AIME 2026 math exam (97.1 with test-time scaling) and 80.2 on LiveCodeBench v6 — placing it alongside DeepSeek V3.2's 671 billion parameters and ahead of Gemini 3 Pro's 91.7. The weights and code are free under an MIT license on Hugging Face, with its 1.5B predecessor having cost roughly $7,800 to train.",
+          "whyItMatters": "Reignites the argument over whether benchmark-topping reasoning really requires giant models — and giant training budgets.",
+          "url": "https://cryptobriefing.com/sina-weibo-vibethinker-3b-matches-top-ai-models/",
+          "source": "Crypto Briefing",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "OpenAI gives ChatGPT a Scheduled Tasks page and retires Pulse",
+          "brief": "On June 17 OpenAI launched scheduled tasks in ChatGPT, a dedicated Scheduled page where users create, track, pause, resume, edit, and delete reminders, recurring work, and monitoring jobs — up to 10 active at a time. The beta is limited to Plus, Pro, and Team subscribers on Web, iOS, Android, and macOS, and the older Pulse feature is being retired within two weeks.",
+          "whyItMatters": "Turns ChatGPT from a reactive chatbot into a standing agent that acts on a schedule without being prompted.",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "OpenAI's Codex CLI 0.141.0 adds end-to-end encrypted remote code execution",
+          "brief": "Released June 18, Codex CLI 0.141.0 introduces authenticated, end-to-end-encrypted Noise relay channels for remote executors, letting developers run Codex on remote machines while preserving native working directories and shells across platforms. Selected executor plugins can now activate stdio MCP servers per thread.",
+          "whyItMatters": "Makes it safer to point coding agents at remote and production environments — a prerequisite for trusting them with real infrastructure.",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Robinhood cut 10% of its staff to 'stay lean' even at record trading volumes, as consumer AI app launches from Pixi and Karamo Brown headlined a busy product day.",
+      "items": [
+        {
+          "headline": "Robinhood lays off ~290 staff, 10% of its workforce, to flatten layers despite record June trading",
+          "brief": "Robinhood told employees Tuesday it is cutting roughly 290 of its ~2,900 full-time workers to 'remain lean and disciplined' and accelerate product velocity by flattening management layers. The move will book about $20 million in cash restructuring charges plus $8 million in share-based compensation in Q2 2026, even as June month-to-date average daily trading volumes hit records across equities, options and prediction markets.",
+          "whyItMatters": "A profitable, growing fintech cutting 10% of staff signals that 'do more with less' headcount discipline is now the norm in tech, not a downturn reflex.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-layoffs-2026-company-cuts-144314489.html",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-16",
+          "featured": true
+        },
+        {
+          "headline": "Pixi launches an iMessage app that drops AI-powered AR characters into your texts",
+          "brief": "Pixi, founded by DreamWorks Animation and Apple alum Mark Drummond, released its messaging-native iOS app on June 18, letting users send AR characters — a robot, a cat, an animated envelope — that come alive through the recipient's iPhone camera and react to their real surroundings. All visual and audio processing runs on-device for privacy, the app is free to receive, and it works on iPhone 11 and newer.",
+          "whyItMatters": "Pixi plans a marketplace where studios and brands sell their own characters, betting interactive AR becomes the next layer of everyday messaging beyond stickers and emoji.",
+          "url": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Karamo Brown launches Kē, a $14.99/month wellness app powered by his AI digital clone",
+          "brief": "'Queer Eye' life coach Karamo Brown launched Kē on June 18 across iOS and Android, centered on an 'AI Karamo' built on Delphi that gives real-time advice in his voice, knowledge and personality. The app organizes coaching around six pillars — fitness, nutrition, meditation, sobriety, relationships and self — with personalized plans, costing $14.99 a month after a three-day free trial.",
+          "whyItMatters": "Kē is the latest test of whether a celebrity's AI clone can be packaged into a recurring subscription product, a model creators are racing to monetize.",
+          "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "Accenture's near-18% plunge on a cut growth outlook headlined a holiday-shortened week as US markets rebounded from the Fed scare, oil sank on a US-Iran peace framework, and AI money kept flowing from a G7 standards push to multibillion-dollar rounds for DeepSeek and Odyssey.",
+      "items": [
+        {
+          "headline": "Accenture craters ~18% to its worst day in years after cutting FY2026 growth outlook on a US federal slowdown",
+          "brief": "Accenture (ACN) shares closed June 18 down 17.97% at $127.98, sliding from about $156 intraday and erasing billions in value, even though fiscal Q3 revenue rose 6% to $18.7 billion and adjusted EPS climbed 9% to $3.80, beating estimates. The consulting giant narrowed full-year local-currency revenue growth guidance to 3%-4% from 3%-5%, with CEO Julie Sweet's team flagging that its US federal segment will shave 1 to 1.5 points off growth amid slower procurement and contract reviews. The selloff dragged peers, with Capgemini falling about 8%.",
+          "whyItMatters": "The reaction signals investors are punishing any sign that AI-transformation demand isn't outrunning a weakening US government-services pipeline.",
+          "url": "https://www.investing.com/news/stock-market-news/it-services-stocks-fall-after-accenture-cuts-guidance-capgemini-drops-8-4749447",
+          "source": "Investing.com",
+          "publishedAt": "2026-06-18",
+          "featured": true
+        },
+        {
+          "headline": "Brent sinks toward $77.73, a roughly 5-month low, as the US and Iran sign a framework to end the war and lift the naval blockade",
+          "brief": "Brent crude fell about 2.3% on June 18 to around $77.73 a barrel after Washington and Tehran digitally signed a memorandum of understanding, mediated by Pakistani PM Shehbaz Sharif, that took effect immediately. Under the deal the US lifts its naval blockade and Iran is to reopen the Strait of Hormuz, though officials left it unclear how fast the strait would fully reopen. Energy stocks led declines even as broader equities rallied on the de-escalation.",
+          "whyItMatters": "Cheaper oil eases inflation pressure and removes a major geopolitical risk premium, but it squeezes energy producers and hinges on Iran actually reopening Hormuz.",
+          "url": "https://www.aljazeera.com/economy/2026/6/18/oil-prices-fall-stocks-rally-as-us-iran-sign-framework-to-end-war",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Altman, Amodei and Hassabis pitch G7 leaders on a US-led global standards forum for frontier AI",
+          "brief": "At the G7 summit in France on June 17, OpenAI's Sam Altman—seated between President Trump and Egypt's el-Sisi—Anthropic's Dario Amodei, Google DeepMind's Demis Hassabis and Meta's Alexandr Wang lobbied leaders to create an international forum, potentially US-led, to set standards for advanced models. Canadian PM Mark Carney likened it to the Financial Stability Board he once chaired, while attendees including Treasury's Scott Bessent and Commerce's Howard Lutnick weighed European demands for checks on US dominance. The push followed the Trump administration's move to restrict foreign access to Anthropic's Mythos and Fable models.",
+          "whyItMatters": "Whoever writes the rules for frontier-model access controls the geopolitics and the trillion-dollar market for AI.",
+          "url": "https://www.semafor.com/article/06/17/2026/ai-ceos-talk-global-standards-at-g7",
+          "source": "Semafor",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "DeepSeek closes its first-ever raise, ~$7.4 billion at a $50B-plus valuation, with founder Liang Wenfeng keeping total control",
+          "brief": "China's DeepSeek raised more than 50 billion yuan (about $7.4 billion) in its maiden external funding, valuing the Hangzhou lab above $50 billion as the country's most valuable AI startup. Founder Liang Wenfeng contributed roughly $3 billion, Tencent about $1.4 billion, with battery maker CATL and China's National AI Industry Investment Fund rounding out the group. In an unusual structure, the capital flows into a limited partnership controlled by Liang—investors get no voting rights and face a five-year lockup.",
+          "whyItMatters": "The deal arms China's leading open-weight model maker with war-chest funding while founder control and state money underline Beijing's grip on its AI champions.",
+          "url": "https://www.outlookbusiness.com/markets/chinas-ai-start-up-deepseek-closes-74-bn-funding-round-founder-chips-in-3-bn",
+          "source": "Outlook Business",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Odyssey raises $310M Series B at a $1.45B valuation to build AI 'world models'",
+          "brief": "AI world-model developer Odyssey, which generates multimodal simulations of real-world environments, raised a $310 million Series B led by Natural Capital at a $1.45 billion valuation—the largest US venture round of the week of June 13-18. Backers included Amazon, AMD Ventures, EQT, Google Ventures, IQT and SignalRank, lifting Odyssey's total funding to $337 million. The round topped a list of AI-heavy deals that also included Hydra Host's $100M and quantum firm Atom Computing's $100M Series C.",
+          "whyItMatters": "World models are the next AI frontier beyond chatbots, and a $1.45B valuation shows investors are betting on simulation as the foundation for robotics and autonomy.",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-defense-startup-ai-odyssey-leads/",
+          "source": "Crunchbase News",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "CarMax falls ~9% despite a Q1 beat as new CEO Keith Barr's turnaround plan fails to win over investors",
+          "brief": "CarMax (KMX) shares dropped about 9% on June 17 even after fiscal Q1 net revenue rose 6.2% to $8.0 billion and EPS of $1.31 topped the $0.94 consensus, with combined retail and wholesale unit sales up 3.3%. CEO Keith Barr, the former InterContinental Hotels Group chief who took over March 16, laid out a four-pillar strategy—great offerings, easy experience, adding value, and running lean—but investors questioned the used-car retailer's ability to grow units and cut costs.",
+          "whyItMatters": "The fade shows Wall Street wants concrete growth targets, not framework language, from Barr's activist-pressured turnaround.",
+          "url": "https://www.cnbc.com/2026/06/17/carmax-kmx-q1-earnings.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-17"
+        },
+        {
+          "headline": "Stocks rebound from the Fed scare: Nasdaq +1.91% as chips lead and the Russell 2000 jumps 2.12% on easing yields",
+          "brief": "US equities recovered June 18 from the prior session's hawkish-Fed selloff, with the Nasdaq closing up 1.91% at 26,517.93 and the S&P 500 up 1.08% at 7,500.58; the Dow added just 0.14% to 51,564.70. The small-cap Russell 2000 led with a 2.12% gain to 2,979.77 as Treasury yields ticked lower, while semiconductors powered the comeback—Marvell rose about 12% and SanDisk roughly 11%. Markets are closed June 19 for Juneteenth.",
+          "whyItMatters": "The bounce shows dip-buyers are still leaning into chips and rate-sensitive small caps even after the Fed signaled a possible 2026 hike.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+          "source": "TheStreet",
+          "publishedAt": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "A blistering week in the lower weights — Jesse 'Bam' Rodriguez's one-punch KO to become a three-division champ — gives way to a stacked summer slate headlined by Xander Zayas vs. Jaron Ennis on June 27 and Anthony Joshua's comeback.",
+      "items": [
+        {
+          "headline": "Jesse 'Bam' Rodriguez KOs Antonio Vargas in 6 to win WBA bantamweight title, becomes three-division champ (June 13)",
+          "brief": "Rodriguez (24-0, 17 KOs) flattened Antonio Vargas with a straight left hand at 1:15 of round six on Saturday June 13 at Desert Diamond Arena in Glendale, Arizona, capturing the WBA 118-pound belt and a title in a third weight class. It was a statement finish that vaults him toward the sport's marquee matchups.",
+          "whyItMatters": "Eddie Hearn called Bam vs. Naoya Inoue the biggest fight in boxing after Joshua-Fury; the win pushes that undisputed super-bantamweight superfight, targeted for early 2027, closer to reality.",
+          "url": "https://www.espn.com/boxing/story/_/id/49057405/jesse-bam-rodriguez-stops-antonio-vargas-improves-24-0",
+          "source": "ESPN",
+          "publishedAt": "2026-06-14",
+          "featured": true
+        },
+        {
+          "headline": "Xander Zayas vs. Jaron 'Boots' Ennis — WBA/WBO junior middleweight unification, June 27 at Barclays Center",
+          "brief": "Undefeated WBO/WBA 154-pound champion Xander Zayas defends against former welterweight king Jaron 'Boots' Ennis next Saturday, June 27, at Brooklyn's Barclays Center on DAZN PPV. It pits two of the division's most dynamic unbeaten stars in a co-promotion between Matchroom and Top Rank.",
+          "whyItMatters": "The winner consolidates two belts at 154 and stakes an early claim to pound-for-pound contention in one of boxing's hottest divisions.",
+          "url": "https://www.espn.com/boxing/story/_/id/48347501/xander-zayas-jaron-ennis-title-bout-set-june-27-brooklyn",
+          "source": "ESPN",
+          "publishedAt": "2026-03-30"
+        },
+        {
+          "headline": "Abdullah Mason vs. Joe Cordina (WBO lightweight) and Bruce Carrington vs. Rene Palacios (WBC featherweight) headline July 4 in Cleveland",
+          "brief": "Hometown champion Abdullah Mason makes his first WBO lightweight defense against former titleholder Joe Cordina, with WBC featherweight champ Bruce 'Shu Shu' Carrington vs. unbeaten Rene Palacios in the co-main, on July 4 at Cleveland State's Wolstein Center (TNT/DAZN). It's a Cleveland homecoming for Mason and his brothers.",
+          "whyItMatters": "Cordina is by far the most experienced foe of the young champion's career, while Carrington faces a 19-0-1 challenger trying to dethrone him in his own backyard.",
+          "url": "https://www.espn.com/boxing/story/_/id/48687636/abdullah-mason-bruce-carrington-title-defenses-booked-july-4",
+          "source": "ESPN",
+          "publishedAt": "2026-05-05"
+        },
+        {
+          "headline": "Anthony Joshua returns vs. Kristian Prenga on July 25 in Riyadh ahead of November Fury bout",
+          "brief": "Anthony Joshua will fight for the first time since a December 2025 car accident in Nigeria, facing unbeaten Albanian heavyweight Kristian Prenga (20-0, all KOs) on July 25 in Riyadh, Saudi Arabia. The comeback is a tune-up before his signed all-British showdown with Tyson Fury slated for the fourth quarter.",
+          "whyItMatters": "Joshua must shake off long ring rust against a hard-hitting unbeaten before the biggest fight of his career; a misstep would derail the Fury megafight.",
+          "url": "https://www.skysports.com/boxing/news/12040/13537163/anthony-joshua-will-return-to-boxing-in-a-comeback-fight-on-july-25-in-riyadh-ahead-of-potential-showdown-with-tyson-fury",
+          "source": "Sky Sports"
+        },
+        {
+          "headline": "Lamont Roach vs. William Zepeda set for vacant WBC lightweight title, Aug. 1 in Las Vegas",
+          "brief": "Lamont Roach Jr. and Mexico's William Zepeda are officially booked for Aug. 1 at the Theater at Virgin Hotels Las Vegas (TNT/DAZN) to crown a new WBC lightweight champion. The belt sits vacant after Shakur Stevenson was stripped earlier this year.",
+          "whyItMatters": "It fills the marquee lightweight vacancy and gives the winner a world title and leverage in a stacked 135-pound division.",
+          "url": "https://www.boxingscene.com/articles/lamont-roach-jnr-william-zepeda-officially-confirmed-for-august-1",
+          "source": "BoxingScene"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "MMA's week pivots from the White House fallout — Ilia Topuria ruled out until 2027 with two broken eye sockets — to Saturday's flyweight rematch and a freshly stacked UFC 330 in Philadelphia.",
+      "items": [
+        {
+          "headline": "Manel Kape vs. Kyoji Horiguchi headline UFC Vegas flyweight rematch this Saturday, June 20",
+          "brief": "No. 2-ranked flyweight Manel Kape (22-7) meets No. 5 Kyoji Horiguchi (36-5, 1 NC) in the UFC Fight Night main event Saturday, June 20 at the UFC Apex in Enterprise, Nevada, streaming on Paramount+. It's a rematch nearly a decade in the making — Horiguchi submitted Kape at a 2017 RIZIN Grand Prix. The light heavyweight co-main pits Ion Cutelaba against unbeaten New Zealand prospect Navajo Stirling (9-0).",
+          "whyItMatters": "The winner vaults toward the front of the 125-pound title line, and Kape gets a long-awaited shot at revenge.",
+          "url": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Kape_vs._Horiguchi",
+          "source": "Wikipedia / F4WOnline",
+          "featured": true
+        },
+        {
+          "headline": "UFC 330 adds a second title fight: Mackenzie Dern defends strawweight belt vs. Gillian Robertson, Aug. 15 in Philadelphia",
+          "brief": "Dana White confirmed UFC 330 as a two-title-fight card: alongside Islam Makhachev vs. Ian Machado Garry for the welterweight crown, champion Mackenzie Dern (16-5) makes her first strawweight title defense against No. 5 Gillian Robertson (17-8) in the co-main, Aug. 15 at Xfinity Mobile Arena. The undercard fills out with Erin Blanchfield vs. Jasmine Jasudavicius, Edson Barboza vs. Esteban Ribovics, and Vicente Luque vs. Tresean Gore.",
+          "whyItMatters": "A grappling-heavy title clash — Robertson owns the most submission wins in UFC women's history (seven) and rides a five-fight streak — anchors a now-loaded Philadelphia pay-per-view.",
+          "url": "https://www.cbssports.com/ufc/news/ufc-330-fight-card-islam-makhachev-vs-ian-machado-garry-mackenzie-dern-vs-gillian-robertson/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-17T00:00:00Z"
+        },
+        {
+          "headline": "Ilia Topuria out until 2027 with fractures in both eye sockets after White House TKO loss",
+          "brief": "Reports confirm former lightweight champ Ilia Topuria suffered non-displaced orbital fractures in both eyes — the right taking the bulk of the damage — in his Round 4 TKO loss to Justin Gaethje at UFC Freedom 250 on June 14 at the White House. No surgery is required, but Topuria is not expected to return in 2026, pushing the rematch he vowed into next year.",
+          "whyItMatters": "The first loss of Topuria's career now sidelines him for the rest of the year, freezing the lightweight rematch picture as Gaethje sits atop the division.",
+          "url": "https://www.mmamania.com/ufc-white-house-2026-fight-card-start-time-full-results-dana-white-conor-mcgregor-cbs-mma/451314/ilia-topuria-orbital-fractures-both-eyes-in-ufc-white-house-loss-will-not-return-2026",
+          "source": "MMA Mania",
+          "publishedAt": "2026-06-18T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "16.40",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-18",
+      "source": "CBOE (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.71",
+      "reference": "media ~17",
+      "asOf": "2026-06-18",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "US Commerce Secretary Lutnick tells ASML it suspects one of its restricted EUV machines reached China; ASML denies ever shipping EUV to the country",
+                "brief": "Per a June 19 report, Commerce Secretary Howard Lutnick warned ASML executives in April 2026 meetings that one of the company's top-tier extreme ultraviolet (EUV) lithography systems — tools barred from China since export curbs tightened — may have been transferred there in violation of US-led restrictions. ASML pushed back hard, circulating a document in Washington titled 'No indication of any ASML EUV system in China' and stating it has never sold or shipped an EUV system to China. No public evidence of an actual transfer has been presented; Washington has voiced a suspicion, not a finding.",
+                "whyItMatters": "EUV is ASML's monopoly product and the chokepoint of US-Dutch China chip controls; a confirmed breach would invite tighter export rules and scrutiny, while the unproven claim already clouds ASML's regulatory standing.",
+                "url": "https://cryptobriefing.com/us-warns-asml-euv-machine-china-transfer/",
+                "source": "Crypto Briefing",
+                "publishedAt": "2026-06-19"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il margine lordo (gross margin)",
+        "body": "Il margine lordo misura quanto resta di ogni euro di ricavi dopo aver pagato solo il costo diretto di produrre il bene o il servizio (materie prime, manodopera di produzione). In parole: (Ricavi − Costo del venduto) ÷ Ricavi, espresso in percentuale. Per un investitore retail è un indicatore di potere di prezzo: un margine lordo alto e stabile segnala un prodotto difficile da copiare o un marchio forte, mentre un margine basso e in calo dice che l'azienda compete sul prezzo.",
+        "example": "Un'azienda fattura 100, il costo del venduto è 40: margine lordo = (100−40)/100 = 60%. Un software arriva spesso all'80%, un supermercato sta sotto il 30%.",
+        "whyItMatters": "Distingue chi ha potere di prezzo da chi vende a sconto per sopravvivere."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Il SAFE (Simple Agreement for Future Equity)",
+        "body": "Il SAFE è un contratto creato da Y Combinator per raccogliere soldi in modo veloce senza decidere subito la valutazione dell'azienda. L'investitore dà capitale oggi e in cambio riceve il diritto a convertire quei soldi in azioni al prossimo round 'vero', di solito con uno sconto o un tetto di valutazione (il 'cap') a suo favore. Conta perché elimina trattative lunghe nelle fasi iniziali, ma i fondatori spesso sottovalutano quanta proprietà cederanno quando tutti i SAFE si convertiranno insieme.",
+        "example": "Investo 100k con un cap di 5M: se il round successivo valuta la startup 10M, le mie azioni vengono calcolate come se valesse 5M, quindi ottengo il doppio delle quote rispetto a chi entra dopo.",
+        "whyItMatters": "È il modo standard con cui le startup raccolgono i primi assegni — e dove nasce la diluizione futura."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "L'entanglement quantistico",
+        "body": "Due particelle possono essere 'intrecciate' (entangled): nascono da uno stesso evento e restano collegate in modo che misurando una si conosce istantaneamente lo stato dell'altra, anche se sono lontanissime. Non significa che si mandino un segnale: nessuna delle due 'decide' prima, ma i loro risultati sono correlati in un modo che la fisica classica non sa spiegare. È la base reale dei computer quantistici e della crittografia quantistica.",
+        "example": "Immagina due guanti messi in due scatole e spediti in due città: aprendone uno e trovando il sinistro, sai subito che l'altro è il destro. L'entanglement è più strano, perché il 'sinistro o destro' non è deciso finché non guardi — eppure i due risultati restano sempre coerenti.",
+        "whyItMatters": "È il fenomeno che rende possibili i computer quantistici e la comunicazione a prova di intercettazione."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "Las Meninas di Velázquez",
+        "body": "Dipinto nel 1656, mostra l'infanta Margherita circondata dalle sue dame, ma il vero gioco è il punto di vista: Velázquez dipinge se stesso davanti a una grande tela girata di spalle, e nello specchio in fondo si intravedono il re e la regina. Stai guardando la scena dalla posizione dei sovrani, cioè sei tu, spettatore, a essere 'ritratto'. Questo ribaltamento — chi guarda chi — lo rende uno dei quadri più analizzati della storia.",
+        "example": "Cerca lo specchio appannato sulla parete di fondo: le due figure sfocate sono i reali, presenti solo come riflesso, fuori dal quadro proprio dove ti trovi tu.",
+        "whyItMatters": "Insegna a leggere un dipinto come una costruzione dello sguardo, non solo come una bella immagine."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "L'argento di Potosí e la rivoluzione dei prezzi",
+        "body": "Dal 1545 gli spagnoli estrassero quantità enormi di argento dalla montagna di Potosí, nell'attuale Bolivia, e lo riversarono in Europa per oltre un secolo. Tanto metallo prezioso in circolazione fece perdere valore alla moneta stessa: i prezzi in Europa salirono di diverse volte in pochi decenni, la prima grande inflazione documentata. Chi viveva di rendite fisse si impoverì, mentre commercianti e produttori ne approfittarono, accelerando lo spostamento del potere economico.",
+        "example": "Quell'argento finì in gran parte in Cina per comprare seta e porcellana, creando una delle prime catene commerciali davvero globali — e legando l'economia europea a una miniera dall'altra parte del mondo.",
+        "whyItMatters": "Mostra che stampare 'troppo denaro' svaluta la moneta: la stessa logica dell'inflazione di oggi."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "WYSIATI — ciò che vedi è tutto ciò che c'è (Kahneman)",
+        "body": "Daniel Kahneman descrive come la mente costruisce una storia coerente usando solo le informazioni che ha sotto mano, ignorando del tutto quello che non sa. Non ci chiediamo 'cosa mi manca?', ma saltiamo a una conclusione sicura sui pochi dati disponibili — e più la storia è semplice, più ci convince. È vero perché il cervello premia la coerenza, non la completezza. Si usa fermandosi a chiedere esplicitamente: quali informazioni mi mancano prima di giudicare?",
+        "example": "Leggi che un manager è 'intelligente e fermo' e già ti fidi; se l'elenco fosse stato 'fermo e intelligente' l'impressione cambierebbe — eppure i fatti sono identici.",
+        "whyItMatters": "Spiega perché decidiamo con troppa sicurezza su informazioni troppo scarse."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Perché la rete elettrica deve restare a 50 Hz",
+        "body": "L'elettricità non si immagazzina in grandi quantità: quella che consumi adesso viene prodotta nello stesso istante da qualche parte. La frequenza della rete (50 Hz in Europa) è il termometro di questo equilibrio: se il consumo supera la produzione, le turbine rallentano e la frequenza scende; se c'è troppa energia, sale. Gli operatori la sorvegliano secondo per secondo e accendono o spengono centrali per tenerla inchiodata a 50, perché uno scostamento eccessivo rischia di far staccare gli impianti a catena e provocare un blackout.",
+        "example": "Durante un rigore ai Mondiali, milioni di persone accendono il bollitore o aprono il frigo nello stesso minuto: i gestori prevedono questi picchi e preparano in anticipo centrali pronte a entrare in pochi secondi.",
+        "whyItMatters": "È il motivo per cui integrare solare ed eolico (intermittenti) nella rete è così difficile."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "Il compromised running (correre sulle gambe stanche)",
+        "body": "Nell'HYROX non corri mai da fresco: ogni segmento da 1 km arriva dopo una stazione di forza (slitta, burpee, sci) che ti lascia le gambe piene di acido lattico e il respiro alto. Allenare solo la corsa pulita non ti prepara a questo: serve il 'compromised running', cioè correre subito dopo uno sforzo intenso, così il corpo impara a ripulire il lattato e a ritrovare un ritmo efficiente mentre è ancora affaticato. È un adattamento specifico: il cervello e i muscoli imparano a 'resettare' la corsa sotto fatica.",
+        "example": "Così lo applichi: dopo una serie pesante di sled push o 50 wall ball, parti subito con 800–1000 m a ritmo gara, senza recuperare. Ripeti 4–6 volte. Allena esattamente la transizione che decide la tua gara.",
+        "whyItMatters": "Nell'HYROX si perde tempo nei primi 200 m dopo ogni stazione: questo allenamento li recupera."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Le Wechselpräpositionen: quando lo stesso *an* regge Akkusativ o Dativ",
+        "readingTime": "~5 min",
+        "markdown": "# Le Wechselpräpositionen: quando lo stesso *an* regge Akkusativ o Dativ\n\n## Ripasso\n\nIeri abbiamo chiuso la trilogia sull'aggettivo con il **tipo forte** (declinazione senza articolo): quando davanti all'aggettivo non c'è nulla che segnali il caso, è l'aggettivo stesso a \"prendere in prestito\" le desinenze dell'articolo determinativo — *guter Wein*, *kalte Milch*, *frisches Brot*, *mit großem Interesse*. L'eccezione che hai imparato: al **Genitiv maschile e neutro singolare** la desinenza resta **-en** (*trotz schlechten Wetters*), perché lì la -s dell'articolo è già sul sostantivo. Tieni a mente questo riflesso \"Akkusativ o Dativ?\": oggi diventa il cuore della lezione.\n\n## Che cosa sono le Wechselpräpositionen\n\nIn tedesco alcune preposizioni reggono **sempre** l'Akkusativ (*für, ohne, durch, gegen, um*), altre **sempre** il Dativ (*mit, nach, bei, von, zu, aus, seit*). Esiste però un terzo gruppo, le **Wechselpräpositionen** (*preposizioni a doppio caso*, lett. \"preposizioni di scambio\"): a seconda del significato reggono ora l'uno, ora l'altro caso. Sono **nove**:\n\n| Preposizione | Significato base |\n|---|---|\n| **an** | a, presso, contro (contatto verticale) |\n| **auf** | su (contatto orizzontale) |\n| **hinter** | dietro |\n| **in** | in, dentro |\n| **neben** | accanto a |\n| **über** | sopra, al di sopra di |\n| **unter** | sotto |\n| **vor** | davanti a |\n| **zwischen** | tra, fra |\n\n## La regola: Wohin? → Akkusativ, Wo? → Dativ\n\nIl caso non dipende dal verbo in sé, ma dal **tipo di rapporto spaziale**:\n\n- **Movimento verso una meta** → domanda **Wohin?** (*dove… verso?*) → **Akkusativ**.\n- **Posizione / stato fermo** → domanda **Wo?** (*dove?*) → **Dativ**.\n\n```mermaid\nflowchart TD\n    A[Wechselpräposition] --> B{Che domanda risponde?}\n    B -->|Wohin? movimento verso meta| C[AKKUSATIV<br/>den / die / das / dem...→ -n al plurale]\n    B -->|Wo? posizione statica| D[DATIV<br/>dem / der / dem / den + -n al plurale]\n```\n\nConfronta le due colonne con lo stesso sostantivo:\n\n| **Wohin? → Akkusativ** | **Wo? → Dativ** |\n|---|---|\n| Ich hänge das Bild **an die Wand**. *(Appendo il quadro alla parete.)* | Das Bild hängt **an der Wand**. *(Il quadro è appeso alla parete.)* |\n| Er legt das Buch **auf den Tisch**. *(Mette il libro sul tavolo.)* | Das Buch liegt **auf dem Tisch**. *(Il libro è sul tavolo.)* |\n| Wir gehen **in die Küche**. *(Andiamo in cucina.)* | Wir sind **in der Küche**. *(Siamo in cucina.)* |\n| Stell dich **neben deinen Bruder**! *(Mettiti accanto a tuo fratello!)* | Du stehst **neben deinem Bruder**. *(Sei accanto a tuo fratello.)* |\n\n> **Attenzione**: non è il movimento in generale a richiedere l'Akkusativ, ma il movimento **che attraversa un confine verso una meta**. *Ich laufe **im Park**.* (Corro **nel** parco, Dativ — mi muovo ma resto dentro lo stesso spazio). *Ich laufe **in den Park**.* (Corro **dentro** il parco — entro, Akkusativ).\n\n## Le coppie di verbi che ti tradiscono\n\nIl tedesco distingue con verbi diversi l'**azione di collocare** (transitivo, regge Akkusativ) dallo **stato** (intransitivo, regge Dativ):\n\n| Wohin? (Akk.) – azione | Wo? (Dat.) – stato |\n|---|---|\n| **legen** (coricare) | **liegen** (giacere) |\n| **stellen** (mettere in piedi) | **stehen** (stare in piedi) |\n| **setzen** (far sedere) | **sitzen** (essere seduto) |\n| **hängen** *(debole)* (appendere) | **hängen** *(forte)* (essere appeso) |\n| **stecken** (infilare) | **stecken** (essere infilato) |\n\n## Le forme contratte (Kontraktionen)\n\nNell'uso quotidiano preposizione e articolo si fondono. Memorizzane le più frequenti:\n\n- **an + das = ans**, **an + dem = am**\n- **in + das = ins**, **in + dem = im**\n- **auf + das = aufs**\n\n> *Ich gehe **ans** Fenster* (Akk., mi avvicino) ↔ *Ich stehe **am** Fenster* (Dat., sto fermo). *Wir fahren **ans** Meer* / *Wir sind **am** Meer*.\n\n## Errori tipici\n\n1. **Tradurre il verbo italiano e dedurne il caso.** \"Mettere\" non implica automaticamente l'Akkusativ: conta la struttura tedesca *legen/stellen* + Wohin?. Sbagliato: *Das Buch liegt auf **den** Tisch.* → giusto **auf dem Tisch** (è fermo).\n2. **Dimenticare la -n del Dativ plurale.** *Die Kinder spielen zwischen den **Bäumen*** (non *Bäume*).\n3. **Usare l'Akkusativ con verbi di moto \"interni\".** *Ich schwimme in **dem** See* (nuoto **nel** lago, resto dentro), non *in den See* (= mi tuffo dentro).\n\n## Esercizi\n\n**1.** Akkusativ o Dativ? Completa l'articolo.\na) Häng die Jacke an ___ Haken (m). b) Die Lampe hängt über ___ Tisch (m). c) Die Katze springt auf ___ Sofa (n). d) Wir warten vor ___ Kino (n).\n\n**2.** Scegli il verbo giusto (*stellen/stehen*, *legen/liegen*): a) Ich ___ die Flasche in den Kühlschrank. b) Die Flasche ___ im Kühlschrank. c) Das Kind ___ auf dem Stuhl. d) Ich ___ das Kind auf den Stuhl.\n\n**3.** Contrai dove possibile: a) in dem Garten → ___ b) an das Ufer → ___ c) auf das Dach → ___ d) in das Haus → ___\n\n**4.** Traduci: a) Appendo la foto sopra il letto. b) La foto è appesa sopra il letto.\n\n### Soluzioni\n\n**1.** a) **den** Haken (Wohin?, Akk.) b) **dem** Tisch (Wo?, Dat.) c) **das** Sofa (Wohin?, Akk.) d) **dem** Kino (Wo?, Dat.).\n**2.** a) **stelle** (Wohin?) b) **steht** (Wo?) c) **steht** (Wo?) d) **stelle** (Wohin?).\n**3.** a) **im** Garten b) **ans** Ufer c) **aufs** Dach d) **ins** Haus.\n**4.** a) *Ich hänge das Foto **über das Bett**.* (Wohin?, Akk.) b) *Das Foto hängt **über dem Bett**.* (Wo?, Dat.)\n\n## Takeaways\n\n- Le **nove Wechselpräpositionen** (*an, auf, hinter, in, neben, über, unter, vor, zwischen*) reggono **Akkusativ o Dativ** secondo il significato.\n- **Wohin?** (movimento verso una meta) → **Akkusativ**; **Wo?** (posizione statica) → **Dativ**.\n- Decidi dalla **struttura tedesca**, non dal verbo italiano: le coppie *legen/liegen, stellen/stehen, setzen/sitzen* segnalano azione vs. stato.\n- Non dimenticare la **-n del Dativ plurale** e usa le contrazioni *am/im/ans/ins/aufs*."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Das Protokoll schreiben: verbalizzare una riunione in tedesco",
+        "readingTime": "~4 min",
+        "markdown": "# Das Protokoll schreiben: verbalizzare una riunione in tedesco\n\n## Ripasso\n\nIeri abbiamo imparato a *condurre* una riunione: aprire con una **Tagesordnung** (*ordine del giorno*), dare e togliere la parola con formule come **Ich würde gern zum nächsten Punkt kommen** (*vorrei passare al punto successivo*) e chiudere riassumendo i risultati. Oggi facciamo il passo logico successivo: una volta finita la **Besprechung**, qualcuno deve metterla per iscritto. Quel documento si chiama **das Protokoll** (*il verbale*).\n\n## A che cosa serve il Protokoll\n\nIl **Protokoll** è il documento ufficiale che fissa *chi era presente*, *cosa è stato deciso* e *chi fa cosa entro quando*. In azienda tedesca è uno strumento serio: vale come prova delle decisioni e come lista di compiti vincolante. Chi lo redige è **der/die Protokollführer/-in** (*il/la verbalizzante*), spesso designato all'inizio con la frase: **Wer übernimmt heute das Protokoll?** (*Chi si occupa oggi del verbale?*).\n\nEsistono due grandi tipi, ed è importante distinguerli:\n\n| Tipo | Tedesco | Cosa registra |\n|------|---------|---------------|\n| Verbale per punti / risultati | **Ergebnisprotokoll** | solo decisioni e compiti — il più usato in azienda |\n| Verbale discorsivo | **Verlaufsprotokoll** | l'andamento della discussione, gli interventi |\n\n> Nel business quotidiano si scrive quasi sempre un **Ergebnisprotokoll**: nessuno vuole rileggere tre pagine di discussione, ma tutti vogliono sapere **wer was bis wann macht** (*chi fa cosa entro quando*).\n\n## La struttura standard\n\nUn **Protokoll** professionale segue uno schema fisso. Memorizza queste intestazioni: sono quasi sempre identiche.\n\n```mermaid\nflowchart TD\n    A[Kopf / Intestazione] --> B[Anwesende / Presenti]\n    B --> C[Tagesordnung / Ordine del giorno]\n    C --> D[Zu jedem TOP: Beschlüsse + To-dos]\n    D --> E[Nächster Termin / Prossimo appuntamento]\n    E --> F[Ort, Datum, Protokollführer]\n```\n\n- **der Kopf** — *l'intestazione*: titolo, **Datum** (*data*), **Uhrzeit** (*ora*), **Ort** (*luogo*).\n- **die Anwesenden** — *i presenti*; chi manca è **entschuldigt** (*assente giustificato*) o **abwesend** (*assente*).\n- **der Tagesordnungspunkt**, abbreviato **TOP** — *il punto all'ordine del giorno*. Si numerano: **TOP 1, TOP 2**…\n- **der Beschluss** (plurale **die Beschlüsse**) — *la delibera / decisione presa*.\n- **das To-do** o **die Maßnahme** — *l'azione da svolgere*, con **verantwortlich** (*responsabile*) e **Frist** (*scadenza*).\n\n## Il tempo verbale: il segreto del registro\n\nQui c'è la regola d'oro che distingue un verbale amatoriale da uno professionale. Il **Protokoll** si scrive in **Präsens** (*presente*), in forma **sachlich und knapp** (*oggettiva e concisa*), in terza persona, **senza «ich»**.\n\n- ❌ *Herr Klein hat gesagt, dass er die Zahlen schickt.*\n- ✅ **Herr Klein schickt die Zahlen bis Freitag.** (*Il signor Klein invia i numeri entro venerdì.*)\n\nPer riferire ciò che qualcuno ha *affermato* (non deciso), il tedesco formale usa il **Konjunktiv I**, il congiuntivo del discorso indiretto:\n\n- **Frau Berg erklärt, das Budget sei ausreichend.** (*La signora Berg dichiara che il budget sarebbe/è sufficiente.*)\n\nNota **sei** invece di *ist*: segnala che stai riportando l'opinione di qualcuno, non un fatto. È un marchio di precisione molto apprezzato.\n\n## Redemittel per il verbale\n\nFrasi pronte da copiare:\n\n- **Es wurde beschlossen, dass …** — *È stato deciso che …*\n- **Die Teilnehmer einigen sich auf …** — *I partecipanti si accordano su …*\n- **Herr/Frau X übernimmt …** — *Il/la signor/a X si fa carico di …*\n- **Offen bleibt die Frage, ob …** — *Resta aperta la questione se …*\n- **Vertagt auf die nächste Sitzung.** — *Rinviato alla prossima seduta.*\n- **Keine weiteren Anmerkungen.** — *Nessun ulteriore commento.*\n\n## Testo-modello: un Ergebnisprotokoll\n\n```text\nErgebnisprotokoll – Projektbesprechung „Relaunch Website\"\n\nDatum:   19.06.2026, 10:00–10:45 Uhr\nOrt:     Konferenzraum 3 / online\nLeitung: Frau Dr. Berg\nProtokoll: Herr Klein\n\nAnwesend:    Berg, Klein, Sahin, Möller\nEntschuldigt: Frau Vogt\n\nTOP 1 – Stand der Entwicklung\nSahin berichtet, die Startseite sei fertig. Beschluss:\nDie Testphase beginnt am 23.06.\n\nTOP 2 – Budget\nMöller weist darauf hin, dass die Kosten um 8 % steigen.\nEs wurde beschlossen, das Zusatzbudget zu beantragen.\nVerantwortlich: Frau Berg, Frist: 26.06.\n\nTOP 3 – Verschiedenes\nOffen bleibt die Frage des Go-live-Termins.\nVertagt auf die nächste Sitzung.\n\nNächster Termin: 03.07.2026, 10:00 Uhr\n\nKöln, 19.06.2026 / Klein\n```\n\nOsserva: ogni **Beschluss** ha un **Verantwortlicher** e una **Frist**. Il tono è **telegrafico** — niente *secondo me*, niente aggettivi emotivi.\n\n## Note d'uso e registro\n\n- **TOP Verschiedenes** (*«Varie»*) è la voce-cestino di ogni ordine del giorno: ci finisce tutto ciò che non rientra altrove.\n- Dopo l'invio, è cortese scrivere: **Bitte meldet euch bei Korrekturen bis Montag** (*Segnalate eventuali correzioni entro lunedì*). Il verbale si considera **genehmigt** (*approvato*) se nessuno obietta.\n- Attenzione al falso amico: **das Protokoll** non è il «protocollo» di una procedura informatica, ma il verbale di una riunione. Una procedura passo-passo è invece **der Ablauf** o **die Vorgehensweise**.\n\n## Takeaways\n\n- **Das Protokoll** è il verbale ufficiale; in azienda si usa di norma l'**Ergebnisprotokoll** (decisioni + compiti), non il discorsivo **Verlaufsprotokoll**.\n- Struttura fissa: **Kopf → Anwesende → TOPs (Beschlüsse + To-dos) → nächster Termin**.\n- Scrivi in **Präsens**, oggettivo e conciso; usa il **Konjunktiv I** (**sei**, **habe**) per riportare le affermazioni altrui.\n- Ogni decisione ha **verantwortlich** + **Frist**: chi e per quando.\n- Redemittel chiave: **Es wurde beschlossen, dass …**, **X übernimmt …**, **Vertagt auf die nächste Sitzung.**"
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Availability, Reliability, and the Nines: SLA, SLO, and SLI",
+        "readingTime": "~5 min",
+        "markdown": "# Availability, Reliability, and the Nines: SLA, SLO, and SLI\n\n## Recap\n\nYesterday we did *back-of-the-envelope estimation* — turning a vague feature (\"a Twitter-like feed\") into concrete numbers for **QPS**, **storage**, and **bandwidth** using round powers of ten and the latency table. Those estimates tell you how *big* a system must be. Today we ask a different question: how *dependable* must it be — and what does each extra \"nine\" actually cost you?\n\n## Reliability vs. availability\n\nThese two words get used interchangeably, but they measure different things.\n\n- **Reliability** is the probability the system performs *correctly* over a period of time — it doesn't crash, corrupt data, or return wrong answers. Often summarized by **MTBF** (mean time between failures).\n- **Availability** is the fraction of time the system is *up and serving* requests. It's the ratio you can put a percentage on:\n\n$$A = \\frac{\\text{Uptime}}{\\text{Uptime} + \\text{Downtime}} = \\frac{\\text{MTBF}}{\\text{MTBF} + \\text{MTTR}}$$\n\nwhere **MTTR** is *mean time to recovery*. Notice the second form: availability improves both by *failing less often* (bigger MTBF) **and** by *recovering faster* (smaller MTTR). A system that crashes daily but heals in two seconds can be more available than one that fails yearly but takes a day to fix.\n\n> A reliable-but-unavailable system gives correct answers when it's up but is often down. An available-but-unreliable system is always reachable but sometimes wrong. You usually need both.\n\n## What the nines really cost\n\n\"The nines\" is shorthand for how many leading 9s are in your availability percentage. The headline number hides the operational reality, which is the **downtime budget** it implies.\n\n| Availability | \"Nines\" | Downtime / year | Downtime / month | Downtime / week |\n|---|---|---|---|---|\n| 99% | two | 3.65 days | 7.31 hours | 1.68 hours |\n| 99.9% | three | 8.77 hours | 43.8 min | 10.1 min |\n| 99.99% | four | 52.6 min | 4.38 min | 1.01 min |\n| 99.999% | five | 5.26 min | 26.3 sec | 6.05 sec |\n\nThe jump from three to four nines means your *total* allowed outage shrinks from most of a workday to under an hour — **for the entire year**. At five nines, a single bad deploy that takes six minutes to roll back blows your monthly budget. Each nine is roughly a **10× reduction in tolerated downtime**, and it costs far more than 10× in engineering: redundancy, automated failover, multi-region replication, and on-call rigor. This is why five-nines is reserved for things like telephone networks and core payment rails — not your average web app.\n\n## How availability composes across dependencies\n\nReal systems are chains of dependencies, and availability does *not* stay constant as you add them.\n\n```mermaid\nflowchart LR\n    C[Client] --> LB[Load Balancer<br/>99.99%]\n    LB --> API[API Service<br/>99.95%]\n    API --> DB[(Database<br/>99.9%)]\n    API --> CACHE[(Cache<br/>99.95%)]\n```\n\n**Series (every component must work).** If a request needs the load balancer *and* the API *and* the database, the availabilities **multiply**:\n\n$$A_{\\text{series}} = \\prod_{i} A_i = 0.9999 \\times 0.9995 \\times 0.999 \\approx 0.9984$$\n\nThree healthy-looking components combine to **99.84%** — *worse* than any single one. Dependencies in series are taxes on your availability. The lesson: **minimize the number of things on the critical path** of a request.\n\n**Parallel (redundancy).** If two replicas can each serve the request and you only need *one* to be up, the system fails only when **both** fail:\n\n$$A_{\\text{parallel}} = 1 - \\prod_{i}(1 - A_i)$$\n\nTwo database replicas at 99.9% each give:\n\n$$A = 1 - (1 - 0.999)^2 = 1 - (0.001)^2 = 0.999999$$\n\nThat's **six nines** from two three-nines boxes — *if* failures are independent and failover is instant. Redundancy is how you buy availability back. The catch is in the *if*: shared power, a shared network, or a shared bug means failures correlate, and your real number is much lower than the formula promises.\n\n## The vocabulary: SLI, SLO, SLA\n\nThese three terms (popularized by Google's SRE practice) form a hierarchy from *measurement* → *target* → *contract*.\n\n```mermaid\nflowchart TD\n    SLI[\"SLI — Indicator<br/>a measured number<br/>(e.g. % of requests &lt; 300ms)\"] --> SLO[\"SLO — Objective<br/>internal target<br/>(e.g. 99.9% per quarter)\"]\n    SLO --> SLA[\"SLA — Agreement<br/>external contract + penalty<br/>(e.g. 99.5% or refund)\"]\n```\n\n- **SLI — Service Level Indicator.** A *quantitative measurement* of some aspect of service: request success rate, p99 latency, the fraction of \"good\" requests. It's just a number you actually measure.\n- **SLO — Service Level Objective.** A *target* for an SLI over a window: \"99.9% of requests succeed in 30 days.\" This is your internal goal, set by engineering.\n- **SLA — Service Level Agreement.** A *contractual promise* to customers, with consequences (credits, refunds) if breached. SLAs are almost always **looser** than SLOs — if you promise customers 99.9% but internally aim for 99.95%, you have a buffer before you owe anyone money.\n\n### Error budgets\n\nThe flip side of an SLO is the **error budget**: $1 - \\text{SLO}$. A 99.9% SLO grants you 0.1% — about **43 minutes of failure per month** — to *spend*. This reframes reliability as a resource, not a prohibition:\n\n- Budget left over? Ship faster, take risks, deploy on Friday.\n- Budget exhausted? Freeze risky changes, pour effort into stability.\n\nError budgets dissolve the eternal dev-vs-ops fight: instead of arguing \"move fast\" vs. \"stay safe,\" both sides agree on a number and let it arbitrate.\n\n## Takeaways\n\n- **Availability** = uptime fraction = $\\frac{\\text{MTBF}}{\\text{MTBF}+\\text{MTTR}}$; lower your MTTR, not just your failure rate.\n- Each extra **nine** is ~10× less tolerated downtime — 99.9% ≈ 8.8 h/year, 99.99% ≈ 53 min/year — and costs far more than 10× to achieve.\n- **Series** dependencies multiply ($A = \\prod A_i$), so they only *reduce* availability — keep the critical path short.\n- **Parallel** redundancy ($A = 1 - \\prod(1-A_i)$) buys availability back, but only if failures are truly independent.\n- **SLI** (measured) → **SLO** (internal target) → **SLA** (customer contract with penalties); keep your SLA looser than your SLO.\n- The **error budget** ($1 - \\text{SLO}$) turns reliability into a spendable resource that governs how aggressively you can ship.",
+        "roadmapId": "sd-04"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Vector Similarity and the Shape of Embedding Space",
+        "readingTime": "~5 min",
+        "markdown": "# Vector Similarity and the Shape of Embedding Space\n\n## Recap\n\nYesterday we saw how an embedding layer maps each token to a dense vector — a list of real numbers — so that *meaning becomes geometry*. Tokens with related meanings end up near one another, and the directions in that space encode learned relationships rather than surface spelling. Today we make \"near\" precise: **how do we actually measure similarity between two vectors, and what does the resulting space look like?**\n\n## Two ways to compare vectors\n\nGiven two embeddings $\\mathbf{a}, \\mathbf{b} \\in \\mathbb{R}^d$, we need a single number that says how alike they are. Two measures dominate.\n\n### Dot product\n\nThe **dot product** sums the element-wise products:\n\n$$\\mathbf{a} \\cdot \\mathbf{b} = \\sum_{i=1}^{d} a_i b_i = \\lVert \\mathbf{a} \\rVert \\, \\lVert \\mathbf{b} \\rVert \\cos\\theta$$\n\nwhere $\\lVert \\mathbf{a} \\rVert = \\sqrt{\\sum_i a_i^2}$ is the vector's **length (magnitude)** and $\\theta$ is the angle between them. Notice the dot product blends *two* things: the angle (how aligned the directions are) **and** the magnitudes (how long the vectors are). A long vector can score a high dot product just by being big.\n\n### Cosine similarity\n\n**Cosine similarity** strips out magnitude and keeps only the angle:\n\n$$\\text{cos\\_sim}(\\mathbf{a}, \\mathbf{b}) = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\lVert \\mathbf{a} \\rVert \\, \\lVert \\mathbf{b} \\rVert} = \\cos\\theta \\in [-1, 1]$$\n\nIt answers: *do these vectors point the same way?* — regardless of length.\n\n| Value | Angle | Meaning |\n|------:|:-----:|:--------|\n| $+1$ | $0°$ | Same direction — maximally similar |\n| $0$ | $90°$ | Orthogonal — unrelated |\n| $-1$ | $180°$ | Opposite direction |\n\n> **Key relationship:** cosine similarity is *exactly* the dot product of the **normalized** (unit-length) vectors. If you scale every embedding to length 1, the two measures become identical. This is why production vector databases often **L2-normalize** vectors at index time — then a fast dot product *is* cosine similarity.\n\n### When to use which\n\n- **Cosine** when only *direction* should matter — typical for comparing text meanings, where vector length often reflects token frequency or confidence rather than semantics.\n- **Dot product** when magnitude is meaningful, e.g. recommender systems where a longer vector encodes popularity or relevance you *want* to reward. Transformer **attention scores** are raw dot products (scaled) for exactly this reason — we'll meet them later.\n\nA related cousin is **Euclidean (L2) distance**, $\\lVert \\mathbf{a} - \\mathbf{b} \\rVert$. For unit-length vectors it is monotonically related to cosine: $\\lVert \\mathbf{a} - \\mathbf{b} \\rVert^2 = 2 - 2\\cos\\theta$. So ranking by L2 distance and by cosine gives the **same neighbours** once vectors are normalized.\n\n```mermaid\nflowchart TD\n    A[Two vectors a, b] --> B{Does magnitude<br/>carry meaning?}\n    B -- No, only direction --> C[Cosine similarity<br/>= dot of unit vectors]\n    B -- Yes --> D[Raw dot product]\n    C --> E[Normalize, then<br/>dot = cosine]\n    E --> F[Nearest-neighbor search]\n    D --> F\n```\n\n## The shape of embedding space\n\nPicture a cloud of points in $\\mathbb{R}^d$, where $d$ is commonly 768, 1536, 3072 or more. Several properties matter:\n\n1. **Directions, not regions, carry meaning.** Because similarity is angular, what counts is *where a vector points*. Embeddings effectively live on the surface of a high-dimensional sphere (especially after normalization).\n\n2. **Semantic clustering.** Related concepts form neighbourhoods: months cluster together, programming languages cluster together, polite phrasings cluster together.\n\n3. **Linear structure — sometimes.** Famous *word2vec*–era results showed $\\text{king} - \\text{man} + \\text{woman} \\approx \\text{queen}$: certain relationships behave like consistent *offset directions*. Modern contextual embeddings show this less cleanly, but the intuition — that meaningful differences are directions — survives.\n\n### High dimensions are weird\n\nGeometry in 1000-D defies 3-D intuition. The **curse of dimensionality** means almost all randomly chosen pairs of vectors are nearly **orthogonal** (cosine $\\approx 0$), and distances between points become eerily similar. This is actually *useful*: the space has astronomically many near-independent directions, so it can pack a huge number of distinct concepts. But it also means raw distances need care — which is why cosine (a normalized, bounded measure) is the workhorse.\n\n## What embeddings can and can't represent\n\n**Can:**\n- Topical and semantic similarity (\"doctor\" near \"nurse\", \"hospital\").\n- Soft analogies and relational directions.\n- Cross-lingual alignment, when trained for it (\"dog\" near *cane*, *Hund*).\n\n**Can't (reliably):**\n- **Negation and logic.** *\"I love this\"* and *\"I do not love this\"* sit close — direction captures topic, not truth value.\n- **Compositional precision.** *\"dog bites man\"* vs *\"man bites dog\"* may embed almost identically; a single vector compresses word order and structure.\n- **Factual correctness.** Proximity means *related*, never *true*. \"Paris\" sits near \"France\" and near \"Texas\" alike.\n- **Antonyms vs synonyms.** \"Hot\" and \"cold\" are highly similar — both are temperature words used in the same contexts.\n\n> **Mental model:** an embedding is a *lossy summary of context*, not a logical proposition. Similarity tells you what a piece of text is *about*, not whether it is *correct* or what it *asserts*.\n\nThese limits are exactly why systems built on embeddings (semantic search, RAG) add re-ranking, filters, and an LLM on top — topics we reach later in the course.\n\n## Takeaways\n\n- **Cosine = angle, dot product = angle × magnitudes.** Normalize vectors and the two coincide.\n- Cosine lies in $[-1,1]$; pick it when only *direction* should matter, dot product when *magnitude* is meaningful (e.g. attention).\n- Embedding space encodes meaning as **direction**; concepts cluster and some relations act as **linear offsets**.\n- High-dimensional space is counter-intuitive: most vectors are near-orthogonal, which lets it store many concepts but makes normalized measures preferable.\n- Embeddings capture **aboutness**, not **truth or logic** — they stumble on negation, word order, and antonyms. Build accordingly.",
+        "roadmapId": "ai-04"
+      }
+    }
+  ]
+}

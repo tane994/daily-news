@@ -1,73 +1,39 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "status": "degraded",
   "reasons": [
-    "holdings 3/7 streams",
-    "2 cross-day repeats"
+    "holdings 1/7 streams"
   ],
-  "realNewsCount": 15,
-  "calendarCount": 11,
-  "guardScore": 38,
+  "realNewsCount": 16,
+  "calendarCount": 8,
+  "guardScore": 36,
   "lanes": {
     "ai": 6,
     "startups": 3,
-    "markets": 6,
-    "boxing": 8,
+    "markets": 7,
+    "boxing": 5,
     "mma": 3,
     "bites": 8,
     "courses": 4,
-    "portfolio": 5
+    "portfolio": 1
   },
   "failedLanes": [],
   "holdingsCoverage": {
-    "streams": 3,
+    "streams": 1,
     "totalStreams": 7,
-    "names": 7,
+    "names": 2,
     "totalNames": 11
   },
   "repeats": {
     "portfolio": [],
-    "courses": [
-      {
-        "course": "Grammatica tedesca",
-        "title": "La declinazione dell'aggettivo (3): il tipo forte senza articolo",
-        "alsoSeen": [
-          "2026-06-16",
-          "2026-06-17"
-        ]
-      },
-      {
-        "course": "LLM & AI engineering",
-        "title": "Embeddings: Turning Tokens into Vectors of Meaning",
-        "roadmapId": "ai-03",
-        "alsoSeen": [
-          "2026-06-15"
-        ]
-      }
-    ],
+    "courses": [],
     "news": []
   },
   "staleItems": [],
   "freshHoldings": [
     {
       "stream": "ASML & TSMC",
-      "headline": "TSMC faces imminent US ITC ruling that could bar imports of its 7nm-and-below chips used by Apple, Qualcomm and Broadcom"
-    },
-    {
-      "stream": "Alphabet & Amazon",
-      "headline": "Alphabet's Waymo recalls 3,871 robotaxis after AVs drove into closed freeway construction zones"
-    },
-    {
-      "stream": "Alphabet & Amazon",
-      "headline": "HSBC signs multi-year Google Cloud AI deal targeting 200+ use cases and $100M-plus projects"
-    },
-    {
-      "stream": "Alphabet & Amazon",
-      "headline": "AWS unveils agentic-AI tools and a WAF feature to monetize AI bot traffic at NYC Summit"
-    },
-    {
-      "stream": "Visa, CME & DBS",
-      "headline": "CME Group's Terry Duffy to step down as CEO in March 2027; CFO Lynne Fitzpatrick named first woman to lead exchange"
+      "headline": "US Commerce Secretary Lutnick tells ASML it suspects one of its restricted EUV machines reached China; ASML denies ever shipping EUV to the country"
     }
   ]
 }
