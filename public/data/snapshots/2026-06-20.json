@@ -1,0 +1,395 @@
+{
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-20T05:09:59.575Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Artificial Analysis's new AA-Briefcase benchmark delivered a reality check, showing even Anthropic's Claude Fable 5 fully solves just 3% of real multi-week knowledge work.",
+      "items": [
+        {
+          "headline": "Artificial Analysis's AA-Briefcase benchmark: top model Claude Fable 5 fully solves just 3% of real knowledge-work tasks",
+          "brief": "Artificial Analysis released AA-Briefcase, which scores AI models on multi-week projects built from thousands of fragmented files — Slack threads, emails, meeting transcripts and large data exports. Anthropic's Claude Fable 5 was the best performer yet fully completed only 3% of tasks, and on 31 of the 91 tasks no model cleared even 50%. Costs to run a single task ranged from about $0.04 (DeepSeek V4 Flash) to over $31.",
+          "whyItMatters": "It punctures the 'AI can do your job' narrative: frontier models still miss the cross-source synthesis that real white-collar work demands.",
+          "url": "https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-19",
+          "featured": true
+        },
+        {
+          "headline": "OpenAI shows small doses of 'beneficial trait' training improve models on 44 of 53 safety benchmarks",
+          "brief": "OpenAI researchers added reinforcement learning on six target behaviors — truthfulness, epistemic humility, corrigibility, transparency, fairness and concern for human well-being — into the standard post-training pipeline. The resulting model improved on 44 of 53 independent benchmarks for deception, sycophancy and reward hacking, and training in one domain such as health generalized to unrelated areas. It also resisted adversarial prompts and harmful fine-tuning that destabilized baseline models.",
+          "whyItMatters": "It suggests safety can be trained in cheaply and made to generalize — a data-driven alternative to Anthropic's constitution-text approach.",
+          "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "headline": "OpenAI's GPT-5.5 Instant matches pricier 'Thinking' models on HealthBench and beats doctor-written answers",
+          "brief": "OpenAI upgraded the free-tier GPT-5.5 Instant so it matches its expensive Thinking models on the HealthBench and HealthBench Professional medical benchmarks. In OpenAI's testing the model scored higher than physician-written responses on accuracy, clarity and completeness across all five evaluation categories, hit up to 89.9% on instruction-following, and cut incorrect health statements by 71% over two months. More than 260 physicians from 60 countries reviewed over 700,000 responses to drive the improvements.",
+          "whyItMatters": "Roughly 230 million people ask ChatGPT health questions weekly, so stronger medical answers now reach the free tier by default.",
+          "url": "https://the-decoder.com/chatgpts-new-health-upgrade-beats-doctor-written-answers-openai-says/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "NVIDIA's training-free SpatialClaw agent hits 59.9% across 20 spatial benchmarks, +11.2 points over the prior best",
+          "brief": "NVIDIA Research unveiled SpatialClaw, a training-free agent that treats code as its action interface: a vision-language model writes one Python cell per step into a persistent kernel preloaded with perception tools like SAM 3 segmentation and Depth Anything 3. It averaged 59.9% accuracy across 20 spatial-reasoning benchmarks, beating prior agent SpaceTools by 11.2 points, with its biggest jumps on dynamic tasks (DSI-Bench +17.6, MindCube +15.3) across six backbones from 26B to 397B parameters.",
+          "whyItMatters": "Stronger 3D spatial reasoning without retraining is a building block for robotics and embodied agents that must measure distances before acting.",
+          "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "headline": "Perplexity launches Brain, a self-improving memory that learns overnight and lifts answer correctness 25%",
+          "brief": "Perplexity released Brain, a memory system for its Computer agent that builds a living context graph — an auto-generated wiki of the people, projects and ideas in a user's work — and synthesizes each day's sessions overnight to extract what worked and what was corrected. Perplexity's first-party numbers show +25% answer correctness and +16% recall on familiar tasks, with cost down 13% as repeated work needs fewer model calls. It rolled out to Max and Enterprise Max subscribers in research preview.",
+          "whyItMatters": "Persistent, self-improving memory is the difference between a one-shot chatbot and an agent that gets better at your specific workflows over time.",
+          "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Ex-OpenAI engineers' 'In the Weights' site scores whether an AI model has memorized you",
+          "brief": "Joey Flynn and Thomas Dimson, both former OpenAI staff, launched In the Weights, which queries multiple models about a named person and assigns a strength score for how strongly they're encoded in the weights. Scores top out near 996 for figures like Mozart, Shakespeare and Taylor Swift, while the article's author and a colleague scored 175 and 262; because smaller models like Meta's Llama store fewer people, showing up there signals real prominence. The creators caution that models can hallucinate biographical details and that common names drag scores down.",
+          "whyItMatters": "It turns the abstract question of what LLMs memorize into a concrete, checkable lookup — a small window into training-data provenance and privacy.",
+          "url": "https://the-decoder.com/website-in-the-weights-shows-whether-ai-models-know-who-you-are/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Waymo's recall of nearly 4,000 robotaxis headlined a busy product-and-strategy day, alongside Snap spinning off its AI video team and Aura's new e-ink photo frame.",
+      "items": [
+        {
+          "headline": "Waymo recalls nearly 4,000 robotaxis after 13 drive into highway construction zones",
+          "brief": "Waymo issued a software recall to U.S. regulator NHTSA covering almost 4,000 vehicles after identifying 13 cases — six in Phoenix in April, seven in San Francisco in May — where its robotaxis failed to recognize closure signs and drove into freeway construction zones. No injuries were reported, though one passenger described a car blasting through cones and being chased by police; Waymo voluntarily limited freeway operation on May 19 and says a fix is under development. It is the company's sixth recall, against a record it puts at 170 million autonomous miles.",
+          "whyItMatters": "As Waymo scales past 20 cities, each new market keeps surfacing edge cases its software can't yet handle — the recall is a reminder that regulatory scrutiny rises with the fleet.",
+          "url": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-18",
+          "featured": true
+        },
+        {
+          "headline": "Snap spins off its AI video team into a new company, Dotmo, to cut internal costs",
+          "brief": "Snap is separating the generative-AI team that built interactive gaming and video models into an independent company called Dotmo, citing the high cost of doing the work in-house. Snap CTO Bobby Murphy is the lead investor with a significant personal stake while staying full-time at Snap, and Dotmo will license technology back from Snap. It is Snap's second major spinoff of 2026 after carving out its Specs AR glasses unit, and follows roughly 1,000 job cuts earlier in the year.",
+          "whyItMatters": "The move lets Snap keep equity upside in costly frontier AI work without carrying the burn on its own books — a template more cash-strapped platforms may copy.",
+          "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Aura launches the $499 Aura Ink, a 13.3-inch e-ink frame that mimics a printed photo",
+          "brief": "Digital-frame maker Aura unveiled Aura Ink, a 13.3-inch e-ink display that uses a proprietary dithering algorithm to render images in six colors (red, blue, green, yellow, white, black) so they read like printed paper rather than a glowing screen. Co-founder and CTO Eric Jensen says viewers mistake the output for actual prints; the frame refreshes photos daily, charges over USB-C about once a month, and pairs with Aura's sharing app. Color accuracy isn't perfect, but reviewers called the engineering impressive enough to justify the $499 price.",
+          "whyItMatters": "Aura is betting that 'slow tech' that doesn't glow can carve out premium hardware demand as buyers tire of always-on screens.",
+          "url": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "Global markets wobbled Friday as US-Iran peace talks in Geneva were abruptly postponed, while the dollar hit a one-year high on rising Fed-hike bets and fresh AI-finance flashpoints hit OpenAI, Anthropic and a hot biotech IPO.",
+      "items": [
+        {
+          "headline": "Global stocks dip and oil rebounds after US-Iran Geneva talks abruptly postponed; Wall Street shut for Juneteenth",
+          "brief": "European equities fell Friday — the Stoxx 600 closed down 0.2%, the FTSE 100 off 0.35% and France's CAC 40 down 0.55% — as investors questioned the durability of the interim US-Iran deal after talks in Geneva were suddenly delayed. Brent crude for August edged back up 0.45% to $79.49 and WTI traded near $76.36, while VP JD Vance said tankers carrying over 12 million barrels crossed the Strait of Hormuz overnight without being fired on. US markets were closed for the Juneteenth holiday, with trading set to resume Monday.",
+          "whyItMatters": "The postponement reintroduces a geopolitical risk premium into oil and equities just as the ceasefire was supposed to be cementing; Monday's US reopening will test how durable the peace trade really is.",
+          "url": "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-19",
+          "featured": true
+        },
+        {
+          "headline": "Dollar hits one-year high and gold sinks below $4,200 as traders price ~70% odds of a September Fed hike",
+          "brief": "The US dollar climbed to a one-year high and gold dropped below $4,200 — trading near $4,157 — on Friday as a hawkish Federal Reserve outweighed the disinflationary pull of the US-Iran deal. Nine of the Fed's 19 policymakers now expect at least one rate increase later in 2026, and markets assign roughly a 70% probability of a hike by September after Kevin Warsh's first meeting left rates at 3.50%-3.75%.",
+          "whyItMatters": "A stronger dollar and higher-for-longer rate path raise the opportunity cost of non-yielding assets and tighten financial conditions globally, pressuring gold, emerging markets and rate-sensitive equities.",
+          "url": "https://www.investing.com/news/economy-news/golds-record-rally-falters-as-bulls-run-into-fed-rate-expectations-stronger-dollar-4741171",
+          "source": "Reuters",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "headline": "OpenAI burned $3.7 billion in Q1 against $5.7 billion in revenue as it eyes an IPO valuing it up to $1 trillion",
+          "brief": "OpenAI burned through $3.7 billion in the first quarter of 2026, more than half of its $5.7 billion in revenue, according to documents shared with shareholders and reported by The Information. Both cash burn and revenue roughly tripled year-over-year, and the company held more than $73 billion in cash and marketable securities at quarter's end, up from $40 billion in December. OpenAI has confidentially filed for a US IPO that could come as early as September at a valuation of up to $1 trillion.",
+          "whyItMatters": "The figures show OpenAI scaling revenue fast but still spending aggressively ahead of a record-setting listing, sharpening investor scrutiny of AI economics as the IPO window opens.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/openai-burned-3-7-billion-234306479.html",
+          "source": "Reuters / The Information",
+          "publishedAt": "2026-06-16"
+        },
+        {
+          "headline": "US bars exports of Anthropic's Fable 5 and Mythos 5 models over a jailbreak as the lab lobbies for a reversal",
+          "brief": "The US Commerce Department issued an export-control directive barring Anthropic's Fable 5 and Mythos 5 models from non-US users and foreign nationals inside the country, citing a reported Mythos 5 jailbreak that could let users bypass safety guardrails to extract software-vulnerability data. Anthropic sent senior staff to Washington to seek a reversal, and CEO Dario Amodei used the June 17 G7 lunch in Évian to urge leaders to 'resist the temptation to splinter' on AI even as his own models were restricted.",
+          "whyItMatters": "The curbs threaten Anthropic's international growth and partnerships just as the ~$965 billion-valued lab prepares to go public, injecting policy risk into the most valuable AI IPO in the pipeline.",
+          "url": "https://www.yahoo.com/news/politics/articles/anthropic-dario-amodei-urged-ai-062300127.html",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "headline": "Kardigan's $400 million IPO jumps to a ~$2 billion valuation as KARD surges on its Nasdaq debut",
+          "brief": "Heart-health biotech Kardigan priced its upsized IPO at $16 a share — the top of the range — to raise $400 million, selling 25 million shares, and began trading on the Nasdaq under ticker KARD on June 18. The stock surged in its debut to close around $22, roughly 38% above the offer price, giving the clinical-stage company a market value of nearly $2 billion. Kardigan's pitch rests on three cardiovascular programs: Danicamtiv, Ataciguat and Tonlamarsen.",
+          "whyItMatters": "A strong reception for a pre-revenue cardiovascular biotech signals investor appetite for new listings is broadening beyond AI, a positive read-through for the crowded 2026 IPO pipeline.",
+          "url": "https://www.citybiz.co/article/862822/kardigan-shares-surge-in-market-debut-following-400m-upsized-ipo/",
+          "source": "citybiz",
+          "publishedAt": "2026-06-18"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "The week's biggest live title fight is Lewis Crocker's first IBF welterweight defense against home favorite Liam Paro on June 24 in Brisbane, while Gervonta Davis edges closer to a fall return against Floyd Schofield.",
+      "items": [
+        {
+          "headline": "Lewis Crocker defends IBF welterweight title vs. Liam Paro this Wednesday, June 24 in Brisbane",
+          "brief": "Belfast's Crocker (22-0, 11 KOs) makes the first defense of the IBF welterweight belt he won last September, traveling to Pat Rafter Arena in Brisbane to face hometown challenger Liam Paro (27-1, 16 KOs) on June 24. The bout was pushed back roughly three months after Crocker suffered hand-ligament damage in training; Paro, a former IBF junior welterweight champ, is chasing a second-division world title on home soil.",
+          "whyItMatters": "An unbeaten champion defending on the road against a former titlist — a loss costs Crocker the belt and his rising status, a win makes Paro a two-weight world champion.",
+          "url": "https://www.ringmagazine.com/news/crocker-paro-ibf-welterweight-title-fight-set-for-june-24-in-brisbane-4gNje9arb0dttHnhBMIaNI",
+          "source": "The Ring",
+          "featured": true
+        },
+        {
+          "headline": "Ryan Garner vs. Michael Magnesi for interim WBC super featherweight title, this Saturday June 20 at St Mary's Stadium",
+          "brief": "Undefeated Southampton native Ryan Garner (19-0) headlines a stadium show at St Mary's Stadium, home of Southampton FC, against Italy's Michael Magnesi (26-2) for the interim WBC super featherweight title on June 20. The Queensberry-promoted card airs on DAZN; the winner is in line for a shot at WBC champion O'Shaquie Foster.",
+          "whyItMatters": "A hometown stadium occasion with a real title and a mandatory path to a full world title shot on the line.",
+          "url": "https://www.boxingscene.com/articles/ryan-garner-prepared-to-fulfil-his-destiny-in-stadium-fight-with-michael-magnesi",
+          "source": "BoxingScene"
+        },
+        {
+          "headline": "Ashton 'H2O' Sylve outpoints Joseph 'JoJo' Diaz over 10 rounds at super lightweight (June 19)",
+          "brief": "Ashton Sylve (14-1, 10 KOs) passed a veteran test, beating former champion Joseph Diaz Jr. by unanimous decision (98-92, 97-93, 97-93) atop an MF Pro card on DAZN at Thunder Studios in Long Beach on June 19. It was Sylve's best win since his 2024 loss to Lucas Bahdi and keeps the 22-year-old prospect on a contender track at 140 pounds.",
+          "whyItMatters": "A get-back win over a name opponent that rebuilds Sylve's stock and positions him for a step up at junior welterweight.",
+          "url": "https://sports.yahoo.com/articles/h2o-sylve-vs-jojo-diaz-041222405.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-20T04:12:00Z"
+        },
+        {
+          "headline": "Jose Valenzuela vs. Edwin De Los Santos II booked for June 28 at the Cosmopolitan, Las Vegas",
+          "brief": "Former WBA junior welterweight titlist Jose Valenzuela (15-3, 9 KOs) gets a chance to avenge his 2022 third-round KO loss to Dominican puncher Edwin De Los Santos (17-2, 15 KOs) in a 10-round lightweight rematch headlining Zuffa Boxing 8 at the Cosmopolitan's Chelsea Ballroom on June 28, streaming on Paramount+.",
+          "whyItMatters": "A revenge rematch between two punchers that could vault the winner back into the lightweight title picture.",
+          "url": "https://www.ringmagazine.com/news/zuffa-boxing-08-edwin-de-los-santos-jose-valenzuela-ii-tops-june-28-card-K6R1euB9EvGreN4PXbHFl",
+          "source": "The Ring"
+        },
+        {
+          "headline": "Gervonta Davis vs. Floyd Schofield WBA lightweight talks intensify, fall date now targeted",
+          "brief": "Negotiations for Gervonta 'Tank' Davis (30-0-1, 28 KOs) to defend the WBA lightweight title against unbeaten mandatory Floyd Schofield Jr. (19-0, 13 KOs) have accelerated, with contracts exchanged and a September or October date now emerging — pushing past the June 22 WBA deadline toward an autumn return. It would be Davis' first fight since his March 2025 majority draw with Lamont Roach.",
+          "whyItMatters": "Tank's long-stalled comeback finally has a likely opponent and window, setting up a marquee lightweight title fight after more than a year out.",
+          "url": "https://www.boxingscene.com/articles/gervonta-davis-floyd-schofield-jnr-talks-intensifying",
+          "source": "BoxingScene"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The White House fallout dominates the week: Ciryl Gane's brutal KO of Alex Pereira has set up a heavyweight title unification with Tom Aspinall now targeted for Paris in September, while Rafael Fiziev hosts Manuel Torres in Baku on June 27.",
+      "items": [
+        {
+          "headline": "Ciryl Gane KOs Alex Pereira in Round 2 to win interim heavyweight title at UFC White House",
+          "brief": "Ciryl Gane dropped Alex Pereira with a jab and finished him with elbows and ground strikes at 1:27 of Round 2 in the UFC Freedom 250 co-main event on June 14 on the South Lawn of the White House in Washington, D.C. The TKO crowns Gane interim heavyweight champion for the second time and spoils Pereira's bid to become the UFC's first three-division titleholder, handing the former middleweight and light heavyweight champ a knockout loss in his heavyweight debut.",
+          "whyItMatters": "It re-establishes Gane as the No. 1 contender and forces a unification showdown with undisputed champ Tom Aspinall, whose first meeting with Gane ended in a no-contest eye-poke.",
+          "url": "https://www.espn.com/mma/story/_/id/49068238/gane-crushes-pereira-capture-ufc-interim-heavyweight-title",
+          "source": "ESPN",
+          "publishedAt": "2026-06-15T04:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Tom Aspinall agrees to heavyweight title unification vs. Ciryl Gane, targeted for Paris on Sept. 5",
+          "brief": "Undisputed heavyweight champion Tom Aspinall has accepted Ciryl Gane's challenge for a rematch to unify the belt, with the UFC eyeing its Sept. 5 return to the Accor Arena in Paris. Aspinall, who beat Gane by no-contest after an accidental eye poke in their first bout, publicly complained of 'illegal elbows' in Gane's White House finish of Pereira but agreed to settle it in Gane's home country.",
+          "whyItMatters": "It would finally produce an undisputed heavyweight champion and give Gane a title fight on home soil — though the bout is verbally agreed and not yet officially booked.",
+          "url": "https://sports.yahoo.com/articles/tom-aspinall-accepts-ciryl-ganes-061135448.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-16T12:00:00Z"
+        },
+        {
+          "headline": "Rafael Fiziev vs. Manuel Torres headlines UFC Baku lightweight card on June 27",
+          "brief": "Azerbaijani-born striker Rafael Fiziev (13-5) faces surging Mexican knockout artist Manuel Torres (17-3) in a five-round lightweight main event at the National Gymnastics Arena in Baku, Azerbaijan, on June 27. Fiziev fights near home looking to halt a slide of four losses in five, while Torres rides a two-fight stoppage streak after knocking out Drew Dober and Grant Dawson.",
+          "whyItMatters": "A win vaults the winner back toward the lightweight top 10 in a division reshaped by Justin Gaethje's new title reign.",
+          "url": "https://www.mmamania.com/ufc-fight-announcements/441419/rafael-fiziev-vs-manuel-torres-announced-as-main-event-for-ufc-baku-on-june-27th",
+          "source": "MMA Mania",
+          "publishedAt": "2026-06-27T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "16.78",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-19",
+      "source": "CBOE / financial market data",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.71",
+      "reference": "media ~17",
+      "asOf": "2026-06-18",
+      "source": "multpl.com (Shiller PE / CAPE)",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Nobel-winning AlphaFold creator John Jumper leaves Google DeepMind for Anthropic",
+                "brief": "John Jumper, a Google DeepMind VP and Engineering Fellow who shared the 2024 Nobel Prize in Chemistry with DeepMind CEO Demis Hassabis for the AlphaFold protein-structure AI, announced on June 19 he is departing after roughly nine years to join rival Anthropic. The exit follows other senior DeepMind departures and lands amid an intensifying recruiting war for elite AI researchers among Alphabet, OpenAI, Meta and Anthropic.",
+                "whyItMatters": "Losing a Nobel laureate and the public face of its flagship science-AI program is a reputational and talent blow for Alphabet just as it raises tens of billions to defend its AI lead.",
+                "url": "https://cryptobriefing.com/john-jumper-leaves-google-deepmind-joins-anthropic/",
+                "source": "Crypto Briefing",
+                "publishedAt": "2026-06-19"
+              },
+              {
+                "headline": "Amazon faces billions in potential FTC penalties as agency drafts ad-disclosure complaint",
+                "brief": "The FTC has drafted a potential complaint against Amazon over whether it properly disclosed terms and 'reserve pricing' on its sponsored-listing search ads, with multiple state attorneys general involved, according to reporting circulating June 17–18. The probe could end in a lawsuit or settlement as soon as this summer and risks billions of dollars in civil penalties; Amazon's advertising arm generated $68.6 billion in revenue last year, its third-largest online-ad position globally.",
+                "whyItMatters": "A new enforcement front targets Amazon's fastest-growing, high-margin business and comes on top of last year's $2.5B Prime settlement and a separate monopoly case headed to trial.",
+                "url": "https://www.insurancejournal.com/news/national/2026/06/18/874233.htm",
+                "source": "Insurance Journal (Bloomberg)",
+                "publishedAt": "2026-06-18"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il ROE (Return on Equity)",
+        "body": "Il ROE misura quanto profitto un'azienda genera per ogni euro di capitale messo dagli azionisti. In parole semplici: utile netto diviso patrimonio netto. Dice quanto è brava l'azienda a far fruttare i soldi dei proprietari. Attenzione però: un ROE molto alto può nascondere tanto debito, perché il debito riduce il patrimonio netto e gonfia il rapporto.",
+        "example": "Utile netto 20 milioni, patrimonio netto 100 milioni → ROE = 20%. Significa 20 centesimi di utile l'anno per ogni euro di capitale proprio.",
+        "whyItMatters": "È il termometro più diretto di quanto un business remunera chi lo possiede — ma va sempre letto insieme al debito."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "ARR e MRR",
+        "body": "MRR (Monthly Recurring Revenue) è il ricavo ricorrente che un'azienda SaaS incassa ogni mese dagli abbonamenti attivi; ARR (Annual Recurring Revenue) è la stessa cosa annualizzata, cioè MRR × 12. Conta perché misura i ricavi prevedibili e ripetibili, non le vendite una tantum, ed è la metrica su cui gli investitori valutano le startup a abbonamento. Esclude per definizione ricavi spot come setup fee o consulenze.",
+        "example": "500 clienti che pagano 50€/mese → MRR 25.000€, ARR 300.000€. Se ne perdi 50 (churn), l'ARR scende a 270.000€.",
+        "whyItMatters": "È la base su cui si calcolano crescita, valutazione e runway di quasi ogni startup software."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "La risonanza",
+        "body": "Ogni oggetto ha una sua frequenza 'preferita' a cui vibra naturalmente. Se lo spingi proprio a quel ritmo, anche con piccole spinte ripetute, le oscillazioni si sommano e crescono enormemente: questa è la risonanza. È lo stesso motivo per cui spingere un'altalena al momento giusto la fa salire sempre più in alto, mentre spingere a caso non combina nulla.",
+        "example": "Un cantante che tiene esattamente la nota giusta può far vibrare un bicchiere fino a romperlo: sta colpendo la frequenza di risonanza del vetro.",
+        "whyItMatters": "Spiega cose lontanissime tra loro — la radio che sintonizzi, i ponti che oscillano nel vento, persino come funziona la risonanza magnetica."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "Il Cubismo di Picasso e Braque",
+        "body": "Nato intorno al 1907-1910, il Cubismo rompe con cinque secoli di pittura che mostrava le cose da un unico punto di vista. Picasso e Braque scompongono l'oggetto e lo mostrano da più angolazioni contemporaneamente, appiattito sulla tela in faccette geometriche. Non vuoi 'riconoscere' la realtà come in una foto: vuoi vedere un volto di fronte e di profilo nello stesso momento.",
+        "example": "In 'Les Demoiselles d'Avignon' (1907) di Picasso i volti sono spezzati in piani angolari, alcuni ispirati alle maschere africane: è il momento in cui la pittura smette di imitare l'occhio.",
+        "whyItMatters": "È la frattura che apre tutta l'arte astratta del Novecento: dopo il Cubismo dipingere 'come si vede' diventa solo una scelta tra tante."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Le ferrovie e l'invenzione dei fusi orari",
+        "body": "Fino all'Ottocento ogni città teneva la propria ora locale, regolata sul mezzogiorno solare: spostarsi di poche decine di chilometri cambiava l'orologio di qualche minuto. Con le ferrovie questo diventò un caos pericoloso — i treni viaggiavano veloci e gli orari non combaciavano, causando incidenti. Per questo le compagnie ferroviarie imposero un'ora standard, e nel 1884 una conferenza internazionale divise il mondo nei fusi orari che usiamo ancora oggi.",
+        "example": "In Gran Bretagna le ferrovie adottarono il 'railway time' di Greenwich già negli anni 1840, decenni prima che fosse legge nazionale.",
+        "whyItMatters": "L'ora 'oggettiva' che leggi sul telefono non è naturale: è un'infrastruttura nata per far stare insieme la tecnologia e il commercio."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "I 'lavori da fare' (Jobs to Be Done) — Clayton Christensen",
+        "body": "Christensen dice che i clienti non comprano un prodotto: lo 'ingaggiano' per svolgere un lavoro nella loro vita. Non compri un trapano perché vuoi un trapano, ma perché vuoi un buco nel muro — anzi, perché vuoi appendere una foto e sentirti a casa. Capire il vero 'lavoro' che la gente cerca di fare ti dice contro chi competi davvero e perché ti scelgono, molto meglio delle categorie di prodotto.",
+        "example": "Una catena scoprì che molti milkshake si vendevano la mattina presto: il 'lavoro' era tenere compagnia e saziare durante un lungo tragitto in auto, non essere un dessert. Il vero concorrente era una banana, non un altro milkshake.",
+        "whyItMatters": "Sposta il focus dal prodotto al bisogno reale: è il modo più solido per non innovare nella direzione sbagliata."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Come funziona una pompa di calore",
+        "body": "Una pompa di calore non 'crea' calore bruciando qualcosa: lo sposta da un posto all'altro, come fa un frigorifero al contrario. Sfrutta un gas refrigerante che, comprimendosi ed espandendosi, assorbe calore dall'aria fredda esterna e lo rilascia dentro casa. Per questo può rendere oltre 3 unità di calore per ogni unità di elettricità consumata: non viola la fisica, perché il calore extra viene 'pompato' da fuori, non prodotto.",
+        "example": "Anche con 5°C fuori c'è ancora molta energia termica nell'aria: la pompa la estrae e la concentra, un po' come una spugna che strizza calore diffuso in un punto caldo.",
+        "whyItMatters": "È la tecnologia chiave per scaldare le case senza gas — capire il 'sposta, non brucia' spiega perché è così efficiente."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "Il fueling: quanti carboidrati all'ora in gara",
+        "body": "Durante uno sforzo lungo e intenso come HYROX, i muscoli bruciano glicogeno (zuccheri di riserva) molto in fretta, e queste scorte si esauriscono in circa 60-90 minuti. Assumere carboidrati durante la gara rallenta lo svuotamento e tiene alta l'intensità nel finale. La scienza indica circa 30-60 grammi di carboidrati all'ora per sforzi sopra l'ora, e si può salire verso i 90 g/h solo se l'intestino è allenato a tollerarli mescolando glucosio e fruttosio.",
+        "example": "Così lo applichi: in una gara di ~70-90 minuti, un gel da ~25 g a metà più qualche sorso di bevanda zuccherata copre il fabbisogno — e va PROVATO in allenamento, mai testato per la prima volta il giorno della gara.",
+        "whyItMatters": "Restare senza zuccheri negli ultimi station ti fa crollare il passo: il fueling è performance gratis se lo alleni prima."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "I verbi con preposizione fissa: *warten auf*, *denken an*, *sich freuen über*",
+        "readingTime": "~5 min",
+        "markdown": "# I verbi con preposizione fissa: *warten auf*, *denken an*, *sich freuen über*\n\n## Ripasso\n\nIeri abbiamo visto le **Wechselpräpositionen**: preposizioni come *an, auf, in* che reggono l'**Akkusativ** quando indicano un movimento verso una meta (*Wohin?*) e il **Dativ** quando indicano una posizione stabile (*Wo?*). La logica era *spaziale*: il caso seguiva il significato. Oggi facciamo un passo cruciale: scopriremo che spesso la preposizione **non ha alcun significato spaziale** e il suo caso è semplicemente *imposto dal verbo*.\n\n## Il concetto: la preposizione come parte del verbo\n\nIn tedesco moltissimi verbi pretendono una **preposizione fissa** (*feste Präposition*), che a sua volta impone un caso fisso. La preposizione qui **non si traduce alla lettera** e non si sceglie con la logica *Wohin/Wo*: va imparata insieme al verbo, come un blocco unico.\n\n> **Regola d'oro:** non si impara *warten*. Si impara **warten auf + Akkusativ** (\"aspettare\"). La preposizione e il caso fanno parte del vocabolo.\n\nConfronta con l'italiano, che fa la stessa cosa ma con preposizioni diverse:\n\n| Tedesco | Caso | Italiano |\n|---|---|---|\n| **warten auf** | Akk. | aspettare *(senza prep.!)* |\n| **denken an** | Akk. | pensare **a** |\n| **sich freuen über** | Akk. | rallegrarsi **per** |\n| **sich freuen auf** | Akk. | non vedere l'ora **di** |\n| **teilnehmen an** | Dat. | partecipare **a** |\n| **Angst haben vor** | Dat. | avere paura **di** |\n| **sprechen mit** | Dat. | parlare **con** |\n\nNota la coppia insidiosa: **sich freuen über** = gioire per qualcosa di *presente/passato*; **sich freuen auf** = gioire in anticipo per qualcosa di *futuro*.\n\n- *Ich freue mich **über** dein Geschenk.* — Sono contento **del** tuo regalo. *(è già qui)*\n- *Ich freue mich **auf** die Ferien.* — Non vedo l'ora **delle** vacanze. *(devono ancora arrivare)*\n\n## Akkusativ o Dativ? Si impara a memoria\n\nPoiché il caso è imposto dal verbo, devi memorizzarlo. Ecco i più frequenti a livello A2–B1:\n\n**Con Akkusativ:** *warten auf, denken an, sich erinnern an* (ricordarsi di), *sich interessieren für* (interessarsi a), *sich kümmern um* (occuparsi di), *bitten um* (chiedere), *sich freuen auf/über*.\n\n**Con Dativ:** *teilnehmen an, leiden an* (soffrire di), *gehören zu* (appartenere a), *Angst haben vor, sich beschäftigen mit* (occuparsi di), *helfen bei* (aiutare in), *träumen von* (sognare).\n\n```\nIch interessiere mich für deutsche Grammatik.   (für + Akk.)\nMi interesso DI grammatica tedesca.\n\nSie nimmt an dem Kurs teil.                      (an + Dat.)\nLei partecipa AL corso.\n```\n\n## La domanda e la risposta: *wo(r)-* e *da(r)-*\n\nQui sta la vera novità. Quando il complemento è una **cosa** (non una persona), il tedesco **non** ripete \"preposizione + pronome\", ma usa due forme speciali.\n\n### Per chiedere → *wo(r)- + preposizione*\n\n```mermaid\nflowchart LR\n    A[\"worauf?<br/>(su che cosa?)\"] --> B[\"wo + auf\"]\n    C[\"woran?<br/>(a che cosa?)\"] --> D[\"wo + r + an\"]\n    E[\"wovon?<br/>(di che cosa?)\"] --> F[\"wo + von\"]\n```\n\nLa **-r-** si inserisce solo se la preposizione comincia per vocale (*an, auf, über, um*): **wor**an, **wor**auf, **wor**über, **wor**um — ma *wo***von**, *wo***mit**, *wo***für***.\n\n- **Worauf** wartest du? — *Su cosa* (= cosa) aspetti?\n- **Woran** denkst du? — A cosa pensi?\n\n> Attenzione: per le **persone** si usa invece *preposizione + pronome interrogativo*: **Auf wen** wartest du? (Chi aspetti?), **An wen** denkst du? (A chi pensi?).\n\n### Per rispondere → *da(r)- + preposizione*\n\nStessa logica con **da-**:\n\n- *Wartest du auf den Bus? — Ja, ich warte **darauf**.* — Aspetti il bus? Sì, lo aspetto.\n- *Denkst du an die Prüfung? — Ja, ich denke oft **daran**.* — Pensi all'esame? Sì, ci penso spesso.\n\nDi nuovo, per le persone si usano i normali pronomi: *Ich warte **auf ihn*** (lo aspetto, lui).\n\n| | Cosa | Persona |\n|---|---|---|\n| **Domanda** | **worauf?** | **auf wen?** |\n| **Risposta** | **darauf** | **auf ihn/sie** |\n\n## Errori tipici\n\n- ❌ *Ich warte für den Bus.* → ✅ *Ich warte **auf** den Bus.* (mai tradurre la preposizione dall'italiano!)\n- ❌ *Ich denke über dich.* → ✅ *Ich denke **an** dich.*\n- ❌ *Worauf wartest du? – Ich warte auf es.* → ✅ *Ich warte **darauf**.* (per le cose, mai *auf es*).\n- ❌ *Ich erinnere mich von meiner Kindheit.* → ✅ *Ich erinnere mich **an** meine Kindheit.*\n\n## Esercizi\n\n**1. Inserisci la preposizione corretta.**\na) Ich interessiere mich ___ Politik.\nb) Wir warten ___ den Zug.\nc) Sie hat Angst ___ Hunden.\nd) Er nimmt ___ der Konferenz teil.\n\n**2. Akkusativ o Dativ? Completa l'articolo.**\na) Ich denke an mein___ Bruder.\nb) Sie träumt von ein___ langen Reise.\nc) Wir freuen uns auf d___ Sommer.\n\n**3. Trasforma in *wo(r)-* o *da(r)-*.**\na) — ___ denkst du? (Du denkst an die Arbeit.) — Ich denke ___.\nb) — ___ wartet ihr? (Ihr wartet auf den Bus.) — Wir warten ___.\n\n**4. Cosa o persona? Scegli la forma giusta.**\na) (al bus) Ich warte ___ (darauf / auf ihn).\nb) (a mia madre) Ich denke ___ (daran / an sie).\n\n### Soluzioni\n\n**1.** a) **für** · b) **auf** · c) **vor** · d) **an**\n**2.** a) mein**en** Bruder (Akk.) · b) ein**er** langen Reise (Dat.) · c) d**en** Sommer (Akk.)\n**3.** a) **Woran** denkst du? — Ich denke **daran**. · b) **Worauf** wartet ihr? — Wir warten **darauf**.\n**4.** a) **darauf** (cosa) · b) **an sie** (persona)\n\n## Takeaways\n\n- Molti verbi tedeschi richiedono una **preposizione fissa** che impone un **caso fisso**: si imparano come un blocco (*warten auf* + Akk.).\n- La preposizione **non si traduce** dall'italiano: *warten auf*, non *für*; *denken an*, non *über*.\n- Distingui **sich freuen über** (gioia per il presente) da **sich freuen auf** (attesa del futuro).\n- Per le **cose**: domanda con **wo(r)-** (*worauf?*) e risposta con **da(r)-** (*darauf*); la **-r-** appare solo davanti a vocale.\n- Per le **persone**: usa *preposizione + pronome* (*auf wen? – auf ihn*)."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Das Angebot: anfragen, erstellen und verstehen",
+        "readingTime": "~5 min",
+        "markdown": "# Das Angebot: anfragen, erstellen und verstehen\n\n## Ripasso\n\nIeri abbiamo imparato a scrivere il **Protokoll** di una riunione: distinguere il *Ergebnisprotokoll* (solo decisioni) dal *Verlaufsprotokoll* (l'andamento completo), usare il presente impersonale e formule come **„Es wurde beschlossen, dass…\"** *(è stato deciso che…)* e **„Herr Klein übernimmt…\"** *(il sig. Klein si occupa di…)*. Quel documento chiudeva il ciclo della comunicazione interna. Oggi usciamo verso il cliente: entriamo nel mondo commerciale con il primo atto di ogni trattativa, **das Angebot** *(l'offerta / il preventivo)*.\n\n## A cosa serve un'offerta\n\nNel ciclo commerciale tedesco l'**Angebot** è il documento con cui un fornitore (**der Lieferant**) risponde a una richiesta del cliente proponendo prodotti/servizi a un prezzo e a condizioni precise. Tutto comincia con l'**Anfrage** *(la richiesta)* del cliente.\n\n```mermaid\nflowchart LR\n    A[Anfrage<br/>richiesta] --> B[Angebot<br/>offerta]\n    B --> C[Bestellung<br/>ordine]\n    C --> D[Auftragsbestätigung<br/>conferma d'ordine]\n    D --> E[Lieferung<br/>consegna]\n    E --> F[Rechnung<br/>fattura]\n```\n\n> ⚠️ Attenzione al registro giuridico: un **verbindliches Angebot** *(offerta vincolante)* impegna chi la fa. Per tutelarsi si usa spesso **„freibleibend\"** o **„unverbindlich\"** *(senza impegno)*, oppure si fissa una scadenza: **„Dieses Angebot ist gültig bis zum 15. Juli.\"** *(Questa offerta è valida fino al 15 luglio.)*\n\n## Vocabolario chiave\n\n| Tedesco | Italiano |\n|---|---|\n| **die Anfrage** | la richiesta |\n| **das Angebot** | l'offerta, il preventivo |\n| **der Angebotspreis** | il prezzo offerto |\n| **der Stückpreis** | il prezzo unitario |\n| **die Menge / die Stückzahl** | la quantità / il numero di pezzi |\n| **der Rabatt** | lo sconto (commerciale) |\n| **das Skonto** | lo sconto per pagamento anticipato |\n| **die Lieferzeit / der Liefertermin** | i tempi / la data di consegna |\n| **die Zahlungsbedingungen** | le condizioni di pagamento |\n| **die Mehrwertsteuer (MwSt.)** | l'IVA |\n| **zzgl. / inkl.** | oltre a / incluso |\n| **die Gültigkeit** | la validità |\n\n## Redemittel: chiedere un'offerta (lato cliente)\n\n- **„Wir interessieren uns für …\"** — *Siamo interessati a …*\n- **„Bitte unterbreiten Sie uns ein Angebot für …\"** — *Vi preghiamo di sottoporci un'offerta per …* (`unterbreiten` è il verbo formale per \"presentare un'offerta\").\n- **„Könnten Sie uns Ihre besten Konditionen nennen?\"** — *Potreste indicarci le vostre migliori condizioni?*\n- **„Wir bitten um Angabe der Lieferzeit und Zahlungsbedingungen.\"** — *Vi chiediamo di indicare tempi di consegna e condizioni di pagamento.*\n\n## Redemittel: fare un'offerta (lato fornitore)\n\n- **„Vielen Dank für Ihre Anfrage vom 17. Juni.\"** — *Grazie per la Vostra richiesta del 17 giugno.*\n- **„Gern unterbreiten wir Ihnen folgendes Angebot:\"** — *Volentieri Vi sottoponiamo la seguente offerta:*\n- **„Bei Abnahme von mehr als 100 Stück gewähren wir 5 % Rabatt.\"** — *Per ordini superiori a 100 pezzi concediamo il 5% di sconto.* (`gewähren` = concedere.)\n- **„Alle Preise verstehen sich zzgl. der gesetzlichen MwSt.\"** — *Tutti i prezzi si intendono oltre l'IVA di legge.*\n- **„Wir freuen uns auf Ihre Bestellung.\"** — *Restiamo in attesa del Vostro ordine.*\n\n## Testo-modello: un'offerta per email\n\n> **Betreff: Ihr Angebotswunsch – Bürostühle Modell „Ergo 200\"**\n>\n> Sehr geehrte Frau Brandt,\n>\n> vielen Dank für Ihre Anfrage vom 17. Juni. Gern unterbreiten wir Ihnen folgendes **unverbindliches** Angebot:\n>\n> - 20 Bürostühle „Ergo 200\", **Stückpreis** 149,00 € netto\n> - **Liefertermin:** 3 Wochen nach Auftragseingang\n> - **Zahlungsbedingungen:** 30 Tage netto, bei Zahlung innerhalb von 10 Tagen **2 % Skonto**\n>\n> Alle Preise verstehen sich **zzgl.** der gesetzlichen MwSt. (19 %). Dieses Angebot ist **gültig bis zum 15. Juli 2026**.\n>\n> Für Rückfragen stehe ich Ihnen gern zur Verfügung. Wir freuen uns auf Ihre Bestellung.\n>\n> Mit freundlichen Grüßen\n> Thomas Reiter\n\n*(Traduzione dei punti: 20 sedie da ufficio, prezzo unitario 149€ netto; consegna 3 settimane dopo l'ordine; pagamento a 30 giorni, con 2% di sconto se entro 10 giorni; prezzi oltre IVA al 19%; offerta valida fino al 15 luglio.)*\n\n## Note d'uso: netto, IVA e Skonto\n\nIn Germania i preventivi B2B sono quasi sempre **netto** (senza IVA), aggiunta poi con **„zzgl. 19 % MwSt.\"**. Il calcolo del prezzo lordo:\n\n$$P_{\\text{brutto}} = P_{\\text{netto}} \\times (1 + s)$$\n\ndove $P_{\\text{netto}}$ è il prezzo netto e $s$ l'aliquota IVA (in Germania $s = 0{,}19$ standard, $0{,}07$ ridotta).\n\nLo **Skonto** è uno sconto extra per pagamento rapido, calcolato sull'importo lordo della fattura $R$:\n\n$$P_{\\text{zahlbar}} = R \\times (1 - d)$$\n\ncon $d$ tasso di Skonto (qui $d = 0{,}02$). Esempio sull'offerta: 20 × 149€ = 2.980€ netto; lordo $2980 \\times 1{,}19 = 3546{,}20$ €; pagando entro 10 giorni si versano $3546{,}20 \\times 0{,}98 = 3475{,}28$ €.\n\n> 💡 **Falscher Freund / registro:** il *Rabatt* è uno sconto sul prezzo (commerciale, sulla quantità), lo *Skonto* è un premio per la rapidità di pagamento. Non confonderli: in una trattativa chiedere **„Gewähren Sie Skonto?\"** segnala che pagherai presto, ed è leva diversa dal chiedere **„Ist beim Preis noch etwas möglich?\"** *(c'è ancora margine sul prezzo?)*.\n\n## Takeaways\n\n- L'**Angebot** è la risposta del fornitore a un'**Anfrage** ed è il primo atto formale del ciclo commerciale.\n- Proteggi l'offerta con **„unverbindlich/freibleibend\"** e una **Gültigkeit** (data di scadenza) per non restare vincolato.\n- Verbi-chiave formali: **unterbreiten** (presentare un'offerta), **gewähren** (concedere sconto), **sich verstehen zzgl./inkl.** (intendersi oltre/incluso).\n- Distingui **Rabatt** (sconto commerciale) da **Skonto** (sconto per pagamento anticipato): sono leve negoziali diverse.\n- I prezzi B2B tedeschi sono **netto**; ricorda di esplicitare **„zzgl. MwSt.\"** e i **Zahlungsbedingungen** (es. *30 Tage netto, 2 % Skonto bei 10 Tagen*)."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "How a Request Travels: DNS, TCP, TLS, and HTTP",
+        "readingTime": "~5 min",
+        "markdown": "# How a Request Travels: DNS, TCP, TLS, and HTTP\n\n## Recap\n\nYesterday we quantified *promises* about a system: the **SLA** (the contractual guarantee), the **SLO** (your internal target), and the **SLI** (the measured signal). We saw why \"the nines\" matter — 99.9% allows ~8.7 hours of downtime per year, 99.99% only ~52 minutes — and that every nine costs real engineering effort. Today we drop down a layer: what *actually happens* when a single user types your URL and hits Enter.\n\n## Why trace one request first?\n\nEvery topic ahead — load balancers, CDNs, caching, TLS termination — is an *intervention* at some point in the journey of a request. If you don't have a mental map of that journey, those interventions are just jargon. So before we optimize anything, let's follow **one HTTPS request from browser to server and back**, end to end.\n\nThe trip has four distinct phases, each solving a different problem:\n\n1. **DNS** — *Where is the server?* (name → IP address)\n2. **TCP** — *Open a reliable pipe* (the three-way handshake)\n3. **TLS** — *Make the pipe private* (encryption + identity)\n4. **HTTP** — *Ask for the resource* (request → response)\n\n```mermaid\nsequenceDiagram\n    participant B as Browser\n    participant R as DNS Resolver\n    participant S as Server (IP)\n    B->>R: 1. DNS query: where is example.com?\n    R-->>B: A record → 93.184.216.34\n    B->>S: 2. TCP SYN\n    S-->>B: SYN-ACK\n    B->>S: ACK (connection open)\n    B->>S: 3. TLS ClientHello\n    S-->>B: ServerHello + certificate\n    B->>S: key exchange (secure channel ready)\n    B->>S: 4. HTTP GET /index.html\n    S-->>B: HTTP 200 OK + body\n```\n\n## Phase 1 — DNS: turning a name into an address\n\nComputers route by **IP address**, not by human-friendly names. **DNS (Domain Name System)** is the distributed lookup that translates `example.com` into something like `93.184.216.34`.\n\nIt is a *hierarchy* resolved by a **recursive resolver** (usually run by your ISP or a public service like `8.8.8.8`):\n\n```mermaid\nflowchart LR\n    A[Resolver] --> B[Root server<br/>·] --> C[TLD server<br/>.com] --> D[Authoritative<br/>example.com] --> E[Answer: 93.184.216.34]\n```\n\nThe resolver asks the **root**, which points to the **`.com` TLD** servers, which point to the **authoritative** server for the domain, which finally returns the address. To avoid doing this every time, answers are **cached** at every level for a duration set by the record's **TTL (time to live)**. This is your first taste of caching as a system-design lever — and the reason DNS changes can take minutes to hours to propagate.\n\n> **Why it matters later:** DNS is the *earliest* place you can steer traffic. Returning different IPs per region (GeoDNS) or rotating addresses is the crudest form of load balancing.\n\n## Phase 2 — TCP: a reliable pipe via the three-way handshake\n\nWith an IP in hand, the browser opens a **TCP (Transmission Control Protocol)** connection. TCP gives you an **ordered, reliable, byte stream**: lost packets are retransmitted, and bytes arrive in the order sent. It establishes this with the **three-way handshake**:\n\n| Step | Sender | Message | Meaning |\n|------|--------|---------|---------|\n| 1 | Client | **SYN** | \"I'd like to talk; here's my sequence number.\" |\n| 2 | Server | **SYN-ACK** | \"Acknowledged; here's mine.\" |\n| 3 | Client | **ACK** | \"Acknowledged; let's go.\" |\n\nThe cost here is **one round trip** (**RTT**) before *any* data flows. If the server is 100 ms away, that handshake alone costs 100 ms. This is exactly why **latency**, which we met in Lesson 2, is dominated by round trips — not bandwidth.\n\n## Phase 3 — TLS: privacy and identity\n\nRaw TCP is plaintext. **TLS (Transport Layer Security)** wraps it to provide three things: **encryption** (eavesdroppers see gibberish), **integrity** (tampering is detectable), and **authentication** (the server proves it really *is* `example.com` via a certificate signed by a trusted **Certificate Authority**).\n\nThe TLS handshake uses **asymmetric cryptography** to agree on a shared **symmetric** session key, then encrypts the actual traffic with that fast symmetric key. The key idea — *expensive public-key math once, cheap symmetric encryption thereafter* — is why TLS is affordable at scale.\n\nThe catch is more round trips. The total setup before your first byte of HTTP:\n\n$$T_{\\text{setup}} \\approx T_{\\text{DNS}} + 1\\,\\text{RTT}_{\\text{TCP}} + n \\cdot \\text{RTT}_{\\text{TLS}}$$\n\nwhere $n$ is **1** for TLS 1.3 and **2** for the older TLS 1.2. With a 100 ms RTT, TLS 1.3 saves you a full ~100 ms versus 1.2 — a concrete reason to keep your stack modern.\n\n## Phase 4 — HTTP: the actual request\n\nOnly now does the **application-layer** conversation happen. The browser sends an **HTTP request**:\n\n```http\nGET /index.html HTTP/1.1\nHost: example.com\nAccept: text/html\n```\n\nand the server replies with a **status line**, **headers**, and a **body**:\n\n```http\nHTTP/1.1 200 OK\nContent-Type: text/html\nCache-Control: max-age=3600\n\n<!doctype html>...\n```\n\nHTTP is **stateless** — each request stands alone — which is precisely what lets us put many interchangeable servers behind a load balancer later. Status codes carry the outcome: **2xx** success, **3xx** redirect, **4xx** client error, **5xx** server error. Headers like **`Cache-Control`** govern caching (Lesson on CDNs, ahead). Once the connection is open, **HTTP keep-alive** reuses it for subsequent requests, amortizing all that setup cost.\n\n## Putting it together\n\nA single `https://example.com` \"click\" is really: *resolve a name → open a reliable pipe → secure it → exchange one application message*. Notice how much of the wall-clock time is spent **before any HTML moves** — that setup tax is the target of nearly every networking optimization to come.\n\n## Takeaways\n\n- **Four phases:** DNS (name→IP), TCP (reliable pipe), TLS (private pipe), HTTP (the request) — in that order.\n- **DNS is hierarchical and cached** by TTL; it's also the earliest, coarsest place to steer traffic.\n- **TCP's three-way handshake** costs one RTT before any data; latency is dominated by round trips, not bandwidth.\n- **TLS** trades extra RTTs for encryption, integrity, and identity; **TLS 1.3 needs one fewer round trip** than 1.2.\n- **HTTP is stateless** — the property that makes horizontal scaling and load balancing possible.\n- Most of a request's setup time is spent *before* the response body — keep connections alive and minimize round trips.",
+        "roadmapId": "sd-05"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "From Logits to Probabilities: The Softmax Output",
+        "readingTime": "~5 min",
+        "markdown": "# From Logits to Probabilities: The Softmax Output\n\n## Recap\n\nYesterday we explored *vector similarity* — how the geometry of embedding space encodes meaning, with **cosine similarity** and **dot products** measuring how \"aligned\" two vectors are. That idea of a dot product as a *score* is exactly where today's lesson begins: the model's final step produces a vector of raw scores, and we must turn those scores into something we can sample from.\n\n## The end of the pipeline\n\nA transformer processes your tokens and produces, for the *next* position, a single context-rich vector — call it the **hidden state** $h \\in \\mathbb{R}^{d}$. But the model must ultimately answer a concrete question: *which token comes next?* The vocabulary has $V$ entries (often 30k–200k), so we need one number per candidate token.\n\nThis is the job of the **unembedding** (or \"output projection / LM head\"): a matrix $W \\in \\mathbb{R}^{V \\times d}$. Each row $W_i$ is, in effect, an embedding for token $i$. We compute a score for every token as a dot product:\n\n$$z_i = W_i \\cdot h + b_i$$\n\nThese $V$ scores form the **logit vector** $z \\in \\mathbb{R}^{V}$. Notice the connection to yesterday: $z_i$ is literally the *similarity* between the model's predicted direction $h$ and token $i$'s output embedding. Tokens pointing the same way as $h$ get high logits.\n\n```mermaid\nflowchart LR\n    A[\"Hidden state h\\n(d-dim)\"] -->|\"× W (unembedding)\"| B[\"Logits z\\n(V scores, any real number)\"]\n    B -->|\"softmax\"| C[\"Probabilities p\\n(V values, sum = 1)\"]\n    C -->|\"sample / argmax\"| D[\"Next token\"]\n```\n\nLogits are **unbounded** real numbers — they can be negative, large, tiny. They are *not* probabilities. We need a function that maps $\\mathbb{R}^V$ to a valid probability distribution.\n\n## Softmax: from scores to a distribution\n\nThe **softmax** function does exactly this:\n\n$$p_i = \\mathrm{softmax}(z)_i = \\frac{e^{z_i}}{\\sum_{j=1}^{V} e^{z_j}}$$\n\nTwo properties make it a valid distribution:\n\n1. **Non-negativity** — $e^{z_i} > 0$ always, so every $p_i > 0$.\n2. **Normalization** — dividing by the sum forces $\\sum_i p_i = 1$.\n\nWhy exponentiate first? Three reasons worth internalizing:\n\n- It turns any real number (even negative) into a positive quantity.\n- It is *monotonic*: a larger logit always yields a larger probability, so the ranking of tokens is preserved.\n- It makes the function depend only on **differences** between logits. Because $e^{z_i + c} = e^{z_i}e^{c}$, adding a constant $c$ to every logit cancels out. So softmax cares about *relative* scores, not absolute ones.\n\n> **Worked example.** Logits $z = [2.0,\\ 1.0,\\ 0.0]$. Exponentials: $e^2 \\approx 7.39,\\ e^1 \\approx 2.72,\\ e^0 = 1$. Sum $\\approx 11.11$. Probabilities $\\approx [0.665,\\ 0.245,\\ 0.090]$. The top logit, only 1.0 above the next, already takes two-thirds of the mass — softmax *amplifies* gaps.\n\n### A practical note on numerical stability\n\nBecause we exponentiate, a logit like $z_i = 1000$ would overflow `float32`. Implementations use the shift-invariance above: subtract the max logit first, $z_i \\leftarrow z_i - \\max_j z_j$. Now the largest exponent is $e^0 = 1$ and nothing overflows — and thanks to the constant-cancellation property, the result is *mathematically identical*.\n\n## Temperature: reshaping the distribution\n\nAt inference time we rarely use the bare softmax. We insert a single knob, the **temperature** $T > 0$, that divides the logits before exponentiating:\n\n$$p_i = \\frac{e^{z_i / T}}{\\sum_j e^{z_j / T}}$$\n\nTemperature controls how *peaked* or *flat* the distribution is — without changing the ranking of tokens.\n\n| Temperature | Effect on logits | Resulting distribution | Behavior |\n|---|---|---|---|\n| $T \\to 0^+$ | gaps blown up | one spike near 1.0 | **greedy** / deterministic (→ argmax) |\n| $T = 1$ | unchanged | the model's \"native\" distribution | balanced |\n| $T = 1$–$2$ | gaps compressed | flatter, more even | creative, diverse, riskier |\n| $T \\to \\infty$ | gaps vanish | uniform | pure random |\n\nReusing our example $z = [2.0, 1.0, 0.0]$:\n\n- At $T = 0.5$ (divide by 0.5 = multiply logits by 2): probabilities $\\approx [0.84,\\ 0.11,\\ 0.04]$ — sharper, the top token dominates.\n- At $T = 2.0$: probabilities $\\approx [0.51,\\ 0.31,\\ 0.19]$ — flatter, the long shots get a real chance.\n\nIntuition: dividing by a *small* $T$ magnifies the differences between logits, so softmax concentrates almost all mass on the winner. Dividing by a *large* $T$ shrinks those differences toward zero, pushing toward uniform. Temperature never reorders tokens — it only redistributes confidence.\n\n> **Common confusion.** Temperature is *not* applied to probabilities; it is applied to **logits before softmax**. Scaling probabilities directly wouldn't preserve normalization or give the clean exponential reshaping we want.\n\nThis distribution is the raw material for the *sampling* strategies (top-k, top-p / nucleus) we'll meet later in the inference module. Softmax + temperature decides *the shape*; sampling decides *the draw*.\n\n## Takeaways\n\n- The **LM head** projects the final hidden state onto the vocabulary, producing one **logit** per token — each logit is a dot-product similarity between the predicted direction and a token's output embedding.\n- **Logits** are unbounded real scores, *not* probabilities.\n- **Softmax** exponentiates and normalizes them into a valid distribution: all positive, summing to 1, monotonic, and dependent only on logit *differences*.\n- Subtracting the max logit gives numerical stability for free (shift-invariance).\n- **Temperature** $T$ divides logits before softmax: low $T$ → sharp/greedy, $T=1$ → native, high $T$ → flat/random. It reshapes confidence without changing token ranking.\n- This distribution feeds the sampling step — the bridge to how text is actually generated.",
+        "roadmapId": "ai-05"
+      }
+    }
+  ]
+}

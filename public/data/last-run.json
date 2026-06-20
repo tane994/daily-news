@@ -1,21 +1,22 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "status": "degraded",
   "reasons": [
-    "holdings 1/7 streams"
+    "holdings 1/7 streams",
+    "1 voci datate (>3gg)"
   ],
-  "realNewsCount": 16,
+  "realNewsCount": 14,
   "calendarCount": 8,
-  "guardScore": 36,
+  "guardScore": 34,
   "lanes": {
     "ai": 6,
     "startups": 3,
-    "markets": 7,
+    "markets": 5,
     "boxing": 5,
     "mma": 3,
     "bites": 8,
     "courses": 4,
-    "portfolio": 1
+    "portfolio": 2
   },
   "failedLanes": [],
   "holdingsCoverage": {
@@ -29,11 +30,22 @@
     "courses": [],
     "news": []
   },
-  "staleItems": [],
+  "staleItems": [
+    {
+      "where": "markets",
+      "headline": "OpenAI burned $3.7 billion in Q1 against $5.7 billion in revenue as it eyes an IPO valuing it up to $1 trillion",
+      "publishedAt": "2026-06-16",
+      "ageDays": 4
+    }
+  ],
   "freshHoldings": [
     {
-      "stream": "ASML & TSMC",
-      "headline": "US Commerce Secretary Lutnick tells ASML it suspects one of its restricted EUV machines reached China; ASML denies ever shipping EUV to the country"
+      "stream": "Alphabet & Amazon",
+      "headline": "Nobel-winning AlphaFold creator John Jumper leaves Google DeepMind for Anthropic"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "Amazon faces billions in potential FTC penalties as agency drafts ad-disclosure complaint"
     }
   ]
 }
