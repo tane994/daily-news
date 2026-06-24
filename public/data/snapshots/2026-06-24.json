@@ -1,0 +1,210 @@
+{
+  "date": "2026-06-24",
+  "generatedAt": "2026-06-24T14:10:22.638Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "ByteDance's Seedance 2.5 stretched native AI video to a full 30 seconds as OpenAI, Mistral, Google, Anthropic and China's 360 all shipped new models and agent tools.",
+      "items": [
+        {
+          "headline": "ByteDance's Seedance 2.5 generates a 30-second AI video clip in one pass, roughly tripling rivals' native length",
+          "brief": "At the Volcano Engine FORCE Conference on June 23, ByteDance previewed Seedance 2.5, which outputs a single continuous 30-second clip with no stitching and accepts up to 50 reference materials, versus the 8-15 seconds that Runway Gen-4.5, Google Veo 3.1 and the retired Sora 2 topped out at. The model uses a unified joint audio-video system that co-processes visual and audio signals in the same latent space rather than syncing them after generation. ByteDance says it is in enterprise beta now, with a public launch set for early July 2026.",
+          "whyItMatters": "Minute-scale, seam-free generation moves AI video from clip-stitching toward usable single-take scenes.",
+          "url": "https://www.techtimes.com/articles/318975/20260624/bytedance-seedance-25-native-30-second-ai-video-no-stitching-required.htm",
+          "source": "Tech Times",
+          "publishedAt": "2026-06-23",
+          "featured": true
+        },
+        {
+          "headline": "OpenAI ships GPT-5.5-Cyber at 85.6% on CyberGym and launches 'Patch the Planet' for open-source maintainers",
+          "brief": "On June 22 OpenAI expanded its Daybreak cybersecurity program with the full release of GPT-5.5-Cyber, which scored a state-of-the-art 85.6% on the CyberGym benchmark (up from 81.8% for GPT-5.5) and can analyze large codebases, validate vulnerabilities in a sandbox, then write and test fixes. Arguing its models now find flaws faster than defenders can patch them, OpenAI also launched Patch the Planet with Trail of Bits and HackerOne to fund researchers fixing widely used open-source projects. The model is gated to verified defenders doing authorized security work.",
+          "whyItMatters": "OpenAI is reframing the AI security race around automated patching, not just vulnerability discovery.",
+          "url": "https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/",
+          "source": "SiliconANGLE",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "headline": "Google makes its Interactions API the default way to build with Gemini, replacing generateContent",
+          "brief": "On June 22 Google moved the Interactions API to general availability and made it the default interface for Gemini models in AI Studio and across its docs, retiring generateContent to legacy status (though it remains supported). The API is cheaper in Flex mode and adds Managed Agents with their own Linux sandbox, background execution, and tool chaining across Google Search and Maps, alongside the public-preview Antigravity agent that can plan, write and run code, and browse the web. New agent features will ship only through the Interactions API.",
+          "whyItMatters": "Google is rebuilding its developer surface around long-running agents rather than single request-response calls.",
+          "url": "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "headline": "Anthropic launches Claude Tag, a persistent @Claude teammate that lives inside Slack",
+          "brief": "On June 23 Anthropic released Claude Tag for Claude Enterprise and Team customers, letting employees tag @Claude in Slack to assign tasks that the bot breaks into stages and works through independently before delivering results. It follows channels, retains context, and gives a whole company a single shared Claude 'identity', so workers can hand off half-finished tasks to one another. The launch positions Claude as a standing virtual employee rather than a one-off chatbot.",
+          "whyItMatters": "Persistent, shared-identity agents push AI from on-demand answers toward always-on coworkers.",
+          "url": "https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/",
+          "source": "Fortune",
+          "publishedAt": "2026-06-23"
+        },
+        {
+          "headline": "Mistral OCR 4 wins 72% of blind document tests across 170 languages and tops OlmOCRBench at 85.20",
+          "brief": "Mistral launched OCR 4 on June 23, a document model that outputs structured results with bounding boxes, block classification and per-word confidence scores across 170 languages. Independent annotators blind-ranking 600+ real-world documents in 12+ languages preferred it over every system tested, averaging a 72% win rate, and it topped the public OlmOCRBench leaderboard at 85.20. It runs in a single container for fully self-hosted deployment and is priced at $4 per 1,000 pages ($2 in batch mode).",
+          "whyItMatters": "Self-hostable, structure-aware OCR is the missing ingestion layer for enterprise RAG and search pipelines.",
+          "url": "https://mistral.ai/news/ocr-4/",
+          "source": "Mistral AI",
+          "publishedAt": "2026-06-23"
+        },
+        {
+          "headline": "China's 360 unveils Tulongfeng and Yitianzhen, calling them the country's answer to Anthropic's Mythos",
+          "brief": "At the ISC.AI 2026 conference in Beijing on June 24, 360 founder Zhou Hongyi unveiled two AI security tools under the 'Yitian Tulong' banner: Tulongfeng, which automatically discovers software vulnerabilities, and Yitianzhen, which automates cyber defense and incident response. Zhou called Tulongfeng 'China's version of Mythos,' referencing Anthropic's vulnerability-hunting model, and warned China risks 'one-way transparency' if U.S. tools can scan critical systems while Chinese firms cannot.",
+          "whyItMatters": "It is the most prominent Chinese answer yet to Mythos, signaling a two-sided AI offensive-security race.",
+          "url": "https://money.usnews.com/investing/news/articles/2026-06-24/chinas-360-says-it-has-developed-tools-to-match-anthropics-mythos",
+          "source": "Reuters",
+          "publishedAt": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Meta led the day in Startups & Tech, dropping the Ray-Ban name to launch its own $299 Meta Glasses line while also handing WhatsApp to CRED founder Kunal Shah.",
+      "items": [
+        {
+          "headline": "Meta launches own-brand smart glasses with EssilorLuxottica starting at $299, dropping the Ray-Ban name",
+          "brief": "On June 23 Meta and EssilorLuxottica unveiled 'Meta Glasses,' a screenless line sold under Meta's own brand in three styles — the Meta Adventurer, the Meta Fury, and a Meta Glasses by Kylie model at $399. Starting at $299, the frames are $80 cheaper than last year's second-generation Ray-Ban Meta and carry a 12MP ultrawide camera, 3K video, a five-microphone array and 8+ hours of battery (up to 40 hours with the charging case).",
+          "whyItMatters": "Shedding the Ray-Ban and Oakley logos signals Meta wants to own the smart-glasses category outright as Zuckerberg pushes wearables as the post-smartphone device.",
+          "url": "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-23",
+          "featured": true
+        },
+        {
+          "headline": "Bezos-backed Slate Auto opens preorders for a $24,950 electric pickup, the cheapest truck in America",
+          "brief": "Slate Auto revealed a $24,950 starting price and opened preorders on June 24 for its bare-bones electric pickup, a two-seater that converts to a five-seat SUV starting at $29,950. The base truck has hand-crank windows, no infotainment system, an estimated 205 miles of range and about 800 parts versus 2,000 in a comparable conventional pickup; first deliveries are still expected by the end of 2026.",
+          "whyItMatters": "Slate's radical simplicity is a bet that stripping cost out beats adding features — but its original 'under $20,000' pitch collapsed once the $7,500 federal EV tax credit was eliminated.",
+          "url": "https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-24",
+          "featured": false
+        },
+        {
+          "headline": "CRED founder Kunal Shah named WhatsApp head as Will Cathcart departs after seven years",
+          "brief": "Mark Zuckerberg announced on June 22 that Kunal Shah, founder of Indian fintech CRED, will run WhatsApp, replacing Will Cathcart, who is leaving the role after more than seven years to build new AI-focused products at Meta. Shah is stepping down as CRED's CEO while retaining his stake; alongside the hire, Meta is investing $900 million in CRED at a $4.5 billion valuation.",
+          "whyItMatters": "Handing one of Meta's biggest products to an Indian founder underscores how central India — WhatsApp's largest market — has become to the app's payments and commerce ambitions.",
+          "url": "https://www.cnbc.com/2026/06/22/meta-kunal-shah-whatsapp-will-cathcart.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-22",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "A global AI-chip rout that tripped South Korea's KOSPI circuit-breaker dominated markets, even as SpaceX, Oracle and the Fed's stress tests gave investors plenty else to chew on.",
+      "items": [
+        {
+          "headline": "Global AI-chip rout wipes ~4% off the Nasdaq and trips KOSPI's circuit-breaker as Samsung and SK Hynix crater 12%",
+          "brief": "A worldwide flight from semiconductor and AI stocks on June 23 sent the Nasdaq Composite down 3.94% to 25,773.73 and the S&P 500 down 2.52%, while South Korea's KOSPI plunged 9.99% to trigger a 20-minute trading halt as foreign investors dumped a net ~$3.8 billion of shares. Samsung Electronics and SK Hynix each fell more than 12%, Intel dropped ~10.6% and Nvidia slid ~6%, with the VIX spiking 33% on fears of an overheated AI trade and a Bank of America note warning of possible Fed rate hikes. US stocks were mixed on June 24 as Wall Street steadied ahead of Micron's earnings.",
+          "whyItMatters": "The synchronized sell-off showed how tightly Korean memory makers and US megacaps are now bound to a single AI-spending narrative.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+          "source": "TheStreet",
+          "publishedAt": "2026-06-23",
+          "featured": true
+        },
+        {
+          "headline": "SpaceX launches a $20 billion debut bond sale and discloses a $100.8 billion cash pile to bankroll its AI buildout",
+          "brief": "Fresh off its record ~$75 billion IPO, SpaceX kicked off its first investment-grade bond offering of at least $20 billion, with maturities of five to 30 years arranged by Bank of America, Citigroup, Goldman Sachs, JPMorgan and Morgan Stanley. The company disclosed roughly $100.8 billion in cash as of June 19 and earmarked proceeds to refinance a $20 billion bridge loan and fund data centers, backed by compute agreements with Google and Anthropic valued at about $75 billion combined.",
+          "whyItMatters": "Elon Musk is turning SpaceX into a leveraged AI-infrastructure player, signaling a borrowing spree well beyond rockets.",
+          "url": "https://www.cnbc.com/2026/06/22/spacex-spcx-bond-sale-ipo.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "headline": "Oracle cut 21,000 jobs over the past year — nearly 13% of staff — and warns AI may drive more",
+          "brief": "Oracle's 2026 annual report revealed its workforce shrank to about 141,000 from 162,000 a year earlier, a cut of roughly 21,000 roles, with sales and marketing falling about 19% to 25,000 people. The company said adoption of AI across its operations 'has resulted, and may continue to result, in reductions to our workforce,' joining a wave of AI-linked layoffs among tech giants.",
+          "whyItMatters": "One of enterprise software's biggest employers is openly tying headcount cuts to AI, a template rivals are likely to follow.",
+          "url": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-23"
+        },
+        {
+          "headline": "Fed releases 2026 stress tests for 32 big banks against a 10% unemployment, 30% home-price-crash scenario",
+          "brief": "The Federal Reserve published its annual stress-test results at 4 p.m. EDT on June 24, gauging how 32 large lenders including JPMorgan would withstand a severe global recession featuring unemployment peaking at 10%, a 30% drop in home prices and a 39% fall in commercial real estate. Unusually, the Fed said this year's results will not reset banks' capital requirements, having frozen current stress capital buffers through 2027 while it overhauls the framework.",
+          "whyItMatters": "Even with capital rules frozen, the results set the stage for banks to unveil dividend hikes and buybacks in the coming days.",
+          "url": "https://www.investing.com/news/economy-news/us-fed-to-release-2026-bank-stress-test-results-on-june-24-4733998",
+          "source": "Reuters",
+          "publishedAt": "2026-06-24"
+        },
+        {
+          "headline": "US Treasury authorizes Iranian oil sales for dollars under a 60-day license, dragging Brent toward a multi-month low near $76",
+          "brief": "Treasury Secretary Scott Bessent issued a 60-day general license permitting the production, transport and sale of Iranian crude — allowing Tehran to receive US dollars for oil for the first time in decades — after talks in Switzerland and the Navy's lifting of its blockade of Iran's ports. Brent crude fell 3.3% to settle at $77.90 on June 22 and slid further to about $75.57 by June 24, as Gulf producers including Kuwait and Abu Dhabi's ADNOC prepared to raise output.",
+          "whyItMatters": "Returning Iranian barrels plus rising Gulf supply point to a sustained slide in oil and cooler headline inflation.",
+          "url": "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "headline": "Micron reports fiscal Q3 after the close, guiding to ~$35.5 billion in revenue and record gross margins as the AI memory trade is tested",
+          "brief": "Micron Technology posted fiscal third-quarter results after the June 24 close, having guided to revenue of $35.5 billion (plus or minus $750 million) and adjusted EPS of about $19.15, against consensus near $34.8 billion — implying roughly 274% annual revenue growth. With HBM capacity sold out through 2026 and gross margins guided toward a record ~81%, the print landed a day after MU shares tumbled 13% in the chip rout.",
+          "whyItMatters": "As the AI trade's bellwether for memory pricing, Micron's guidance is a litmus test for whether the data-center boom still has room to run.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-reports-earnings-june-24-215600703.html",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Liam Paro's upset of Lewis Crocker for the IBF welterweight title headlines a packed week that builds to Saturday's Xander Zayas–Jaron 'Boots' Ennis junior middleweight unification in Brooklyn, as Canelo Álvarez confirms a September return.",
+      "items": [
+        {
+          "headline": "Liam Paro outpoints Lewis Crocker to win IBF welterweight title (June 24, Brisbane)",
+          "brief": "Liam Paro (28-1) took the IBF welterweight title by unanimous decision — all three judges 115-113 — over defending champion Lewis Crocker on Wednesday, June 24 at Pat Rafter Arena in Brisbane, in what was Crocker's first defense. Battered with a swollen eye but ahead on volume, Paro became Australia's second two-division world champion, joining Jeff Fenech, and afterward he and promoter George Rose called for marquee names — even Manny Pacquiao — to be brought to Australian soil.",
+          "whyItMatters": "Crowns a new IBF welterweight champion and a homegrown Australian star now angling for a blockbuster at home.",
+          "url": "https://sports.yahoo.com/boxing/live/lewis-crocker-vs-liam-paro-live-results-round-by-round-updates-ring-walks-for-todays-early-title-fight-040000741.html",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-06-24T05:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Canelo Álvarez confirms Sept. 12 return vs. WBC champ Christian Mbilli in Saudi Arabia",
+          "brief": "Canelo Álvarez, sidelined since elbow surgery after his September 2025 loss to Terence Crawford, confirmed he will return on Sept. 12 in Saudi Arabia on the 'Mexico Against the World' card. WBC super middleweight champion Christian Mbilli — upgraded to full titlist after Crawford was stripped — is the strongly-expected opponent, putting Canelo in line to chase a 168-lb world title again roughly a year after losing undisputed status.",
+          "whyItMatters": "Maps Canelo's comeback and his bid to reclaim a world championship at super middleweight.",
+          "url": "https://boxingnewsonline.net/news/canelo-confirms-september-return/",
+          "source": "Boxing News",
+          "publishedAt": "2026-06-23T00:00:00Z"
+        },
+        {
+          "headline": "Naoya Inoue vs. Jesse 'Bam' Rodríguez superfight targeted for February 2027 in Japan",
+          "brief": "Naoya Inoue's promoter Hideyuki Ohashi signaled a major February 2027 outing widely understood to be undisputed super bantamweight king Inoue against unified super flyweight champion Jesse 'Bam' Rodríguez, proposed for a Riyadh Season card at the IG Arena in Nagoya. Inoue beat Junto Nakatani by decision on May 2 at the Tokyo Dome; the Rodríguez bout is being matchmade behind the scenes with no contract yet signed.",
+          "whyItMatters": "Would pit two pound-for-pound elites in a fight that could decide the sport's No. 1 ranking.",
+          "url": "https://www.boxingnews24.com/2026/06/naoya-inoue-promoter-hints-at-two-major-fights-starting-in-february-2027/",
+          "source": "Boxing News 24"
+        },
+        {
+          "headline": "Xander Zayas vs. Jaron 'Boots' Ennis — WBA/WBO junior middleweight unification, this Saturday June 27 at Barclays Center",
+          "brief": "Unbeaten unified junior middleweight champion Xander Zayas — the youngest unified ruler in the sport after his January split-decision win over Abass Baraou — defends his WBA and WBO belts against Jaron 'Boots' Ennis this Saturday, June 27 at Brooklyn's Barclays Center on DAZN PPV. The card, co-promoted by Top Rank and Matchroom, has its lineup set with Ben Whittaker and Top Rank's Emiliano Vargas (vs. Bryce Mills) on the undercard.",
+          "whyItMatters": "The biggest fight of the week: two undefeated stars, with Ennis moving up to test Zayas' unified titles.",
+          "url": "https://www.badlefthook.com/boxing-news/115042/zayas-vs-boots-undercard-announced-ben-whittaker-emiliano-vargas-added-boxing-news-2026",
+          "source": "Bad Left Hook"
+        },
+        {
+          "headline": "Anthony Joshua's July 25 return vs. Kristian Prenga moves to Jeddah, title bouts eyed for undercard",
+          "brief": "Anthony Joshua's comeback fight against Kristian Prenga, set for July 25, has shifted venue from Riyadh to the Jeddah Superdome in Saudi Arabia. Promoter Eddie Hearn says WBO super middleweight champion Hamzah Sheeraz and new IBF junior middleweight titlist Josh Kelly could make title defenses on the card, though the full undercard is not yet finalized.",
+          "whyItMatters": "Keeps Joshua on schedule for a planned heavyweight blockbuster with Tyson Fury later in 2026.",
+          "url": "https://www.boxinginsider.com/headlines/anthony-joshua-vs-kristian-prenga-venue-moves-to-jeddah/",
+          "source": "Boxing Insider"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "",
+      "items": []
+    }
+  ],
+  "indicators": [],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": []
+  },
+  "knowledge": null,
+  "courses": []
+}
