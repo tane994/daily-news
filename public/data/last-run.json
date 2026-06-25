@@ -1,37 +1,59 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "status": "degraded",
   "reasons": [
-    "failed lanes: bites",
-    "holdings 0/7 streams"
+    "only 0 real-news items",
+    "failed lanes: ai, startups, markets",
+    "holdings 2/7 streams",
+    "1 cross-day repeats"
   ],
-  "realNewsCount": 15,
-  "calendarCount": 5,
-  "guardScore": 20,
+  "realNewsCount": 0,
+  "calendarCount": 0,
+  "guardScore": 10,
   "lanes": {
-    "ai": 6,
-    "startups": 3,
-    "markets": 6,
-    "boxing": 5,
+    "ai": 0,
+    "startups": 0,
+    "markets": 0,
+    "boxing": 0,
     "mma": 0,
-    "bites": 0,
-    "courses": 0,
-    "portfolio": 0
+    "bites": 8,
+    "courses": 2,
+    "portfolio": 2
   },
   "failedLanes": [
-    "bites"
+    "ai",
+    "startups",
+    "markets"
   ],
   "holdingsCoverage": {
-    "streams": 0,
+    "streams": 2,
     "totalStreams": 7,
-    "names": 0,
+    "names": 2,
     "totalNames": 11
   },
   "repeats": {
     "portfolio": [],
-    "courses": [],
+    "courses": [
+      {
+        "course": "System Design",
+        "title": "Load Balancing: L4 vs L7, Algorithms, and Health Checks",
+        "roadmapId": "sd-06",
+        "alsoSeen": [
+          "2026-06-15"
+        ]
+      }
+    ],
     "news": []
   },
   "staleItems": [],
-  "freshHoldings": []
+  "freshHoldings": [
+    {
+      "stream": "Hermès",
+      "headline": "HSBC downgrades Hermès to Hold, cuts target to €1,870 as analyst caution drives shares down ~6% in two sessions"
+    },
+    {
+      "stream": "Sea Ltd",
+      "headline": "Sea Limited and OpenAI sign strategic partnership; Shopee becomes first e-commerce platform live inside ChatGPT across Southeast Asia and Brazil"
+    }
+  ]
 }

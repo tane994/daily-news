@@ -1,0 +1,208 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T05:58:38.833Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "",
+      "items": []
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "18.63",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-24",
+      "source": "CBOE",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "40.94",
+      "reference": "media ~17",
+      "asOf": "2026-06-24",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "luxury",
+        "label": "Lusso",
+        "streams": [
+          {
+            "id": "hermes",
+            "label": "Hermès",
+            "kind": "name",
+            "names": [
+              "Hermès"
+            ],
+            "items": [
+              {
+                "headline": "HSBC downgrades Hermès to Hold, cuts target to €1,870 as analyst caution drives shares down ~6% in two sessions",
+                "brief": "On June 23, 2026, HSBC cut Hermès to 'Hold' from 'Buy' and lowered its price target to €1,870 from €2,100, sending shares down about 2% intraday to near €1,585 — roughly 6% lower over two sessions. The move came alongside other bearish calls: Jefferies trimmed its target to €2,000 from €2,400 (citing mixed China trends and weak Q1 organic growth of 5.6%), while Kepler Cheuvreux warned of an ~100 basis-point contraction in adjusted EBIT margin in upcoming first-half results.",
+                "whyItMatters": "Even reliably resilient Hermès is now facing Street skepticism on China demand and margins heading into its H1 2026 report, due July 29.",
+                "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hermes-shares-slide-after-hsbc-downgrade-analyst-caution-weighs-on/69612423",
+                "source": "ad-hoc-news.de",
+                "publishedAt": "2026-06-23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seaem",
+        "label": "SEA / EM",
+        "streams": [
+          {
+            "id": "sea",
+            "label": "Sea Ltd",
+            "kind": "name",
+            "names": [
+              "Sea Limited (Garena, Shopee, SeaMoney)"
+            ],
+            "items": [
+              {
+                "headline": "Sea Limited and OpenAI sign strategic partnership; Shopee becomes first e-commerce platform live inside ChatGPT across Southeast Asia and Brazil",
+                "brief": "On June 22, 2026, Sea Ltd (chaired by CEO Forrest Li) and OpenAI (represented by Chief Revenue Officer Denise Dresser) announced a strategic partnership embedding the Shopee app within ChatGPT for users in Indonesia, Malaysia, the Philippines, Singapore, Thailand, Taiwan, Vietnam and Brazil. The deal also rolls out ChatGPT for Business to Shopee's seller ecosystem for listing creation, marketing and customer-service automation, and includes a joint Codex Hackathon series — the first of which, in Singapore, drew over 1,200 applications.",
+                "whyItMatters": "Deepens Sea's AI pivot beyond its earlier Google tie-up and gives Shopee a new top-of-funnel distribution channel via ChatGPT just as it cuts developer headcount; execution on AI-driven monetization is now central to the bull case amid margin-compression concerns.",
+                "url": "https://technode.global/2026/06/22/sea-limited-openai-to-jointly-expand-ai-access-for-e-commerce-shopee-users-sellers/",
+                "source": "TNGlobal",
+                "publishedAt": "2026-06-22"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il Payout ratio (rapporto di distribuzione)",
+        "body": "Il payout ratio misura quanta parte degli utili un'azienda restituisce agli azionisti sotto forma di dividendi, invece di trattenerla per reinvestire. La formula in parole: dividendi totali pagati diviso utile netto (oppure dividendo per azione diviso EPS). Un payout basso significa che l'azienda reinveste molto (tipico delle aziende in crescita); uno alto significa che distribuisce quasi tutto (tipico delle aziende mature e stabili).",
+        "example": "Se un'azienda guadagna 100 milioni e ne paga 40 in dividendi, il payout ratio è 40%. Se invece ne paga 95, il payout è 95%: poco margine se gli utili calano, e il dividendo rischia di essere tagliato.",
+        "whyItMatters": "Un payout sopra il 100% (paga più di quanto guadagna) è un segnale d'allarme: quel dividendo non è sostenibile."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Il moat (il fossato competitivo)",
+        "body": "Il 'moat' è il vantaggio strutturale che protegge un'azienda dai concorrenti, come il fossato attorno a un castello. Non è 'fare un buon prodotto', ma qualcosa di difficile da copiare: effetti di rete, costi di switch alti, economie di scala, brevetti o un marchio fortissimo. Senza moat, qualunque margine attira concorrenti che lo erodono finché il profitto sparisce.",
+        "example": "WhatsApp ha un moat di rete: ci resti perché ci sono tutti i tuoi contatti, non perché l'app sia tecnicamente imbattibile. Un concorrente identico ma vuoto non ti serve a niente.",
+        "whyItMatters": "Gli investitori non pagano per la crescita di oggi, ma per la capacità di difenderla domani: il moat è ciò che rende durevole un profitto."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "L'effetto Doppler",
+        "body": "L'effetto Doppler è il cambiamento di frequenza di un'onda quando la sorgente e chi ascolta si muovono l'uno rispetto all'altro. Quando la sorgente si avvicina, le onde si 'comprimono' e la frequenza sale; quando si allontana, le onde si 'allungano' e la frequenza scende. Vale per il suono ma anche per la luce.",
+        "example": "La sirena di un'ambulanza: mentre ti viene incontro il suono è acuto, appena ti supera diventa più grave. Il suono non è cambiato: è il movimento che ha 'schiacciato' o 'stirato' le onde che ti arrivano.",
+        "whyItMatters": "Lo stesso effetto sulla luce (il 'redshift') ci dice che le galassie si allontanano: è la prova che l'universo si espande."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "La Grande Onda di Hokusai",
+        "body": "È la celebre stampa giapponese di Katsushika Hokusai (intorno al 1831), parte della serie 'Trentasei vedute del Monte Fuji'. Non è un dipinto ma una xilografia (ukiyo-e): l'immagine viene incisa su legno e stampata in serie, una matrice per ogni colore. Da guardare: l'onda gigantesca con gli artigli di schiuma che sta per inghiottire le barche, mentre il Monte Fuji resta minuscolo e immobile sullo sfondo.",
+        "example": "Quell'azzurro intenso è il 'blu di Prussia', un pigmento allora nuovo e importato; la composizione, con il vuoto e le diagonali, influenzò profondamente gli impressionisti europei come Monet e Van Gogh.",
+        "whyItMatters": "Mostra come un'arte 'popolare' e riproducibile in serie possa diventare un'icona globale e cambiare la pittura occidentale."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "La caduta di Costantinopoli e la corsa alle esplorazioni",
+        "body": "Nel 1453 gli Ottomani conquistano Costantinopoli, prendendo il controllo delle rotte terrestri che portavano le spezie e la seta dall'Asia all'Europa. Le spezie diventano più care e politicamente rischiose da comprare. Per aggirare l'ostacolo, Portogallo e Spagna finanziano la ricerca di una via marittima verso l'Oriente: i portoghesi circumnavigano l'Africa, Colombo punta a ovest e trova l'America.",
+        "example": "Colombo non cercava un nuovo continente: cercava una scorciatoia per le spezie delle Indie, perché la via di terra era ormai in mani ottomane.",
+        "whyItMatters": "Un blocco commerciale in un punto della mappa ha spostato il baricentro del mondo dall'Atlantico interno agli oceani, creando le rotte globali che usiamo ancora."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "Fai cose che non scalano (Paul Graham)",
+        "body": "Paul Graham, cofondatore di Y Combinator, sostiene che le startup all'inizio devono fare manualmente cose 'che non scalano': reclutare gli utenti a uno a uno, dare un servizio clienti esagerato, costruire a mano la prima esperienza. L'errore tipico è aspettare la crescita 'automatica' che non arriva, perché un prodotto nuovo non si diffonde da solo. Lo sforzo manuale iniziale serve a capire davvero cosa vogliono i primi clienti.",
+        "example": "Airbnb agli inizi andava di persona a fotografare gli appartamenti degli host a New York: insostenibile su milioni di case, ma decisivo per far decollare le prime prenotazioni e capire il prodotto.",
+        "whyItMatters": "All'inizio non stai cercando efficienza, stai cercando verità: solo il contatto diretto ti dice perché qualcuno usa (o no) il tuo prodotto."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Come funziona un transistor",
+        "body": "Il transistor è il mattone fondamentale di ogni chip: in pratica è un interruttore elettrico senza parti in movimento. Ha tre terminali: una piccola tensione applicata su uno (il 'gate') decide se la corrente può passare tra gli altri due. Acceso o spento, cioè 1 o 0: è così che i chip rappresentano e manipolano l'informazione.",
+        "example": "Pensa a un rubinetto: il gate è la manopola, e una pressione minima del dito apre o chiude un flusso d'acqua molto più grande. Un chip moderno ne contiene decine di miliardi, ciascuno largo pochi nanometri.",
+        "whyItMatters": "Tutta la potenza di calcolo — dal telefono all'AI — nasce dal mettere sempre più transistor, sempre più piccoli, sullo stesso pezzo di silicio."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "Il deload (la settimana di scarico)",
+        "body": "Il deload è una settimana programmata in cui riduci volontariamente carico e volume dell'allenamento (in genere del 40-60%), prima di rialzare. L'adattamento — diventare più forti e più veloci — non avviene durante lo sforzo ma durante il recupero: senza pause programmate, la fatica si accumula più in fretta della capacità di recuperare e finisci in stallo o infortunato. Non è pigrizia, è quando il corpo 'incassa' il lavoro fatto.",
+        "example": "Per HYROX: ogni 3-4 settimane di carico crescente, inseriscine una più leggera (meno serie, sled più morbidi, ripetute più corte). Spesso nelle 1-2 settimane dopo il deload arrivano i tuoi PB.",
+        "whyItMatters": "Programmare il riposo è parte dell'allenamento, non una sua interruzione: chi non scarica mai, prima o poi si ferma per forza."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Load Balancing: L4 vs L7, Algorithms, and Health Checks",
+        "readingTime": "~6 min",
+        "markdown": "# Load Balancing: L4 vs L7, Algorithms, and Health Checks\n\nIn Lesson 5 we saw how a single server eventually runs out of headroom and we **scale horizontally** — adding more identical nodes behind one address. But the moment you have *N* servers, a new question appears: *which* server should handle the next request? The component that answers this is the **load balancer (LB)**. It is the traffic director of every distributed system, and getting it right buys you scalability, availability, and graceful failure all at once.\n\n## What a load balancer actually does\n\nA load balancer sits between clients and a pool of **backends** (also called *upstreams* or a *server farm*). Clients connect to one stable endpoint — the LB's virtual IP — and the LB forwards each connection to a healthy backend.\n\n```mermaid\ngraph LR\n    C1[Client] --> LB{Load Balancer<br/>VIP: 203.0.113.5}\n    C2[Client] --> LB\n    C3[Client] --> LB\n    LB --> S1[Backend 1]\n    LB --> S2[Backend 2]\n    LB --> S3[Backend 3]\n    LB -. probes .-> S1\n    LB -. probes .-> S2\n    LB -. probes .-> S3\n```\n\nIt gives you three things: **distribution** (spread load so no node is overwhelmed), **availability** (route around dead nodes), and **abstraction** (clients never know how many servers exist, so you can add or remove them invisibly).\n\n## Layer 4 vs Layer 7\n\nThe single most important design choice is *how deep into the packet the LB looks*. This maps to the OSI layers from Lesson 4.\n\n**Layer 4 (transport) load balancing** operates on TCP/UDP. The LB sees IP addresses and ports — *not* the contents. It decides where to send a connection based only on the 5-tuple (source IP, source port, dest IP, dest port, protocol), then shuffles packets between client and backend, often without ever assembling the application payload. It cannot read a URL or an HTTP header because, at this layer, those are just opaque bytes inside the TCP stream.\n\n**Layer 7 (application) load balancing** terminates the connection and parses the application protocol — typically HTTP. Now the LB can route on *content*: path (`/api/*` → service A, `/images/*` → service B), `Host` header, cookies, or method. It usually terminates **TLS**, so it also becomes the natural place for certificate management and request inspection.\n\n| Dimension | **L4** | **L7** |\n|---|---|---|\n| Inspects | IP/port only | Full HTTP request |\n| Performance | Higher throughput, lower latency | More CPU per request |\n| Routing power | Connection-level | Content/path/header-based |\n| TLS | Pass-through | Usually terminates |\n| Examples | AWS NLB, IPVS | Nginx, HAProxy, AWS ALB, Envoy |\n\n> **Rule of thumb:** use L4 when you need raw speed and protocol-agnostic forwarding (databases, gRPC, raw TCP). Use L7 when routing decisions depend on *what* the request is asking for — which is most web traffic. Many production stacks use both: an L4 LB at the edge feeding an L7 LB fleet.\n\n## The balancing algorithms\n\nOnce the LB knows it *can* forward a request, it must pick *which* backend. The common policies:\n\n1. **Round-robin** — hand requests to backends in rotation: 1, 2, 3, 1, 2, 3… Simple and fair *when requests cost roughly the same*. Its weakness: it ignores how busy a backend already is. A slow request on server 2 doesn't stop the LB from piling more onto it.\n\n2. **Weighted round-robin** — assign weights so a beefier node gets proportionally more traffic (e.g., weights 3:1 send 75% to the bigger box). Useful in heterogeneous fleets.\n\n3. **Least-connections** — send the next request to the backend with the *fewest active connections*. This adapts to reality: if one node is bogged down with long-lived or slow requests, it naturally receives less new work. Generally the best default for variable-cost workloads.\n\n4. **Least response time** — like least-connections but also factors in measured latency. More responsive, slightly more bookkeeping.\n\n5. **Hashing (e.g., IP hash / consistent hashing)** — compute a hash of some key (client IP, a header, a cookie) and map it deterministically to a backend. This gives **session affinity** (\"sticky sessions\"): the same client lands on the same server every time, which matters if that server holds local session state or a warm cache. Naive modulo hashing — $\\text{backend} = h(\\text{key}) \\bmod N$ — remaps almost everything when *N* changes. **Consistent hashing** solves this so that adding or removing a node only reshuffles roughly $1/N$ of keys; we'll revisit it in the caching module.\n\n> **Trade-off:** stickiness helps cache hit rates and stateful servers, but it *unbalances* load (a few heavy clients can hammer one node) and complicates failover (when a sticky node dies, its sessions are lost). The cleaner long-term answer is to make backends **stateless** — push session state into a shared store — so any algorithm can route freely.\n\n## Health checks: taking a node out of rotation\n\nA load balancer is only as good as its picture of which backends are alive. It maintains this with **health checks** — periodic probes against each backend.\n\n- **Passive checks** observe real traffic: if a backend returns errors or times out repeatedly, mark it suspect.\n- **Active checks** send synthetic probes on an interval, e.g. `GET /healthz` every 2 seconds, expecting `200 OK` within a timeout.\n\nTo avoid flapping (a node bouncing in and out on a single blip), checks use **thresholds with hysteresis**:\n\n```mermaid\nstateDiagram-v2\n    [*] --> Healthy\n    Healthy --> Unhealthy: N consecutive<br/>failed probes\n    Unhealthy --> Healthy: M consecutive<br/>passed probes\n    Unhealthy --> Drained: stop new requests<br/>let in-flight finish\n```\n\nWhen a node crosses the unhealthy threshold, the LB **takes it out of rotation**: it stops sending *new* requests there while letting existing connections drain. The node is automatically returned once it passes enough consecutive checks again. This same mechanism enables zero-downtime deploys: mark a node unhealthy on purpose, drain it, update it, and let it rejoin.\n\nA good health endpoint is **shallow but meaningful** — it should confirm the app can serve requests (and maybe reach its critical dependency), without being so deep that one slow downstream marks the whole fleet dead and triggers a cascading outage.\n\n## Takeaways\n\n- A load balancer gives you **distribution, availability, and abstraction** behind one stable endpoint.\n- **L4** routes on IP/port (fast, protocol-agnostic); **L7** parses HTTP to route on path/header/cookie and usually terminates TLS.\n- **Round-robin** is simple; **least-connections** adapts to real load; **hashing** gives sticky sessions at the cost of even balancing.\n- Prefer **stateless backends** so you aren't forced into stickiness — and use **consistent hashing** when you do need stable key→node mapping.\n- **Health checks** with failure/recovery thresholds let the LB drain and re-add nodes automatically — the foundation of self-healing and zero-downtime deploys.",
+        "roadmapId": "sd-06"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Attention: Letting Each Token Look at the Others",
+        "readingTime": "~5 min",
+        "markdown": "# Attention: Letting Each Token Look at the Others\n\nIn Lesson 4 we turned tokens into **embeddings** — vectors that place each token somewhere in a high-dimensional meaning-space. But an embedding is *static*: the vector for the token **\"bank\"** is identical whether we're talking about a river or a savings account. Language doesn't work that way. Meaning lives in *context*. Today we build the single most important idea that lets a model use context: **attention**.\n\nWe'll stay with intuition and pictures. The matrices (Lesson 7) come next — but if you understand *why* attention exists and *what* it computes, the math will feel inevitable.\n\n## The problem attention solves\n\nConsider these two sentences:\n\n1. *The animal didn't cross the street because **it** was too tired.*\n2. *The animal didn't cross the street because **it** was too wide.*\n\nIn sentence 1, **\"it\"** refers to the *animal*. In sentence 2, **\"it\"** refers to the *street*. The word \"it\" is the same token both times, but its meaning depends entirely on the other words around it. A model that processes each token in isolation has no hope here.\n\n> **The core need:** every token must be able to *gather information from the other tokens* and update its own representation accordingly. Attention is the mechanism that does exactly this.\n\n## The intuition: a soft, weighted lookup\n\nImagine each token can ask a question and look around the sentence for answers. To resolve **\"it\"**, the token effectively asks: *\"Which earlier words am I about?\"* It scans the others, decides that \"animal\" (or \"street\") is highly relevant, and pulls meaning from it.\n\nCrucially, this is not an all-or-nothing pointer. Attention is **soft**: instead of picking one word, a token blends information from *all* tokens, weighted by how relevant each one is.\n\nA useful analogy is a **dictionary lookup**, but blurry:\n\n- You have a **query** — what you're looking for.\n- Every item has a **key** — a label saying what it offers.\n- Every item also has a **value** — the actual content you'd retrieve.\n\nA normal dictionary returns the *one* value whose key matches your query exactly. Attention instead compares your query against *every* key, turns those comparisons into **weights** (how well each key matches), and returns a **weighted average of all the values**. Good matches contribute a lot; poor matches contribute a little.\n\nThat's the whole idea: **query–key matching produces weights; weights mix the values.**\n\n## A worked picture\n\nLet's trace what happens for the token **\"it\"** in sentence 1. Each token produces a query, a key, and a value (for now, just think of these as three different \"views\" of the token's embedding). The query for \"it\" is compared to every key:\n\n```mermaid\ngraph LR\n    Q[\"query: 'it'<br/>(what am I about?)\"]\n    K1[\"key: 'animal'\"]\n    K2[\"key: 'street'\"]\n    K3[\"key: 'tired'\"]\n    Q -->|0.70| K1\n    Q -->|0.10| K2\n    Q -->|0.05| K3\n    K1 --> OUT[\"new vector for 'it'<br/>= weighted mix of values<br/>(mostly 'animal')\"]\n    K2 --> OUT\n    K3 --> OUT\n```\n\nThe comparison scores (here 0.70, 0.10, 0.05, …) are the **attention weights**. They are positive and sum to 1 across all tokens — so they form a *probability-like distribution* over the sentence. The new representation of \"it\" becomes mostly the *value* of \"animal\", with small contributions from the rest. The token has now **absorbed its context**: its vector is no longer the generic \"it\" — it's \"it, meaning the animal.\"\n\n## Why this is powerful\n\n- **Context-dependent meaning.** The same token gets a *different* output vector depending on its neighbours. \"Bank\" near \"river\" attends differently than \"bank\" near \"money.\"\n- **Long-range connections in one step.** \"It\" can attend directly to a word seven positions back. There's no chain of message-passing to traverse — every token can reach every other token *directly*. This is what older recurrent models struggled with.\n- **Learned, not hand-coded.** The model isn't told that pronouns point to nouns. It *learns* to produce queries and keys such that the right matches light up, purely from predicting the next token over huge amounts of text (Lesson 3).\n\n## Scoring relevance\n\nHow do we measure \"how well does this query match that key\"? Both are vectors, so we use the **dot product** — large when two vectors point the same way, small or negative when they don't. For a query $\\mathbf{q}$ and key $\\mathbf{k}$:\n\n$$\\text{score} = \\mathbf{q} \\cdot \\mathbf{k} = \\sum_{i} q_i\\, k_i$$\n\nThese raw scores are then passed through a **softmax** to turn them into the positive, sum-to-one weights we saw above:\n\n$$w_j = \\frac{e^{\\text{score}_j}}{\\sum_{m} e^{\\text{score}_m}}$$\n\nwhere $w_j$ is the attention weight on token $j$. The final output for our token is simply the values $\\mathbf{v}_j$ blended by those weights:\n\n$$\\text{output} = \\sum_{j} w_j\\, \\mathbf{v}_j$$\n\nDon't worry about *where* $\\mathbf{q}$, $\\mathbf{k}$, $\\mathbf{v}$ come from — that's the matrix machinery of the next lesson. The point today: **scores → softmax → weighted sum of values.** That three-step move is attention.\n\n## A note on direction\n\nIn the models that generate text, a token is only allowed to attend to tokens *before* it (and itself) — never the future. This **causal masking** keeps the model honest when predicting the next word. We'll make this precise later; for now just hold the image: when computing \"it,\" the model looks *backward* over the sentence so far.\n\n## Takeaways\n\n- Static embeddings can't capture context; **attention** lets each token gather information from the others to refine its own meaning.\n- The mechanism is a **soft lookup**: a token's **query** is compared against every **key**, and the resulting weights mix the **values**.\n- Relevance is scored with a **dot product**, normalized by **softmax** into weights that are positive and sum to 1.\n- The output of attention for a token is a **weighted average of all tokens' values** — heavily weighted toward the most relevant ones.\n- Attention connects any two tokens **directly**, regardless of distance — its key advantage over older sequential models.\n- In generative models, attention is **causal**: a token attends only to earlier tokens, never the future.",
+        "roadmapId": "ai-06"
+      }
+    }
+  ]
+}
