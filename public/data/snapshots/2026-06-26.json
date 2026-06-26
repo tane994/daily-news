@@ -1,0 +1,426 @@
+{
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T05:10:17.982Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "ByteDance pushed its Doubao Seed 2.1 Pro into the global frontier tier while OpenAI revealed its first custom silicon and Google fused NotebookLM into Gemini.",
+      "items": [
+        {
+          "headline": "ByteDance's Doubao Seed 2.1 Pro tops Terminal Bench 2.1, SWE-Pro and OSWorld, beating Claude Opus 4.6 at ~80% lower cost",
+          "brief": "At its FORCE conference, ByteDance's Volcano Engine said Doubao 2.1 Pro has crossed the 'production-level capability threshold,' leading code benchmarks Terminal Bench 2.1, SWE-Pro and SciCode and agent/multimodal tests OSWorld, MobileWorld and MMMU-Pro. The model is priced at 6 yuan per million input tokens and 30 yuan output, with a Turbo variant at half that, putting total cost of ownership nearly 80% below Claude Opus 4.6. Doubao's family now handles more than 180 trillion daily token calls, over tenfold growth in a year.",
+          "whyItMatters": "A Chinese model matching GPT-5.5-class rivals on coding and agentic tasks at a fraction of the price keeps compressing the frontier-model moat to weeks.",
+          "url": "https://dataconomy.com/2026/06/24/bytedance-launches-doubao-2-1-pro-language-model/",
+          "source": "Dataconomy",
+          "publishedAt": "2026-06-24",
+          "featured": true
+        },
+        {
+          "headline": "OpenAI and Broadcom unveil Jalapeño, OpenAI's first custom inference chip, designed-to-tape-out in nine months",
+          "brief": "OpenAI revealed Jalapeño, a reticle-sized inference ASIC co-designed with Broadcom and Celestica and architected around OpenAI's own LLM-serving roadmap. The company says early testing shows performance-per-watt 'substantially better' than current state-of-the-art and that the design-to-tape-out cycle of roughly nine months may be the fastest ever for a high-performance chip. Jalapeño is the first of a multi-generation platform slated for initial deployment by the end of 2026.",
+          "whyItMatters": "Owning the inference silicon lets OpenAI tune chip, kernels and models together — the same full-stack play that gave Google's TPUs an efficiency edge.",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-24"
+        },
+        {
+          "headline": "Google adds Notebooks to the Gemini app, syncing chats and files with NotebookLM",
+          "brief": "Google introduced Notebooks in Gemini, letting users organize chats and projects, attach PDFs and documents for context, and give custom instructions, with everything syncing to NotebookLM as a research partner. Features unique to each app — like NotebookLM's Video Overviews and Infographics — remain accessible even from a notebook started in Gemini. It is rolling out this week on the web for Google AI Ultra, Pro and Plus subscribers, with mobile, more European countries and free users to follow.",
+          "whyItMatters": "It turns Gemini from a chat box into a persistent project workspace, directly challenging how people use ChatGPT Projects and standalone research tools.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+          "source": "Google (The Keyword)",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "headline": "Xiaomi's HarnessX rewrites an agent's own scaffolding mid-task, lifting Qwen3.5-9B by 44% on planning",
+          "brief": "Xiaomi researchers introduced HarnessX, a 'harness foundry' that treats the code wrapping an LLM as a composable, evolvable object and autonomously edits it during a task via a trace-driven engine called AEGIS. Across five benchmarks (ALFWorld, GAIA, WebShop, tau³-Bench and SWE-bench Verified) it delivered an average +14.5% gain over 15 model-benchmark combinations, with the open-weight Qwen3.5-9B jumping +44.0% on embodied planning. Gains were largest where baselines were weakest, meaning smaller models benefited most.",
+          "whyItMatters": "It's fresh evidence that improving the scaffolding around a model can beat scaling the model itself — a cheaper path to capability for teams without frontier budgets.",
+          "url": "https://venturebeat.com/orchestration/xiaomis-harnessx-rewrites-its-own-ai-scaffolding-mid-task-and-smaller-models-gain-the-most",
+          "source": "VentureBeat"
+        },
+        {
+          "headline": "OpenAI turns ChatGPT into a career platform with live job listings and a resume editor",
+          "brief": "OpenAI rolled out job-search and resume tools inside ChatGPT that pull live roles and freelance gigs from Indeed, Upwork, Appcast and the web, match them to a user's background, and let them build, tailor and download a formatted resume in one conversation. The job search launches US-only across Free, Go, Plus and Pro tiers, while the resume builder is available worldwide in English on the web. The update lands alongside a refreshed GPT-5.5 Instant tuned for better multi-turn context and instruction-following.",
+          "whyItMatters": "Embedding hiring workflows pushes ChatGPT onto LinkedIn and Indeed's turf, deepening the assistant into high-intent commercial tasks.",
+          "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
+          "source": "The Decoder",
+          "publishedAt": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "IBM headlined the day by unveiling the world's first sub-1-nanometer chip, while Notion announced it will retire its email app as AI agents take over and Lithic teamed with Mastercard on real-time wallet-fraud defenses.",
+      "items": [
+        {
+          "headline": "IBM unveils first sub-1nm chip, fitting nearly 100 billion transistors at the 0.7nm node",
+          "brief": "IBM demonstrated what it calls the world's first sub-1-nanometer chip technology, built at the 0.7nm (7-angstrom) node using a 3D 'nanostack' architecture that vertically stacks and staggers transistors to pack nearly 100 billion onto a fingernail-sized chip — roughly double the density of its 2021 2nm chip. Working with ASML, Lam Research, Tokyo Electron and SCREEN, IBM says the design delivers up to 50% more performance or 70% better energy efficiency than 2nm, though it frames this as a research demonstration with production about five years away.",
+          "whyItMatters": "It keeps Moore's Law alive for another decade and points to far more efficient silicon for power-hungry AI workloads.",
+          "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+          "source": "MIT Technology Review",
+          "publishedAt": "2026-06-25",
+          "featured": true
+        },
+        {
+          "headline": "Notion will shut down Notion Mail on Sept. 22 as AI agents take over the inbox",
+          "brief": "Notion said it will discontinue Notion Mail — the Gmail-syncing email client it built after acquiring Skiff and opened to the public in April 2025 — on September 22, 2026, because more than half of its users now let Notion's AI agents manage email without ever opening the inbox. Actual messages stay in Gmail, but users must export drafts, scheduled emails, custom views and AI labels before the cutoff or they will be permanently deleted; agents that connect through Gmail will keep working.",
+          "whyItMatters": "It is a rare case of a company killing its own standalone product because its agents made the human-facing interface unnecessary.",
+          "url": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        },
+        {
+          "headline": "Lithic and Mastercard launch tool letting card issuers block digital-wallet fraud in milliseconds",
+          "brief": "Card-issuing platform Lithic partnered with Mastercard to roll out Client Tokenization Decisioning, which lets banks and fintechs feed their own device history, behavioral patterns and customer context into Mastercard's risk checks to approve or block digital-wallet provisioning in real time. The capability was first built with digital bank Mercury, which processes over $250 billion in annual payment volume, and targets fraud that lands on issuers as undisputable 'card-present' losses.",
+          "whyItMatters": "It closes a blind spot where wallet-provisioning fraud has been near-impossible for the issuing bank to stop or dispute.",
+          "url": "https://www.techcompanynews.com/latest-tech-news-june-25-2026/",
+          "source": "Tech Company News",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "OpenAI's reported move to push its IPO to 2027 set the tone as AI-driven costs rippled through markets, from Apple's price hikes to Micron's blowout memory earnings.",
+      "items": [
+        {
+          "headline": "OpenAI leans toward delaying its IPO to 2027 as tech-stock volatility spooks its bankers",
+          "brief": "Per a New York Times report, OpenAI is now leaning toward waiting until 2027 to go public, after advisers warned that recent turbulence in tech stocks and in SpaceX shares post-IPO could sap retail demand. The company filed a confidential S-1 with the SEC on June 8, but CEO Sam Altman has reportedly told advisers that anything short of a $1 trillion valuation is a 'non-starter.'",
+          "whyItMatters": "A slip to 2027 would defer what could be the largest tech listing ever and signals that the AI IPO window is tightening as valuations wobble.",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-25/openai-leans-toward-waiting-until-2027-for-ipo-ny-times-says",
+          "source": "Bloomberg",
+          "publishedAt": "2026-06-25",
+          "featured": true
+        },
+        {
+          "headline": "Micron jumps ~15% after Q3 revenue hits $41.5B and it guides to a record ~$50B next quarter",
+          "brief": "Micron reported fiscal Q3 revenue of $41.46 billion — up from $9.3 billion a year earlier and well above the ~$35.8 billion consensus — with EPS of $25.11 versus $20.20 expected. It guided to roughly $50 billion in current-quarter revenue and disclosed 16 long-term supply agreements with data-center and automaker customers, sending shares up about 15% after hours.",
+          "whyItMatters": "The blowout validates the AI memory trade and lifted peers Sandisk, Western Digital and Applied Materials even as megacap tech sold off.",
+          "url": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html",
+          "source": "CNBC",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        },
+        {
+          "headline": "Apple and Microsoft hike Mac, iPad and Xbox prices by up to $300, blaming a chip-cost surge",
+          "brief": "Apple raised prices on its MacBook Air (+$200 to $1,299), MacBook Pro (+$300 to $1,999) and iPad Air (+$150 to $749), while Microsoft will lift Xbox console prices by $100 to $150 starting August 1. Both cited soaring memory and storage costs driven by AI data-center demand; Apple shares fell about 5.6% and Microsoft roughly 3.8% on the news.",
+          "whyItMatters": "It's the first time the AI chip crunch is hitting consumer hardware sticker prices, and Apple hinted iPhone increases could follow.",
+          "url": "https://www.cbsnews.com/news/apple-price-hikes-macbook-ipad-2026/",
+          "source": "CBS News",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        },
+        {
+          "headline": "Germany's Merck KGaA to buy Bio-Techne for $11.3B, its biggest deal since 2015",
+          "brief": "Merck KGaA agreed to acquire US life-sciences firm Bio-Techne for $73 per share in cash, an enterprise value of about $11.3 billion (€9.9 billion) and a 36% premium to its one-month average price. Funded with cash and new debt, it is Merck's largest acquisition since its 2015 Sigma-Aldrich buy and is expected to close by late 2026 or early 2027.",
+          "whyItMatters": "The all-cash deal deepens Merck's reagents and research-tools franchise and ranks among the year's largest life-sciences takeovers.",
+          "url": "https://www.fiercepharma.com/pharma/merck-kgaa-throws-down-113b-bio-techne-biggest-deal-2015-sigma-aldrich-buy",
+          "source": "Fierce Pharma",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        },
+        {
+          "headline": "Assort Health raises $120M Series C led by Menlo Ventures and Lightspeed",
+          "brief": "Healthcare AI startup Assort Health closed a $120 million Series C from Menlo Ventures, Lightspeed Venture Partners, Felicis, First Round Capital and others, including Joe Montana's Liquid 2 backing, bringing total funding past $222 million. The company builds AI agents that handle patient calls and scheduling for medical practices.",
+          "whyItMatters": "It underscores investors' continued appetite for vertical AI in healthcare even as broader tech valuations come under pressure.",
+          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/",
+          "source": "Tech Startups",
+          "publishedAt": "2026-06-24",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Boxing's biggest domino fell as Tyson Fury vs. Anthony Joshua was signed for November on Netflix, while Errol Spence's long-awaited return against Tim Tszyu and Katie Taylor's Croke Park farewell headline a loaded road ahead.",
+      "items": [
+        {
+          "headline": "Fury vs. Joshua signed for November on Netflix; Fury books Aug. 1 Dublin tune-up first",
+          "brief": "Tyson Fury and Anthony Joshua have agreed terms for their all-British heavyweight superfight in November 2026, with Netflix holding broadcast rights and Turki Alalshikh declaring 'it's signed' — Wembley Stadium the frontrunner over Saudi Arabia. Fury will first return Aug. 1 in Dublin against an unnamed heavyweight, while Joshua tunes up July 25 vs. Kristian Prenga in Riyadh.",
+          "whyItMatters": "The most lucrative fight in British boxing history is finally locked in, with both men needing to win summer stay-busy bouts to reach it.",
+          "url": "https://www.boxinginsider.com/headlines/fury-vs-joshua-set-for-q4-2026-on-netflix-ring-magazine-reports/",
+          "source": "BoxingInsider",
+          "featured": true
+        },
+        {
+          "headline": "Errol Spence Jr. returns from 3-year layoff vs. Tim Tszyu at 154, July 25 in Sydney",
+          "brief": "Former unified welterweight king Errol Spence Jr. (28-1, 22 KOs) and ex-champion Tim Tszyu (27-3, 18 KOs) came face-to-face at a press conference to confirm their super welterweight showdown for Saturday, July 25 (Sunday July 26 local) at Afterpay Arena in Sydney Olympic Park, on PBC pay-per-view via Prime Video. It's Spence's first fight since his 2023 stoppage loss to Terence Crawford.",
+          "whyItMatters": "A win throws either all-action star straight back into the 154-pound world title picture.",
+          "url": "https://www.premierboxingchampions.com/news/truth-back-spence-vs-tszyu-set-july-25",
+          "source": "Premier Boxing Champions"
+        },
+        {
+          "headline": "Katie Taylor to end career vs. Flora Pili in undisputed 140 farewell, Sept. 5 at Croke Park",
+          "brief": "Undisputed super-lightweight champion Katie Taylor (IBF/WBA/WBO) will retire after defending against unbeaten French mandatory Flora Pili (12-0) on Saturday, Sept. 5 at Croke Park in Dublin, live worldwide on DAZN. The 80,000-capacity GAA venue hasn't hosted boxing since Muhammad Ali in 1972, and Taylor, 39, bids to remain a three-time undisputed champion on home soil.",
+          "whyItMatters": "A historic homecoming send-off for Ireland's most decorated boxer, with the now-vacant WBC belt also in the mix.",
+          "url": "https://www.skysports.com/boxing/news/12183/13550808/katie-taylor-to-face-flora-pili-in-farewell-fight-at-croke-park-in-dublin-on-september-5",
+          "source": "Sky Sports",
+          "publishedAt": "2026-06-05"
+        },
+        {
+          "headline": "Moses Itauma vs. Filip Hrgovic set for Aug. 29 at London's O2 — heavyweight step-up",
+          "brief": "Unbeaten 21-year-old heavyweight prospect Moses Itauma will take the toughest test of his career against Croatia's Filip Hrgovic (20-1) on Saturday, Aug. 29 at the O2 Arena in London, shown on DAZN pay-per-view. Hrgovic's lone loss came to Daniel Dubois in June 2024.",
+          "whyItMatters": "A genuine gatekeeper bout that could fast-track Itauma toward a late-2026 world title shot — or expose him early.",
+          "url": "https://www.skysports.com/boxing/news/12183/13555242/moses-itauma-to-fight-filip-hrgovic-in-high-risk-heavyweight-bout-in-august-as-british-boxer-puts-unbeaten-record-on-line",
+          "source": "Sky Sports"
+        },
+        {
+          "headline": "Oscar Collazo blasts out Neider Valdez in Round 2, eyes 112-pound title next",
+          "brief": "Puerto Rico's Oscar Collazo (15-0, 12 KOs) dropped late-replacement Neider Valdez three times for a second-round stoppage (2:35) to claim the WBO International flyweight title on June 20 at Frontwave Arena in Oceanside, California. Valdez stepped in after Joey Canoy withdrew over visa issues.",
+          "whyItMatters": "Collazo, already a unified 105-pound champ, signaled he now wants a full world title at flyweight.",
+          "url": "https://www.fightmag.com/boxing-oscar-collazo-vs-neider-valdez-live-results/",
+          "source": "FIGHTMAG",
+          "publishedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The UFC's middleweight picture reshuffles as two former champions, Dricus du Plessis and Kamaru Usman, are booked to headline Oklahoma City on July 18, while fresh light heavyweight and flyweight contenders emerge for the title hunt.",
+      "items": [
+        {
+          "headline": "Dricus du Plessis vs. Kamaru Usman booked at middleweight for UFC Oklahoma City on July 18",
+          "brief": "The UFC has set former middleweight champ Dricus du Plessis (23-3) against ex-welterweight king Kamaru Usman (21-4) to headline UFC Fight Night at the Paycom Center in Oklahoma City on July 18. Usman, 39, is moving up to 185 pounds after the promotion declined to grant him a welterweight title shot against Islam Makhachev, while du Plessis is rebuilding after losing his belt to Khamzat Chimaev last August.",
+          "whyItMatters": "A win vaults either former champion back into the middleweight title conversation against Chimaev.",
+          "url": "https://www.espn.com/mma/story/_/id/49131516/usman-moving-middleweight-face-du-plessis-july-18",
+          "source": "ESPN",
+          "publishedAt": "2026-06-20T22:32:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Magomed Ankalaev returns vs. Khalil Rountree Jr. at light heavyweight in UFC Abu Dhabi on July 25",
+          "brief": "Former light heavyweight champion Magomed Ankalaev (21-2-1) is booked to face former title challenger Khalil Rountree Jr. atop UFC Fight Night at Etihad Arena in Abu Dhabi on July 25. It is Ankalaev's first bout since losing the 205-pound belt to Alex Pereira at UFC 320 last October, while Rountree is coming off a main-event decision win over Jamahal Hill.",
+          "whyItMatters": "The winner positions himself for a light heavyweight title shot as the division resets behind Pereira's reign.",
+          "url": "https://www.ufc.com/news/magomed-ankalaev-takes-khalil-rountree-jr-light-heavyweight-battle-abu-dhabi-july-25",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-25T00:00:00Z"
+        },
+        {
+          "headline": "Manel Kape TKOs Kyoji Horiguchi in Round 3, calls for flyweight title shot",
+          "brief": "Manel Kape rallied from an early deficit to stop Kyoji Horiguchi via third-round TKO (2:42) in the flyweight main event of UFC Fight Night at the UFC Apex in Las Vegas on June 20. It was Kape's fourth straight finish, evening his series with Horiguchi and putting him atop the 125-pound contender list, after which he openly demanded a championship opportunity.",
+          "whyItMatters": "Kape's statement win makes him the clear next challenger in the UFC flyweight division.",
+          "url": "https://www.cbssports.com/ufc/news/ufc-fight-night-results-manel-kape-kyoji-horiguchi-live-updates-highlights-analysis/live/",
+          "source": "CBS Sports",
+          "publishedAt": "2026-06-21T04:00:00Z"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "18.63",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-25",
+      "source": "CBOE",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.00",
+      "reference": "media ~17",
+      "asOf": "2026-06-25",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "TSMC raises prices 5–10% across all advanced nodes, hitting Nvidia, Apple, AMD and Qualcomm",
+                "brief": "Taiwan Semiconductor has begun notifying customers of wafer-foundry price increases of roughly 5% to 10% across all leading-edge nodes (7nm and below — N7, N5, N4, N3 and the upcoming N2/A16), which account for about 75% of its revenue. An average 5% hike could lift full-year gross margin by 2 percentage points or more; the increases are already rolling out as TSMC builds nine fab/packaging phases in 2026 and projects ~70% CAGR for 2nm/A16 output through 2028. U.S.-listed TSM shares rose about 1.4% overnight on the reports.",
+                "whyItMatters": "TSMC's pricing power confirms AI/HPC capacity is sold out for years and flows straight to margins — but raises chip costs for its largest customers.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/tsm-stock-jumps-overnight-reports-052844936.html",
+                "source": "Yahoo Finance",
+                "publishedAt": "2026-06-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Google delays Gemini 3.5 Pro to July as researcher exodus to Anthropic and OpenAI wipes $225B off Alphabet",
+                "brief": "Google has pushed the general availability of Gemini 3.5 Pro from June to July 2026, saying it needs more time to incorporate early enterprise feedback and real-world testing. The slip lands amid a wave of senior departures from Google DeepMind — Gemini co-lead Noam Shazeer plus researchers Jonas Adler and Alexander Pritzel heading to OpenAI and Anthropic, on top of the previously reported exit of Nobel laureate John Jumper. Alphabet shares fell about 5% on June 22, erasing roughly $225 billion in market value.",
+                "whyItMatters": "A frontier-model delay paired with visible talent loss feeds investor doubts about whether Google can keep pace with Anthropic and OpenAI ahead of the new July launch window.",
+                "url": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/",
+                "source": "Crypto Briefing",
+                "publishedAt": "2026-06-25"
+              },
+              {
+                "headline": "Amazon Prime Day opens at a record $8.3B in U.S. e-commerce, with Adobe forecasting $26.3B over the four-day event",
+                "brief": "U.S. shoppers spent a record $8.3 billion across all retailers on the first day of Amazon's four-day Prime Day (June 23–26), per Bloomberg, beating Adobe's $7.9 billion projection and up 5.3% year over year — the largest e-commerce day of 2026 so far. Adobe Analytics projects $26.3 billion in total online spending over the full event, a 9% gain on 2025 and more than Black Friday and Cyber Monday 2025 combined.",
+                "whyItMatters": "Prime Day is a key read on consumer demand and Amazon's retail momentum heading into its Q2 results; a record start supports the top line and advertising pull-through.",
+                "url": "https://chainstoreage.com/adobe-amazon-prime-day-spend-grows-5-83-billion-first-day",
+                "source": "Chain Store Age",
+                "publishedAt": "2026-06-24"
+              },
+              {
+                "headline": "Alphabet to join the Dow Jones Industrial Average on June 29, replacing Verizon",
+                "brief": "S&P Dow Jones Indices announced that Alphabet will replace Verizon Communications in the 30-stock Dow before the open on June 29, 2026 — the index's first change since November 2024. Alphabet is expected to account for roughly 4% of the price-weighted index, ranking among its ten largest constituents and joining tech peers Nvidia, Amazon, Apple and Microsoft.",
+                "whyItMatters": "Dow inclusion forces index-tracking funds to buy GOOGL and raises Alphabet's weight in a widely benchmarked gauge, a structural source of demand for the shares.",
+                "url": "https://www.cnbc.com/2026/06/23/alphabet-verizon-dow-djia.html",
+                "source": "CNBC",
+                "publishedAt": "2026-06-23"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il P/B ratio (prezzo / valore contabile)",
+        "body": "Il P/B confronta il prezzo di un'azione con il suo valore contabile per azione, cioè il patrimonio netto (attività meno debiti) diviso il numero di azioni. In pratica dice quanto paghi per ogni euro di patrimonio 'di libro' della società. Un P/B sotto 1 significa che il mercato valuta l'azienda meno del suo patrimonio contabile: può essere un'occasione, o un segnale che il mercato si aspetta perdite o asset gonfiati. È più utile per banche e società con molti asset tangibili che per aziende tech, dove il valore vero è negli intangibili (marchio, software) che il libro non cattura.",
+        "example": "Patrimonio netto 1 mld €, 100 mln di azioni → valore contabile 10 €/azione. Se l'azione quota 15 €, il P/B è 1,5: paghi 1,5 € per ogni euro di patrimonio.",
+        "whyItMatters": "Ti dice quanto del prezzo è 'sostanza' contabile e quanto sono aspettative — fondamentale per non confondere a buon mercato con scadente."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Vesting e cliff",
+        "body": "Il vesting è il meccanismo per cui le azioni (di founder o dipendenti) non sono tutte tue subito, ma si 'maturano' nel tempo restando in azienda — lo standard è 4 anni. Il cliff è la soglia iniziale, di solito 1 anno: se te ne vai prima, non porti via nulla; al compimento del primo anno scatta in blocco il 25%, poi il resto matura mese per mese. Serve a proteggere l'azienda e gli altri soci: evita che qualcuno prenda una grossa fetta di equity e sparisca dopo pochi mesi.",
+        "example": "Un cofondatore con 40.000 azioni in vesting 4 anni / cliff 1 anno: se lascia dopo 6 mesi prende 0; se lascia dopo 18 mesi ha maturato circa 15.000 azioni (25% al cliff + 6 mesi).",
+        "whyItMatters": "È ciò che lega chi crea valore all'azienda nel tempo, e il primo dettaglio che un investitore controlla nella cap table."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "L'inerzia (la prima legge di Newton)",
+        "body": "L'inerzia è la tendenza di ogni oggetto a continuare a fare ciò che sta già facendo: se è fermo resta fermo, se si muove continua dritto alla stessa velocità, finché qualcosa non lo spinge o lo frena. Non è una 'forza': è proprio l'assenza di forze a lasciare le cose come sono. Più un oggetto è pesante (più massa ha), più è 'pigro', cioè più forza serve per cambiarne il moto.",
+        "example": "In auto, una frenata brusca ti spinge in avanti: non è una forza misteriosa, è il tuo corpo che vuole continuare a muoversi mentre l'auto rallenta. La cintura è la forza che ti ferma.",
+        "whyItMatters": "Spiega perché serve sempre una causa per cambiare il movimento — il mattone su cui poggia tutta la meccanica."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "L'action painting di Jackson Pollock",
+        "body": "Negli anni '40-'50 Pollock smise di dipingere col cavalletto e mise la tela enorme per terra, facendo colare e schizzare il colore camminandoci intorno (la tecnica del 'dripping'). Il quadro non rappresenta più qualcosa: registra il gesto, il movimento del corpo dell'artista nello spazio e nel tempo. Da guardare non è 'cosa raffigura', ma il ritmo, la densità degli intrecci e l'energia congelata di ogni schizzo. È il cuore dell'Espressionismo astratto americano, che spostò il centro dell'arte da Parigi a New York.",
+        "example": "In 'Number 1, 1950 (Lavender Mist)' non c'è un soggetto: solo strati di gocce e fili di colore che, da vicino, sembrano caos e, a distanza, diventano una trama vibrante e quasi musicale.",
+        "whyItMatters": "Cambiò l'idea stessa di quadro: non un'immagine, ma la traccia fisica di un'azione."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Il telegrafo e la nascita dell'informazione in tempo reale",
+        "body": "Fino all'Ottocento un'informazione viaggiava alla velocità di un cavallo o di una nave: un prezzo o una notizia da Londra arrivava a New York dopo settimane. Col telegrafo elettrico (anni 1840) e soprattutto col cavo transatlantico (1866), per la prima volta il messaggio si separò dal trasporto fisico e diventò quasi istantaneo. Nacquero le agenzie di stampa come Reuters, i mercati finanziari iniziarono a sincronizzarsi tra continenti e la differenza di prezzo tra una piazza e l'altra crollò.",
+        "example": "Prima del cavo, gli speculatori guadagnavano sul ritardo: chi sapeva prima un prezzo europeo arbitraggiava a New York. Col telegrafo quel vantaggio sparì in pochi minuti.",
+        "whyItMatters": "È l'inizio del mondo in cui viviamo: notizie e mercati globali in tempo reale, da Internet ai prezzi che si muovono in un istante."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "I punti di leva in un sistema (Donella Meadows)",
+        "body": "Meadows, pioniera del pensiero sistemico, osservò che in ogni sistema complesso esistono 'punti di leva': luoghi dove un piccolo intervento produce un grande cambiamento. Il punto è che le leve più ovvie — cambiare un numero, alzare un budget — sono le più deboli, mentre le più potenti sono le meno intuitive: le regole del sistema, il flusso di informazioni e, sopra tutto, il paradigma, cioè le convinzioni di fondo da cui il sistema nasce. La gente di solito spinge forte sulle leve sbagliate, e nella direzione sbagliata.",
+        "example": "Per ridurre il traffico, allargare le strade (leva debole) spesso peggiora le cose; cambiare le informazioni e gli incentivi — pedaggi dinamici, prezzi del parcheggio visibili — sposta davvero il comportamento.",
+        "whyItMatters": "Ti insegna a chiederti dove premere, non solo quanto: la differenza tra agitarsi e cambiare un sistema."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Come funziona la memoria flash NAND (gli SSD)",
+        "body": "Un SSD o una chiavetta USB conservano i dati senza corrente perché ogni bit è una minuscola 'gabbia' (floating gate) che intrappola degli elettroni: gabbia carica o scarica = 1 o 0. Per scrivere o cancellare si spingono gli elettroni dentro o fuori con una tensione; finché restano intrappolati, l'informazione rimane anche a dispositivo spento. Poiché far stare le celle una accanto all'altra ha un limite fisico, oggi si impilano in verticale a centinaia di strati (3D NAND) per aumentare la capacità senza occupare più spazio.",
+        "example": "Una cella che memorizza più livelli di carica (non solo 'pieno/vuoto' ma 4 o 8 sfumature) immagazzina 2-3 bit ciascuna: così un singolo chip arriva a terabyte, al prezzo di un po' di durata in meno.",
+        "whyItMatters": "È perché i nostri dati sono diventati istantanei e portatili — e perché gli SSD si 'consumano' con le scritture."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "La creatina monoidrato",
+        "body": "La creatina è uno degli integratori più studiati e sicuri: aiuta i muscoli a rigenerare l'ATP, la 'benzina' degli sforzi brevi e intensi. In pratica ti dà qualche ripetizione o qualche secondo in più di potenza negli scatti, nei sled push, nelle salite e nel lavoro di forza — proprio il tipo di sforzi che riempiono una gara HYROX. Trattiene anche un po' d'acqua dentro i muscoli (effetto normale, non grasso) e ci sono prove crescenti di benefici cognitivi e nel recupero.",
+        "example": "Così lo applichi: 3-5 g al giorno di creatina monoidrato, tutti i giorni, all'ora che preferisci. Non serve 'caricare' né ciclare; conta la costanza, non il timing. Bevi a sufficienza nelle prime settimane.",
+        "whyItMatters": "È il guadagno di forza e potenza col miglior rapporto evidenza/costo/sicurezza che esista per chi si allena."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "I Reflexivverben: quando l'azione torna sul soggetto",
+        "readingTime": "~5 min",
+        "markdown": "# I Reflexivverben: quando l'azione torna sul soggetto\n\nAbbiamo appena visto i verbi con preposizione fissa. Restiamo nel territorio dei verbi che pretendono una costruzione precisa e affrontiamo i **Reflexivverben** (*verbi riflessivi*). In tedesco sono molto più frequenti che in italiano e — sorpresa — il pronome riflessivo non è sempre all'accusativo: può stare anche al **Dativ**. Capire *quando* è la chiave di tutta la lezione.\n\n## Il pronome riflessivo: due colonne, non una\n\nIn italiano il riflessivo è quasi sempre invariabile nella forma (*mi, ti, si, ci, vi, si*). In tedesco il pronome cambia secondo il **caso**. La forma speciale **sich** esiste solo per la 3ª persona (singolare e plurale) e per il *Sie* di cortesia; per il resto si riusano i normali pronomi personali.\n\n| Persona | Akkusativ | Dativ |\n|---|---|---|\n| ich | **mich** | **mir** |\n| du | **dich** | **dir** |\n| er/sie/es | **sich** | **sich** |\n| wir | **uns** | **uns** |\n| ihr | **euch** | **euch** |\n| sie / Sie | **sich** | **sich** |\n\n> Nota bene: le forme divergono **solo** alla 1ª e 2ª persona singolare (*mich/mir*, *dich/dir*). È lì che si gioca tutta la difficoltà — e tutti gli errori.\n\n## Riflessivo all'Akkusativ: il caso normale\n\nQuando il verbo ha **un solo complemento** e questo è il riflessivo stesso, il pronome va all'**accusativo**. L'azione ricade direttamente sul soggetto.\n\n- **Ich wasche mich.** → *Mi lavo.*\n- **Du musst dich beeilen.** → *Devi sbrigarti.*\n- **Wir treffen uns um acht.** → *Ci incontriamo alle otto.*\n\nVerbi tipici di questo gruppo: **sich freuen** (*rallegrarsi*), **sich setzen** (*sedersi*), **sich erinnern** (*ricordarsi*), **sich fühlen** (*sentirsi*), **sich beeilen** (*sbrigarsi*).\n\n## Riflessivo al Dativ: quando c'è già un altro oggetto\n\nIl pronome passa al **Dativ** quando nella frase è **già presente un complemento all'accusativo** (la cosa su cui agisco). Il riflessivo allora indica *per/a chi* va a beneficio l'azione — è il classico **Dativ di interesse**.\n\nConfronta le due frasi:\n\n- **Ich wasche mich.** → *Mi lavo.* (riflessivo = unico oggetto → Akk.)\n- **Ich wasche mir die Hände.** → *Mi lavo le mani.* (*die Hände* è l'oggetto diretto all'Akk. → il riflessivo scivola al Dativ → *mir*)\n\nAltri esempi:\n\n- **Ich putze mir die Zähne.** → *Mi lavo i denti.*\n- **Kannst du dir das vorstellen?** → *Riesci a immaginartelo?*\n- **Ich kaufe mir ein neues Auto.** → *Mi compro una macchina nuova.*\n\n```mermaid\nflowflowchart-error\n```\n\n```mermaid\nflowchart TD\n    A[Verbo riflessivo] --> B{C'è già un oggetto<br/>all'Akkusativ?}\n    B -->|No| C[Riflessivo all'ACCUSATIVO<br/>mich / dich]\n    B -->|Sì| D[Riflessivo al DATIVO<br/>mir / dir]\n```\n\n> Regola d'oro: **un oggetto solo → Akkusativ; due oggetti → il riflessivo cede l'accusativo alla cosa e va al Dativ.** In tedesco una frase ha di norma un solo complemento all'accusativo.\n\n## Echte vs. unechte Reflexivverben\n\nEsistono due famiglie, ed è utile distinguerle.\n\n1. **Echte Reflexivverben** (*riflessivi veri*): il verbo **esiste solo** in forma riflessiva, il pronome non si può togliere né sostituire.\n   - **sich beeilen** (*sbrigarsi*), **sich erholen** (*riposarsi*), **sich schämen** (*vergognarsi*).\n   - *Ich beeile mich.* — non esiste «ich beeile».\n\n2. **Unechte Reflexivverben** (*riflessivi impropri*): verbi transitivi normali usati riflessivamente. Il pronome può essere sostituito da un altro oggetto.\n   - **waschen**: *Ich wasche **das Kind**.* / *Ich wasche **mich**.*\n   - **sehen**: *Ich sehe **dich** im Spiegel.* / *Ich sehe **mich** im Spiegel.*\n\n## Posizione del pronome nella frase\n\nIl riflessivo segue le regole dei pronomi: sta **subito dopo il verbo coniugato** (o dopo il soggetto nelle inversioni). Attenzione alla **subordinata**, dove il verbo va in fondo ma il pronome **resta vicino al soggetto**.\n\n- **Ich erinnere mich gut an den Tag.** → *Mi ricordo bene di quel giorno.*\n- **Heute fühle ich mich besser.** → *Oggi mi sento meglio.* (inversione → pronome dopo il verbo)\n- **…, weil ich mich beeilen muss.** → *…perché devo sbrigarmi.* (subordinata: *mich* presto, verbi in fondo)\n\n## Errori tipici\n\n- ❌ *Ich putze **mich** die Zähne.* → ✅ *Ich putze **mir** die Zähne.* (c'è *die Zähne* all'Akk. → Dativ).\n- ❌ *Ich freue **mir** auf die Ferien.* → ✅ *Ich freue **mich** auf die Ferien.* (*sich freuen* regge l'Akkusativo, nessun altro oggetto).\n- ❌ Dimenticare il pronome con gli *echte*: *Ich erhole am Wochenende* → ✅ *Ich erhole **mich**…*.\n- ❌ Tradurre alla lettera *si vede*: in tedesco serve comunque il pronome accordato (*man sieht **sich***).\n\n## Esercizi\n\n1. Inserisci il riflessivo corretto (Akk. o Dat.):\n   a) Ich wasche ___ die Haare. b) Du musst ___ beeilen. c) Wir treffen ___ morgen. d) Kannst du ___ das vorstellen?\n\n2. Traduci in tedesco: a) Mi lavo le mani. b) Ci ricordiamo della festa (*sich erinnern an* + Akk.). c) Mi compro un libro.\n\n3. Correggi l'errore: *Ich freue mir über das Geschenk.*\n\n4. Trasforma in subordinata con *weil*: *Ich muss mich beeilen. Der Zug fährt gleich.* → *…, weil…*\n\n### Soluzioni\n\n1. a) **mir** (c'è *die Haare*) b) **dich** c) **uns** d) **dir** (c'è *das*).\n2. a) **Ich wasche mir die Hände.** b) **Wir erinnern uns an das Fest.** c) **Ich kaufe mir ein Buch.**\n3. **Ich freue mich über das Geschenk.** (*sich freuen* → Akk.).\n4. **Ich muss mich beeilen, weil der Zug gleich fährt.**\n\n## Takeaways\n\n- Il riflessivo tedesco **cambia caso**: *mich/dich* (Akk.) vs *mir/dir* (Dat.); *sich* è invariabile alla 3ª persona e al *Sie*.\n- **Un solo oggetto → Akkusativ.** Se c'è già un oggetto all'accusativo, **il riflessivo va al Dativo**.\n- I **echte Reflexivverben** (sich beeilen, sich erholen) non perdono mai il pronome; gli **unechte** sono transitivi usati riflessivamente.\n- Nella subordinata il pronome resta vicino al soggetto, i verbi vanno in fondo."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Die Rechnung: fatturare e definire le condizioni di pagamento",
+        "readingTime": "~4 min",
+        "markdown": "# Die Rechnung: fatturare e definire le condizioni di pagamento\n\nHai imparato a richiedere e formulare un **Angebot** *(offerta/preventivo)*. Il passo logico successivo nel ciclo commerciale è il documento che trasforma l'accordo in denaro: la **Rechnung** *(fattura)*. Oggi impari a redigerla, a comunicarla via email e — soprattutto — a padroneggiare il lessico delle **Zahlungsbedingungen** *(condizioni di pagamento)*, dove i tedeschi sono notoriamente precisi.\n\n## Il ciclo dal preventivo al pagamento\n\n```mermaid\nflowchart LR\n    A[Angebot<br/>preventivo] --> B[Auftrag<br/>ordine]\n    B --> C[Lieferung/Leistung<br/>consegna/prestazione]\n    C --> D[Rechnung<br/>fattura]\n    D --> E[Zahlung<br/>pagamento]\n    E -. se in ritardo .-> F[Mahnung<br/>sollecito]\n```\n\nLa **Rechnung** chiude la catena: si emette *dopo* la **Lieferung** *(consegna)* o la **Leistung** *(prestazione/servizio)*. Se il cliente non paga entro la **Frist** *(scadenza)*, scatterà la **Mahnung** *(sollecito)* — argomento della prossima lezione.\n\n## Vocabolario essenziale della fattura\n\nUna fattura tedesca conforme deve contenere elementi obbligatori per legge (**Pflichtangaben**). Ecco i termini chiave:\n\n| Tedesco | Italiano |\n|---|---|\n| die **Rechnungsnummer** | numero di fattura |\n| das **Rechnungsdatum** | data della fattura |\n| die **Steuernummer** / **USt-IdNr.** | partita IVA / n. IVA UE |\n| die **Leistungsbeschreibung** | descrizione della prestazione |\n| der **Nettobetrag** | importo netto |\n| die **Umsatzsteuer (USt.)** / **Mehrwertsteuer (MwSt.)** | IVA |\n| der **Bruttobetrag** / **Gesamtbetrag** | importo lordo / totale |\n| das **Zahlungsziel** | termine di pagamento |\n| die **Bankverbindung** / **IBAN** | coordinate bancarie |\n| der **Verwendungszweck** | causale del bonifico |\n\n> **Nota d'uso:** in contesto B2B nazionale si usa **USt.**; **MwSt.** è più comune nel commercio al dettaglio. Su una fattura formale scegline uno e sii coerente.\n\n## Le Zahlungsbedingungen e lo Skonto\n\nLe condizioni di pagamento si esprimono con formule standard, quasi telegrafiche:\n\n- **„Zahlbar innerhalb von 14 Tagen netto.\"** → *Pagabile entro 14 giorni, importo netto (senza sconto).*\n- **„Zahlbar sofort ohne Abzug.\"** → *Pagabile subito senza detrazioni.*\n- **„14 Tage 2 % Skonto, 30 Tage netto.\"** → *Entro 14 giorni 2% di sconto cassa, altrimenti l'intero importo entro 30 giorni.*\n\nLo **Skonto** *(sconto per pagamento anticipato)* è un concetto centralissimo nella cultura commerciale tedesca: un piccolo abbuono che premia chi paga in fretta. Si calcola così:\n\n$$ Z = B \\cdot \\left(1 - \\frac{s}{100}\\right) $$\n\ndove $Z$ è l'importo da versare, $B$ il **Bruttobetrag** e $s$ la percentuale di **Skonto**. Esempio: su una fattura di $B = 1.000\\ \\text{€}$ con $s = 2$, pagando entro la **Skontofrist** versi $Z = 1.000 \\cdot 0{,}98 = 980\\ \\text{€}$.\n\n> **Falso amico da evitare:** *Skonto* **non** è il *Rabatt*. Il **Rabatt** è uno sconto commerciale concordato *prima* (per quantità, fedeltà); lo **Skonto** è un incentivo *temporale* legato alla rapidità del pagamento.\n\n## Testo-modello: email di accompagnamento\n\nL'email che accompagna la fattura è breve e di registro formale. Riprende l'**Anrede** e la **Grußformel** già studiate.\n\n> **Betreff:** Rechnung Nr. 2026-0412 zu Ihrem Auftrag vom 18.06.2026\n>\n> Sehr geehrte Frau Brandt,\n>\n> vielen Dank für Ihren Auftrag und das entgegengebrachte Vertrauen.\n>\n> Anbei erhalten Sie die **Rechnung Nr. 2026-0412** über die im Juni erbrachten Beratungsleistungen. Der **Gesamtbetrag** beläuft sich auf **2.380,00 €** (inkl. 19 % USt.).\n>\n> Wir bitten Sie, den Betrag **innerhalb von 14 Tagen** auf das angegebene Konto zu überweisen. Bei Zahlung **innerhalb von 7 Tagen** gewähren wir Ihnen **2 % Skonto**.\n>\n> Für Rückfragen stehe ich Ihnen gerne zur Verfügung.\n>\n> Mit freundlichen Grüßen\n> Markus Lehner\n\n**Traduzione dei passaggi chiave:**\n- *„Anbei erhalten Sie…\"* → *In allegato riceve…* (formula standard per gli allegati).\n- *„Der Gesamtbetrag beläuft sich auf…\"* → *L'importo totale ammonta a…* (verbo riflessivo **sich belaufen auf** + accusativo).\n- *„Wir bitten Sie, … zu überweisen.\"* → *La preghiamo di versare…* (**überweisen** = effettuare un bonifico).\n- *„… auf das angegebene Konto.\"* → *…sul conto indicato.*\n\n## Redemittel: chiedere e concedere termini\n\nFrasi pronte per la trattativa sulle condizioni:\n\n- **„Wäre eine Zahlung auf Rechnung möglich?\"** → *Sarebbe possibile pagare a fronte di fattura (dietro fattura)?*\n- **„Können wir das Zahlungsziel auf 30 Tage verlängern?\"** → *Possiamo estendere il termine di pagamento a 30 giorni?*\n- **„Gerne räumen wir Ihnen ein Zahlungsziel von 30 Tagen ein.\"** → *Volentieri Le concediamo un termine di 30 giorni.* (**einräumen** = concedere)\n- **„Die Rechnung ist zahlbar bis zum 10.07.2026.\"** → *La fattura è pagabile entro il 10/07/2026.*\n- **„Bitte geben Sie bei der Überweisung die Rechnungsnummer als Verwendungszweck an.\"** → *Indichi il numero di fattura come causale del bonifico.*\n\n> **Registro:** *„auf Rechnung kaufen/zahlen\"* significa *acquistare/pagare dietro fattura* (cioè dopo la consegna), una modalità diffusissima e fiduciaria nel B2B tedesco. Non confonderla con *„bar zahlen\"* (pagare in contanti) o *„per Vorkasse\"* (pagamento anticipato).\n\n## Takeaways\n\n- La **Rechnung** chiude il ciclo **Angebot → Auftrag → Lieferung → Rechnung → Zahlung**; si emette dopo la prestazione.\n- Memorizza le **Pflichtangaben**: **Rechnungsnummer**, **Netto-/Bruttobetrag**, **USt.**, **Zahlungsziel**, **IBAN**.\n- **Skonto** = sconto per *rapidità* di pagamento; **Rabatt** = sconto commerciale concordato prima. Non sono sinonimi.\n- Formula del valore scontato: $Z = B \\cdot (1 - s/100)$.\n- L'email di accompagnamento è breve: ringrazia, indica importo e **Zahlungsbedingungen**, offre disponibilità per **Rückfragen**.\n- *„auf Rechnung zahlen\"* = pagare dietro fattura, lo standard fiduciario del B2B in Germania."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Reverse Proxies and API Gateways",
+        "readingTime": "~5 min",
+        "markdown": "# Reverse Proxies and API Gateways\n\n## Recap\n\nYesterday we studied **load balancing** — how an **L4** balancer routes by IP/port without inspecting payloads, while an **L7** balancer reads HTTP to make smarter routing decisions, and how algorithms (round-robin, least-connections, hashing) plus **health checks** keep traffic flowing only to live backends. Today we zoom out one step: the box that *contains* the load balancer logic and adds a whole layer of cross-cutting concerns — the **reverse proxy**, and its richer cousin, the **API gateway**.\n\n## What a reverse proxy is\n\nA **forward proxy** sits in front of *clients* and represents them to the internet (think a corporate web filter). A **reverse proxy** sits in front of *servers* and represents them to clients. From the client's point of view, the reverse proxy *is* the service: clients connect to one public address, and the proxy decides which backend actually handles the request.\n\n```mermaid\nflowchart LR\n    C1[Client] --> RP\n    C2[Client] --> RP\n    C3[Client] --> RP\n    RP[Reverse proxy] --> S1[Service A]\n    RP --> S2[Service A replica]\n    RP --> S3[Service B]\n```\n\nBecause *every* request flows through this single chokepoint, it's the natural place to centralize work you'd otherwise duplicate in every backend. The classic responsibilities:\n\n- **TLS termination** — the proxy holds the certificate and private key, decrypts incoming HTTPS, and forwards plain HTTP (or re-encrypted traffic) to backends on the trusted internal network. Backends stop spending CPU on crypto and stop each needing their own cert.\n- **Routing / reverse mapping** — match on host, path, or header and forward to the right backend pool (`/api/*` → API servers, `/static/*` → asset servers).\n- **Load balancing** — distribute across replicas using yesterday's algorithms and health checks.\n- **Caching & compression** — serve cached responses and gzip/brotli outgoing bodies without touching the application.\n- **Buffering & connection management** — absorb slow clients, multiplex many client connections onto a few backend ones.\n\n> **Mental model:** a reverse proxy turns *N* exposed services into *one* front door, and gives you a single place to enforce policy. **Nginx**, **HAProxy**, and **Envoy** are common implementations.\n\n## What an API gateway adds\n\nAn **API gateway** is a reverse proxy specialized for **APIs** — typically the single entry point in front of a fleet of microservices. It does everything above, then climbs higher up the stack to handle concerns specific to *application traffic*:\n\n| Concern | Reverse proxy | API gateway |\n|---|---|---|\n| TLS termination | ✅ | ✅ |\n| Path/host routing | ✅ | ✅ |\n| Load balancing | ✅ | ✅ |\n| Static caching/compression | ✅ | ✅ |\n| **Authentication / authorization** | rarely | ✅ core feature |\n| **Rate limiting / quotas** | basic | ✅ per-key, tiered |\n| **Request/response transformation** | minimal | ✅ |\n| **Aggregation across services** | ✅ |\n| **API keys, usage metering, billing** | ✅ |\n\nThe two big additions worth dwelling on:\n\n### Authentication and authorization\n\nInstead of every microservice re-implementing token validation, the gateway validates the credential **once** at the edge — checking a **JWT** signature, an **API key**, or an **OAuth2** access token — and forwards an *already-authenticated* request inward, often adding a trusted header like `X-User-Id`. Backends behind the gateway can then trust the network boundary. This is the **edge authentication** pattern: authenticate at the perimeter, authorize per-service.\n\n### Rate limiting\n\nThe gateway is the perfect place to protect downstream services from overload and abuse. A common algorithm is the **token bucket**: a bucket holds up to $B$ tokens and refills at rate $r$ tokens/second; each request consumes one token, and a request with an empty bucket is rejected with **HTTP 429 (Too Many Requests)**. The maximum sustained rate is $r$, while bursts up to the bucket size $B$ are allowed:\n\n$$\\text{allowed burst} = B, \\qquad \\text{steady-state rate} = r \\text{ req/s}$$\n\nThis lets you offer tiered plans (free = 10 req/s, pro = 1000 req/s) enforced uniformly, without each team writing limiter code.\n\n## Where it sits\n\nThe ordering matters. The gateway is the *first* application-aware hop after the network load balancer, and the *last* shared layer before your services:\n\n```mermaid\nflowchart TD\n    Client --> DNS\n    DNS --> LB[L4 load balancer]\n    LB --> GW[API gateway / reverse proxy]\n    GW -->|\"TLS, authn, rate limit, route\"| MS1[Orders service]\n    GW --> MS2[Users service]\n    GW --> MS3[Payments service]\n    MS1 --> DB1[(DB)]\n    MS2 --> DB2[(DB)]\n```\n\nA request's journey through the gateway is a small **pipeline** of filters: terminate TLS → authenticate → check rate limit → route → forward → (optionally) transform the response → log/meter. Each stage can short-circuit (reject early on a bad token or an empty bucket) so unnecessary work never reaches your backends.\n\n## Trade-offs and cautions\n\n- **Single point of failure & contention.** Everything flows through it, so the gateway must itself be redundant (multiple instances behind that L4 LB) and carefully capacity-planned. Its latency is added to *every* request.\n- **The \"distributed monolith\" trap.** Stuffing business logic into the gateway recouples your services. Keep it to *cross-cutting* concerns (auth, limits, routing); leave domain logic in the services.\n- **Reverse proxy ≠ load balancer ≠ API gateway**, though they overlap. A load balancer's job is distribution; a reverse proxy's job is being the front door; a gateway's job is managing API traffic. One piece of software (Envoy, Nginx) can play several of these roles at once — the *role* is what matters, not the binary.\n\n## Takeaways\n\n- A **reverse proxy** is a single front door in front of your servers: it centralizes **TLS termination, routing, load balancing, and caching**.\n- An **API gateway** is a reverse proxy specialized for APIs, adding **edge authentication, rate limiting, transformation, and aggregation**.\n- Centralizing cross-cutting concerns means backends don't each re-implement crypto, auth, and limiting — but it also creates a critical chokepoint that must be **redundant and fast**.\n- **Rate limiting** via a **token bucket** ($B$ burst, $r$ steady rate) lets the gateway protect downstream services and enforce tiered quotas, returning **429** when exceeded.\n- It sits *after* the L4 load balancer and *before* your services — the first application-aware hop, run as a short filter pipeline that can reject early.\n- Resist putting **business logic** in the gateway; keep it to cross-cutting policy or you rebuild a monolith.",
+        "roadmapId": "sd-07"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Self-Attention and Multi-Head Attention",
+        "readingTime": "~6 min",
+        "markdown": "# Self-Attention and Multi-Head Attention\n\n## Recap\n\nYesterday we saw the *core idea* of attention: instead of forcing information through a fixed-size bottleneck, we let each token **look directly at every other token** and pull in what's relevant. We talked about *contextualization* — the word \"bank\" should mean something different next to \"river\" than next to \"money.\" Today we make that mechanism precise: how does a token *decide* what to look at, and *what* does it retrieve? The answer is **queries, keys, and values**.\n\n## The Library Analogy\n\nImagine every token wants to update its own meaning by gathering information from the sequence. Each token plays three roles at once:\n\n- A **query** (Q): *\"This is what I'm looking for.\"*\n- A **key** (K): *\"This is what I can be matched against.\"*\n- A **value** (V): *\"This is what I'll hand over if you match me.\"*\n\nIt's like a library search. You arrive with a *query* (a topic). Each book has a *key* on its spine (its subject label). You compare your query against every key to see how relevant each book is, then you take the *contents* — the *values* — of the books, weighted by relevance.\n\nCrucially, all three come from the **same input embeddings**, just transformed differently. That's why we call it *self*-attention — the sequence attends to itself.\n\n## Building Q, K, V\n\nStart with the input: a matrix $X \\in \\mathbb{R}^{n \\times d}$, where $n$ is the number of tokens and $d$ is the embedding dimension. We learn three weight matrices $W^Q, W^K, W^V$ and project:\n\n$$Q = XW^Q, \\qquad K = XW^K, \\qquad V = XW^V$$\n\nThese $W$ matrices are **learned during training** — they *are* what the model figures out. The whole skill of attention lives in how it chooses to project tokens into query-, key-, and value-space.\n\n```mermaid\nflowchart LR\n    X[\"Token embeddings X\"] --> Q[\"Q = X·Wᑫ\"]\n    X --> K[\"K = X·Wᵏ\"]\n    X --> V[\"V = X·Wᵛ\"]\n    Q --> S[\"Scores = QKᵀ / √dₖ\"]\n    K --> S\n    S --> A[\"softmax → weights\"]\n    A --> O[\"Output = weights · V\"]\n    V --> O\n```\n\n## Scaled Dot-Product Attention\n\nNow the famous formula:\n\n$$\\text{Attention}(Q,K,V) = \\text{softmax}\\!\\left(\\frac{QK^\\top}{\\sqrt{d_k}}\\right)V$$\n\nLet's read it left to right.\n\n1. **$QK^\\top$** — the *score matrix*. Entry $(i,j)$ is the dot product of token $i$'s query with token $j$'s key. A large dot product means \"these align\" — token $i$ finds token $j$ relevant. This produces an $n \\times n$ matrix: every token scored against every other.\n\n2. **$/\\sqrt{d_k}$** — the *scaling*. Here $d_k$ is the dimension of the key vectors. Dot products grow with dimension; without scaling, the values fed to softmax get huge, pushing it into regions where gradients vanish. Dividing by $\\sqrt{d_k}$ keeps the variance controlled. This is the \"scaled\" in *scaled dot-product attention*.\n\n3. **softmax** — turn each row of scores into a probability distribution. Now each token has a set of non-negative weights summing to 1, describing *how much attention* it pays to every token (including itself).\n\n4. **$\\cdots V$** — use those weights to take a *weighted average of the value vectors*. The output for token $i$ is a blend of everyone's values, weighted by relevance.\n\n> **The key insight:** attention separates *matching* (Q·K — who's relevant) from *content* (V — what you actually get). A token can be a strong match without contributing the same thing it matches on. That decoupling is what makes the mechanism expressive.\n\n## Why More Than One Head?\n\nA single attention computation produces *one* set of weights per token — one \"opinion\" about what matters. But language has many *simultaneous* relationships. In *\"The dog that chased the cat was fast\"*, one relationship is **subject ↔ verb** (dog ↔ was), another is **verb ↔ object** (chased ↔ cat). A single weighting must compromise between these.\n\n**Multi-head attention** runs several attention operations *in parallel*, each with its own $W^Q, W^K, W^V$. Each **head** is free to specialize:\n\n```mermaid\nflowchart TB\n    In[\"Input X\"] --> H1[\"Head 1<br/>(e.g. syntax)\"]\n    In --> H2[\"Head 2<br/>(e.g. coreference)\"]\n    In --> H3[\"Head 3<br/>(e.g. local context)\"]\n    In --> Hh[\"Head h ...\"]\n    H1 --> C[\"Concatenate\"]\n    H2 --> C\n    H3 --> C\n    Hh --> C\n    C --> Wo[\"× Wᴼ\"]\n    Wo --> Out[\"Output\"]\n```\n\nFormally, with $h$ heads:\n\n$$\\text{head}_i = \\text{Attention}(XW_i^Q,\\, XW_i^K,\\, XW_i^V)$$\n$$\\text{MultiHead}(X) = \\text{Concat}(\\text{head}_1,\\dots,\\text{head}_h)\\,W^O$$\n\nA practical detail: we don't make each head full-width. If the model dimension is $d$ and we have $h$ heads, each head usually works in dimension $d/h$. So $h$ heads cost roughly the *same* compute as one full-width head — we trade *width* for *diversity of perspective*. The final $W^O$ mixes the concatenated heads back into one $d$-dimensional vector.\n\n| Aspect | Single head | Multi-head |\n|---|---|---|\n| Relationships captured at once | one | several |\n| Per-head dimension | $d$ | $d/h$ |\n| Total compute | comparable | comparable |\n| Risk | over-smoothing, one compromise | redundancy across heads |\n\n## What Does Attention Actually Learn?\n\nThis is where it gets interesting — and where we should stay *honest*. Interpretability research (e.g. analyses of BERT's attention) has found heads that appear to track recognizable patterns:\n\n- **Positional heads** that mostly attend to the previous or next token.\n- **Syntactic heads** that link verbs to their objects, or determiners to their nouns.\n- **Coreference-like heads** where a pronoun attends to its likely antecedent.\n- **Delimiter heads** that dump attention onto separators like `[SEP]` or periods — possibly a \"no-op\" when a head has nothing useful to do.\n\nTwo cautions. First, these are *tendencies*, not guarantees — many heads have no clean human-readable role, and some are redundant (you can prune them with little loss). Second, **attention weights are not a faithful explanation** of the model's decision; high attention does not prove causal importance. Treat these patterns as *suggestive*, not as proof of how the model \"thinks.\"\n\nThe honest summary: attention learns a *data-driven, context-dependent routing* of information. Nobody hand-codes \"link the verb to its object.\" The model discovers, from gradient descent over enormous text, *which* projections of tokens make useful queries and keys — and multiple heads let it discover several routings at once.\n\n## Takeaways\n\n- **Q, K, V** are three learned projections of the *same* input: query = what I seek, key = how I'm matched, value = what I give.\n- Attention = **softmax$(QK^\\top/\\sqrt{d_k})\\,V$**: score by dot product, scale, normalize, then take a weighted average of values.\n- Scaling by $\\sqrt{d_k}$ keeps softmax in a healthy-gradient regime.\n- **Multi-head** attention runs parallel attentions, each in dimension $d/h$, so the model captures several relationships at once for comparable compute.\n- Heads *tend* to specialize (positional, syntactic, coreference), but attention weights are **not** a faithful explanation of model behavior — read them as hints, not proof.",
+        "roadmapId": "ai-07"
+      }
+    }
+  ]
+}

@@ -1,59 +1,51 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "status": "degraded",
   "reasons": [
-    "only 0 real-news items",
-    "failed lanes: ai, startups, markets",
-    "holdings 2/7 streams",
-    "1 cross-day repeats"
+    "holdings 2/7 streams"
   ],
-  "realNewsCount": 0,
-  "calendarCount": 0,
-  "guardScore": 10,
+  "realNewsCount": 13,
+  "calendarCount": 8,
+  "guardScore": 33,
   "lanes": {
-    "ai": 0,
-    "startups": 0,
-    "markets": 0,
-    "boxing": 0,
-    "mma": 0,
+    "ai": 5,
+    "startups": 3,
+    "markets": 5,
+    "boxing": 5,
+    "mma": 3,
     "bites": 8,
-    "courses": 2,
-    "portfolio": 2
+    "courses": 4,
+    "portfolio": 4
   },
-  "failedLanes": [
-    "ai",
-    "startups",
-    "markets"
-  ],
+  "failedLanes": [],
   "holdingsCoverage": {
     "streams": 2,
     "totalStreams": 7,
-    "names": 2,
+    "names": 4,
     "totalNames": 11
   },
   "repeats": {
     "portfolio": [],
-    "courses": [
-      {
-        "course": "System Design",
-        "title": "Load Balancing: L4 vs L7, Algorithms, and Health Checks",
-        "roadmapId": "sd-06",
-        "alsoSeen": [
-          "2026-06-15"
-        ]
-      }
-    ],
+    "courses": [],
     "news": []
   },
   "staleItems": [],
   "freshHoldings": [
     {
-      "stream": "Hermès",
-      "headline": "HSBC downgrades Hermès to Hold, cuts target to €1,870 as analyst caution drives shares down ~6% in two sessions"
+      "stream": "ASML & TSMC",
+      "headline": "TSMC raises prices 5–10% across all advanced nodes, hitting Nvidia, Apple, AMD and Qualcomm"
     },
     {
-      "stream": "Sea Ltd",
-      "headline": "Sea Limited and OpenAI sign strategic partnership; Shopee becomes first e-commerce platform live inside ChatGPT across Southeast Asia and Brazil"
+      "stream": "Alphabet & Amazon",
+      "headline": "Google delays Gemini 3.5 Pro to July as researcher exodus to Anthropic and OpenAI wipes $225B off Alphabet"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "Amazon Prime Day opens at a record $8.3B in U.S. e-commerce, with Adobe forecasting $26.3B over the four-day event"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "Alphabet to join the Dow Jones Industrial Average on June 29, replacing Verizon"
     }
   ]
 }
