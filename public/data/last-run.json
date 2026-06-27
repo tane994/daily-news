@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "status": "degraded",
   "reasons": [
-    "holdings 2/7 streams"
+    "1 voci datate (>3gg)"
   ],
-  "realNewsCount": 13,
-  "calendarCount": 8,
-  "guardScore": 33,
+  "realNewsCount": 11,
+  "calendarCount": 9,
+  "guardScore": 32,
   "lanes": {
-    "ai": 5,
+    "ai": 3,
     "startups": 3,
     "markets": 5,
-    "boxing": 5,
+    "boxing": 6,
     "mma": 3,
     "bites": 8,
     "courses": 4,
@@ -19,9 +19,9 @@
   },
   "failedLanes": [],
   "holdingsCoverage": {
-    "streams": 2,
+    "streams": 4,
     "totalStreams": 7,
-    "names": 4,
+    "names": 8,
     "totalNames": 11
   },
   "repeats": {
@@ -29,23 +29,30 @@
     "courses": [],
     "news": []
   },
-  "staleItems": [],
+  "staleItems": [
+    {
+      "where": "ai",
+      "headline": "Sakana AI's Fugu scores 95.5 on GPQA Diamond by orchestrating other models instead of training a new frontier one",
+      "publishedAt": "2026-06-22",
+      "ageDays": 5
+    }
+  ],
   "freshHoldings": [
     {
       "stream": "ASML & TSMC",
-      "headline": "TSMC raises prices 5–10% across all advanced nodes, hitting Nvidia, Apple, AMD and Qualcomm"
+      "headline": "Netherlands signs US-led 'Pax Silica' chip alliance while lobbying Washington to drop MATCH Act curbs threatening ~20% of ASML revenue"
+    },
+    {
+      "stream": "ServiceNow",
+      "headline": "ServiceNow, Google Cloud and HCLTech launch three-way alliance to push enterprise AI agents from pilots into production"
     },
     {
       "stream": "Alphabet & Amazon",
-      "headline": "Google delays Gemini 3.5 Pro to July as researcher exodus to Anthropic and OpenAI wipes $225B off Alphabet"
+      "headline": "Amazon to invest an additional $13B in India, lifting its 2026–2030 commitment to $48B for AWS AI and cloud buildout"
     },
     {
-      "stream": "Alphabet & Amazon",
-      "headline": "Amazon Prime Day opens at a record $8.3B in U.S. e-commerce, with Adobe forecasting $26.3B over the four-day event"
-    },
-    {
-      "stream": "Alphabet & Amazon",
-      "headline": "Alphabet to join the Dow Jones Industrial Average on June 29, replacing Verizon"
+      "stream": "Visa, CME & DBS",
+      "headline": "Visa launches consumer travel platform Visa Destinations across 10 global cities with Star Alliance, Trip.com and Santander as anchor partners"
     }
   ]
 }

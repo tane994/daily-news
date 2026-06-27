@@ -1,0 +1,452 @@
+{
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T15:38:05.902Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "OpenAI's GPT-5.6 family — Sol, Terra and Luna — led an AI capability surge on June 26-27, alongside a massive open-model drop from NVIDIA and Sakana AI's bid to rival frontier models without training one.",
+      "items": [
+        {
+          "headline": "OpenAI previews GPT-5.6 Sol, Terra and Luna; Sol's new 'Ultra' subagent mode tops Terminal-Bench 2.1 at 91.9%",
+          "brief": "OpenAI unveiled three next-generation models on June 26 — Sol (flagship for hard coding and security), Terra (balanced business tier) and Luna (fast and cheap). Sol introduces two new reasoning settings, 'max' for deeper single-model thinking and 'ultra,' which spawns coordinated subagents to split long tasks; Sol Ultra scores 91.9% on Terminal-Bench 2.1 versus GPT-5.5's 88.0%, and all three crossed OpenAI's 'High' cyber threshold on internal capture-the-flag tests (Sol 96.7%, Terra 91.84%, Luna 85.19%). Pricing runs $5/$30 per million tokens for Sol, $2.50/$15 for Terra and $1/$6 for Luna.",
+          "whyItMatters": "Only about 20 U.S.-government-vetted organizations get access at first; OpenAI calls the gated rollout unsustainable and plans general availability 'in the coming weeks.'",
+          "url": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
+          "source": "VentureBeat",
+          "publishedAt": "2026-06-26",
+          "featured": true
+        },
+        {
+          "headline": "NVIDIA open-sources 10 trillion training tokens and 500,000 robotics trajectories with new Nemotron, Cosmos and Isaac GR00T models",
+          "brief": "On June 25 NVIDIA released a large batch of open models, datasets and tools spanning Nemotron (agentic AI), Cosmos (physical-AI world models), Isaac GR00T (robotics), Alpamayo (autonomous vehicles) and Clara (biomedical). The drop bundles one of the largest open multimodal collections to date — 10 trillion language tokens, 500,000 robotics trajectories, 455,000 protein structures and 100 terabytes of vehicle sensor data — plus the training code and dataset behind the Llama Embed Nemotron 8B model and the new Nemotron Speech ASR model. Bosch, CrowdStrike, Palantir, Salesforce, ServiceNow and Uber are among the companies building on the releases.",
+          "whyItMatters": "Free training data and recipes at this scale lower the barrier for outside teams to build their own agentic and robotics models instead of renting closed APIs.",
+          "url": "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai/",
+          "source": "NVIDIA Blog",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        },
+        {
+          "headline": "Sakana AI's Fugu scores 95.5 on GPQA Diamond by orchestrating other models instead of training a new frontier one",
+          "brief": "Sakana AI released Fugu, a multi-agent system delivered as a single OpenAI-compatible API that dynamically routes each task across a pool of expert models, coordinated by a trained orchestrator drawn from its TRINITY and Conductor research. Fugu and the higher-quality Fugu Ultra both hit 95.5% on GPQA Diamond (PhD-level science), with Ultra reaching 93.2 on LiveCodeBench and 73.7 on SWE-Bench Pro — matching Claude Fable 5 and Mythos-class results without Sakana training a frontier model of its own. Fugu Ultra is priced at $5 per million input tokens and $30 per million output.",
+          "whyItMatters": "If learned orchestration can rival giant single models, builders gain a cheaper path to frontier-level results — and a way around export-controlled frontier weights.",
+          "url": "https://sakana.ai/fugu/",
+          "source": "Sakana AI",
+          "publishedAt": "2026-06-22",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Saturday's startup desk was dominated by Y Combinator-backed Corgi denying it stole rival Papermark's open-source data-room software, alongside an AI-shopping launch from Newegg and a founder handover at Vow.",
+      "items": [
+        {
+          "headline": "YC-backed Corgi denies stealing Papermark's open-source data room, admits its team 'vibe-coded' the design",
+          "brief": "Insurance-tech startup Corgi launched a document-sharing product called Dataroom, prompting Papermark co-founder Marc Seitz to accuse it of 'copyright and license infringing' fraud and post screenshots of identical feature wording. Corgi CEO Nico Laqua said 'no code was used from Papermark' but conceded the team copied the look and feel through 'vibe-coding,' said the overlap was 'isolated to visual elements on two peripheral settings pages,' and that those were immediately updated. Corgi also sent Seitz a cease-and-desist demanding he delete his tweets, drawing criticism for the heavy-handed response.",
+          "whyItMatters": "The clash crystallizes a growing fight over where AI-assisted 'vibe-coding' ends and open-source IP infringement begins.",
+          "url": "https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/",
+          "source": "TechCrunch",
+          "publishedAt": "2026-06-26",
+          "featured": true
+        },
+        {
+          "headline": "Newegg launches a conversational AI shopping mode at Newegg.com/ai and a Newegg app inside ChatGPT",
+          "brief": "Electronics retailer Newegg rolled out a full conversational AI shopping experience where shoppers describe what they want in plain language, then swap parts, adjust budget, or change specs without restarting the search, building a cart in a side panel. The assistant draws on Newegg's live catalog, pricing, inventory, Shell Shocker deals and OpenBox listings, with planned hooks into its PC Builder and PC Upgrade tools. A separate Newegg app now lives in the ChatGPT Apps directory, surfacing the same catalog and deals inside ChatGPT conversations.",
+          "whyItMatters": "It pushes agentic, in-chat commerce mainstream, letting customers buy without ever visiting a traditional storefront.",
+          "url": "https://www.businesswire.com/news/home/20260626403366/en/Newegg-Launches-a-New-Conversational-AI-Shopping-Experience-on-Newegg.com",
+          "source": "Business Wire",
+          "publishedAt": "2026-06-26",
+          "featured": false
+        },
+        {
+          "headline": "Cultivated-meat startup Vow names Alex Andrews CEO as founder George Peppou exits to launch a stealth spinout",
+          "brief": "Australian cultivated-meat company Vow appointed Alex Andrews, its former chief of staff and a Verve Super co-founder, as chief executive, with founder George Peppou moving to an executive director role to build a separate stealth startup on technology developed at Vow. Peppou said the restructure follows production gains that have opened up uses for Vow's cell-culture platform beyond food, including biomedicine, pharmaceuticals, cosmetics and leather alternatives.",
+          "whyItMatters": "The handover signals Vow betting its cell-culture platform is now a broader deep-tech asset, not just a route to lab-grown meat.",
+          "url": "https://www.greenqueen.com.hk/vow-australia-ceo-layoffs-lab-grown-cultivated-meat-startup-cultured-quail/",
+          "source": "Green Queen",
+          "publishedAt": "2026-06-25",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "A hotter-than-feared 4.1% May PCE print — the highest US inflation since 2023 — dominated markets as the Nasdaq logged a fifth straight loss, even as dealmakers kept spending with Onsemi's $7B Synaptics buy and fresh billion-dollar AI raises.",
+      "items": [
+        {
+          "headline": "US May PCE inflation hits 4.1%, highest since April 2023; core holds at 3.4%",
+          "brief": "The PCE price index — the Federal Reserve's preferred inflation gauge — rose to a 4.1% annual rate in May, its hottest since April 2023, while core PCE came in at 3.4%, just above the 3.3% forecast. The 0.4% monthly headline gain landed 0.1 point below expectations and consumer spending jumped a stronger-than-expected 0.7%. New Fed Chair Kevin Warsh, who has vowed to tackle inflation, held rates at 3.50%-3.75% on June 17 while leaving the door open to a hike later this year.",
+          "whyItMatters": "Markets read the in-line print as easing fears of a sharper acceleration, trimming the odds of a September Fed rate hike.",
+          "url": "https://www.cbsnews.com/news/pce-report-report-may-2026-federal-reserve-inflation/",
+          "source": "CBS News",
+          "publishedAt": "2026-06-26",
+          "featured": true
+        },
+        {
+          "headline": "Nasdaq logs fifth straight loss and 4.6% weekly drop as money rotates into defensives and gold",
+          "brief": "The Nasdaq Composite slipped 0.24% Friday to 25,297.62, its fifth consecutive down day, capping a 4.6% weekly loss as investors fled crowded AI and chip trades; the S&P 500 fell about 2% on the week to 7,354.02 while the Dow eked out a 0.6% weekly gain. Defensive and industrial sectors outperformed, gold rose roughly 1.1% to about $4,092 an ounce, and the 10-year Treasury yield slid to near 4.37%, around seven-week lows, after the benign PCE report.",
+          "whyItMatters": "A fifth straight Nasdaq decline signals the AI-valuation unwind is broadening out from chips into the wider market.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-26-2026",
+          "source": "TheStreet",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "headline": "Onsemi to buy Synaptics for ~$7 billion in all-stock deal, its largest acquisition ever",
+          "brief": "ON Semiconductor agreed on June 25 to acquire Synaptics in an all-stock transaction valued at about $7 billion, exchanging 1.350 onsemi shares for each Synaptics share — a 19% premium to the 10-day average price. The deal, onsemi's biggest-ever acquisition, adds Synaptics' Edge AI compute, human-machine interface and wireless connectivity portfolio as the chipmaker pushes into 'physical AI' devices. Onsemi shares fell 7.4% on the news.",
+          "whyItMatters": "It's a bet that on-device 'edge' AI, not just data-center silicon, is the next chip battleground.",
+          "url": "https://money.usnews.com/investing/news/articles/2026-06-25/onsemi-to-buy-synaptics-in-7-billion-all-stock-deal",
+          "source": "U.S. News / Reuters",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "headline": "Bitcoin sinks below $60,000 to its lowest since 2024, down about 21% on the month",
+          "brief": "Bitcoin fell to roughly $59,334 on June 25, its weakest level since 2024 and down about 21% over the past month, while Ethereum dropped near $1,561, off about 23% on the month. Analysts pointed to sustained crypto-ETF outflows, a possible delay to the CLARITY Act, and capital rotating out of crypto and into AI equities. Bitcoin's market capitalization slipped to about $1.33 trillion.",
+          "whyItMatters": "The slide shows risk appetite draining from speculative assets even as AI names keep dominating investor flows.",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-25-2026-bitcoin-hits-its-lowest-levels-in-years-125308371.html",
+          "source": "Yahoo Finance",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "headline": "French digital health insurer Alan raises €480M Series G at a €5.5 billion valuation",
+          "brief": "Paris-based health insurer Alan closed a €480 million Series G on June 25 led by Prosus, with Index Ventures, Teachers' Venture Growth and Dara Holdings participating, valuing the company at €5.5 billion. It was the single biggest venture round disclosed that day, outpacing a wave of US AI-infrastructure deals.",
+          "whyItMatters": "One of Europe's largest fintech/healthtech raises of the year signals investor appetite extending well beyond US AI labs.",
+          "url": "https://techstartups.com/2026/06/25/venture-capital-startup-funding-roundup-june-25-2026/",
+          "source": "Tech Startups",
+          "publishedAt": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "The heavyweight division just blew open as Oleksandr Usyk vacated all his belts for one 'last dance,' while Brooklyn hosts Xander Zayas–Jaron Ennis and Cleveland's Abdullah Mason scrambles to a new July 4 title defense.",
+      "items": [
+        {
+          "headline": "Oleksandr Usyk vacates WBC, WBA & IBF heavyweight titles, eyes one 'last dance'",
+          "brief": "In a June 26 Instagram message, undisputed heavyweight king Usyk announced he is relinquishing his Ring Magazine, WBC, WBA and IBF belts, saying he wants 'the guys who are next in line' to fight for them. A planned defense against WBC interim champ Agit Kabayel has been scrapped; Usyk is not retiring but is chasing one 'major' farewell bout, with no opponent or date yet confirmed.",
+          "whyItMatters": "It instantly throws the entire heavyweight title picture open — clearing a path for Fury, Joshua, Wilder and Kabayel to chase vacant belts.",
+          "url": "https://www.sportbible.com/boxing/oleksandr-usyk-announces-he-will-vacate-world-heavyweight-titles-500395-20260626",
+          "source": "SPORTbible",
+          "publishedAt": "2026-06-26",
+          "featured": true
+        },
+        {
+          "headline": "Albert Bell replaces Joe Cordina to challenge Abdullah Mason for WBO lightweight title, July 4 in Cleveland",
+          "brief": "Unbeaten WBO lightweight champ Abdullah Mason will now defend against fellow unbeaten Albert Bell (28-0, 9 KOs) on July 4 at Cleveland State's Wolstein Center, after original challenger Joe Cordina was pulled — Cordina was charged with assault by South Wales Police and denied a U.S. visa. The Top Rank card airs co-exclusively on TNT, truTV and DAZN.",
+          "whyItMatters": "A late opponent swap keeps hometown star Mason's first title defense intact and pits two undefeated lightweights against each other.",
+          "url": "https://fightnews.com/albert-bell-steps-in-to-challenge-abdullah-mason-in-lightweight-world-title-showdown/191151",
+          "source": "Fightnews",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "headline": "José Valenzuela–Edwin De Los Santos rematch headlines Zuffa Boxing 08 this Sunday, June 28 in Las Vegas",
+          "brief": "Edwin De Los Santos (17-2, 15 KOs) and José 'Rayo' Valenzuela (15-3, 9 KOs) run it back in a 10-round lightweight main event Sunday at The Chelsea at The Cosmopolitan, streaming in the U.S. on Paramount+. De Los Santos stopped Valenzuela in the third round of their 2022 first meeting; ex-WBA 140-pound champ Valenzuela now seeks to avenge that KO.",
+          "whyItMatters": "A grudge rematch between two heavy-handed southpaws looking to re-enter the lightweight title mix.",
+          "url": "https://www.boxinginsider.com/headlines/zuffa-boxing-08-preview-de-los-santos-vs-valenzuela-2/",
+          "source": "BoxingInsider",
+          "publishedAt": "2026-06-24"
+        },
+        {
+          "headline": "WBO orders Devin Haney to defend welterweight title vs. Keyshawn Davis by August or vacate",
+          "brief": "The WBO has formally directed welterweight champion Devin Haney to face mandatory challenger Keyshawn Davis — who moved to No. 1 after permanently relocating to 147 pounds — by August 2026 or surrender the belt. The ruling blocks Haney's pursuit of a 144-pound catchweight superfight with Shakur Stevenson, with the sanctioning body stating 'Devin must discharge of his mandatory next.'",
+          "whyItMatters": "It forces an all-American welterweight title fight and shelves the long-rumored Haney–Stevenson clash for now.",
+          "url": "https://boxingnews.com/news/haney-wbo-title-keyshawn-davis-mandatory",
+          "source": "Boxing News",
+          "publishedAt": "2026-06-12"
+        },
+        {
+          "headline": "Ryan Garner outpoints Michael Magnesi to win WBC interim super featherweight title (June 20, Southampton)",
+          "brief": "Home favorite Ryan Garner (20-0, 10 KOs) captured the WBC interim 130-pound title with a unanimous decision over Italy's Michael Magnesi at St Mary's Stadium, winning 119-109, 118-110 and 116-112 after 12 rounds of close-quarters trading. The result moves Garner into position for a future shot at full WBC champion O'Shaquie Foster.",
+          "whyItMatters": "Garner stays unbeaten and earns interim status, putting him next in line at super featherweight.",
+          "url": "https://www.boxingnews24.com/2026/06/ryan-garner-defeats-michael-magnesi-to-capture-wbc-interim-super-featherweight-title/",
+          "source": "BoxingNews24",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "headline": "Ashton 'H2O' Sylve outpoints former champ JoJo Diaz over 10 rounds (June 19, Long Beach)",
+          "brief": "Prospect Ashton 'H2O' Sylve passed a veteran test, taking a unanimous decision (98-92, 97-93, 97-93) over former world champion Joseph 'JoJo' Diaz in a 10-round super lightweight main event at Thunder Studios in Long Beach. Sylve returned to the win column against the most experienced name on his ledger.",
+          "whyItMatters": "A clean win over a former champ keeps the young 140-pounder's career trajectory pointed toward contender status.",
+          "url": "https://www.ringmagazine.com/news/ashton-sylve-outpoints-game-but-overmatched-jojo-diaz-4OpEGfTRJ2euQOVVO2bi1Q",
+          "source": "The Ring",
+          "publishedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "Conor McGregor returns from a five-year layoff to headline International Fight Week against Max Holloway, while UFC Baku runs tonight and Dana White stacks Philadelphia with two title fights.",
+      "items": [
+        {
+          "headline": "Conor McGregor vs. Max Holloway 2 set for UFC 329 welterweight main event on July 11 in Las Vegas",
+          "brief": "McGregor returns to the Octagon for the first time since breaking his leg at UFC 264 in July 2021, rematching Max Holloway — who moves up to welterweight — atop UFC 329 on July 11 at T-Mobile Arena in Las Vegas. McGregor beat Holloway by unanimous decision back in 2013; the lightweight co-main pits No. 6 Paddy Pimblett against No. 5 Benoit Saint Denis. The card headlines International Fight Week and streams on Paramount+.",
+          "whyItMatters": "McGregor's long-awaited comeback is the UFC's biggest box-office draw of the year, and a loss to Holloway would gut his title aspirations.",
+          "url": "https://www.ufc.com/news/conor-mcgregor-rematches-max-holloway-welterweight-main-event-ufc-329-live-paramount",
+          "source": "UFC.com",
+          "featured": true
+        },
+        {
+          "headline": "UFC Baku goes tonight: Rafael Fiziev vs. Manuel Torres in five-round lightweight main event",
+          "brief": "Azerbaijan's Rafael Fiziev (13-5), ranked No. 11, fights in front of a home crowd against No. 15 Manuel Torres (17-3) of Mexico in a five-round lightweight main event this Saturday at the National Gymnastics Arena in Baku. Fiziev is chasing his first win since a January loss to Mauricio Ruffy at UFC 325. The middleweight co-main sees Sharabutdin Magomedov return to face Michel Pereira.",
+          "whyItMatters": "A win re-establishes Fiziev in a crowded lightweight title picture now led by champion Justin Gaethje.",
+          "url": "https://www.tapology.com/fightcenter/events/141299-ufc-fight-night",
+          "source": "Tapology"
+        },
+        {
+          "headline": "Dana White books two title fights for UFC 330 in Philadelphia on Aug. 15: Makhachev–Garry and Dern–Robertson",
+          "brief": "Welterweight champion Islam Makhachev makes his first title defense since winning the belt at UFC 322 in November, facing No. 1 contender Ian Machado Garry in the UFC 330 main event on Aug. 15 at Xfinity Mobile Arena in Philadelphia. In the co-main, strawweight champ Mackenzie Dern defends against submission specialist Gillian Robertson. White announced the doubleheader June 17, marking the UFC's first Philadelphia card since 2019.",
+          "whyItMatters": "Two belts on one card test whether Makhachev can cement a second-division reign and whether Dern's title run survives a grappling specialist.",
+          "url": "https://www.ufc.com/news/dana-white-announces-two-title-fights-ufcs-return-philadelphia",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-17"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "18.89",
+      "reference": "range ~15–20",
+      "asOf": "2026-06-26",
+      "source": "CBOE (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "40.70",
+      "reference": "media ~17",
+      "asOf": "2026-06-26",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "semis",
+        "label": "Semis / AI hardware",
+        "streams": [
+          {
+            "id": "semis",
+            "label": "ASML & TSMC",
+            "kind": "cluster",
+            "names": [
+              "ASML Holding",
+              "TSMC (Taiwan Semiconductor)"
+            ],
+            "items": [
+              {
+                "headline": "Netherlands signs US-led 'Pax Silica' chip alliance while lobbying Washington to drop MATCH Act curbs threatening ~20% of ASML revenue",
+                "brief": "Dutch Foreign Trade Minister Sjoerd Sjoerdsma signed the US-led Pax Silica declaration on chips and AI in Washington on Tuesday, joining Japan, South Korea, the UK and Australia, with the European Commission signing simultaneously. At the same time the Netherlands is actively pushing back against the proposed MATCH Act, which would let the US block ASML from selling and servicing its older DUV immersion lithography machines in China — equipment that accounts for roughly one-fifth of ASML's expected annual revenue. The bill has cleared the House Foreign Affairs Committee but not full Congress; ASML's most advanced systems have already been banned from China since 2019.",
+                "whyItMatters": "ASML's remaining legal China business — and the maintenance contracts on installed DUV tools — is now the central bargaining chip in US-Dutch chip diplomacy; passage of MATCH would force a contract breach and a material revenue hit.",
+                "url": "https://www.dutchnews.nl/2026/06/netherlands-joins-us-chip-pact-while-fighting-asml-export-curbs/",
+                "source": "DutchNews.nl",
+                "publishedAt": "2026-06-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "esw",
+        "label": "Enterprise software",
+        "streams": [
+          {
+            "id": "now",
+            "label": "ServiceNow",
+            "kind": "name",
+            "names": [
+              "ServiceNow"
+            ],
+            "items": [
+              {
+                "headline": "ServiceNow, Google Cloud and HCLTech launch three-way alliance to push enterprise AI agents from pilots into production",
+                "brief": "On 25 June 2026, ServiceNow, Google Cloud and HCLTech unveiled an expanded partnership combining Google's Gemini Enterprise and Gemini Live models with the ServiceNow platform and HCLTech's engineering to deploy agentic AI across operations. Initial solutions target field service (Gemini Live tied to ServiceNow Field Service Management), customer experience, a manufacturing shop-floor assistant, and an ITOps agent distributed via Google Cloud Marketplace. ServiceNow's Michael Park framed it as orchestrating intelligent agents 'across the business as a connected system of action.'",
+                "whyItMatters": "Extends ServiceNow's agentic-AI distribution through Google Cloud Marketplace and a major systems integrator, broadening its reach as it competes to monetize enterprise AI agents.",
+                "url": "https://cxovoice.com/hcltech-expands-google-cloud-and-servicenow-alliance-to-bring-agentic-ai-into-enterprise-operations/",
+                "source": "CXO Voice",
+                "publishedAt": "2026-06-25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Amazon to invest an additional $13B in India, lifting its 2026–2030 commitment to $48B for AWS AI and cloud buildout",
+                "brief": "On June 25 in New Delhi, CEO Andy Jassy met Prime Minister Narendra Modi and announced an extra $13 billion to expand AWS data center capacity in Mumbai and Hyderabad, bringing Amazon's planned India investment to $48 billion over 2026–2030 and cumulative 2010–2030 spend above $88 billion. The money funds custom AI chips, managed AI services and developer tools, alongside 20+ new fulfillment centers and 100+ delivery stations in 2026. The pledge lands within six months of an earlier $35 billion India commitment.",
+                "whyItMatters": "Cements India as a core AWS growth and AI-capacity market, deepening Amazon's capex race against Microsoft and Google for cloud infrastructure abroad.",
+                "url": "https://www.aboutamazon.com/news/company-news/amazon-india-investment",
+                "source": "About Amazon",
+                "publishedAt": "2026-06-25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "Visa launches consumer travel platform Visa Destinations across 10 global cities with Star Alliance, Trip.com and Santander as anchor partners",
+                "brief": "On 25 June 2026 Visa unveiled Visa Destinations, a mobile-first travel-planning platform now live in 10 markets including Paris, London, New York, Dubai, Milan, Rome, Mexico City, Miami, San Francisco and Thailand, with more cities to follow this year. The platform offers curated experiences, tastemaker recommendations and city guides, anchored by partners Santander Group, Global Blue, Star Alliance and Trip.com Group. Visa framed the move as a shift from being 'the way to pay for travel' to acting as a travel companion.",
+                "whyItMatters": "Signals Visa pushing beyond payments rails into higher-engagement consumer services to defend relevance and capture travel spend; execution and monetisation outside its core network business will be watched closely.",
+                "url": "https://investor.visa.com/news/news-details/2026/Visa-Redefines-Its-Role-in-Travel-With-the-Global-Launch-of-Visa-Destinations/default.aspx",
+                "source": "Visa Investor Relations",
+                "publishedAt": "2026-06-25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "L'EV/EBITDA (valore d'impresa su EBITDA)",
+        "body": "L'EV/EBITDA confronta l'intero 'prezzo' dell'azienda con il suo profitto operativo grezzo. L'EV (enterprise value) è la capitalizzazione di mercato più i debiti meno la cassa: cioè quanto pagheresti per comprare tutta l'azienda e accollarti i suoi debiti. Lo dividi per l'EBITDA (utile prima di interessi, tasse e ammortamenti). A differenza del P/E, tiene conto del debito e ignora la struttura fiscale, quindi è più 'giusto' per confrontare aziende con livelli di indebitamento diversi.",
+        "example": "Azienda con EV di 1.000 milioni ed EBITDA di 100 milioni → EV/EBITDA = 10. Significa che, a profitti costanti, recuperi il prezzo d'acquisto in circa 10 anni di EBITDA.",
+        "whyItMatters": "È il multiplo preferito da chi fa acquisizioni perché non si fa ingannare dal debito nascosto dietro l'utile netto."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Il churn (e churn netto vs lordo)",
+        "body": "Il churn è la percentuale di clienti (o di ricavi) che perdi in un periodo. Il churn lordo conta solo quello che se ne va; il churn netto sottrae anche l'espansione, cioè i ricavi extra dai clienti che restano e spendono di più. Per una startup SaaS il churn è il buco nel secchio: puoi versare quanti clienti vuoti in cima, ma se il fondo perde, la crescita si ferma. Un churn netto negativo (i clienti esistenti crescono più di quanto perdi) è il sogno: l'azienda cresce anche senza acquisire nuovi clienti.",
+        "example": "Parti con 100.000€ di ricavi mensili, perdi clienti per 5.000€ ma quelli rimasti spendono 8.000€ in più → churn netto -3%: il secchio si riempie da solo.",
+        "whyItMatters": "Il churn determina quanto vale davvero ogni cliente acquisito e se la crescita è sostenibile o solo apparente."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "Le onde (quello che viaggia è il disturbo, non la materia)",
+        "body": "Un'onda è un disturbo che si propaga trasportando energia, ma non materia. Pensa a un campo di grano col vento: vedi 'onde' attraversare il campo, ma ogni spiga resta al suo posto, oscilla e basta. Lo stesso vale per il suono (l'aria si comprime e si rilassa, non 'vola' da chi parla al tuo orecchio) e per le onde del mare (l'acqua sale e scende, non avanza). È un'idea potente: l'informazione e l'energia possono muoversi anche se la sostanza resta ferma.",
+        "example": "Fai 'la ola' allo stadio: l'onda gira tutto lo stadio, ma tu rimani al tuo posto — alzi solo le braccia al momento giusto.",
+        "whyItMatters": "Spiega come luce, suono, radio e perfino i terremoti trasportano energia a distanza senza spostare la materia in mezzo."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "La luce di Vermeer (e la camera oscura)",
+        "body": "Johannes Vermeer, pittore olandese del Seicento, dipingeva interni quotidiani — una donna che legge una lettera, una che versa il latte — con una luce che sembra vera, morbida, che entra da una finestra a sinistra. Il segreto sono i piccoli punti di luce sfocati (i 'pointillé') che mette sugli oggetti, come quando una foto è leggermente fuori fuoco. Molti studiosi pensano che usasse la camera oscura, un dispositivo ottico che proiettava la scena su una parete, aiutandolo a cogliere quegli effetti di luce.",
+        "example": "In 'La lattaia' guarda il pane e il cesto: sono punteggiati di minuscole gocce di luce, un effetto che l'occhio nudo non vede ma una lente sì.",
+        "whyItMatters": "Mostra come un artista possa usare la tecnologia ottica del suo tempo per vedere — e dipingere — la luce come nessun altro."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Il filo spinato e la fine della frontiera americana",
+        "body": "Nelle Grandi Pianure americane non c'erano legno né pietra per recintare: la terra era aperta e il bestiame pascolava libero. Nel 1874 Joseph Glidden brevetta un filo spinato economico e producibile in massa. All'improvviso un contadino può recintare migliaia di ettari con pochi soldi. Il risultato è enorme: finiscono le grandi transumanze di mandrie, la terra viene divisa in proprietà private e i Nativi americani, già sotto pressione, perdono l'accesso alle pianure aperte da cui dipendevano.",
+        "example": "I cowboy chiamavano il filo spinato 'la corda del diavolo': in pochi anni le epiche mandrie portate per centinaia di chilometri verso i mercati semplicemente sparirono.",
+        "whyItMatters": "Un'invenzione banale ridisegnò la proprietà della terra e accelerò la nascita dell'agricoltura industriale che ci nutre oggi."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "La 'cargo cult science' (Richard Feynman)",
+        "body": "Feynman raccontava dei 'culti del cargo' del Pacifico: dopo la guerra, alcune popolazioni costruirono finte piste d'atterraggio in legno, sperando che gli aerei carichi di provviste tornassero. Avevano copiato la forma — torri, antenne — ma non capivano il meccanismo, quindi gli aerei non arrivavano. Feynman usava questa immagine per criticare il lavoro che imita i rituali della scienza (grafici, formule, gergo) senza l'onestà intellettuale di fondo: cercare davvero di dimostrarti sbagliato. Si applica ovunque: in azienda, nello studio, nei processi che 'sembrano' rigorosi ma non lo sono.",
+        "example": "Un team che ha la riunione di retrospettiva ogni settimana ma non cambia mai nulla: ha la forma del metodo, non la sostanza.",
+        "whyItMatters": "Ti insegna a distinguere chi capisce davvero un problema da chi ne imita soltanto i gesti."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Il modello fabless-foundry: perché TSMC produce i chip di quasi tutti",
+        "body": "Una volta un'azienda di chip faceva tutto in casa: progettava E fabbricava. Oggi l'industria si è spaccata in due. Da un lato i 'fabless' (Nvidia, Apple, AMD) che solo progettano i chip e non possiedono fabbriche. Dall'altro le 'foundry' (fonderie) che non progettano nulla ma costruiscono i chip degli altri. Costruire una fabbrica all'avanguardia costa decine di miliardi e richiede competenze estreme, quindi pochissimi possono permettersela. TSMC, a Taiwan, è diventata di gran lunga la migliore: così, il chip dentro il tuo iPhone è progettato da Apple ma fisicamente fatto da TSMC.",
+        "example": "Nvidia disegna la GPU per l'AI ma non ha fabbriche: invia il progetto a TSMC, che lo stampa sul silicio. Senza TSMC, il progetto resta carta.",
+        "whyItMatters": "Spiega perché una sola azienda su un'isola è diventata il collo di bottiglia geopolitico di tutta la tecnologia mondiale."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "Il rapporto carico acuto:cronico (ACWR)",
+        "body": "Gli infortuni da sovraccarico arrivano spesso non perché ti alleni troppo in assoluto, ma perché aumenti troppo in fretta. L'ACWR confronta il carico dell'ultima settimana (acuto) con la media delle ultime quattro settimane (cronico). Se il rapporto resta in una fascia 'dolce' (circa 0,8–1,3), il corpo regge; se schizza sopra 1,5 — la classica settimana in cui raddoppi i chilometri o aggiungi tante stazioni HYROX nuove — il rischio di infortunio sale parecchio. La regola pratica derivata è il famoso 'non più del ~10% in più a settimana'.",
+        "example": "Se le ultime 4 settimane hai fatto in media 30 km a settimana e di colpo ne fai 50, il tuo ACWR è ~1,7: zona rossa. Meglio salire a 33–35 km.",
+        "whyItMatters": "Programmare gli aumenti di carico in modo graduale è il modo più semplice e fondato per non saltare gare per infortunio."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Perfekt o Präteritum? I due passati del tedesco e quando usarli",
+        "readingTime": "~5 min",
+        "markdown": "# Perfekt o Präteritum? I due passati del tedesco e quando usarli\n\n## Ripasso\n\nIeri abbiamo visto i **Reflexivverben**, i verbi in cui l'azione \"ritorna\" sul soggetto tramite un pronome riflessivo: *ich wasche **mich*** (mi lavo), *du erinnerst **dich*** (ti ricordi). Abbiamo distinto il riflessivo all'Akkusativ (*ich freue **mich***) da quello al Dativ, che compare quando c'è già un oggetto diretto (*ich wasche **mir** die Hände* — mi lavo le mani). Oggi cambiamo dimensione: non più *chi* compie l'azione, ma *quando*. Entriamo nel **passato**.\n\n## Due tempi, un solo significato (quasi)\n\nIl tedesco ha due modi principali di esprimere il passato semplice:\n\n- il **Perfekt** (passato prossimo composto): *ich **habe** gespielt* / *ich **bin** gegangen*\n- il **Präteritum** (imperfetto/passato semplice): *ich **spielte*** / *ich **ging***\n\n> ⚠️ Attenzione al falso amico con l'italiano: il Perfekt tedesco **non** equivale al nostro passato prossimo, né il Präteritum al nostro imperfetto. La scelta tra i due in tedesco dipende soprattutto dal **registro** (parlato vs scritto), non dalla durata o dall'aspetto dell'azione.\n\nEntrambi traducono lo stesso fatto compiuto. *Ich habe das Buch gelesen* e *ich las das Buch* significano tutti e due **\"ho letto / lessi il libro\"**.\n\n## La regola d'oro: parlato vs scritto\n\n```mermaid\nflowchart TD\n    A[Voglio esprimere il passato] --> B{Contesto?}\n    B -->|Lingua parlata, e-mail, chat| C[PERFEKT<br/>ich habe gemacht]\n    B -->|Narrazione scritta, romanzi, articoli| D[PRÄTERITUM<br/>ich machte]\n    C --> E{Eccezioni sempre al Präteritum<br/>anche parlando}\n    D --> E\n    E --> F[sein → war<br/>haben → hatte<br/>modali → konnte, wollte...<br/>es gibt → es gab]\n```\n\n1. Nella **lingua parlata** quotidiana (e nelle e-mail informali) il tedesco usa il **Perfekt** per quasi tutti i verbi.\n2. Nella **lingua scritta narrativa** (romanzi, racconti, articoli, resoconti storici) domina il **Präteritum**.\n3. **Eccezione fondamentale:** alcuni verbi ad altissima frequenza usano il **Präteritum anche nel parlato**, perché il Perfekt suonerebbe pesante. I principali sono **sein** (*war*), **haben** (*hatte*) e i **verbi modali** (*konnte, wollte, musste, durfte, sollte, mochte*), più *es gibt → **es gab***.\n\n| Frase parlata naturale | Tempo usato |\n|---|---|\n| Gestern **war** ich krank. (Ieri ero malato.) | Präteritum (*sein*) |\n| Ich **hatte** keine Zeit. (Non avevo tempo.) | Präteritum (*haben*) |\n| Wir **konnten** nicht kommen. (Non potevamo venire.) | Präteritum (modale) |\n| Ich **habe** einen Film **gesehen**. (Ho visto un film.) | Perfekt (verbo normale) |\n\n## Come si forma il Perfekt: *haben* o *sein*?\n\nIl Perfekt = **verbo ausiliare al presente** + **Partizip II** alla fine della frase.\n\nL'ausiliare è quasi sempre **haben**, ma si usa **sein** quando il verbo esprime:\n\n- un **movimento da un luogo a un altro**: *gehen, kommen, fahren, fliegen, laufen*\n- un **cambiamento di stato**: *aufstehen, einschlafen, sterben, werden, wachsen*\n- più i tre verbi speciali **sein, bleiben, passieren/geschehen**\n\n```\nhaben:  Ich  habe  das Auto  repariert.   (Ho riparato l'auto.)\nsein:   Ich  bin   nach Berlin  gefahren.  (Sono andato a Berlino.)\n```\n\n### Il Partizip II in breve\n\n| Tipo | Schema | Esempio |\n|---|---|---|\n| Deboli (regolari) | **ge-** + radice + **-t** | machen → **gemacht** |\n| Forti (irregolari) | **ge-** + radice (spesso muta) + **-en** | gehen → **gegangen** |\n| Verbi in *-ieren* | (niente *ge-*) + **-t** | studieren → **studiert** |\n| Prefisso inseparabile | (niente *ge-*) | verstehen → **verstanden** |\n| Prefisso separabile | prefisso + **ge** + … | aufstehen → **aufgestanden** |\n\n## Il Präteritum in breve\n\n- **Verbi deboli:** radice + **-te** + desinenza → *ich mach**te**, du mach**test**, er mach**te***.\n- **Verbi forti:** cambiano la vocale della radice e prendono desinenze proprie → *gehen → ich **ging**, fahren → ich **fuhr**, sehen → ich **sah***.\n\n> Nota che alla **1ª e 3ª persona singolare** il Präteritum **non ha desinenza** nei verbi forti: *er ging*, *sie sah*, *ich war*. È la spia tipica di questo tempo.\n\n## Errori tipici\n\n- ❌ *Ich habe gestern in München gewesen.* → ✅ *Ich **bin** gestern in München **gewesen*** (*sein* vuole *sein*). Ancora meglio nel parlato: *Ich **war** gestern in München.*\n- ❌ *Ich bin das Buch gelesen.* → ✅ *Ich **habe** das Buch gelesen* (leggere non è movimento).\n- ❌ *Gestern ich habe gearbeitet.* → ✅ *Gestern **habe** ich gearbeitet* (verbo coniugato in **seconda posizione**; il participio va in fondo).\n- ❌ Usare il Perfekt di *sein/haben*/modali nel parlato in modo pesante: *Ich habe keine Zeit gehabt* è corretto ma suona innaturale → meglio *Ich **hatte** keine Zeit.*\n\n## Esercizi\n\n**1.** Scegli l'ausiliare giusto (*haben*/*sein*):\na) Er ___ den ganzen Tag geschlafen. b) Wir ___ nach Italien geflogen. c) Sie ___ einen Brief geschrieben. d) Das Kind ___ schnell gewachsen.\n\n**2.** Trasforma al **Perfekt** (parlato): *Ich kaufe einen Mantel.*\n\n**3.** Trasforma al **Präteritum** (scritto): *Sie geht ins Kino und sieht einen Film.*\n\n**4.** Correggi: *Gestern ich bin sehr müde gewesen und ich habe nicht gekonnt arbeiten.*\n\n### Soluzioni\n\n**1.** a) **hat** (dormire ≠ movimento) — b) **sind** (*fliegen*, movimento) — c) **hat** (*schreiben*) — d) **ist** (*wachsen*, cambiamento di stato).\n\n**2.** *Ich **habe** einen Mantel **gekauft**.*\n\n**3.** *Sie **ging** ins Kino und **sah** einen Film.*\n\n**4.** *Gestern **war** ich sehr müde und **konnte** nicht arbeiten.* (Nel parlato *sein* e il modale vanno al Präteritum; il modale *können* in fondo non si usa con doppio infinito qui — basta *konnte … arbeiten*.)\n\n## Takeaways\n\n- **Perfekt e Präteritum traducono lo stesso passato**: la scelta dipende dal registro, non dall'aspetto.\n- **Parlato → Perfekt**; **scritto narrativo → Präteritum**.\n- **Eccezioni sempre al Präteritum anche parlando:** *sein* (*war*), *haben* (*hatte*), i **modali**, *es gab*.\n- Il Perfekt usa **sein** per movimento e cambiamento di stato (+ *sein, bleiben, passieren*), altrimenti **haben**.\n- Il **verbo coniugato sta in 2ª posizione**, il **Partizip II / l'infinito va in fondo**."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Die Mahnung: solleciti di pagamento e gestione delle scadenze",
+        "readingTime": "~5 min",
+        "markdown": "# Die Mahnung: solleciti di pagamento e gestione delle scadenze\n\n## Ripasso\n\nIeri abbiamo imparato a **fatturare**: come strutturare una **Rechnung** (*fattura*), indicare la **Rechnungsnummer** (*numero di fattura*) e definire le **Zahlungsbedingungen** (*condizioni di pagamento*) — per esempio *zahlbar innerhalb von 14 Tagen* (*pagabile entro 14 giorni*). Abbiamo visto formule come **Wir bitten um Überweisung des Rechnungsbetrags** (*la preghiamo di versare l'importo della fattura*). Oggi affrontiamo il passo successivo e spinoso: cosa fare quando il cliente **non paga**.\n\n## Quando la Frist scade\n\nIl termine chiave è **die Frist** (*il termine, la scadenza*). Quando un cliente lascia passare la scadenza, entra in **Verzug** (*mora*). Il processo strutturato di solleciti si chiama **das Mahnwesen** (*la gestione dei solleciti*), e ogni singolo sollecito è **die Mahnung**.\n\nIn Germania il tono è graduale e quasi codificato. Si procede per livelli, dal cortese promemoria fino alla minaccia di azioni legali.\n\n```mermaid\nflowchart LR\n    A[Rechnung<br/>fattura] --> B[Frist überschritten<br/>scadenza superata]\n    B --> C[Zahlungserinnerung<br/>promemoria cortese]\n    C --> D[1. Mahnung]\n    D --> E[2. Mahnung<br/>+ Mahngebühr]\n    E --> F[Letzte Mahnung<br/>ultimo sollecito]\n    F --> G[Inkasso / Gericht<br/>recupero crediti]\n```\n\n> **Nota di registro:** il primo passo si chiama spesso **Zahlungserinnerung** (*promemoria di pagamento*), non ancora *Mahnung*. La parola *Mahnung* suona già più severa, quindi molte aziende usano *Zahlungserinnerung* per non incrinare il rapporto commerciale al primo ritardo.\n\n## Vocabolario e Redemittel\n\n| Tedesco | Italiano |\n|---|---|\n| **die Zahlungserinnerung** | promemoria di pagamento (cortese) |\n| **die Mahnung** | sollecito |\n| **der Zahlungsverzug / der Verzug** | ritardo / mora |\n| **die Mahngebühr** | spese di sollecito |\n| **der Verzugszins** | interesse di mora |\n| **der offene Betrag / der Außenstand** | importo scoperto / insoluto |\n| **die Fälligkeit / fällig** | scadenza / scaduto, esigibile |\n| **das Inkassobüro** | agenzia di recupero crediti |\n| **das gerichtliche Mahnverfahren** | procedura ingiuntiva giudiziale |\n| **ausgleichen** | saldare (un importo) |\n| **anmahnen** | sollecitare |\n\n### Formule per la prima Zahlungserinnerung (tono morbido)\n\n- **Sicher haben Sie übersehen, dass die Rechnung Nr. … noch offen ist.** — *Le sarà certamente sfuggito che la fattura n. … è ancora aperta.*\n- **Wir möchten Sie freundlich an die Begleichung der oben genannten Rechnung erinnern.** — *Desideriamo ricordarLe gentilmente il pagamento della fattura sopra indicata.*\n- **Falls sich Ihre Zahlung mit diesem Schreiben überschnitten hat, betrachten Sie diese Erinnerung bitte als gegenstandslos.** — *Se il Suo pagamento si è incrociato con questa lettera, La preghiamo di considerarla priva di oggetto.*\n\n### Formule per una Mahnung successiva (tono fermo)\n\n- **Trotz unserer Zahlungserinnerung vom … konnten wir bis heute keinen Zahlungseingang feststellen.** — *Nonostante il nostro promemoria del …, ad oggi non abbiamo riscontrato alcun pagamento.*\n- **Wir fordern Sie auf, den offenen Betrag bis spätestens … zu begleichen.** — *La invitiamo a saldare l'importo scoperto entro e non oltre il ….*\n- **Andernfalls sehen wir uns gezwungen, weitere Schritte einzuleiten.** — *In caso contrario, saremo costretti ad avviare ulteriori provvedimenti.*\n\n## Calcolare i Verzugszinsen\n\nSpesso il sollecito include gli interessi di mora. La formula di base è:\n\n$$Z = B \\cdot \\frac{p}{100} \\cdot \\frac{t}{360}$$\n\ndove $Z$ sono gli interessi (*Zinsen*), $B$ l'importo scoperto (*Betrag*), $p$ il tasso annuo in percentuale e $t$ i giorni di ritardo. Nota: nel mondo commerciale tedesco si usa convenzionalmente l'anno bancario di **360 giorni**.\n\n> Esempio: su un insoluto di **2.000 €** con un tasso del **9 %** e **30** giorni di ritardo: $Z = 2000 \\cdot 0{,}09 \\cdot \\frac{30}{360} = 15$ €.\n\n## Testo-modello: la 1. Mahnung\n\n> **Betreff: Mahnung – Rechnung Nr. 2026-0457**\n>\n> Sehr geehrte Frau Brandt,\n>\n> mit unserer Rechnung vom 15.05.2026 haben wir Ihnen den Betrag von **2.380,00 €** in Rechnung gestellt. Die Zahlungsfrist ist am **29.05.2026** abgelaufen.\n>\n> Trotz unserer Zahlungserinnerung vom 05.06.2026 konnten wir bislang **keinen Zahlungseingang** verzeichnen. Wir fordern Sie daher auf, den **offenen Betrag** bis zum **03.07.2026** auf das unten genannte Konto zu überweisen.\n>\n> Für diese Mahnung berechnen wir eine **Mahngebühr von 5,00 €**. Sollten Sie die Zahlung zwischenzeitlich veranlasst haben, betrachten Sie dieses Schreiben bitte als gegenstandslos.\n>\n> Mit freundlichen Grüßen\n> M. Keller, Buchhaltung\n\n*Traduzione dei passaggi chiave:* con la nostra fattura del … Le abbiamo addebitato l'importo di …; il termine di pagamento è scaduto il …; non abbiamo registrato alcun pagamento; La invitiamo a versare l'importo scoperto entro il …; per questo sollecito addebitiamo spese di € 5,00.\n\n## Note d'uso e registro\n\n- **Gradualità obbligata:** non saltare direttamente alle minacce. Anche quando si è nel giusto, partire troppo aggressivi è considerato *unprofessionell*.\n- **\"Sie haben übersehen\"**: attribuire il ritardo a una *svista* (non a malafede) è una cortesia standard nel primo sollecito — salva la faccia del cliente.\n- **Verbi forti del sollecito:** **auffordern** (*invitare/intimare*) e **anmahnen** segnalano fermezza; **erinnern** (*ricordare*) resta cortese. La scelta del verbo è il vero termometro del tono.\n- Dopo la **letzte Mahnung** si passa all'**Inkassobüro** o al **gerichtliches Mahnverfahren**: a quel punto il registro diventa puramente formale-legale.\n\n## Takeaways\n\n- Il **Mahnwesen** procede per livelli: **Zahlungserinnerung** → **1./2. Mahnung** → **Inkasso/Gericht**.\n- **Zahlungserinnerung** è cortese, **Mahnung** è fermo: scegli la parola in base al rapporto col cliente.\n- Formule chiave: *Sicher haben Sie übersehen…*, *Trotz unserer Zahlungserinnerung…*, *Wir fordern Sie auf, … zu begleichen.*\n- Calcola i **Verzugszinsen** con l'anno commerciale di **360 giorni**.\n- Inserisci sempre la clausola di cortesia *…betrachten Sie dieses Schreiben bitte als gegenstandslos* in caso di pagamento incrociato."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "CDNs and Edge Caching",
+        "readingTime": "~5 min",
+        "markdown": "# CDNs and Edge Caching\n\n## Recap\n\nYesterday we put a **reverse proxy** in front of our servers — a single entry point that terminates TLS, load-balances, and lets an **API gateway** layer on auth, rate limiting, and routing. That proxy still lives in *your* data center, though. Today we push caching out past it, all the way to the network edge, closer to the user than your origin will ever be.\n\n## The problem: distance is latency\n\nA request from a user in São Paulo to a server in Frankfurt travels ~9,500 km each way. Even at the speed of light in fiber (~200,000 km/s), the round trip is bounded by physics:\n\n$$t_{\\text{rtt}} \\ge \\frac{2 \\cdot d}{v} = \\frac{2 \\cdot 9{,}500\\,\\text{km}}{200{,}000\\,\\text{km/s}} \\approx 95\\,\\text{ms}$$\n\nwhere $d$ is one-way distance and $v$ is signal speed in fiber. And that's *before* TCP/TLS handshakes (which add several round trips) or any server work. No amount of CPU fixes the speed of light. The only lever is **moving the content closer**.\n\nA **Content Delivery Network (CDN)** is a globally distributed fleet of cache servers — **Points of Presence (PoPs)** — placed in hundreds of cities. The user is routed (usually via *anycast* or DNS) to the nearest PoP. If the content is cached there, it's served from ~10 ms away instead of ~150 ms away. Your **origin** server is contacted only on a *miss*.\n\n```mermaid\nflowchart LR\n    U1[User · São Paulo] --> E1[Edge PoP · São Paulo]\n    U2[User · Tokyo] --> E2[Edge PoP · Tokyo]\n    E1 -- miss --> O[(Origin · Frankfurt)]\n    E2 -- miss --> O\n    E1 -- hit --> U1\n    E2 -- hit --> U2\n```\n\n> A CDN is a **read-through cache layer** for the public internet. The same cache fundamentals from earlier — hit ratio, TTLs, invalidation — apply, just replicated across the planet.\n\n## Push vs. pull\n\nThere are two ways content arrives at the edge.\n\n| | **Pull (origin pull)** | **Push** |\n|---|---|---|\n| **How** | Edge fetches from origin on first miss, then caches | You upload/replicate content to the CDN ahead of time |\n| **First request** | Slow (one cold miss per PoP) | Fast (already warm) |\n| **Storage** | Only popular content is cached | Everything you pushed, everywhere |\n| **Best for** | Most web traffic; large, changing catalogs | Predictable, must-be-fast assets; large media you control |\n\n**Pull** is the default for almost everyone: simple to operate, self-managing (rarely-requested objects naturally fall out of cache). The cost is the **cold-miss penalty** — the first user at each PoP pays full origin latency, and a sudden spike can cause many PoPs to stampede the origin at once.\n\n**Push** trades operational effort for guaranteed warmth and control — useful for a software release, a video drop, or anything where even the first request must be instant.\n\n## Cache keys and TTLs at the edge\n\nThe edge decides \"have I seen this before?\" by computing a **cache key**. By default that's roughly the scheme + host + path + query string:\n\n```\nhttps://shop.example.com/img/shoe.jpg?w=400   →   key A\nhttps://shop.example.com/img/shoe.jpg?w=800   →   key B   (different object)\n```\n\nThis is the single most important thing to get right. Two failure modes:\n\n- **Key too broad** → different content collides on one key. Imagine ignoring a `?lang=` param: a French user poisons the cache and a German user gets French text.\n- **Key too narrow** → identical content splits across many keys, destroying your hit ratio. A tracking param like `?utm_source=twitter` shouldn't fork the cache — strip it from the key.\n\nYou tune the key by configuring which **query params**, **headers**, and **cookies** participate. A common pattern is *Vary*: vary on `Accept-Encoding` (so gzip and brotli are cached separately) but **not** on volatile headers like `User-Agent`.\n\n**TTL (time-to-live)** controls how long the edge serves a copy before checking the origin again. It's driven by HTTP caching headers from your origin:\n\n```http\nCache-Control: public, max-age=86400, s-maxage=604800, stale-while-revalidate=60\n```\n\n- `max-age` — TTL for *browsers*.\n- `s-maxage` — TTL for *shared caches* like the CDN (overrides `max-age` there).\n- `stale-while-revalidate` — keep serving the stale copy while fetching a fresh one in the background, so no user waits on revalidation.\n- `Cache-Control: private, no-store` — never cache (per-user/secret data).\n\nThe hard problem isn't expiry, it's **early invalidation**: you changed a file and need the edge to forget it *now*. Two industry-standard answers:\n\n1. **Purge** — call the CDN API to evict a key (or a tag/surrogate-key group) immediately.\n2. **Cache-busting / content hashing** — never overwrite; rename. Ship `app.4f9a1c.js` with a year-long TTL and change the filename when content changes. The HTML referencing it points at the new name, so there's nothing to invalidate. This is the standard for static assets.\n\n## What to cache at the edge — and what not to\n\n**Cache it** when content is the *same for many users* and *tolerant of being slightly stale*:\n\n- Static assets: JS, CSS, fonts, images, video segments.\n- Public, infrequently changing API responses (e.g. a product catalog).\n- Whole anonymous HTML pages (with care).\n\n**Don't cache it** when content is *per-user* or *must be exactly current*:\n\n- Authenticated/personalized responses (your account page, your cart).\n- Anything `Set-Cookie` for a session.\n- Write operations (`POST`/`PUT`/`DELETE`) and real-time data (live prices, stock).\n\n> **The cardinal sin:** caching a logged-in response under a key shared by everyone. User A's bank balance gets served to User B. If a response depends on identity, either mark it `private, no-store`, or include the identity in the cache key — never leave it shared.\n\nModern CDNs blur this line with **edge compute** (Workers/Lambda@Edge): you run logic at the PoP — auth checks, A/B routing, personalization, header rewriting — getting edge proximity without serving stale personalized content from a dumb cache.\n\n## Takeaways\n\n- A CDN beats the **speed-of-light tax** by serving from a PoP near the user; the origin is hit only on a **miss**.\n- **Pull** (lazy, self-managing, cold-miss penalty) is the default; **push** (pre-warmed, controlled) suits predictable must-be-fast assets.\n- The **cache key** is everything: too broad leaks/poisons content, too narrow wrecks hit ratio. Tune which params/headers participate.\n- Control freshness with `s-maxage`, `stale-while-revalidate`, **purge** APIs, and **content-hashed filenames** for safe invalidation.\n- Cache **shared, stale-tolerant** content; never cache **per-user or sensitive** responses under a shared key — use `private/no-store` or edge compute instead.",
+        "roadmapId": "sd-08"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "The Transformer Block, End to End",
+        "readingTime": "~4 min",
+        "markdown": "# The Transformer Block, End to End\n\n## Recap\n\nYesterday we dissected **self-attention**: every token builds a *query*, *key*, and *value*, and the output for each position is a weighted average of all values, where the weights come from scaled query–key dot products. We then saw that **multi-head attention** runs several of these in parallel — each head attending to a different kind of relationship — and concatenates the results. Today we zoom out: attention is only *one* sublayer. We assemble it with a feed-forward network, **residual connections**, and **normalization** into the repeatable **transformer block** that, stacked dozens of times, *is* the body of an LLM.\n\n## The block has exactly two sublayers\n\nA transformer block is a function that takes a sequence of vectors and returns a sequence of vectors *of the same shape*. This shape-preserving property is what lets us stack blocks indefinitely. Inside, it does two things in order:\n\n1. **Mix across positions** — multi-head self-attention, where tokens exchange information.\n2. **Mix across features** — a position-wise **feed-forward network (FFN)**, applied to each token independently.\n\nAttention is the *only* place where tokens talk to each other. The FFN never looks sideways; it transforms each token's vector on its own. This division of labor — *communicate, then compute* — is the heart of the architecture.\n\n## Residual connections: don't replace, refine\n\nEach sublayer is wrapped in a **residual (skip) connection**. Instead of `x → Sublayer(x)`, we compute:\n\n$$\\mathbf{x}_{\\text{out}} = \\mathbf{x} + \\text{Sublayer}(\\mathbf{x})$$\n\nThe sublayer learns a *correction* added to the input, not a from-scratch replacement. Two reasons this matters:\n\n- **Gradient flow.** The $+\\mathbf{x}$ term gives backpropagation a direct path through every layer. Without it, gradients shrink multiplicatively through dozens of layers and training stalls (the *vanishing gradient* problem). The residual makes the identity function the default, so a 96-layer model trains as readily as a shallow one.\n- **The residual stream.** Think of $\\mathbf{x}$ as a running \"stream\" of width $d_{\\text{model}}$ that flows straight through the network. Each sublayer *reads* from it and *writes* an increment back. Interpretability research treats this stream as the model's working memory.\n\n## Normalization: keeping activations well-scaled\n\nDeep stacks are unstable unless activations stay in a sane numeric range. **Layer normalization** rescales each token's vector to zero mean and unit variance (across its features), then applies a learned gain $\\boldsymbol{\\gamma}$ and bias $\\boldsymbol{\\beta}$:\n\n$$\\hat{\\mathbf{x}} = \\frac{\\mathbf{x} - \\mu}{\\sqrt{\\sigma^2 + \\epsilon}}, \\qquad \\text{LN}(\\mathbf{x}) = \\boldsymbol{\\gamma} \\odot \\hat{\\mathbf{x}} + \\boldsymbol{\\beta}$$\n\nwhere $\\mu, \\sigma^2$ are the mean and variance over the $d_{\\text{model}}$ features of that one token, $\\epsilon$ is a small constant for numerical safety, and $\\odot$ is elementwise multiply. Crucially LN works **per token**, independent of batch size or sequence length.\n\n> **Pre-norm vs. post-norm.** The original 2017 transformer normalized *after* the residual add (post-norm). Modern LLMs use **pre-norm**: normalize *before* the sublayer, keeping the residual stream itself untouched. Pre-norm trains far more stably at depth, which is why GPT-style models adopt it. Many also swap LayerNorm for **RMSNorm**, which skips mean-centering and divides only by the root-mean-square — cheaper, nearly as effective.\n\n## The feed-forward network\n\nThe FFN is a two-layer MLP applied identically at every position:\n\n$$\\text{FFN}(\\mathbf{x}) = \\mathbf{W}_2 \\,\\phi(\\mathbf{W}_1 \\mathbf{x} + \\mathbf{b}_1) + \\mathbf{b}_2$$\n\nIt projects *up* to a wider hidden dimension $d_{\\text{ff}}$ (classically $4 \\times d_{\\text{model}}$), applies a nonlinearity $\\phi$ (GELU or, in recent models, a **SwiGLU** gate), then projects back down. This is where most of a model's parameters and much of its stored \"knowledge\" live — the wide hidden layer acts like a large key–value memory.\n\n## Putting it together (pre-norm)\n\nFor input $\\mathbf{x}$, one block computes:\n\n```text\nh = x + MultiHeadAttention(LayerNorm(x))   # communicate\ny = h + FFN(LayerNorm(h))                   # compute\n```\n\n```mermaid\nflowchart TD\n    X[Input x] --> N1[LayerNorm]\n    N1 --> A[Multi-Head Attention]\n    X -->|residual| ADD1((+))\n    A --> ADD1\n    ADD1 --> N2[LayerNorm]\n    N2 --> F[Feed-Forward Network]\n    ADD1 -->|residual| ADD2((+))\n    F --> ADD2\n    ADD2 --> Y[Output y · same shape]\n```\n\n## From block to LLM\n\nA full model is just this block repeated $N$ times (e.g. 32, 80, 96), feeding token-plus-position embeddings in at the bottom and a final LayerNorm + output projection at the top:\n\n```mermaid\nflowchart TD\n    E[Token + Position Embeddings] --> B1[Block 1]\n    B1 --> B2[Block 2]\n    B2 --> D[ ... N blocks ... ]\n    D --> BN[Block N]\n    BN --> LN[Final LayerNorm]\n    LN --> U[Unembedding → logits]\n```\n\nBecause every block preserves shape, the stack is uniform: the *same* architecture, different learned weights. Depth gives the model the capacity to build representations in stages — early blocks resolve syntax and local structure, later ones compose meaning and task behavior.\n\n## Takeaways\n\n- The transformer block has **two sublayers**: multi-head attention (mix across positions) then a position-wise **feed-forward network** (mix across features) — *communicate, then compute*.\n- **Residual connections** (`x + Sublayer(x)`) create a stable gradient path and a persistent **residual stream** each sublayer reads from and writes to.\n- **Normalization** (LayerNorm/RMSNorm) keeps per-token activations well-scaled; modern LLMs apply it **pre-sublayer** for stable deep training.\n- The FFN's wide hidden layer ($\\approx 4\\times$) holds most parameters and acts as the model's knowledge store.\n- An LLM is this **shape-preserving block stacked $N$ times**, with embeddings below and an unembedding projection above.",
+        "roadmapId": "ai-08"
+      }
+    }
+  ]
+}
