@@ -1,0 +1,428 @@
+{
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T05:10:08.130Z",
+  "topics": [
+    {
+      "id": "ai",
+      "name": "AI & ML",
+      "intro": "Anthropic dominated the day with a new mid-tier Claude Sonnet 5 that beats its own flagship on coding and a science workbench, while OpenAI's GeneBench-Pro exposed how far frontier models still are from real biology.",
+      "items": [
+        {
+          "headline": "Anthropic's Claude Sonnet 5 beats flagship Opus 4.8 on Terminal-Bench at 40–60% lower cost",
+          "brief": "Anthropic released Claude Sonnet 5 on June 30, calling it its most agentic Sonnet yet and making it the default model for Free and Pro users and in Claude Code. It scores 80.4% on Terminal-Bench 2.1 (up from 67.0% for Sonnet 4.6) and matches or beats Opus 4.8 on agentic coding while costing 40–60% less, with a 1M-token context window by default and introductory pricing of $2/$10 per million tokens through August 31.",
+          "whyItMatters": "Puts near-flagship coding capability at mid-tier prices, squeezing rivals on the cost-quality frontier.",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Anthropic",
+          "publishedAt": "2026-06-30",
+          "featured": true
+        },
+        {
+          "headline": "Anthropic launches Claude Science, a workbench bundling 60+ databases for genomics and drug discovery",
+          "brief": "On June 30 Anthropic introduced Claude Science, an app that packages more than 60 scientific databases and toolkits for genomics, single-cell work, proteomics, structural biology and cheminformatics, produces auditable artifacts, and runs on existing Claude models like Opus 4.8 rather than a new one. Early users include Jérôme Lecoq at the Allen Institute, who built a multi-agent computational review pipeline, and Stephen Francis's team at UCSF, which sped up germline glioma analysis; Anthropic will fund up to 50 projects with grants of up to $30,000, with applications open until July 15.",
+          "whyItMatters": "Aims to make Claude the default computational environment for working scientists, not just a chatbot.",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+          "source": "Anthropic",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "headline": "OpenAI's GeneBench-Pro shows top AI fails ~70% of real biology tasks, with GPT-5.6 Sol leading at 31.5%",
+          "brief": "OpenAI released GeneBench-Pro on June 30, a 129-problem benchmark spanning genomics, quantitative biology and translational medicine in which each task takes a human expert 20–40 hours and models must analyze data, pick a method and reach a conclusion. GPT-5.6 Sol topped it at 28.7% (rising to 31.5% in Pro mode), far ahead of Anthropic's Claude Opus 4.8 (16.0%), Google's Gemini 3.5 Flash (8.1%) and xAI's Grok 4.3 (1.5%).",
+          "whyItMatters": "Quantifies how far even frontier models remain from autonomous scientific reasoning, tempering 'AI scientist' hype.",
+          "url": "https://openai.com/index/introducing-genebench-pro/",
+          "source": "OpenAI",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "headline": "Anthropic adds a classifier to Claude Fable 5 that blocks 99% of an Amazon-found exploit-writing jailbreak",
+          "brief": "As Claude Fable 5 returned to global availability on July 1, Anthropic shipped a new cybersecurity classifier targeting an Amazon-discovered technique that had coaxed the model into identifying software vulnerabilities and, in some cases, writing code to exploit them. The classifier catches the bypass in over 99% of cases and reroutes flagged requests to Claude Opus 4.8, but its wider safety margin produces more false positives during routine coding and debugging.",
+          "whyItMatters": "Shows labs deliberately trading some everyday coding usability for tighter guards against weaponizable capabilities.",
+          "url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
+          "source": "MarkTechPost",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "headline": "ByteDance's Seedance 2.5 begins public rollout, generating native 30-second 4K video from 50 references",
+          "brief": "ByteDance's Seedance 2.5 video model, unveiled at its Volcano Engine FORCE conference, begins rolling out to the public in early July after a global enterprise beta. It produces a single continuous 30-second clip in native 4K without stitching, accepts up to 50 multimodal references (images, audio, 3D white models, style references), co-generates synchronized audio in the same latent space, and adds local editing so users can fix one detail without regenerating the whole clip.",
+          "whyItMatters": "Pushes AI video past the roughly 10-second, stitched-clip ceiling toward usable long-form generation.",
+          "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "Startups & Tech",
+      "intro": "Tesla's converted Fremont line begins churning out Optimus humanoid robots as Elon Musk 'walks the production line,' while Microsoft's July 1 Microsoft 365 price hikes and Apple's blocked Siri AI in Europe reshape the operational map for businesses.",
+      "items": [
+        {
+          "headline": "Tesla's ex-Model S/X line in Fremont is now building Optimus robots as Musk walks the floor",
+          "brief": "Elon Musk posted on X on July 1, 2026, 'Walking the Optimus production line in Fremont,' with a photo of himself and Tesla staff at the plant that until early May built the now-discontinued Model S and Model X. Tesla VP of Vehicle Engineering Lars Moravy confirmed the first line has arrived and is being installed, with the full setup slated to span roughly 40 lines to handle the robot's actuators and limbs. Musk has said Tesla is targeting one million Optimus units, and Moravy noted that because 'Optimus is smaller than a car, the bring-up can be quite quick.'",
+          "whyItMatters": "It marks Tesla's physical shift from carmaker to humanoid-robot manufacturer, with volume Optimus output expected to ramp within weeks.",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60209589/elon-musk-says-teslas-model-s-model-x-line-is-now-building-optimus-robots",
+          "source": "Benzinga",
+          "publishedAt": "2026-07-01",
+          "featured": true
+        },
+        {
+          "headline": "Microsoft's Microsoft 365 price increases go live July 1, raising Office 365 E3 from $23 to $26",
+          "brief": "Microsoft's global pricing update for commercial Microsoft 365 suites took effect July 1, 2026, hitting new subscriptions and renewals across Enterprise, Business, and Frontline plans. Office 365 E3 rises 13% from $23 to $26 per user per month and Microsoft 365 E3 climbs 8% from $36 to $39, while the top-tier E5 goes up about 5%. Microsoft is bundling in added capabilities to justify the hikes, including Defender for Office 365 Plan 1, Intune Remote Help, and Security Copilot for E5 customers, with the rollout expected to complete by August 1.",
+          "whyItMatters": "Existing customers keep current rates until renewal, but every business signing or renewing after July 1 now pays more for the same core productivity suite.",
+          "url": "https://www.techtimes.com/articles/319445/20260701/microsoft-365-price-increase-live-today-43-deeper-large-enterprises.htm",
+          "source": "Tech Times",
+          "publishedAt": "2026-07-01",
+          "featured": false
+        },
+        {
+          "headline": "Apple's Tim Cook holds 'constructive' EU talks but Siri AI stays blocked in Europe over DMA rules",
+          "brief": "The European Commission said EU Technology Commissioner Henna Virkkunen and Apple CEO Tim Cook held a video meeting, described by both sides as 'constructive,' over Apple's decision to withhold its revamped Siri AI from iPhones and iPads in the EU. Apple says the Digital Markets Act's interoperability rules would force it to grant rival voice assistants the same access to on-device user data, which it argues threatens privacy and security; the Commission counters that Apple has failed to meet interoperability requirements. The talks also covered how Apple could launch Siri in Europe while avoiding fines for breaching the bloc's competition rules.",
+          "whyItMatters": "The standoff keeps Apple's flagship AI feature off European devices and tests whether the DMA forces Big Tech to open up or delay products by region.",
+          "url": "https://9to5mac.com/2026/06/30/tim-cook-and-eu-tech-chief-hold-constructive-virtual-meeting-over-siri-ai-standoff/",
+          "source": "9to5Mac",
+          "publishedAt": "2026-06-30",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "Markets & Finance",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing",
+      "intro": "Anthony Joshua's July 25 comeback in Jeddah headlines a busy stretch, with a July 4 title doubleheader in Cleveland and fresh results from Las Vegas and Brisbane reshaping the lightweight and welterweight pictures.",
+      "items": [
+        {
+          "headline": "Anthony Joshua vs. Kristian Prenga set for July 25 at Jeddah Superdome, heavyweights",
+          "brief": "Joshua (comeback since December's win over Jake Paul) and unbeaten Albanian Kristian Prenga (20-1, 20 KOs) came face-to-face at a London press conference and confirmed their July 25 bout, now relocated from Riyadh to the Jeddah Superdome and streaming on DAZN. The fight is widely reported as the first leg of a two-fight package, with a long-awaited Tyson Fury showdown projected for later this year.",
+          "whyItMatters": "It's AJ's tune-up gateway to the blockbuster Fury fight — a loss would blow up the biggest all-British heavyweight event on the calendar.",
+          "url": "https://www.badlefthook.com/boxing-news/116069/anthony-joshua-and-kristian-prenga-trade-words-at-opening-press-conference-boxing-news-2026",
+          "source": "Bad Left Hook",
+          "publishedAt": "2026-06-29T00:00:00Z",
+          "featured": true
+        },
+        {
+          "headline": "Bruce Carrington defends WBC featherweight title vs. Rene Palacios this Saturday, July 4, in Cleveland",
+          "brief": "On the same Wolstein Center card as Abdullah Mason's WBO lightweight defense against Albert Bell, WBC featherweight champion Bruce 'Shu Shu' Carrington faces Mexico's Rene Palacios over 12 rounds. The Independence Day bill (TNT Sports/DAZN) also features Cleveland's Tiger Johnson vs. Christopher Guerrero at welterweight.",
+          "whyItMatters": "Carrington's first title defense is the co-feature on Top Rank's marquee July 4 show and keeps the unbeaten prospect on a champion's track.",
+          "url": "https://press.wbd.com/us/media-release/tnt-sports-dazn-deliver-three-days-live-boxing-coverage-throughout-independence-day",
+          "source": "Warner Bros. Discovery Pressroom",
+          "featured": false
+        },
+        {
+          "headline": "José Valenzuela KOs Edwin De Los Santos in Round 2 at Zuffa Boxing 08, June 28, Las Vegas",
+          "brief": "In the lightweight main event at The Cosmopolitan, José Valenzuela ended the rematch with a perfectly-timed right hook at 2:05 of Round 2. On the undercard, Cain Sandoval edged Brandun Lee by majority decision at welterweight and Omar Trinidad beat Jerwin Ancajas by unanimous decision.",
+          "whyItMatters": "A brutal, clean knockout reasserts Valenzuela as a live threat in a stacked 135-pound division and avenges the pair's competitive first meeting.",
+          "url": "https://www.ufc.com/news/zuffa-boxing-08-results-scorecards-highlights-de-los-santos-vs-valenzuela",
+          "source": "UFC.com",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "featured": false
+        },
+        {
+          "headline": "Liam Paro outpoints Lewis Crocker to seize IBF welterweight title, June 24, Brisbane",
+          "brief": "Fighting on home soil at Pat Rafter Arena, Liam Paro (28-1, 16 KOs) took the IBF welterweight belt from Lewis Crocker (22-1) by unanimous decision, all three cards 115-113, in Crocker's first defense. Paro banked early rounds to survive a Crocker rally in the 11th and 12th.",
+          "whyItMatters": "Paro becomes a two-weight world champion and the win vaults him into the welterweight title mix alongside names like Devin Haney and Keyshawn Davis.",
+          "url": "https://www.espn.com/boxing/story/_/id/49086742/lewis-crocker-liam-paro-nelson-asofa-solomona-george-burgess-live-boxing-brisbane-fight-stream-dazn-how-watch-undercard-highlights-results",
+          "source": "ESPN",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "featured": false
+        },
+        {
+          "headline": "Lamont Roach vs. William Zepeda finalized for vacant WBC lightweight title, Aug. 1 in Las Vegas",
+          "brief": "Lamont Roach (25-1-3) and William Zepeda (33-1, 27 KOs) will meet Aug. 1 at The Theater at Virgin Hotels Las Vegas for the WBC lightweight title left vacant when Shakur Stevenson moved up to junior welterweight. The Golden Boy/Top Rank co-promotion airs on DAZN and TNT Sports.",
+          "whyItMatters": "It pits Roach's counter-punching craft against Zepeda's relentless volume to crown a new 135-pound champion in one of the division's most anticipated matchups.",
+          "url": "https://www.ringmagazine.com/news/wbc-orders-lamont-roach-vs-william-zepeda-for-vacant-title-164KO3KQiRK8caxfVD7ePb",
+          "source": "The Ring",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "intro": "The countdown to Conor McGregor's July 11 return at UFC 329 in Las Vegas dominates the sport, with the T-Mobile Arena undercard filling out around him while Rafael Fiziev's Baku knockout leaves fresh questions at lightweight.",
+      "items": [
+        {
+          "headline": "Paddy Pimblett vs. Benoit Saint Denis booked as UFC 329 lightweight co-main on July 11 in Las Vegas",
+          "brief": "The UFC has slotted Paddy Pimblett (23-4) against France's Benoit Saint Denis in the lightweight co-main event of UFC 329 on July 11 at T-Mobile Arena, beneath the Conor McGregor–Max Holloway 2 headliner. Pimblett is looking to bounce back from his first UFC loss, a January decision defeat to Justin Gaethje at UFC 324. Both men have publicly targeted the winner as the next contender behind new lightweight champ Gaethje.",
+          "whyItMatters": "A win puts either fighter squarely in the 155-pound title conversation on the sport's biggest card of the year.",
+          "url": "https://www.si.com/fannation/mma/news/ufc-329-fight-card-lineup-takes-shape-conor-mcgregor-return",
+          "source": "Sports Illustrated",
+          "publishedAt": "2026-06-29",
+          "featured": true
+        },
+        {
+          "headline": "Robert Whittaker moves to light heavyweight to face Nikita Krylov at UFC 329 on July 11",
+          "brief": "Former middleweight champion Robert Whittaker (17-7 UFC) will make his official 205-pound debut against Nikita Krylov (12-9 UFC) on the UFC 329 prelims July 11 at T-Mobile Arena in Las Vegas. Whittaker is changing divisions after back-to-back losses at middleweight to Khamzat Chimaev and Reinier de Ridder, while Krylov is coming off a January finish of Modestas Bukauskas at UFC 324.",
+          "whyItMatters": "A fresh division is a career-saving move for Whittaker; a win over a former champ would vault Krylov up the light heavyweight ladder.",
+          "url": "https://www.mmamania.com/ufc-news/440385/former-ufc-champion-robert-whittaker-books-official-light-heavyweight-debut-for-ufc-329-this-july-krylov",
+          "source": "MMA Mania",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "headline": "Shara Magomedov outpoints Michel Pereira in UFC Baku middleweight co-main on June 27",
+          "brief": "In the co-main event at UFC Baku on June 27 at the National Gymnastics Arena, middleweight Shara Magomedov defeated the unpredictable Michel Pereira by unanimous decision (29-28 x3). The win came on the same card where Rafael Fiziev spinning-wheel-kicked Manuel Torres to a Round 2 KO, and it keeps the crowd-favorite Magomedov climbing at 185 pounds.",
+          "whyItMatters": "Magomedov continues to build toward a ranked opponent, adding a name like Pereira to his growing résumé at middleweight.",
+          "url": "https://www.forbes.com/sites/brianmazique/2026/06/27/ufc-baku-results-9-crazy-finishes-4-performance-bonuses-and-highlights/",
+          "source": "Forbes",
+          "publishedAt": "2026-06-27"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "key": "vix",
+      "label": "VIX",
+      "value": "16.59",
+      "reference": "range ~15–20",
+      "asOf": "2026-07-01",
+      "source": "CBOE via CNBC",
+      "url": "https://www.cnbc.com/quotes/.VIX",
+      "tone": "neutral",
+      "level": "nella norma",
+      "arrow": "→"
+    },
+    {
+      "key": "cape",
+      "label": "Shiller CAPE",
+      "value": "41.66",
+      "reference": "media ~17",
+      "asOf": "2026-07-01",
+      "source": "multpl.com",
+      "url": "https://www.multpl.com/shiller-pe",
+      "tone": "hot",
+      "level": "alto",
+      "arrow": "↑"
+    }
+  ],
+  "portfolio": {
+    "name": "Le mie azioni",
+    "clusters": [
+      {
+        "id": "esw",
+        "label": "Enterprise software",
+        "streams": [
+          {
+            "id": "sap",
+            "label": "SAP",
+            "kind": "name",
+            "names": [
+              "SAP SE"
+            ],
+            "items": [
+              {
+                "headline": "Nokia signs multi-year RISE with SAP deal to move core S/4HANA ERP onto Microsoft Azure",
+                "brief": "SAP disclosed on June 30, 2026 a strategic multi-year agreement under which Nokia will migrate its ERP landscape to SAP S/4HANA cloud using the RISE with SAP methodology, hosted on Microsoft Azure. The scope spans S/4HANA for central finance, Master Data Governance, Extended Warehouse Management, Global Trade Services and cloud advanced available-to-promise, touching finance, supply chain, manufacturing and HR; no deal value was disclosed. SAP's Manos Raptopoulos and Microsoft's Joacim Damgard framed it as a structured, AI-enabled modernization path.",
+                "whyItMatters": "Adds a marquee reference customer for SAP's flagship RISE cloud-transition program ahead of Q2 results on July 23, reinforcing the cloud-migration story analysts are scrutinizing.",
+                "url": "https://news.sap.com/2026/06/nokia-sap-microsoft-strategic-multi-year-agreement-advance-cloud-ai-driven-business-transformation/",
+                "source": "SAP News Center",
+                "publishedAt": "2026-06-30"
+              }
+            ]
+          },
+          {
+            "id": "now",
+            "label": "ServiceNow",
+            "kind": "name",
+            "names": [
+              "ServiceNow"
+            ],
+            "items": [
+              {
+                "headline": "ServiceNow and Accenture launch joint AI-powered managed security and legacy-migration offering on the ServiceNow AI Platform",
+                "brief": "On 30 June 2026, ServiceNow and Accenture unveiled a joint solution pairing managed security services built on the ServiceNow AI Platform with Accenture's AI-powered migration tool, automating vendor monitoring, lifecycle management, threat detection and migrations of legacy systems onto ServiceNow. The offering is fronted by Lou Fiorello, ServiceNow's group VP and GM of security and risk products, and Rex Thexton, Accenture Cybersecurity's global CTO, who said enterprises need to 'connect risk insights, automate decision-making, and respond at enterprise scale.' The AI-partnership news helped lift NOW shares about 4% on 1 July.",
+                "whyItMatters": "Positions ServiceNow's platform as a control layer for enterprise security and migration workloads via Accenture's channel, pulling more third-party spend onto NOW ahead of Q2 results on 22 July.",
+                "url": "https://www.ciodive.com/news/servicenow-accenture-enterprise-security-offering/824139/",
+                "source": "CIO Dive",
+                "publishedAt": "2026-06-30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platforms",
+        "label": "Piattaforme",
+        "streams": [
+          {
+            "id": "platforms",
+            "label": "Alphabet & Amazon",
+            "kind": "cluster",
+            "names": [
+              "Alphabet (Google)",
+              "Amazon"
+            ],
+            "items": [
+              {
+                "headline": "Swedish court orders Google to pay up to $1.97B to Klarna's PriceRunner in comparison-shopping antitrust case",
+                "brief": "Stockholm's Patent and Market Court ruled on July 1 that Google violated competition law by favoring its own price-comparison results over PriceRunner, the Swedish shopping-comparison firm Klarna acquired in 2022, for more than a decade. The award — roughly $1.5 billion in base damages, up to $1.97 billion including interest — is the largest ever in a Swedish competition case, though well below the 78 billion crown claim PriceRunner had sought. Google said it will appeal.",
+                "whyItMatters": "It sets a fresh, sizeable private-damages precedent on top of Alphabet's existing EU shopping-antitrust liability and invites copycat suits across Europe; a loss on appeal would crystallize the payout.",
+                "url": "https://ca.finance.yahoo.com/news/swedish-court-orders-google-pay-150512083.html",
+                "source": "Reuters (via Yahoo Finance)",
+                "publishedAt": "2026-07-01"
+              },
+              {
+                "headline": "AWS commits $1B to a new Forward Deployed Engineering unit embedding thousands of AI engineers inside customers",
+                "brief": "Announced July 1 at the AWS Summit in Washington, D.C., the FDE unit sends small teams of five to six engineers into client organizations for roughly 45-day engagements to build custom agentic AI systems, aiming to compress deployment from months to days. The $1 billion is Amazon's own internal staffing spend, and early customers include the Allen Institute, Cox Automotive, the NBA, NFL, Ricoh, and Southwest Airlines.",
+                "whyItMatters": "It's a direct bid to close the enterprise AI implementation gap — mirroring Palantir's forward-deployed playbook — and to lock in Bedrock/AWS AI spend against Microsoft and Google Cloud.",
+                "url": "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers",
+                "source": "About Amazon",
+                "publishedAt": "2026-07-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "finfra",
+        "label": "Infra finanziaria",
+        "streams": [
+          {
+            "id": "finfra",
+            "label": "Visa, CME & DBS",
+            "kind": "cluster",
+            "names": [
+              "Visa",
+              "CME Group",
+              "DBS Group"
+            ],
+            "items": [
+              {
+                "headline": "CME Group to launch cash-settled single-stock futures on 50+ US names — including private SpaceX and Nvidia — on July 27",
+                "brief": "CME Group announced on June 30 it will debut single-stock futures on July 27, listing 55 standard and 22 micro contracts across more than 50 large US equities from the S&P 500, Nasdaq 100 and Russell 1000, including Nvidia, Apple, Alphabet, Meta, Tesla, Micron and, notably, privately-held SpaceX. The contracts are cash-settled and subject to CME rules, pending completion of regulatory review. Tim McCourt, CME's Global Head of Equity, FX and Alternative Products, said they let participants gain exposure to or hedge individual stocks without buying the underlying shares.",
+                "whyItMatters": "Pushes CME into the single-name equity-derivatives arena and, via a SpaceX contract, opens a listed way to trade a marquee private company — a new fee-generating product line and a competitive shot at rivals.",
+                "url": "https://www.cmegroup.com/media-room/press-releases/2026/6/30/cme_group_to_launchsinglestockfuturesonjuly27.html",
+                "source": "CME Group",
+                "publishedAt": "2026-06-30"
+              },
+              {
+                "headline": "DBS seen as top beneficiary as China's new July curbs on individual outbound investment redirect wealth to Singapore",
+                "brief": "A Bloomberg report on July 2, citing analysts at Autonomous, said DBS Group is 'best positioned' among Singapore lenders to gain from China's tightening grip on capital flight. Beijing's move to extend oversight of outbound investment to individual investors for the first time from July is expected to weigh on Hong Kong while enhancing Singapore's appeal as a wealth hub, playing to DBS's push to bank a broader base of rich clients.",
+                "whyItMatters": "Reinforces the bull case for DBS's wealth-management franchise — a key fee-income driver — as regional capital flows shift toward Singapore; DBS shares are trading near all-time highs.",
+                "url": "https://www.bloomberg.com/news/articles/2026-07-02/dbs-seen-to-benefit-from-china-s-tighter-grip-on-wealth-flows",
+                "source": "Bloomberg",
+                "publishedAt": "2026-07-02"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "name": "Bites",
+    "items": [
+      {
+        "categoryId": "fin-ratios",
+        "category": "Finance ratios",
+        "title": "Il Quick ratio (acid test, indice di liquidità immediata)",
+        "body": "Misura se un'azienda può pagare i debiti a breve termine senza dover vendere il magazzino, che è la parte più difficile da trasformare velocemente in cassa. La formula in parole: (attività correnti meno le rimanenze) diviso passività correnti. È una versione più severa del current ratio, perché toglie il magazzino dal conteggio; sopra 1 significa che cassa, crediti e investimenti liquidi bastano già a coprire i debiti a breve.",
+        "example": "Un'azienda ha 200 di attività correnti di cui 80 di magazzino, e 100 di debiti a breve. Current ratio = 200/100 = 2. Quick ratio = (200-80)/100 = 1,2: regge anche senza svendere il magazzino.",
+        "whyItMatters": "Smaschera aziende che sembrano liquide solo grazie a un magazzino gonfio e difficile da vendere."
+      },
+      {
+        "categoryId": "startup-lang",
+        "category": "Startup language",
+        "title": "Il term sheet",
+        "body": "È il documento non vincolante (tranne alcune clausole) con cui un investitore mette per iscritto le condizioni chiave prima di un investimento: valutazione, quanto mette, che tipo di azioni riceve e quali diritti pretende. Non è ancora il contratto finale, ma fissa lo scheletro dell'accordo, e da lì gli avvocati scrivono i documenti definitivi. Le voci che contano davvero non sono solo la valutazione, ma le clausole di controllo e protezione (board, veti, liquidation preference).",
+        "example": "Un fondo offre 2 milioni a una valutazione pre-money di 8, chiedendo un seggio nel consiglio e una liquidation preference 1x: il founder capisce dal term sheet che cederà il 20% ma anche parte del controllo.",
+        "whyItMatters": "Chi guarda solo il numero della valutazione e ignora le clausole può firmare un accordo che sembra buono ma lo penalizza all'uscita."
+      },
+      {
+        "categoryId": "physics",
+        "category": "Fisica",
+        "title": "La spinta di Archimede (perché le cose galleggiano)",
+        "body": "Quando immergi un oggetto in un liquido, quel liquido spinge verso l'alto con una forza pari al peso del liquido che l'oggetto ha spostato. Se l'oggetto pesa meno del liquido che sposta, galleggia; se pesa di più, affonda. Non conta quindi il peso da solo, ma il confronto tra peso dell'oggetto e peso del liquido spostato.",
+        "example": "Una nave d'acciaio galleggia perché la sua forma cava sposta un volume enorme d'acqua: il peso di quell'acqua spostata supera il peso della nave. Sciogli la stessa nave in un cubo pieno e affonda subito, perché sposta molta meno acqua.",
+        "whyItMatters": "È la stessa idea che spiega perché una mongolfiera sale e perché sapevano progettare navi molto prima di capire l'atomo."
+      },
+      {
+        "categoryId": "art",
+        "category": "Arte",
+        "title": "L'Urlo di Munch e l'Espressionismo",
+        "body": "L'Espressionismo capovolge l'obiettivo dell'arte: non dipingere il mondo com'è, ma come lo si sente dentro. In 'L'Urlo' di Edvard Munch (1893) la figura non è realistica: il cielo è di un rosso innaturale, il paesaggio si piega e ondeggia come se anch'esso vibrasse d'angoscia. La deformazione non è un errore, è il messaggio: l'ansia interiore viene proiettata su tutto ciò che sta intorno.",
+        "example": "Guarda le linee ondulate del ponte e del cielo: sono le stesse curve del volto che urla. Munch ha 'contagiato' l'intero quadro con l'emozione della figura, invece di lasciarla solo sul viso.",
+        "whyItMatters": "Segna il momento in cui l'arte smette di descrivere la realtà e comincia a descrivere gli stati d'animo, aprendo la strada all'arte moderna."
+      },
+      {
+        "categoryId": "storia",
+        "category": "Storia",
+        "title": "Il carbone, la macchina a vapore e la Rivoluzione Industriale",
+        "body": "Per millenni la forza disponibile era limitata a muscoli, acqua e vento: potevi produrre solo dove c'era un fiume o vento costante. La macchina a vapore di Watt (fine '700), alimentata a carbone, ruppe questo vincolo: energia concentrata, trasportabile e disponibile ovunque e sempre. Le fabbriche poterono nascere lontano dai fiumi, nelle città, e la produzione smise di dipendere dalla geografia e dalla stagione.",
+        "example": "Il carbone permise anche la locomotiva e la nave a vapore: la stessa fonte di energia che muoveva i telai iniziò a muovere merci e persone, creando il primo mercato davvero su scala nazionale.",
+        "whyItMatters": "L'idea di 'energia densa e disponibile a comando' è ancora il fondamento della nostra economia — e il motivo per cui uscire dai combustibili fossili è così difficile."
+      },
+      {
+        "categoryId": "menti",
+        "category": "Menti brillanti",
+        "title": "La competizione è per i perdenti (Peter Thiel)",
+        "body": "Thiel ribalta l'intuito comune: la concorrenza perfetta, quella che elogiano i manuali, distrugge i profitti, perché tutti offrono la stessa cosa e i margini vengono erosi fino a zero. Un'azienda che vuole davvero prosperare non deve battere i rivali sullo stesso terreno, ma creare qualcosa di così unico da diventare, di fatto, un monopolio nel suo piccolo spazio. Il segnale da cercare non è 'quanto sei bravo a competere', ma 'perché nessun altro fa esattamente questo'.",
+        "example": "Un ristorante in più in una via piena di ristoranti compete su tutto e guadagna poco; l'unico locale con un'esperienza che nessuno replica può fissare i prezzi. Meglio essere unici in un mercato piccolo che 'uno dei tanti' in uno grande.",
+        "whyItMatters": "Ti fa scegliere idee dove puoi essere unico invece di gettarti in mercati affollati dove il profitto è già stato bruciato dalla concorrenza."
+      },
+      {
+        "categoryId": "capire",
+        "category": "Capire le cose",
+        "title": "Come funziona il DNS (la rubrica di internet)",
+        "body": "I computer si trovano tra loro tramite indirizzi numerici (gli indirizzi IP), ma noi ricordiamo nomi come 'google.com'. Il DNS è il sistema che traduce il nome nel numero: quando scrivi un sito, il tuo dispositivo chiede a una catena di server 'qual è l'indirizzo di questo nome?' e riceve il numero a cui connettersi. È organizzato a gerarchia, così nessun singolo server deve conoscere tutto internet: ognuno rimanda a chi sa la risposta più precisa.",
+        "example": "Digiti 'wikipedia.org' → il tuo PC chiede a un resolver → questo chiede al server del dominio '.org' → arriva l'indirizzo IP → solo ora il browser si collega davvero al sito. Tutto in millisecondi, e la risposta viene messa in cache per non ripetere ogni volta.",
+        "whyItMatters": "Quando 'internet non va' ma il Wi-Fi c'è, spesso il problema è proprio il DNS — capirlo ti fa diagnosticare metà dei guasti di rete."
+      },
+      {
+        "categoryId": "performance",
+        "category": "Performance & longevità",
+        "title": "La forza massimale al servizio dell'endurance",
+        "body": "Allenare la forza con carichi pesanti e poche ripetizioni non serve solo a mettere massa: rende ogni passo più economico. Muscoli e tendini più forti e rigidi restituiscono meglio l'energia a ogni appoggio, così a una data velocità consumi meno ossigeno (migliore 'running economy'). Per un atleta HYROX questo conta doppio: le stazioni di forza (sled, farmer carry, wall ball) diventano meno affaticanti e ti presenti alle corse con gambe più fresche.",
+        "example": "Così lo applichi: 2 sedute a settimana di forza pesante (squat, stacco, spinte) su 3-5 ripetizioni con carichi impegnativi ma tecnica pulita, lontane dalle sessioni chiave di corsa. Non cercare il 'bruciore' da alte ripetizioni: qui l'obiettivo è la forza, non la fatica metabolica.",
+        "whyItMatters": "Aumenti la velocità 'gratis' senza allenare di più il cuore, e proteggi articolazioni e tendini dagli infortuni da sovraccarico."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "de-grammar",
+      "label": "Grammatica tedesca",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Il Plusquamperfekt: il \"passato del passato\" e la regola di *nachdem*",
+        "readingTime": "~4 min",
+        "markdown": "# Il Plusquamperfekt: il \"passato del passato\" e la regola di *nachdem*\n\nFinora hai imparato a raccontare il passato con due tempi: il **Perfekt** (*ich habe gegessen*) per la lingua parlata e il **Präteritum** (*ich aß*) per la narrazione scritta. Ma cosa succede quando, dentro un racconto già al passato, devi dire che *un'azione era avvenuta ancora prima*? Per questo il tedesco ha un terzo tempo passato, il **Plusquamperfekt** (in italiano il *trapassato prossimo*). È il tempo che mette ordine sull'asse del tempo.\n\n## A che cosa serve\n\nIl Plusquamperfekt esprime l'**anteriorità**: un'azione conclusa *prima* di un altro momento del passato. Immagina due eventi passati, uno dopo l'altro:\n\n```mermaid\ntimeline\n    title Due eventi sull'asse del passato\n    Prima (Plusquamperfekt) : Ich hatte gegessen\n    Poi (Präteritum/Perfekt) : Ich ging ins Bett\n    Adesso : —\n```\n\n> **Nachdem ich gegessen hatte, ging ich ins Bett.**\n> *Dopo che ebbi mangiato / avevo mangiato, andai a letto.*\n\nL'azione del mangiare (Plusquamperfekt) è **anteriore** a quella dell'andare a letto (Präteritum). Il tedesco è molto più rigoroso dell'italiano nel rispettare questa gerarchia temporale.\n\n## Come si forma\n\nLa formula è semplicissima e riusa tutto ciò che già sai dal Perfekt. Basta cambiare l'ausiliare dal **presente** al **Präteritum**:\n\n$$\\text{Plusquamperfekt} = \\underbrace{\\textit{hatte} \\; / \\; \\textit{war}}_{\\text{ausiliare al Präteritum}} + \\underbrace{\\textit{Partizip II}}_{\\text{participio passato}}$$\n\nConfronta i tre tempi con lo stesso verbo:\n\n| Tempo | Ausiliare | Esempio |\n|---|---|---|\n| Perfekt | presente | *ich **habe** gemacht* |\n| Plusquamperfekt | Präteritum | *ich **hatte** gemacht* |\n| Perfekt (sein) | presente | *ich **bin** gegangen* |\n| Plusquamperfekt (sein) | Präteritum | *ich **war** gegangen* |\n\nLa scelta tra **haben** e **sein** segue **esattamente le stesse regole del Perfekt**: `sein` con i verbi di movimento e cambiamento di stato (*gehen, kommen, fahren, aufstehen, werden, sterben*), `haben` con tutti gli altri.\n\n### Coniugazione completa\n\n**machen** (con *haben*):\n\n| Persona | Plusquamperfekt |\n|---|---|\n| ich | **hatte** gemacht |\n| du | **hattest** gemacht |\n| er/sie/es | **hatte** gemacht |\n| wir | **hatten** gemacht |\n| ihr | **hattet** gemacht |\n| sie/Sie | **hatten** gemacht |\n\n**gehen** (con *sein*):\n\n| Persona | Plusquamperfekt |\n|---|---|\n| ich | **war** gegangen |\n| du | **warst** gegangen |\n| er/sie/es | **war** gegangen |\n| wir | **waren** gegangen |\n| ihr | **wart** gegangen |\n| sie/Sie | **waren** gegangen |\n\n## La regola d'oro: *nachdem*\n\nNella pratica, il Plusquamperfekt vive quasi sempre insieme alla congiunzione **nachdem** (*dopo che*). Qui c'è una regola fissa da memorizzare, la **consecutio temporum** tedesca:\n\n> **nachdem** + **Plusquamperfekt** → frase principale al **Präteritum** (o Perfekt)\n\n- **Nachdem** wir **gegessen hatten**, **spülten** wir das Geschirr.\n  *Dopo che avevamo mangiato, lavammo i piatti.*\n- **Nachdem** der Zug **abgefahren war**, **merkte** ich meinen Fehler.\n  *Dopo che il treno era partito, mi accorsi del mio errore.*\n\nRicorda anche che **nachdem** è una congiunzione subordinante: manda il verbo coniugato in **ultima posizione** (*…gegessen hatten*), come hai visto con le altre subordinate.\n\nIl contrario di *nachdem* è **bevor** (*prima che*): lì l'ordine dei tempi si rovescia e il Plusquamperfekt di solito **non** serve.\n\n- **Bevor** ich **einschlief**, **hatte** ich noch eine Nachricht **geschrieben**.\n  *Prima di addormentarmi, avevo ancora scritto un messaggio.*\n\n## Errori tipici\n\n1. **Usare il presente dell'ausiliare.** ❌ *Nachdem ich gegessen habe, ging ich…* → ✅ *Nachdem ich gegessen **hatte**, ging ich…* Con *nachdem* riferito al passato serve sempre `hatte`/`war`.\n2. **Sbagliare l'ausiliare.** ❌ *Nachdem er **hatte** angekommen…* → ✅ *Nachdem er **war** angekommen…* *ankommen* è un verbo di movimento: vuole `sein`.\n3. **Dimenticare la posizione finale del verbo** nella subordinata: ❌ *Nachdem ich **hatte** gegessen* → ✅ *Nachdem ich gegessen **hatte***.\n4. **Abusarne.** Il Plusquamperfekt serve solo per marcare l'anteriorità. Per una semplice sequenza di eventi allo stesso livello basta il Präteritum.\n\n## Esercizi\n\n**1.** Coniuga al Plusquamperfekt (3ª persona singolare): *a) lernen, b) fahren, c) aufstehen, d) sehen.*\n\n**2.** Completa con l'ausiliare corretto: *a) Nachdem sie den Brief ___ geschrieben, ging sie zur Post. b) Nachdem wir ___ angekommen, suchten wir das Hotel.*\n\n**3.** Unisci le due frasi con **nachdem**, mettendo la prima al Plusquamperfekt:\n*Ich machte meine Hausaufgaben. Dann spielte ich Fußball.*\n\n**4.** Traduci in tedesco: *Dopo che il film era finito (enden, sein), andammo (gehen) a casa.*\n\n### Soluzioni\n\n**1.** a) *hatte gelernt* — b) *war gefahren* — c) *war aufgestanden* — d) *hatte gesehen*.\n\n**2.** a) *hatte* geschrieben — b) *waren* angekommen.\n\n**3.** *Nachdem ich meine Hausaufgaben **gemacht hatte**, spielte ich Fußball.*\n\n**4.** *Nachdem der Film **geendet war**, **gingen** wir nach Hause.*\n\n## Takeaways\n\n- Il **Plusquamperfekt** = *hatte*/*war* (ausiliare al **Präteritum**) + **Partizip II**; è il \"passato prima del passato\".\n- Esprime **anteriorità**: un evento concluso prima di un altro momento passato.\n- La scelta *haben*/*sein* è **identica** a quella del Perfekt.\n- Regola d'oro: **nachdem + Plusquamperfekt** nella subordinata, **Präteritum** nella principale.\n- In subordinata il verbo coniugato va in **ultima posizione**; non abusare del tempo quando basta il Präteritum."
+      }
+    },
+    {
+      "id": "de-business",
+      "label": "Business German",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Verhandeln: Einwände behandeln und Kompromisse finden",
+        "readingTime": "~4 min",
+        "markdown": "# Verhandeln: Einwände behandeln und Kompromisse finden\n\nDopo aver imparato a fare un **Angebot** (*offerta*), emettere una **Rechnung** (*fattura*) e sollecitare con la **Mahnung** (*sollecito*), arriva il momento più delicato del rapporto commerciale: la **Verhandlung** (*trattativa*). Oggi impariamo a **verhandeln** (*negoziare*): a reagire alle obiezioni del cliente, difendere il prezzo e chiudere con un **Kompromiss** (*compromesso*) senza perdere il registro formale.\n\n## La struttura di una trattativa\n\nUna **Verhandlung** professionale in tedesco segue quasi sempre lo stesso arco: si apre, si scambiano posizioni, arrivano le obiezioni (**Einwände**), si cerca un punto d'incontro e si conclude.\n\n```mermaid\nflowchart LR\n    A[Eröffnung<br/>apertura] --> B[Position darlegen<br/>esporre la posizione]\n    B --> C[Einwand<br/>obiezione]\n    C --> D[Argumentieren<br/>controbattere]\n    D --> E[Kompromiss<br/>compromesso]\n    E --> F[Abschluss<br/>chiusura]\n```\n\n## Redemittel: le formule chiave\n\n### Esporre la propria posizione\n\n| Tedesco | Italiano |\n|---|---|\n| **Unser Angebot sieht folgendermaßen aus:** | La nostra offerta si presenta così: |\n| **Wir gehen davon aus, dass …** | Partiamo dal presupposto che… |\n| **Aus unserer Sicht ist der Preis gerechtfertigt.** | Dal nostro punto di vista il prezzo è giustificato. |\n| **Uns ist wichtig, dass …** | Per noi è importante che… |\n\n### Reagire a un'obiezione (**auf einen Einwand reagieren**)\n\nLa tecnica standard è: prima *riconoscere*, poi *controbattere*. Mai contraddire in modo secco.\n\n> **Ich verstehe Ihren Einwand, allerdings …**\n> *Capisco la Sua obiezione, tuttavia…*\n\n> **Das ist ein berechtigter Punkt. Bedenken Sie jedoch, dass …**\n> *È un'osservazione legittima. Consideri però che…*\n\n> **Da haben Sie grundsätzlich recht, dennoch …**\n> *In linea di principio ha ragione, eppure…*\n\nNota il trio di avversative formali: **allerdings**, **jedoch**, **dennoch** (*tuttavia / però / eppure*). Sono più eleganti di **aber** e segnalano un registro alto.\n\n### Formulare o chiedere un compromesso\n\n| Tedesco | Italiano |\n|---|---|\n| **Wären Sie bereit, uns entgegenzukommen?** | Sarebbe disposto a venirci incontro? |\n| **Ich könnte Ihnen einen Rabatt von 5 % anbieten.** | Potrei offrirLe uno sconto del 5%. |\n| **Lassen Sie uns einen Mittelweg finden.** | Troviamo una via di mezzo. |\n| **Wie wäre es, wenn wir …?** | Che ne direbbe se…? |\n| **Unter der Bedingung, dass …** | A condizione che… |\n\n> ⚠️ **Registro:** il verbo **entgegenkommen** (*venire incontro*) è il cuore della trattativa tedesca. Reggenza al **dativo**: *Ich komme **Ihnen** entgegen* (*Le vengo incontro*). Ricorda che è separabile: *Wir kommen Ihnen gern **entgegen***.\n\n## Il Konjunktiv II: la lingua della diplomazia\n\nLe trattative tedesche vivono di **Konjunktiv II** (*condizionale*), perché ammorbidisce le proposte e le rende trattabili invece che ultimative.\n\n$$\\text{würde} + \\text{Infinitiv} \\quad\\text{oppure}\\quad \\text{könnte / wäre / hätte}$$\n\n- **Wir könnten den Liefertermin vorziehen.** → *Potremmo anticipare la data di consegna.*\n- **Das wäre für uns akzeptabel.** → *Questo sarebbe accettabile per noi.*\n- **Ich würde vorschlagen, die Menge zu erhöhen.** → *Proporrei di aumentare la quantità.*\n\nConfronta: **Ich schlage vor** (*propongo*, diretto) vs. **Ich würde vorschlagen** (*proporrei*, negoziabile). In una trattativa scegli quasi sempre la seconda.\n\n## Dialog: eine Preisverhandlung\n\n> **Herr Weber (Einkauf):** Ihr Angebot liegt uns vor. Ehrlich gesagt liegt der Preis deutlich über unserem Budget.\n> *La Sua offerta ci è arrivata. Sinceramente il prezzo è nettamente sopra il nostro budget.*\n>\n> **Frau Klein (Vertrieb):** Das kann ich nachvollziehen. **Allerdings** enthält der Preis die komplette Installation und zwei Jahre Wartung.\n> *Lo capisco. Tuttavia il prezzo comprende l'installazione completa e due anni di manutenzione.*\n>\n> **Herr Weber:** Verstehe. **Wären Sie dennoch bereit**, uns beim Preis **entgegenzukommen**?\n> *Capisco. Sarebbe comunque disposta a venirci incontro sul prezzo?*\n>\n> **Frau Klein:** **Unter der Bedingung, dass** Sie eine größere Menge abnehmen, **könnte ich Ihnen** einen Rabatt von 7 % **anbieten**.\n> *A condizione che acquisti un quantitativo maggiore, potrei offrirLe uno sconto del 7%.*\n>\n> **Herr Weber:** Das klingt nach einem fairen **Mittelweg**. Ich **würde vorschlagen**, das schriftlich festzuhalten.\n> *Suona come un'equa via di mezzo. Proporrei di metterlo per iscritto.*\n>\n> **Frau Klein:** Sehr gern. Ich lasse Ihnen ein überarbeitetes Angebot zukommen.\n> *Molto volentieri. Le farò pervenire un'offerta rivista.*\n\n## Note d'uso\n\n- **festhalten** (*fissare, mettere per iscritto*): *etwas schriftlich festhalten* è la formula per verbalizzare un accordo — il ponte verso il **Protokoll** già studiato.\n- **jemandem etwas zukommen lassen** (*far pervenire qualcosa a qualcuno*): perifrasi molto formale, più cortese di *schicken* (*mandare*).\n- **abnehmen** qui significa *acquistare/ritirare una quantità*, non *diminuire*: *eine größere Menge abnehmen*.\n- Evita il **nein** secco. La trattativa tedesca preferisce il rifiuto motivato: **Das ist für uns leider nicht machbar, weil …** (*Purtroppo non è fattibile per noi, perché…*).\n\n## Takeaways\n\n- La sequenza vincente di fronte a un **Einwand**: *riconoscere* (**Ich verstehe / Das ist ein berechtigter Punkt**) → *controbattere* con **allerdings / jedoch / dennoch**.\n- **entgegenkommen** + dativo è il verbo-chiave del compromesso; **einen Mittelweg finden** ne è il risultato.\n- Il **Konjunktiv II** (**könnte, wäre, würde**) trasforma un'imposizione in una proposta negoziabile — usalo di default.\n- Lega gli accordi con **schriftlich festhalten** e **ein Angebot zukommen lassen**, ricollegandoti al ciclo Angebot → Protokoll → Rechnung."
+      }
+    },
+    {
+      "id": "system-design",
+      "label": "System Design",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Caching Fundamentals: Where and Why",
+        "readingTime": "~5 min",
+        "markdown": "# Caching Fundamentals: Where and Why\n\nEvery lesson so far has circled the same enemy: **latency** and its cousin, **load**. We learned that reading from disk is orders of magnitude slower than memory, that a network hop across a data center costs a fraction of a millisecond but across continents costs hundreds, and that horizontal scaling only helps if each machine isn't drowning in redundant work. **Caching** is the single most effective weapon against all three. It is the art of *not doing work you have already done*.\n\n## The core idea: locality\n\nA cache is a small, fast store that holds copies of data that is expensive to fetch or compute, placed close to whoever needs it. Caching works because real workloads are not random — they obey the **principle of locality**:\n\n- **Temporal locality** — data accessed recently is likely to be accessed again soon. A trending news article gets 10,000 requests in an hour, then fades.\n- **Spatial locality** — data near recently-accessed data is likely to be needed. Loading a user's profile often precedes loading their settings.\n\nWithout locality, caching is pointless: if every request touches unique data exactly once, a cache only adds overhead. The practical measure of success is the **hit ratio** — the fraction of requests served from cache. Its power is captured by the *average access time*:\n\n$$T_{\\text{avg}} = h \\cdot T_{\\text{cache}} + (1 - h) \\cdot T_{\\text{origin}}$$\n\nwhere $h$ is the hit ratio, $T_{\\text{cache}}$ the fast-path latency, and $T_{\\text{origin}}$ the cost of a miss. Because $T_{\\text{origin}} \\gg T_{\\text{cache}}$, even modest hit ratios pay off enormously. If a database read costs 50 ms, a cache read costs 1 ms, and $h = 0.9$:\n\n$$T_{\\text{avg}} = 0.9 \\cdot 1 + 0.1 \\cdot 50 = 5.9 \\text{ ms}$$\n\nAn **8.5× speedup**, and — just as important — the origin now handles only *one tenth* of the traffic.\n\n## The caching tiers\n\nCaching is not one thing in one place. It is a *layered defense*, each tier catching what the tier in front of it missed. A request ideally never reaches the bottom.\n\n```mermaid\nflowchart LR\n    U[User] --> B[Browser cache]\n    B -->|miss| C[CDN edge]\n    C -->|miss| A[App / in-memory cache]\n    A -->|miss| D[Distributed cache<br/>Redis / Memcached]\n    D -->|miss| Q[Query / buffer cache]\n    Q -->|miss| DB[(Database / disk)]\n```\n\n### 1. Client-side cache (browser / device)\nThe closest and cheapest tier — data already *on the user's machine*. Governed by HTTP headers (`Cache-Control`, `ETag`, `Expires`). A cache hit here costs **zero network** and near-zero latency.\n- **Benefit:** eliminates the request entirely; scales for free (every client has its own).\n- **Cost:** you have almost no control once data is out there — you cannot force invalidation. Stale content can persist until the TTL expires.\n\n### 2. CDN / edge cache\nA **Content Delivery Network** replicates content across geographically distributed edge servers, so a user in Tokyo is served from Tokyo, not Virginia. Ideal for static assets (images, CSS, video) and increasingly for cacheable API responses.\n- **Benefit:** slashes the physical distance (recall speed-of-light latency), absorbs enormous traffic spikes, shields your origin.\n- **Cost:** invalidation across hundreds of edges is slow and sometimes costly; best for content that changes rarely.\n\n### 3. Application cache\nHere caching splits into two shapes:\n\n- **In-process (local) cache** — data held in the app server's own memory (an LRU map, a library like Caffeine). Nanosecond access, but *not shared*: each server has its own copy, so consistency across the fleet is hard and memory is limited.\n- **Distributed cache** — a shared store like **Redis** or **Memcached** that all app servers query over the network. Slower than in-process (a network hop) but *shared and consistent*, and independently scalable.\n\n> **Trade-off in one line:** in-process caching trades consistency for speed; distributed caching trades a network hop for a single shared source of truth.\n\n### 4. Database cache\nEven at the bottom, caching persists. Databases keep a **buffer pool / page cache** of recently-read disk pages in RAM, and may cache query results or execution plans. This is largely automatic, but understanding it explains why a \"cold\" database is slow and a \"warm\" one is fast.\n\n## The cost side of the ledger\n\nCaching is never free. Every tier introduces the same three tensions:\n\n1. **Staleness.** A cache is a *copy*, and copies drift from the source. You choose a **TTL** (time-to-live) or an invalidation strategy, trading freshness against hit ratio. This is the heart of the next lessons.\n2. **Memory cost.** Fast storage is expensive and finite, forcing **eviction policies** (LRU, LFU) — deciding what to throw away.\n3. **Complexity.** More moving parts, more failure modes. A cache that fails can cause a **thundering herd** — every request suddenly stampeding the origin at once.\n\nThe rule of thumb: **cache closest to the consumer for whatever changes least often.** Static assets belong at the CDN; volatile per-user data belongs in a distributed cache with a short TTL; truly hot, immutable data can live in-process.\n\n## Takeaways\n\n- **Caching fights latency and load by reusing prior work** — it only works because real access patterns have **temporal and spatial locality**.\n- The **hit ratio** drives everything: $T_{\\text{avg}} = h \\cdot T_{\\text{cache}} + (1-h) \\cdot T_{\\text{origin}}$; even 90% hits can yield an order-of-magnitude speedup and shield the origin.\n- Caching is **layered**: client → CDN/edge → application (in-process and distributed) → database, each catching what the previous missed.\n- Each tier trades differently: **client** = free but uncontrollable; **CDN** = geographic reach but hard to invalidate; **in-process** = fastest but inconsistent; **distributed** = shared truth at the cost of a hop.\n- The universal price of caching is **staleness, memory, and complexity** — cache what changes least, closest to who needs it.",
+        "roadmapId": "sd-09"
+      }
+    },
+    {
+      "id": "ai-eng",
+      "label": "LLM & AI engineering",
+      "lesson": {
+        "kind": "lesson",
+        "title": "Positional Encoding and Context",
+        "readingTime": "~5 min",
+        "markdown": "# Positional Encoding and Context\n\nIn [Lesson 8](self-attention) we saw that attention lets every token look at every other token, weighting them by how relevant they are. But we glossed over something startling: **attention has no idea what order the tokens are in.** Today we fix that gap — the fix is what turns a bag of words into a model of language.\n\n## The permutation problem\n\nRecall the attention computation for a set of token vectors. For query, key, and value matrices, we compute\n\n$$\\text{Attention}(Q, K, V) = \\text{softmax}\\!\\left(\\frac{QK^\\top}{\\sqrt{d_k}}\\right)V.$$\n\nNow ask: what happens if I shuffle the input tokens? Each token's query, key, and value are computed **independently** from that single token's embedding. The dot products $q_i \\cdot k_j$ depend only on *which* tokens are involved, not *where* they sit. So if I permute the inputs, the outputs simply permute the same way — the function is **permutation-equivariant**.\n\nThat is a disaster for language. Consider:\n\n> **\"the dog bit the man\"** vs. **\"the man bit the dog\"**\n\nSame tokens, same multiset, wildly different meaning. To a bare transformer these are *identical* inputs up to reordering, so it would produce the same representations for each word in both. Word order carries meaning, and self-attention throws it away. We must **inject position information** back in.\n\n```mermaid\nflowchart LR\n  A[\"Token embeddings<br/>(no order info)\"] --> B{\"+ position<br/>information\"}\n  B --> C[\"Position-aware<br/>vectors\"]\n  C --> D[\"Self-attention<br/>(now order-sensitive)\"]\n```\n\n## Absolute positional encoding\n\nThe original transformer's answer: give each position $p$ its own vector, and **add** it to the token embedding before the first layer. If token embeddings live in $\\mathbb{R}^d$, we build a matrix $PE \\in \\mathbb{R}^{L \\times d}$ and feed $x_p = \\text{embed}(\\text{token}_p) + PE_p$.\n\nHow to build $PE$? The paper \"Attention Is All You Need\" used fixed **sinusoids** of geometrically increasing wavelength:\n\n$$PE_{(p,\\,2i)} = \\sin\\!\\left(\\frac{p}{10000^{2i/d}}\\right), \\qquad PE_{(p,\\,2i+1)} = \\cos\\!\\left(\\frac{p}{10000^{2i/d}}\\right)$$\n\nwhere $p$ is the position and $i$ indexes the dimension pair. Each dimension is a sine or cosine wave; low dimensions oscillate fast, high dimensions slowly. The intuition is like **binary counting** — combining bits of different frequencies uniquely identifies any integer.\n\nTwo nice properties:\n\n1. **Bounded and smooth.** Values stay in $[-1, 1]$, and nearby positions get similar encodings.\n2. **Relative offsets are linear.** For any fixed shift $k$, $PE_{p+k}$ is a *linear function* of $PE_p$ (a rotation in each frequency plane). This gives the model a handle on *relative* distance, not just absolute position.\n\nAlternatively, many models (BERT, GPT-2) just use **learned** absolute embeddings: a lookup table of $L$ position vectors trained by gradient descent. Simpler, but capped at the maximum length $L$ seen in training — you cannot ask for position 5000 if you only ever trained up to 1024.\n\n> **The extrapolation problem.** Absolute schemes tie meaning to an absolute index. A model trained on sequences of length 2048 has never seen position 4000, so its behavior there is undefined. This is a core obstacle to extending **context length** — the number of tokens a model can attend to at once.\n\n## Rotary positional encoding (RoPE)\n\nModern LLMs — LLaMA, Qwen, Mistral, GPT-NeoX — almost all use **RoPE**. Its key insight: what attention actually *uses* is the dot product $q_i \\cdot k_j$. So instead of adding a position vector to the embedding, **rotate** the query and key vectors by an angle proportional to their position.\n\nTake a query vector and split it into 2-D pairs. For pair $m$ at position $p$, rotate it by angle $p\\,\\theta_m$, where $\\theta_m = 10000^{-2m/d}$ sets a frequency per pair:\n\n$$\n\\begin{pmatrix} q'^{(1)} \\\\ q'^{(2)} \\end{pmatrix}\n=\n\\begin{pmatrix} \\cos p\\theta_m & -\\sin p\\theta_m \\\\ \\sin p\\theta_m & \\cos p\\theta_m \\end{pmatrix}\n\\begin{pmatrix} q^{(1)} \\\\ q^{(2)} \\end{pmatrix}\n$$\n\nThe magic is what happens in the dot product. When you rotate query at position $p$ and key at position $q$, the resulting inner product depends **only on the difference** $p - q$:\n\n$$\\langle R_p\\,q,\\; R_{q}\\,k \\rangle = \\langle q,\\; R_{q-p}\\,k \\rangle.$$\n\nSo RoPE is a way to bake **relative position** directly into attention scores — with *no added parameters*, and the token embedding itself is left untouched.\n\n```mermaid\nflowchart TD\n  subgraph Absolute[\"Absolute (add)\"]\n    A1[\"embedding + PE_p\"] --> A2[\"attention\"]\n  end\n  subgraph RoPE[\"RoPE (rotate)\"]\n    R1[\"rotate q, k by angle ∝ position\"] --> R2[\"dot product depends on p − q\"]\n  end\n```\n\n### Why RoPE won\n\n| Property | Sinusoidal (add) | Learned absolute | RoPE (rotate) |\n|---|---|---|---|\n| Encodes | absolute | absolute | **relative** |\n| Added parameters | none | $L \\times d$ | **none** |\n| Applied at | input only | input only | **every layer's Q/K** |\n| Extrapolates past $L$ | poorly | not at all | **better, and tunable** |\n\nBecause RoPE encodes *relative* distance and adds no length-bound table, it degrades more gracefully beyond the training length. Even better, its frequencies can be **rescaled after training** to stretch the context window — techniques like **NTK-aware scaling** and **YaRN** adjust $\\theta_m$ so a model trained at 4K tokens can serve 32K or beyond. This is exactly how the long-context models you use in 2026 were built, and we will return to it when we cover inference and context management.\n\n## Takeaways\n\n- Self-attention is **permutation-equivariant**: alone, it cannot tell \"dog bites man\" from \"man bites dog.\" Position information must be injected explicitly.\n- **Absolute** encodings add a per-position vector to the embedding — either **fixed sinusoids** (smooth, with linear relative offsets) or **learned** tables (simple but length-capped).\n- **RoPE** *rotates* queries and keys by an angle proportional to position, so attention scores depend only on the **relative** distance $p - q$ — no extra parameters, applied at every layer.\n- Encoding relative position is the key to **context-length extrapolation**; RoPE's frequencies can be rescaled (NTK, YaRN) to extend the window after training.\n- This machinery is *what makes order mean something* to a transformer — the bridge from a set of tokens to a sequence of language.",
+        "roadmapId": "ai-09"
+      }
+    }
+  ]
+}

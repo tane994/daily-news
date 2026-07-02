@@ -1,50 +1,70 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-07-02",
   "status": "degraded",
   "reasons": [
-    "holdings 0/7 streams",
-    "2 cross-day repeats"
+    "failed lanes: markets",
+    "1 cross-day repeats"
   ],
-  "realNewsCount": 13,
-  "calendarCount": 10,
-  "guardScore": 35,
+  "realNewsCount": 8,
+  "calendarCount": 8,
+  "guardScore": 28,
   "lanes": {
-    "ai": 4,
+    "ai": 5,
     "startups": 3,
-    "markets": 6,
-    "boxing": 7,
+    "markets": 0,
+    "boxing": 5,
     "mma": 3,
     "bites": 8,
     "courses": 4,
-    "portfolio": 0
+    "portfolio": 6
   },
-  "failedLanes": [],
+  "failedLanes": [
+    "markets"
+  ],
   "holdingsCoverage": {
-    "streams": 0,
+    "streams": 4,
     "totalStreams": 7,
-    "names": 0,
+    "names": 7,
     "totalNames": 11
   },
   "repeats": {
     "portfolio": [],
-    "courses": [
+    "courses": [],
+    "news": [
       {
-        "course": "Grammatica tedesca",
-        "title": "Ripasso settimanale — I verbi riflessivi e i due passati del tedesco",
+        "lane": "ai",
+        "headline": "Anthropic's Claude Sonnet 5 beats flagship Opus 4.8 on Terminal-Bench at 40–60% lower cost",
         "alsoSeen": [
-          "2026-06-27"
-        ]
-      },
-      {
-        "course": "System Design",
-        "title": "Weekly Recap: Edge & Traffic Management — Load Balancers, Proxies, and CDNs",
-        "alsoSeen": [
-          "2026-06-27"
+          "2026-06-26"
         ]
       }
-    ],
-    "news": []
+    ]
   },
   "staleItems": [],
-  "freshHoldings": []
+  "freshHoldings": [
+    {
+      "stream": "SAP",
+      "headline": "Nokia signs multi-year RISE with SAP deal to move core S/4HANA ERP onto Microsoft Azure"
+    },
+    {
+      "stream": "ServiceNow",
+      "headline": "ServiceNow and Accenture launch joint AI-powered managed security and legacy-migration offering on the ServiceNow AI Platform"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "Swedish court orders Google to pay up to $1.97B to Klarna's PriceRunner in comparison-shopping antitrust case"
+    },
+    {
+      "stream": "Alphabet & Amazon",
+      "headline": "AWS commits $1B to a new Forward Deployed Engineering unit embedding thousands of AI engineers inside customers"
+    },
+    {
+      "stream": "Visa, CME & DBS",
+      "headline": "CME Group to launch cash-settled single-stock futures on 50+ US names — including private SpaceX and Nvidia — on July 27"
+    },
+    {
+      "stream": "Visa, CME & DBS",
+      "headline": "DBS seen as top beneficiary as China's new July curbs on individual outbound investment redirect wealth to Singapore"
+    }
+  ]
 }
